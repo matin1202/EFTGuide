@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:font="@font/na_num_square_round_b"
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        app:font="@font/na_num_square_round_b"
+        app:fontStyle="normal"
+        app:fontWeight="1000"
+        tools:ignore="UnusedAttribute" />
+
+</font-family>

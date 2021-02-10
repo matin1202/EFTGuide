@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D5C5E</color>
+    <color name="colorPrimaryDark">#3A363C</color>
+    <color name="colorAccent">
+        #22DAC5
+    </color>
+    <color name="text_color">#ffffff</color>
+    <color name="background">#111111</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="pointless">#B32425</color>
+    <color name="possible_but">#DD3333</color>
+    <color name="magdump_only">#EB6C0D</color>
+    <color name="slight_effective">#AC6600</color>
+    <color name="effective">#FB9C0E</color>
+    <color name="very_effective">#006400</color>
+    <color name="ignore">#009900</color>
+
+
+    <color name="caribbean_green">#02F0A1</color>
+    <color name="aero_blue">#00207E</color>
+    <color name="aquamarine">#81F7E9</color>
+    <color name="charlotte">#ABFFF5</color>
+    <color name="cape_cod">#484A4A</color>
+    <color name="blue_grey_900">#343B3B</color>
+</resources>

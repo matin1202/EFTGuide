@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">타르코프 가이드</string>
+    <string name="bullet">총알</string>
+    <string name="title">타르코프 가이드</string>
+    <string name="explain">설명</string>
+    <string name="dealer_level_i">우호도 1렙 상품</string>
+    <string name="dealer_level_ii">우호도 2렙 상품</string>
+    <string name="dealer_level_iii">우호도 3렙 상품</string>
+    <string name="dealer_level_iv">우호도 4렙 상품</string>
+    <string name="key">열쇠</string>
+    <string name="item">아이템</string>
+    <string name="map">지도</string>
+    <string name="weapon">무기</string>
+    <string name="dealer">상인</string>
+    <string name="hideout">은신처</string>
+    <string name="search_hint">검색할 내용을 입력해주세요…</string>
+    <string name="wearable">의류</string>
+    <string name="quest">퀘스트</string>
+    <string name="system">게임 시스템</string>
+    <string name="etc">기타</string>
+    <string name="tracer">예광탄</string>
+    <string name="subsonic">아음속탄</string>
+    <string name="name">이름</string>
+    <string name="damage">데미지</string>
+    <string name="penetration_power">관통력</string>
+    <string name="armor_damage">방탄복에 입히는 피해</string>
+    <string name="accruracy">정확성</string>
+    <string name="recoil">반동</string>
+    <string name="fragmentation_chance">파편화 확률</string>
+    <string name="ricochet_chance">도탄될 확률</string>
+    <string name="speed">탄속</string>
+    <string name="special_effect">부가 효과</string>
+    <string name="sold_by">판매 상인</string>
+    <string name="cant_make">루팅이나 생산 전용</string>
+    <string name="tracerNsubsonic">예광탄, 아음속탄</string>
+    <string name="explosive">유탄, 예광탄</string>
+    <string name="penetrationTable">관통력표</string>
+    <string name="heal">의료 키트</string>
+    <string name="item_effect">효과</string>
+    <string name="item_using_time">사용 시간</string>
+    <string name="item_uses">사용 수</string>
+    <string name="item_pool">내구도</string>
+    <string name="item_max_heal">1회당 최대 회복량</string>
+    <string name="remove">제거</string>
+    <string name="add">추가</string>
+    <string name="energy">에너지</string>
+    <string name="hydration">수분</string>
+    <string name="pain">고통</string>
+    <string name="contusion">뇌진탕</string>
+    <string name="onpainkiller">진통 효과</string>
+    <string name="fracture">골절</string>
+    <string name="bleeding">출혈</string>
+    <string name="freshwound">상처</string>
+    <string name="restorehp">체력 회복</string>
+    <string name="toxication">중독</string>
+    <string name="radiation_exposure">방사능 피폭</string>
+    <string name="destroyed_body">블랙 아웃</string>
+    <string name="buff">버프</string>
+    <string name="debuff">디버프</string>
+    <string name="delay">딜레이</string>
+    <string name="duration">지속 시간</string>
+    <string name="increase">증가</string>
+    <string name="decrease">감소</string>
+    <string name="cause">발생</string>
+    <string name="prevent">방지</string>
+    <string name="stimulator">자극제</string>
+    <string name="healkit">치료 도구</string>
+    <string name="provision">음식</string>
+    <string name="uses">사용법</string>
+    <string name="explode_time">폭발 시간</string>
+    <string name="effect_range">사정 거리</string>
+    <string name="fragments_count">파편 수</string>
+    <string name="chop_dmg">휘두르기 데미지</string>
+    <string name="chop_range">휘두르기 거리</string>
+    <string name="stab_dmg">찌르기 데미지</string>
+    <string name="stab_range">찌르기 거리</string>
+    <string name="vertical_recoil">수직 반동</string>
+    <string name="horizontal_recoil">수평 반동</string>
+    <string name="ergonomics">인체 공학</string>
+    <string name="fire_mod">발사 모드</string>
+    <string name="rpm">분당 발사 수</string>
+    <string name="using_ammo">사용하는 총알</string>
+    <string name="min_recoil">최저반동 모딩</string>
+    <string name="max_ergo">최대 에르고 모딩</string>
+    <string name="budget_modding">가성비 모딩</string>
+    <string name="best_suppr">최고 성능 소음기</string>
+    <string name="budget_ammo">가성비 탄</string>
+    <string name="best_ammo">종결 탄</string>
+    <string name="note">참고</string>
+    <string name="secure_container">시큐어 컨테이너</string>
+    <string name="item_case">케이스</string>
+    <string name="interchange">Interchange(쇼핑몰)</string>
+    <string name="customs">Customs(세관)</string>
+    <string name="woods">Woods(숲)</string>
+    <string name="factory">Factory(공장)</string>
+    <string name="reserve">Reserve(군사기지)</string>
+    <string name="shoreline">Shoreline(해안가)</string>
+    <string name="playtime">플레이 시간</string>
+    <string name="players">플레이어 수</string>
+    <string name="day">낮</string>
+    <string name="night">밤</string>
+    <string name="enermy">적</string>
+    <string name="scav">스캐브</string>
+    <string name="raider">레이더</string>
+    <string name="reshala">르살라</string>
+    <string name="shturman">슈트르만</string>
+    <string name="sanitar">세니타</string>
+    <string name="killa">킬라</string>
+    <string name="glukhar">글루하</string>
+    <string name="the_lab">The Lab(연구소)</string>
+    <string name="extraction">탈출구</string>
+    <string name="using_key">사용가능 키</string>
+    <string name="feature">특징</string>
+    <string name="faction">진영</string>
+    <string name="available">탈출 가능 여부</string>
+    <string name="use_times">탈출 가능 횟수</string>
+    <string name="requirement">탈출 조건</string>
+    <string name="fence">Fence(펜스)</string>
+    <string name="jaeger">Jaeger(예거)</string>
+    <string name="mechanic">Mechanic(메카닉)</string>
+    <string name="peacekeeper">Peacekeeper(피스키퍼)</string>
+    <string name="prapor">Prapor(프라퍼)</string>
+    <string name="ragman">Ragman(래그맨)</string>
+    <string name="skier">Skier(스키어)</string>
+    <string name="therapist">Therapist(테라피스트)</string>
+    <string name="ammo_1270">12/70</string>
+    <string name="ammo_2070">20/70</string>
+    <string name="ammo_918">9x18mm</string>
+    <string name="ammo_919">9x19mm Parabellum</string>
+    <string name="ammo_725">7.62x25mm Tokarev</string>
+    <string name="ammo_45">.45 ACP</string>
+    <string name="ammo_921">9x21mm Gyurza</string>
+    <string name="ammo_57">5.7x28mm FN</string>
+    <string name="ammo_46">4.6x30mm HK</string>
+    <string name="ammo_939">9x39mm</string>
+    <string name="ammo_366">.366 TKM</string>
+    <string name="ammo_545">5.45x39mm</string>
+    <string name="ammo_556">5.56x45mm NATO</string>
+    <string name="ammo_739">7.62x39mm</string>
+    <string name="ammo_751">7.62x51mm NATO</string>
+    <string name="ammo_754">7.62x54mmR</string>
+    <string name="ammo_127">12.7x55mm STs-130</string>
+    <string name="ammo_30">30x29mm</string>
+    <string name="ammo_12108">12x108mm</string>
+    <string name="copyright">©2020 Matin, All rights reserved.</string>
+    <string name="special_thanks">디자인에 도움을 주신 ROKABLYAK님, 멍뭉이는 왈왈해님 감사합니다.</string>
+    <string name="youtube">https://www.youtube.com/channel/UCtdmi566_g4EGG40XBmhOsQ?view_as=subscriber</string>
+    <string name="test_ad_code">ca-app-pub-3429208671349104/6889900967</string>
+    <string name="banner_ad_code">ca-app-pub-3429208671349104/6889900967</string>
+    <string name="donate_ad_code">ca-app-pub-3429208671349104/4752173196</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hide_icon">HideoutIcon</string>
+
+    <string name="dark_mode">어둡게</string>
+    <string name="light_mode">밝게</string>
+    <string name="default_mode">시스템 설정대로</string>
+
+    <string name="prapor_explain">구 소련제 무기, 탄약, 수류탄, 탄창, 무기 부품을 취급합니다\n루블로만 거래합니다.\n초반에 AK 사용시 제일 많이 쓰이는 상인입니다.</string>
+
+    <string name="therapist_explain">
+의약품, 식품, 지도, 보관함을 취급합니다.\n루블과 유로로 거래\n초반부터 후반까지 의약품을 담당합니다. 또한 귀중품을 가장 비싸게 사는 상인입니다.</string>
+
+    <string name="fence_explain">
+        모든 상품을 취급합니다.\n루블로만 거래합니다.\n모든 물품을 가장 싸게 사서, 가장 비싸게 팔기 때문에 매우 비싼 물품이 아니라면 사면 손해입니다. 또한, 내구도가 다 떨어져 버려 수리할 수 도 없는 방어구를 팔 때 좋습니다.
+    </string>
+
+    <string name="skier_explain">
+        보관함, 무기, 탄약, 무기 부품, 유로를 취급합니다.\n루블, 달러, 유로로 거래합니다.\n총구 파츠를 비싸게 사가며, 스코프들을 취급합니다. 선택형 퀘스트를 깰 때 이 상인을 선택하는 것이 좋습니다.
+    </string>
+
+    <string name="peacekeeper_explain">
+        서방제/NATO 무기, 탄약, 수류탄, 탄창, 무기 부품, 달러를 취급합니다.\n후반부에 서방제 무기와 방어구를 담당하는 상인입니다. 스키어의 "Friend From West"를 클리어 한 후, 퀘스트가 언락됩니다.\nUSB와 같은 정보 아이템을 비싸게 삽니다.
+    </string>
+
+    <string name="mechanic_explain">
+        서방제/NATO 무기, 탄약, 탄창, 무기 부품을 취급합니다.\n유로, 루블, 비트코인으로 거래합니다.\n각종 무기들의 파츠를 담당하는 상인입니다. 각종 무기와 파츠들을 가장 비싸게 삽니다.
+    </string>
+
+    <string name="ragman_explain">
+        의류, 방탄복, 전술 조끼, 기타 전술 장비를 취급합니다.\n루블로만 거래합니다.\n캐릭터의 옷을 판매하며, 보관함(아이템 케이스 류)와 의류를 가장 비싸게 삽니다.
+    </string>
+
+    <string name="jaeger_explain">
+        구 소련제 무기, 탄약, 탄창, 무기 부품, 하이드아웃 관련 아이템을 취급합니다.\n루블로만 거래합니다.\n메카닉의 "Introduction" 퀘스트를 깬 후 해금됩니다. 근접 무기류를 가장 비싸게 삽니다. 또한 퀘스트의 난이도가 악명이 높고, Red Rebal Icepick, Small Sicc Case와 같은 좋은 아이템을 거래해줍니다.
+    </string>
+
+    <string name="adView">AdView</string>
+    <string name="itemImage">Item ImageView</string>
+    <string name="imageView">ImageView</string>
+
+    <string name="feature_factory">
+        가장 작은 맵으로 PMC와 SCAV들이 서로 격렬하게 싸우는 곳입니다. 주로 저사양 유저들이나 킬 퀘스트를 깨러 오는 사람들이 대다수이며 대부분 무장의 수준이 높습니다. 다른 맵과는 다르게 시간이 고정되어 있으며 야간에는 빛이 하나도 없기 때문에 야간투시경이나 후레쉬가 없다면 아무것도 보이지 않습니다.
+    </string>
+
+    <string name="feature_customs">
+        초반 퀘스트가 몰려있는 곳으로 주요 파밍지로는 기숙사와 신골조 두 곳이 있습니다. 뉴비분들이 처음으로 외워야 할 맵이며 이 맵의 보스 르살라는 부하 4명을 데리고 다니며 르살라는 맨몸에 총만이지만 부하들의 무장수준이 높습니다. 또한 기숙사에서 치열한 공방전이 벌어지는 곳입니다.
+    </string>
+
+    <string name="feature_woods">
+        저격의 성지이자 예거를 해금하기 위해 가야하는 맵으로 크기가 거대하고 곳곳에 지뢰가 매장되어 있습니다. 이 맵의 보스 슈트르만은 SVDs로 3점사를 하며 7N1을 사용하기 때문에 조심해야합니다. 또한 그의 AK에는 이골릭이 들어있는 경우가 많으며, 슈트르만의 시야가 넓고, 부하들의 무장은 단단하기 때문에 슈트르만을 볼트액션으로 처리하기는 까다롭습니다.
+    </string>
+
+    <string name="feature_shoreline">
+        피스키퍼의 퀘스트가 몰려있는 곳으로 피스키퍼의 퀘스트를 깨다 보면 외워지는 맵입니다. 주요 파밍지는 리조트이며 외곽을 돌며 파밍을 하는 이른 바 외곽런도 성행합니다. 가운데에 있는 발전소에 스폰하는 스캐브들의 시야가 넓어 이를 조심해야하며, 이 맵의 보스 세니타는 강력한 소총과 가장 높은 피를 소유하고 있으며, 그의 부하들 또한 단단하고 죽이지 않으면 세니타가 치료해주기 때문에 확실히 하나하나 처리해야합니다. 또한, 리조트는 열쇠가 필요로 하는 방이 많으며 다인큐들이 상당히 많이 옵니다.
+    </string>
+
+    <string name="feature_interchange">
+        라그만의 퀘스트가 몰려있는 곳으로 초반 파밍의 중심지입니다. 이 맵의 보스 킬라는 강력한 소총과 강력한 탄, 강력한 무장을 지니고 적들을 갈아버리는 데 특화되어 있습니다. 그를 죽이기 위해서는 수류탄이나 레그 메타가 적합하며 고관통탄을 쓴다면 헬멧의 뒷부분을 노리는 것이 좋습니다. 탈출구 존버가 심한 맵입니다.
+    </string>
+
+    <string name="feature_the_lab">
+        스캐브가 스폰하지 않고 레이더만 스폰하는 유일한 맵으로서 아이템에 보험을 걸어도 돌아오지 않으며 입장을 위해 키카드가 필요합니다. 파밍을 위해 비싼 키카드가 요구되는 곳이 많으며, 이 곳에 오는 유저들의 무장 또한 수준이 높기 때문에 초보자가 하기 어려운 맵입니다. 핵쟁이를 만날 확률이 높습니다.
+    </string>
+
+    <string name="feature_reserve">
+        PMC가 탈출하기 어려운 맵입니다. RR을 얻기 전까지는 존버 투성이이거나 기차가 올 때까지 기다리거나 벨을 울리고 빠르게 달려가는 등 탈출방식이 굉장히 까다롭습니다. 하지만, 그만큼 군사장비와 총기 부품이 잘 나오는 곳입니다. 이른바 도끼런들이 성행했으며, 스캐브를 통한 파밍 또한 나쁘지 않은 맵입니다. 이 맵의 보스인 구르하는 강력한 소총을 사용하며 6명의 중무장 부하가 호위합니다. 잡기 어려운 보스입니다.
+    </string>
+</resources>

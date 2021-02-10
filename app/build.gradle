@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'
+
+android {
+    compileSdkVersion 29
+
+
+    defaultConfig {
+        applicationId "com.matin.eftguide"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 24
+        versionName "0.0.24a"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "0.1.0-dev13"
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/weapon', 'src/main/ammo', 'src/main/medical', 'src/main/icons', 'src/main/item', 'src/main/mods', 'src/main/provision', 'src/main/fullImage', 'src/main/containers', 'src/main/maps', 'src/main/keys', 'src/main/dealer', 'src/main/armor', 'src/main/helmet', 'src/main/helmet_attachments', 'src/main/headset']
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation "org.jetbrains.anko:anko:0.10.8"
+    implementation "org.jetbrains.anko:anko-design:0.10.8"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'com.google.firebase:firebase-ads:19.6.0'
+    implementation 'com.google.android.play:core:1.9.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation "com.android.support:support-core-utils:29.0.0"
+    implementation 'com.android.billingclient:billing:3.0.2'
+    implementation 'com.android.billingclient:billing-ktx:3.0.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8'
+
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'com.android.support:design:29.0.0'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation 'com.google.firebase:firebase-crashlytics-ktx:17.3.0'
+    implementation 'com.google.firebase:firebase-analytics-ktx:18.0.0'
+    implementation 'com.google.firebase:firebase-perf-ktx:19.0.11'
+    implementation 'com.google.firebase:firebase-messaging-ktx:21.0.1'
+    implementation 'com.google.firebase:firebase-inappmessaging-display-ktx:19.1.3'
+}

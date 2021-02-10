@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DealerExplainFragment"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_dealer_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.3"
+            android:layout_margin="8dp"
+            android:src="@drawable/prapor"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/dealer"
+            android:adjustViewBounds="true"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/tv_dealer_name"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:text="@string/dealer"
+                android:textColor="@color/text_color"
+                android:background="@color/background"/>
+
+            <TextView
+                android:id="@+id/tv_dealer_requirement"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.83"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"
+                android:text="우호도 1레벨 조건\n - \n우호도 2레벨 조건\n - \n우호도 3레벨 조건\n - "
+                tools:ignore="HardcodedText"
+                android:textColor="@color/text_color"
+                android:background="@color/background"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tv_dealer_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explain"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/text_color"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/tv_dealer_level_i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dealer_level_i"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/text_color"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/tv_dealer_level_ii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dealer_level_ii"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/text_color"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/tv_dealer_level_iii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dealer_level_iii"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/text_color"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/tv_dealer_level_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dealer_level_iv"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/text_color"
+        android:background="@color/background"/>
+
+
+</LinearLayout>

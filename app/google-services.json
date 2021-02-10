@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413976546484",
+    "firebase_url": "https://eft-guide.firebaseio.com",
+    "project_id": "eft-guide",
+    "storage_bucket": "eft-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413976546484:android:c80faa18291b6689565be1",
+        "android_client_info": {
+          "package_name": "com.matin.eftguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413976546484-mfsm6jc495dbha5q7hkqlmsv0mfenmft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWEgUtolHt9m33cJw9M4pVr4G212CHtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413976546484-mfsm6jc495dbha5q7hkqlmsv0mfenmft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
