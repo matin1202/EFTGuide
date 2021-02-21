@@ -99,7 +99,7 @@ class HelmetAttachmentFragment : Fragment() {
             HARecycler(
                 context,
                 "Vulkan-5 Visor",
-                R.drawable.vulkan_5
+                R.drawable.visor_vulkan_5
             )
         )
 

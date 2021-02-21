@@ -55,15 +55,16 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_donation"/>
 
     <TextView
+        android:id="@+id/million"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/million"
         android:gravity="center"
         android:padding="12dp"
-        android:text="Left Bind 사주기"
-        android:textSize="24sp"
+        android:text="Left Behind 사주기"
         android:textColor="@color/text_color"
-        app:layout_constraintTop_toBottomOf="@+id/tv_ten_thousands"/>
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ten_thousands"
+        tools:layout_editor_absoluteX="8dp" />
 
     <com.google.android.gms.ads.AdView
         android:contentDescription="@string/adView"

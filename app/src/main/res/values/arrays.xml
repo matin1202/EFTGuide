@@ -12,6 +12,8 @@
         <item> </item>
         <item>17%</item>
         <item>9.5%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>325m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
@@ -27,6 +29,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item>10%</item>
         <item>302m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
@@ -42,6 +46,8 @@
         <item>{R+4}</item>
         <item>16%</item>
         <item>9%</item>
+        <item> </item>
+        <item> </item>
         <item>519m/s</item>
         <item> </item>
         <item>Prapor LL2</item>
@@ -57,6 +63,8 @@
         <item>{R+5}</item>
         <item>17%</item>
         <item>7.5%</item>
+        <item> </item>
+        <item> </item>
         <item>420m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -72,6 +80,8 @@
         <item> </item>
         <item>35%</item>
         <item>5%</item>
+        <item> </item>
+        <item>15%</item>
         <item>297m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
@@ -87,6 +97,8 @@
         <item> </item>
         <item>16.6%</item>
         <item>10%</item>
+        <item> </item>
+        <item>15%</item>
         <item>301m/s</item>
         <item>@string/tracerNsubsonic</item>
         <item>Prapor LL1</item>
@@ -102,6 +114,8 @@
         <item> </item>
         <item>30%</item>
         <item>0.5%</item>
+        <item> </item>
+        <item>15%</item>
         <item>302m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
@@ -117,6 +131,8 @@
         <item> </item>
         <item>25%</item>
         <item>3%</item>
+        <item> </item>
+        <item>15%</item>
         <item>330m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
@@ -132,6 +148,8 @@
         <item> </item>
         <item>35%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item>10%</item>
         <item>315m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
@@ -147,6 +165,8 @@
         <item> </item>
         <item>20%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>298m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
@@ -162,6 +182,8 @@
         <item> </item>
         <item>40%</item>
         <item>1%</item>
+        <item> </item>
+        <item>10%</item>
         <item>280m/s</item>
         <item>@string/subsonic</item>
         <item>Jaeger LL2</item>
@@ -177,6 +199,8 @@
         <item> </item>
         <item>2%</item>
         <item>5%</item>
+        <item> </item>
+        <item> </item>
         <item>330m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
@@ -192,6 +216,8 @@
         <item> </item>
         <item>2%</item>
         <item>5%</item>
+        <item> </item>
+        <item> </item>
         <item>420m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -207,6 +233,8 @@
         <item> </item>
         <item>60%</item>
         <item>5%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>250m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
@@ -225,6 +253,8 @@
         <item>{R+15}</item>
         <item>5%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>560m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -240,6 +270,8 @@
         <item>{R+10}</item>
         <item>10%</item>
         <item>10%</item>
+        <item>15%</item>
+        <item>22%</item>
         <item>290m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL2</item>
@@ -255,6 +287,8 @@
         <item> </item>
         <item>5%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>392m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
@@ -270,6 +304,8 @@
         <item> </item>
         <item>15%</item>
         <item>5%</item>
+        <item> </item>
+        <item> </item>
         <item>365m/s</item>
         <item>@string/tracer</item>
         <item>Mechanic LL3</item>
@@ -285,6 +321,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item>20%</item>
+        <item>20%</item>
         <item>420m/s</item>
         <item> </item>
         <item>Skier LL4</item>
@@ -300,6 +338,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>340m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL1, Jaeger LL1</item>
@@ -315,6 +355,8 @@
         <item> </item>
         <item>15%</item>
         <item>5%</item>
+        <item> </item>
+        <item> </item>
         <item>457m/s</item>
         <item> </item>
         <item>Prapor LL2\nMechanic LL1\nPeacekeeper LL2</item>
@@ -330,6 +372,8 @@
         <item>{R+20}</item>
         <item>100%</item>
         <item>0.2%</item>
+        <item>30%</item>
+        <item>10%</item>
         <item>381m/s</item>
         <item> </item>
         <item>Skier LL4(교환품) 퀘스트 Setup 이후</item>
@@ -347,6 +391,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>425m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
@@ -362,6 +408,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>427m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
@@ -377,6 +425,8 @@
         <item> </item>
         <item>35%</item>
         <item>5%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>375m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -392,6 +442,8 @@
         <item> </item>
         <item>35%</item>
         <item>5%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>385m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -407,6 +459,8 @@
         <item> </item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>430m/s</item>
         <item> </item>
         <item>Prapor LL2</item>
@@ -422,6 +476,8 @@
         <item> </item>
         <item>20%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>430m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -437,6 +493,8 @@
         <item> </item>
         <item>16.6%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>415m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
@@ -454,6 +512,8 @@
         <item> </item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>410m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -469,6 +529,8 @@
         <item> </item>
         <item>30%</item>
         <item>20%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>413m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -484,6 +546,8 @@
         <item> </item>
         <item>35%</item>
         <item>20%</item>
+        <item>15%</item>
+        <item>10%</item>
         <item>415m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -499,6 +563,8 @@
         <item> </item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>397m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL4</item>
@@ -516,6 +582,8 @@
         <item> </item>
         <item>1%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>285m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL2</item>
@@ -531,6 +599,8 @@
         <item>{R+20}</item>
         <item>1%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>299m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
@@ -546,6 +616,8 @@
         <item> </item>
         <item>50%</item>
         <item>6.6%</item>
+        <item> </item>
+        <item>30%</item>
         <item>274m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
@@ -562,6 +634,8 @@
         <item> </item>
         <item>1%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>290m/s</item>
         <item>@string/tracerNsubsonic</item>
         <item>Peacekeeper LL2</item>
@@ -577,6 +651,8 @@
         <item> </item>
         <item>100%</item>
         <item>0.2%</item>
+        <item>30%</item>
+        <item>20%</item>
         <item>293m/s</item>
         <item>@string/subsonic</item>
         <item>Mechanic LL4</item>
@@ -594,6 +670,8 @@
         <item> </item>
         <item>50%</item>
         <item>30%</item>
+        <item> </item>
+        <item> </item>
         <item>690m/s</item>
         <item> </item>
         <item>Mechanic LL1\nPeacekeeper LL3</item>
@@ -609,6 +687,8 @@
         <item>{R+10}</item>
         <item>10%</item>
         <item>60%</item>
+        <item> </item>
+        <item> </item>
         <item>680m/s</item>
         <item> </item>
         <item>Mechanic LL4</item>
@@ -624,6 +704,8 @@
         <item> </item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>620m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
@@ -635,10 +717,12 @@
         <item>41</item>
         <item>36</item>
         <item>46%</item>
-        <item> </item>
-        <item>{R-20}</item>
+        <item>{+10}</item>
+        <item>{B-22}</item>
         <item>20%</item>
         <item>50%</item>
+        <item> </item>
+        <item> </item>
         <item>290m/s</item>
         <item>@string/subsonic</item>
         <item>Mechanic LL3</item>
@@ -656,6 +740,8 @@
         <item> </item>
         <item>20%</item>
         <item>60%</item>
+        <item> </item>
+        <item> </item>
         <item>716m/s</item>
         <item>@string/tracer</item>
         <item>Peacekeeper LL3</item>
@@ -671,6 +757,8 @@
         <item> </item>
         <item>100%</item>
         <item>5%</item>
+        <item>15%</item>
+        <item>15%</item>
         <item>729m/s</item>
         <item> </item>
         <item>Mechanic LL4</item>
@@ -686,6 +774,8 @@
         <item> </item>
         <item>70%</item>
         <item>10%</item>
+        <item>10%</item>
+        <item>20%</item>
         <item>724m/s</item>
         <item> </item>
         <item>Mechanic LL4</item>
@@ -701,6 +791,8 @@
         <item>{B-20}</item>
         <item>20%</item>
         <item>30%</item>
+        <item> </item>
+        <item> </item>
         <item>305m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL4</item>
@@ -716,6 +808,8 @@
         <item> </item>
         <item>20%</item>
         <item>60%</item>
+        <item> </item>
+        <item> </item>
         <item>716m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
@@ -731,6 +825,8 @@
         <item> </item>
         <item>50%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>594m/s</item>
         <item> </item>
         <item>Peacekeeper LL2</item>
@@ -746,6 +842,8 @@
         <item> </item>
         <item>80%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>792m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
@@ -763,6 +861,8 @@
         <item>{R+15}</item>
         <item>2%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>905m/s</item>
         <item> </item>
         <item>@string/cant_make</item>
@@ -778,6 +878,8 @@
         <item> </item>
         <item>16%</item>
         <item>36%</item>
+        <item> </item>
+        <item> </item>
         <item>890m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -793,6 +895,8 @@
         <item>{R+10}</item>
         <item>17%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>830m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -808,6 +912,8 @@
         <item>{R+5}</item>
         <item>16%</item>
         <item>37%</item>
+        <item> </item>
+        <item> </item>
         <item>880m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL3 퀘스트 The Punisher Part 4 이후</item>
@@ -823,6 +929,8 @@
         <item> </item>
         <item>25%</item>
         <item>26%</item>
+        <item> </item>
+        <item> </item>
         <item>884m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -838,6 +946,8 @@
         <item>{R+5}</item>
         <item>35%</item>
         <item>20%</item>
+        <item>15%</item>
+        <item>15%</item>
         <item>884m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -853,6 +963,8 @@
         <item> </item>
         <item>17%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>890m/s</item>
         <item> </item>
         <item>Prapor LL2</item>
@@ -868,6 +980,8 @@
         <item>{B-5}</item>
         <item>40%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>890m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
@@ -883,6 +997,8 @@
         <item> </item>
         <item>40%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>890m/s</item>
         <item> </item>
         <item>Prapor LL1 퀘스트 Delivery from the past 이후</item>
@@ -898,6 +1014,8 @@
         <item>{B-15}</item>
         <item>45%</item>
         <item>15%</item>
+        <item>10%</item>
+        <item>10%</item>
         <item>873m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -913,6 +1031,8 @@
         <item> </item>
         <item>16%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>883m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL1</item>
@@ -928,6 +1048,8 @@
         <item>{B-25}</item>
         <item>10%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>303m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
@@ -945,6 +1067,8 @@
         <item>{B-5}</item>
         <item>50%</item>
         <item>26%</item>
+        <item> </item>
+        <item> </item>
         <item>957m/s</item>
         <item> </item>
         <item>Skier LL1\nJaeger LL1</item>
@@ -960,6 +1084,8 @@
         <item> </item>
         <item>70%</item>
         <item>20%</item>
+        <item>15%</item>
+        <item>15%</item>
         <item>947m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -975,6 +1101,8 @@
         <item> </item>
         <item>40%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>922m/s</item>
         <item> </item>
         <item>Peacekeeper LL1</item>
@@ -990,6 +1118,8 @@
         <item> </item>
         <item>34%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>945m/s</item>
         <item> </item>
         <item>Peacekeeper LL3\nSkier LL4</item>
@@ -1005,6 +1135,8 @@
         <item> </item>
         <item>32.8%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>874m/s</item>
         <item>@string/tracer</item>
         <item>Peacekeeper LL2</item>
@@ -1020,6 +1152,8 @@
         <item>{R+4}</item>
         <item>32.8%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>940m/s</item>
         <item>@string/tracer</item>
         <item>Peacekeeper LL2 퀘스트 The Cult - Part 1 이후</item>
@@ -1035,6 +1169,8 @@
         <item>{R+8}</item>
         <item>32%</item>
         <item>36%</item>
+        <item> </item>
+        <item> </item>
         <item>1013m/s</item>
         <item> </item>
         <item>Peacekeeper LL4</item>
@@ -1050,6 +1186,8 @@
         <item> </item>
         <item>3%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>936m/s</item>
         <item> </item>
         <item>Peacekeeper LL2</item>
@@ -1065,6 +1203,8 @@
         <item>{R+10}</item>
         <item>90%</item>
         <item>5%</item>
+        <item>20%</item>
+        <item>20%</item>
         <item>910m/s</item>
         <item> </item>
         <item>Peacekeeper LL3(교환품)</item>
@@ -1082,9 +1222,11 @@
         <item> </item>
         <item>30%</item>
         <item>30%</item>
+        <item> </item>
+        <item> </item>
         <item>605m/s</item>
         <item> </item>
-        <item></item>
+        <item>Skier LL3</item>
         <item>665320</item>
     </string-array>
 
@@ -1097,9 +1239,11 @@
         <item>{R+5}</item>
         <item>30%</item>
         <item>10%</item>
+        <item>15%</item>
+        <item>15%</item>
         <item>720m/s</item>
         <item> </item>
-        <item></item>
+        <item>Peacekeeper LL3</item>
         <item>666654</item>
     </string-array>
 
@@ -1114,6 +1258,8 @@
         <item>{R+5}</item>
         <item>12%</item>
         <item>31.5%</item>
+        <item> </item>
+        <item> </item>
         <item>730m/s</item>
         <item> </item>
         <item>Prapor LL3 퀘스트 The Punisher - Part 5 이후</item>
@@ -1129,6 +1275,8 @@
         <item> </item>
         <item>26.3%</item>
         <item>17.5%</item>
+        <item>15%</item>
+        <item>15%</item>
         <item>754m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1144,6 +1292,8 @@
         <item> </item>
         <item>25%</item>
         <item>35%</item>
+        <item> </item>
+        <item> </item>
         <item>700m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
@@ -1159,6 +1309,8 @@
         <item>{B-5}</item>
         <item>12%</item>
         <item>35%</item>
+        <item> </item>
+        <item> </item>
         <item>720m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
@@ -1174,6 +1326,8 @@
         <item>{B-30}</item>
         <item>7.5%</item>
         <item>35.8%</item>
+        <item> </item>
+        <item> </item>
         <item>300m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
@@ -1191,6 +1345,8 @@
         <item>{B-3}</item>
         <item>25%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>840m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1200,12 +1356,14 @@
     <string-array name="a762x51_M61">
         <item>M61</item>
         <item>70</item>
-        <item>68</item>
+        <item>64</item>
         <item>83%</item>
         <item>{B+3}</item>
         <item>{R+10}</item>
         <item>13%</item>
         <item>30%</item>
+        <item> </item>
+        <item> </item>
         <item>849m/s</item>
         <item> </item>
         <item>Peacekeeper LL4 퀘스트 Wet Job - Part 6 이후</item>
@@ -1215,16 +1373,18 @@
     <string-array name="a762x51_M62">
         <item>M62</item>
         <item>79</item>
-        <item>54</item>
+        <item>44</item>
         <item>75%</item>
-        <item> </item>
-        <item>{R+5}</item>
+        <item>{R-6}</item>
+        <item>{B-5}</item>
         <item>14%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>816m/s</item>
         <item>@string/tracer</item>
         <item>Peacekeeper LL3 퀘스트 Spa Tour - Part 6 이후</item>
-        <item>666665</item>
+        <item>666655</item>
     </string-array>
 
     <string-array name="a762x51_M933">
@@ -1232,10 +1392,12 @@
         <item>67</item>
         <item>70</item>
         <item>85%</item>
-        <item>{B+5}</item>
+        <item>{B+3}</item>
         <item>{R+8}</item>
         <item>13%</item>
         <item>28%</item>
+        <item> </item>
+        <item> </item>
         <item>910m/s</item>
         <item> </item>
         <item>@string/cant_make</item>
@@ -1251,10 +1413,12 @@
         <item> </item>
         <item>17%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>833m/s</item>
         <item> </item>
         <item>Peacekeeper LL2</item>
-        <item>666643</item>
+        <item>666654</item>
     </string-array>
 
     <string-array name="a762x51_TPZ_SP">
@@ -1266,6 +1430,8 @@
         <item>{B-5}</item>
         <item>20%</item>
         <item>50%</item>
+        <item> </item>
+        <item> </item>
         <item>808m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -1281,6 +1447,8 @@
         <item>{B-5}</item>
         <item>70%</item>
         <item>20%</item>
+        <item>20%</item>
+        <item>20%</item>
         <item>822m/s</item>
         <item> </item>
         <item>Jaeger LL4</item>
@@ -1292,57 +1460,65 @@
     <string-array name="a9x39_7N9_SPP">
         <item>7N9 SPP</item>
         <item>64</item>
-        <item>45</item>
+        <item>50</item>
         <item>56%</item>
         <item>{B+10}</item>
         <item>{R+20}</item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>310m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3(교환품)\nPrapor LL4</item>
-        <item>666654</item>
+        <item>666665</item>
     </string-array>
 
     <string-array name="a9x39_7N12_BP">
         <item>7N12 BP</item>
         <item>60</item>
-        <item>48</item>
+        <item>55</item>
         <item>68%</item>
         <item>{B+10}</item>
         <item>{R+22}</item>
         <item>10%</item>
         <item>50%</item>
+        <item> </item>
+        <item> </item>
         <item>295m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL4(교환품) 퀘스트 Grenadier 이후</item>
-        <item>666655</item>
+        <item>666665</item>
     </string-array>
 
     <string-array name="a9x39_SP_5">
         <item>SP-5</item>
         <item>68</item>
-        <item>35</item>
+        <item>38</item>
         <item>52%</item>
         <item> </item>
         <item> </item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>290m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
-        <item>666532</item>
+        <item>666543</item>
     </string-array>
 
     <string-array name="a9x39_SP_6">
         <item>SP-6</item>
         <item>58</item>
-        <item>43</item>
+        <item>46</item>
         <item>60%</item>
         <item> </item>
         <item>{R+10}</item>
         <item>10%</item>
         <item>50%</item>
+        <item> </item>
+        <item> </item>
         <item>305m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
@@ -1360,6 +1536,8 @@
         <item>{B-4}</item>
         <item>8.1%</item>
         <item>26.5%</item>
+        <item> </item>
+        <item> </item>
         <item>820m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL4</item>
@@ -1375,6 +1553,8 @@
         <item>{R+8}</item>
         <item>8.3%</item>
         <item>28.5%</item>
+        <item> </item>
+        <item> </item>
         <item>875m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -1390,6 +1570,8 @@
         <item> </item>
         <item>8.3%</item>
         <item>34%</item>
+        <item> </item>
+        <item> </item>
         <item>785m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -1405,6 +1587,8 @@
         <item> </item>
         <item>18%</item>
         <item>39%</item>
+        <item> </item>
+        <item> </item>
         <item>865m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
@@ -1420,6 +1604,8 @@
         <item>{R+10}</item>
         <item>8%</item>
         <item>28.5%</item>
+        <item> </item>
+        <item> </item>
         <item>875m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -1435,6 +1621,8 @@
         <item>{B-5}</item>
         <item>18%</item>
         <item>30%</item>
+        <item> </item>
+        <item> </item>
         <item>800m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
@@ -1452,6 +1640,8 @@
         <item>{B-15}</item>
         <item>20%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>770m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1467,6 +1657,8 @@
         <item>{R+10}</item>
         <item>25%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>580m/s</item>
         <item> </item>
         <item>Skier LL1\nJaeger LL1</item>
@@ -1482,6 +1674,8 @@
         <item> </item>
         <item>45%</item>
         <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
         <item>550m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1497,6 +1691,8 @@
         <item>{R+35}</item>
         <item>1%</item>
         <item>6.5%</item>
+        <item> </item>
+        <item> </item>
         <item>602m/s</item>
         <item> </item>
         <item>Mechanic LL3</item>
@@ -1514,6 +1710,8 @@
         <item> </item>
         <item>30%</item>
         <item>40%</item>
+        <item> </item>
+        <item>20%</item>
         <item>285m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
@@ -1529,6 +1727,8 @@
         <item>{B-12}</item>
         <item>70%</item>
         <item>20%</item>
+        <item>30%</item>
+        <item>30%</item>
         <item>290m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
@@ -1544,6 +1744,8 @@
         <item>{R+15}</item>
         <item>30%</item>
         <item>65%</item>
+        <item> </item>
+        <item> </item>
         <item>300m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
@@ -1561,9 +1763,11 @@
         <item> </item>
         <item>20%</item>
         <item>40%</item>
+        <item>35%</item>
+        <item>50%</item>
         <item>900m/s</item>
         <item> </item>
-        <item></item>
+        <item>Peacekeeper LL4</item>
         <item>666654</item>
     </string-array>
 
@@ -1576,9 +1780,11 @@
         <item>{R+10}</item>
         <item>13%</item>
         <item>30%</item>
+        <item>20%</item>
+        <item>55%</item>
         <item>849m/s</item>
         <item> </item>
-        <item></item>
+        <item>@string/cant_make</item>
         <item>666666</item>
     </string-array>
 
@@ -1591,9 +1797,11 @@
         <item>{R+5}</item>
         <item>50%</item>
         <item>40%</item>
+        <item>80%</item>
+        <item>50%</item>
         <item>880m/s</item>
         <item> </item>
-        <item></item>
+        <item>Mechanic LL4</item>
         <item>653100</item>
     </string-array>
 
@@ -1606,9 +1814,11 @@
         <item> </item>
         <item>60%</item>
         <item>40%</item>
+        <item>50%</item>
+        <item>40%</item>
         <item>849m/s</item>
         <item> </item>
-        <item></item>
+        <item>Jaeger LL4</item>
         <item>665432</item>
     </string-array>
 
@@ -1623,6 +1833,8 @@
         <item> </item>
         <item>17%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>818m/s</item>
         <item> </item>
         <item> </item>
@@ -1638,6 +1850,8 @@
         <item> </item>
         <item>17%</item>
         <item>38%</item>
+        <item> </item>
+        <item> </item>
         <item>818m/s</item>
         <item>@string/explosive</item>
         <item> </item>
@@ -1655,6 +1869,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>330m/s</item>
         <item>@string/subsonic</item>
         <item>Jaeger LL1</item>
@@ -1670,6 +1886,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>430m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1685,6 +1903,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>415m/s</item>
         <item> </item>
         <item>Jaeger LL1, Prapor LL1, Skier LL1</item>
@@ -1700,6 +1920,8 @@
         <item>{R+115}</item>
         <item>0%</item>
         <item>0%</item>
+        <item>20%</item>
+        <item>10%</item>
         <item>385m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1715,6 +1937,8 @@
         <item>{R+50}</item>
         <item>3%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>510m/s</item>
         <item> </item>
         <item>Jaeger LL4</item>
@@ -1730,6 +1954,8 @@
         <item>{R+15}</item>
         <item>10%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>415m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -1745,6 +1971,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>320m/s</item>
         <item>@string/subsonic</item>
         <item>Jaeger LL3</item>
@@ -1760,6 +1988,8 @@
         <item> </item>
         <item>10%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>480m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -1775,6 +2005,8 @@
         <item>{R+20}</item>
         <item>12%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>390m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -1790,6 +2022,8 @@
         <item>{R+10}</item>
         <item>38%</item>
         <item>10%</item>
+        <item>30%</item>
+        <item>20%</item>
         <item>442m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -1805,6 +2039,8 @@
         <item>{B-15}</item>
         <item>39%</item>
         <item>10%</item>
+        <item>30%</item>
+        <item>30%</item>
         <item>594m/s</item>
         <item> </item>
         <item>Jaeger LL4</item>
@@ -1819,6 +2055,8 @@
         <item>{B+100}</item>
         <item> </item>
         <item>20%</item>
+        <item>10%</item>
+        <item> </item>
         <item>10%</item>
         <item>370m/s</item>
         <item> </item>
@@ -1835,6 +2073,8 @@
         <item>{B-15}</item>
         <item>20%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>410m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -1850,6 +2090,8 @@
         <item>{B-10}</item>
         <item>15%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>430m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1865,6 +2107,8 @@
         <item>{R+35}</item>
         <item>100%</item>
         <item>1%</item>
+        <item>40%</item>
+        <item>20%</item>
         <item>410m/s</item>
         <item> </item>
         <item>Skier LL3 (교환품) 퀘스트 Bullshit 이후</item>
@@ -1880,6 +2124,8 @@
         <item>{R+25}</item>
         <item>5%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>410m/s</item>
         <item>@string/tracer</item>
         <item>Jaeger LL4</item>
@@ -1897,6 +2143,8 @@
         <item>{R+10}</item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>340m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -1912,6 +2160,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>410m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1927,6 +2177,8 @@
         <item>{R+15}</item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>475m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -1942,6 +2194,8 @@
         <item> </item>
         <item>0%</item>
         <item>0%</item>
+        <item> </item>
+        <item> </item>
         <item>430m/s</item>
         <item> </item>
         <item>Skier LL1, Jaeger LL1</item>
@@ -1957,6 +2211,8 @@
         <item>{R+30}</item>
         <item>100%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>405m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -1972,6 +2228,8 @@
         <item>{B-15}</item>
         <item>20%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>425m/s</item>
         <item> </item>
         <item>Jaeger LL1</item>
@@ -1987,6 +2245,8 @@
         <item>{B-10}</item>
         <item>15%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>445m/s</item>
         <item> </item>
         <item>Jaeger LL2</item>
@@ -2002,6 +2262,8 @@
         <item> </item>
         <item>10%</item>
         <item>10%</item>
+        <item> </item>
+        <item> </item>
         <item>415m/s</item>
         <item> </item>
         <item>Jaeger LL3</item>
@@ -2019,6 +2281,8 @@
         <item>{R+10}</item>
         <item>0%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>375m/s</item>
         <item> </item>
         <item>Prapor LL3</item>
@@ -2034,6 +2298,8 @@
         <item> </item>
         <item>0%</item>
         <item>20%</item>
+        <item> </item>
+        <item> </item>
         <item>270m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
@@ -2050,6 +2316,8 @@
         <item>30%</item>
         <item>40%</item>
         <item> </item>
+        <item> </item>
+        <item> </item>
         <item>섬광 효과</item>
         <item>Prapor LL3</item>
         <item>000000</item>
@@ -2064,6 +2332,8 @@
         <item>{R+25}</item>
         <item>20%</item>
         <item>40%</item>
+        <item> </item>
+        <item> </item>
         <item>420m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
@@ -2081,6 +2351,8 @@
         <item>0.1s</item>
         <item> </item>
         <item> </item>
+        <item> </item>
+        <item> </item>
         <item>76m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
@@ -2094,6 +2366,8 @@
         <item> </item>
         <item>5~12m</item>
         <item>0.3s</item>
+        <item> </item>
+        <item> </item>
         <item> </item>
         <item> </item>
         <item>76m/s</item>
@@ -2111,6 +2385,8 @@
         <item>0.3s</item>
         <item> </item>
         <item> </item>
+        <item> </item>
+        <item> </item>
         <item>76m/s</item>
         <item>@string/subsonic</item>
         <item> </item>
@@ -2124,6 +2400,8 @@
         <item> </item>
         <item>4~8m</item>
         <item>0.3s</item>
+        <item> </item>
+        <item> </item>
         <item> </item>
         <item> </item>
         <item>76m/s</item>
@@ -2141,6 +2419,8 @@
         <item>0.1s</item>
         <item> </item>
         <item> </item>
+        <item> </item>
+        <item> </item>
         <item>76m/s</item>
         <item>@string/subsonic</item>
         <item> </item>
@@ -2151,6 +2431,8 @@
         <item>M576</item>
         <item>15 x 140</item>
         <item>5</item>
+        <item> </item>
+        <item> </item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -2804,11 +3086,11 @@
         <item>AK-101</item>
         <item>150</item>
         <item>405</item>
-        <item>650m</item>
         <item>50</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.56x45mm NATO</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>406</item>
         <item>407</item>
         <item> </item>
@@ -2822,11 +3104,11 @@
         <item>AK-102</item>
         <item>154</item>
         <item>402</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>650m</item>
         <item>5.56x45mm NATO</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>404</item>
         <item>405</item>
         <item> </item>
@@ -2840,11 +3122,11 @@
         <item>AK-103</item>
         <item>174</item>
         <item>422</item>
-        <item>650m</item>
         <item>50</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>650m</item>
         <item>7.62x39mm</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>391</item>
         <item>392</item>
         <item> </item>
@@ -2858,11 +3140,11 @@
         <item>AK-104</item>
         <item>186</item>
         <item>422</item>
-        <item>650m</item>
         <item>58</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>650m</item>
         <item>7.62x39mm</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>389</item>
         <item>390</item>
         <item> </item>
@@ -2876,11 +3158,11 @@
         <item>ak-105</item>
         <item>165</item>
         <item>413</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>429</item>
         <item>430</item>
         <item> </item>
@@ -2894,11 +3176,11 @@
         <item>AK-74</item>
         <item>158</item>
         <item>413</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>421</item>
         <item>422</item>
         <item> </item>
@@ -2912,11 +3194,11 @@
         <item>AK-74M</item>
         <item>146</item>
         <item>409</item>
-        <item>650m</item>
         <item>50</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>425</item>
         <item>426</item>
         <item>453</item>
@@ -2930,11 +3212,11 @@
         <item>AK-74N</item>
         <item>157</item>
         <item>412</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>421</item>
         <item>422</item>
         <item>450</item>
@@ -2948,29 +3230,29 @@
         <item>AKS-74</item>
         <item>146</item>
         <item>398</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>423</item>
         <item>424</item>
         <item> </item>
         <item>PBS-4 5.45x39 Silencer</item>
         <item>BT</item>
         <item>BS</item>
-        <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다. And Ergonomics Modding is excepting stock</item>
+        <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
     </string-array>
 
     <string-array name="w_aks_74u">
         <item>AKS-74U</item>
         <item>152</item>
         <item>455</item>
-        <item>300m</item>
         <item>53</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>300m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>427</item>
         <item>428</item>
         <item>451</item>
@@ -2984,11 +3266,11 @@
         <item>AKS-74UN</item>
         <item>152</item>
         <item>455</item>
-        <item>300m</item>
         <item>53</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>300m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>427</item>
         <item>428</item>
         <item>451</item>
@@ -3002,11 +3284,11 @@
         <item>AKS-74UB</item>
         <item>152</item>
         <item>455</item>
-        <item>300m</item>
         <item>53</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>300m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>427</item>
         <item>428</item>
         <item>451</item>
@@ -3020,11 +3302,11 @@
         <item>AKS-74N</item>
         <item>145</item>
         <item>397</item>
-        <item>650m</item>
         <item>43</item>
-        <item>단발, 연사</item>
-        <item>650RPM</item>
+        <item>650m</item>
         <item>5.45x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
         <item>423</item>
         <item>424</item>
         <item> </item>
@@ -3038,11 +3320,11 @@
         <item>AKM</item>
         <item>194</item>
         <item>448</item>
-        <item>400m</item>
         <item>38</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>400m</item>
         <item>7.62x39mm</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>552</item>
         <item>553</item>
         <item>452</item>
@@ -3056,11 +3338,11 @@
         <item>AKMN</item>
         <item>193</item>
         <item>448</item>
-        <item>400m</item>
         <item>39</item>
-        <item>단발, 연사</item>
-        <item>600RPM</item>
+        <item>400m</item>
         <item>7.62x39mm</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
         <item>552</item>
         <item>553</item>
         <item>452</item>
@@ -3177,7 +3459,7 @@
         <item>.300 AAC Blackout AP</item>
         <item> </item>
     </string-array>
-    
+
     <string-array name="w_dt_mdr_556x45">
         <item>DT MDR 5.56x45mm</item>
         <item>87</item>
@@ -4336,7 +4618,7 @@
         <item>325</item>
         <item>70</item>
         <item>50m</item>
-        <item>9x18mm</item>
+        <item>7.62x25mm</item>
         <item>30RPM</item>
         <item>단발</item>
         <item>393</item>
@@ -4354,7 +4636,7 @@
         <item>325</item>
         <item>70</item>
         <item>50m</item>
-        <item>9x18mm</item>
+        <item>7.62x25mm</item>
         <item>30RPM</item>
         <item>단발</item>
         <item>393</item>
@@ -4375,12 +4657,12 @@
         <item>12.7x108mm</item>
         <item>650RPM</item>
         <item>연사</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
         <item>X</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item> </item>
     </string-array>
 
@@ -4393,12 +4675,12 @@
         <item>30x29mm</item>
         <item>425RPM</item>
         <item>연사</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
         <item>X</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item> </item>
     </string-array>
 
@@ -4628,7 +4910,6 @@
         <item>9~12 플레이어</item>
         <item>SCAV, 레이더, 글루하</item>
     </string-array>
-
 
 
     <string-array name="exit_factory">
@@ -4906,7 +5187,7 @@
         <item>다회용 탈출구</item>
         <item>항상 탈출 가능</item>
     </string-array>
-    
+
     <string-array name="northern_un_roadblock">
         <item>Northern UN Roadblock</item>
         <item>PMC</item>
@@ -5624,7 +5905,7 @@
         <item>바이져와 야간 투시경 장착 가능</item>
     </string-array>
 
-    <string-array name="h_lszh_2dtm">
+    <string-array name="h_lshz_2dtm">
         <item>BNTI LSHZ-2DTM Helmet</item>
         <item>55</item>
         <item>3</item>
@@ -5705,14 +5986,14 @@
     </string-array>
 
     <string-array name="h_6b2">
-         <item>6B2 Armor (flora)</item>
-         <item>2</item>
-         <item>가슴, 복부</item>
-         <item>80</item>
-         <item>145</item>
-         <item>이동속도 {R-6%}, 화면 전환 속도 {R-3%}, 인체공학 {R-7}</item>
-         <item>티타늄(Titan)</item>
-     </string-array>
+        <item>6B2 Armor (flora)</item>
+        <item>2</item>
+        <item>가슴, 복부</item>
+        <item>80</item>
+        <item>145</item>
+        <item>이동속도 {R-6%}, 화면 전환 속도 {R-3%}, 인체공학 {R-7}</item>
+        <item>티타늄(Titan)</item>
+    </string-array>
 
     <string-array name="h_mf_untar">
         <item>MF-UNTAR armor vest</item>
@@ -5884,6 +6165,16 @@
         <item>강철(Armor Steel)</item>
     </string-array>
 
+    <string-array name="h_hexgrid">
+        <item>5.11 Hexgrid plate carrier</item>
+        <item>6</item>
+        <item>가슴</item>
+        <item>50</item>
+        <item>111</item>
+        <item>이동속도 {R-8%}, 화면 전환 속도 {R-2%}, 인체공학 {R-1}</item>
+        <item>울트라폴리(Ultrahighweight polyethylene)</item>
+    </string-array>
+
     <string-array name="h_zhuk_6a">
         <item>Zhuk-6a heavy armor</item>
         <item>6</item>
@@ -5974,23 +6265,23 @@
     </string-array>
 
     <string-array name="h_k1s_visor">
-    <item>K1S Visor</item>
-    <item>2</item>
-    <item>눈, 턱</item>
-    <item>30</item>
-    <item>낮음</item>
-    <item>없음</item>
-    <item>없음</item>
+        <item>K1S Visor</item>
+        <item>2</item>
+        <item>눈, 턱</item>
+        <item>30</item>
+        <item>낮음</item>
+        <item>없음</item>
+        <item>없음</item>
     </string-array>
 
     <string-array name="h_multi_hit_ops_core_visor">
-    <item>Multi-hit ballistic face shield-visor for Ops-Core FAST helmet</item>
-    <item>3</item>
-    <item>눈, 턱</item>
-    <item>40</item>
-    <item>중간</item>
-    <item>화면 전환 속도{R-8%}, 인체 공학{R-8}</item>
-    <item>바이져 특유의 울리는 소리</item>
+        <item>Multi-hit ballistic face shield-visor for Ops-Core FAST helmet</item>
+        <item>3</item>
+        <item>눈, 턱</item>
+        <item>40</item>
+        <item>중간</item>
+        <item>화면 전환 속도{R-8%}, 인체 공학{R-8}</item>
+        <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
     <string-array name="h_kiver_visor">
@@ -6181,6 +6472,373 @@
         <item>높음</item>
         <item>화면 전환 속도{R-6%}, 인체 공학{R-11}</item>
         <item>없음</item>
+    </string-array>
+
+    <!--                        Prapor's Quests                     -->
+
+    <!--  이름, 유형, 목표, 요구 조건, 보상, 실패 패널티, 연계 퀘스트, 팁, 카파퀘 필요 여부, 지도-->
+    <string-array name="q_">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>레벨</item>
+        <item></item>
+        <item> </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_debut">
+        <item>Debut(데뷔)</item>
+        <item>제거</item>
+        <item> - 커스텀에서 5명의 스캐브를 죽이기.\n - MP-133 샷건을 2개 넘기기.</item>
+        <item>1레벨</item>
+        <item>경험치 1700\n프라퍼 친밀도 +0.08\n15000루블\nPM 권총\n90–93 9x18PM Magazine, for 8 PM rounds 3개\nPrapor LL1에서 AKS-74U 해금</item>
+        <item> </item>
+        <item>Checking, Search Mission</item>
+        <item>커스텀에서 스캐브를 잡으면 확률적으로 MP-133을 들고 나옵니다. 또한 Jaeger가 MP-133을 판매하고 Mechanic이 교환으로 판매하며, 플리마켓에서 구매할 수도 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_search_mission">
+        <item>Search Mission(수색 임무)</item>
+        <item>성공</item>
+        <item> - 프라퍼의 사라진 호송대를 찾기.\n - USEC 임시 캠프를 찾기\n - 생존하여 탈출하기</item>
+        <item>5레벨</item>
+        <item>경험치 2000\n프라퍼 친밀도 +0.04\n22000루블\nEYE MK2 profession hand-held compass</item>
+        <item> </item>
+        <item>x</item>
+        <item>우드에서 2지점을 확인해야합니다. 다른 레이드에서 각각 하나씩 확인해도 되지만, 두지점 모두 확인한 후에는 반드시 탈출해야합니다.</item>
+        <item>예</item>
+        <item>위치 보기(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_checking">
+        <item>Checking(찾기)</item>
+        <item>들고오기</item>
+        <item> - 황동 시계 찾기\n황동 시계를 프라퍼에게 넘기기</item>
+        <item>2레벨</item>
+        <item>경험치 2500\n프라퍼 친밀도 +0.05\n20000루블\nTT pistol 7.62x25 TT\nTT-105 7.62x25 TT Magazine 3개</item>
+        <item> </item>
+        <item>Shootout picnic, Delivery from the past</item>
+        <item>열쇠는 플리마켓에서 사도 되고, 커스텀의 기숙사 3층 건물의 2층의 205호 방의 황색의 옷속에서 고정 스폰됩니다. 그 뒤 유조 트럭의 운전석에 있는 황동 열쇠를 들고 탈출하면 됩니다.</item>
+        <item>예</item>
+        <item>열쇠와 트럭 위치 지도(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f2/Checking_Map.png/revision/latest?cb=20180516165900&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_shootout_picnic">
+        <item>Shootout Picnic(사격 연습)</item>
+        <item>제거</item>
+        <item> - 우드에서 스캐브 15마리 죽이기</item>
+        <item>3레벨</item>
+        <item>경험치 2500\n프라퍼 우호도 +0.1\n20000루블\nAKS-74U\n6L20 30-round 5.45x39 magazine for AK-74 and compatible weapons 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_delivery_from_the_past">
+        <item>Delivery from the past(과거로부터의 배달)</item>
+        <item>들고오기</item>
+        <item> - 커스텀의 빨간 창고의 2층의 방에서 Secure case for documents 0022를 확보하고 팩토리의 2층에 두고 탈출하기</item>
+        <item>5레벨</item>
+        <item>경험치 4100\n프라퍼 우호도 +0.11\n12000루블\nSaiga 12ga\nSb.5 5-round 12/76 magazine for SOK-12and compatible weapons 3개\n프라퍼 LL1에서 5.45mm PS 해금</item>
+        <item> </item>
+        <item>BP depot</item>
+        <item>빨간 창고 2층을 Custom Office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다. 전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
+        <item>예</item>
+        <item>빨간 창고 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/Delivery_from_the_past_Customs.png/revision/latest?cb=20180516174114&amp;format=original)||팩토리 전달 장소(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5c/Delivery_from_the_past_dropoff.png/revision/latest?cb=20180516171946&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_bp_depot">
+        <item>BP depot(유류창고 확보)</item>
+        <item>발견</item>
+        <item> - 커스텀에 유조 트럭 1, 2, 3, 4에 신호기를 설치한 뒤 탈출하기</item>
+        <item>5레벨</item>
+        <item>경험치 3800\n프라퍼 우호도 +0.08\n예거 우호도 -0.01\n30000루블\nRGD-5 수류탄 3개\nExpeditionary 기름통</item>
+        <item> </item>
+        <item>Bad rep evidence, The bunker - Part 1</item>
+        <item>신호기를 한 레이드에서 설치하진 않아도 됩니다. 또한 신호기는 잃어버려도 프라퍼에게 다시 살 수 있습니다.</item>
+        <item>예</item>
+        <item>유조 탱크 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/BP_Depot_Marked_Map.jpg/revision/latest?cb=20210112151343&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_the_bunker_part_1">
+        <item>The bunker - Part 1(벙커1)</item>
+        <item>성공</item>
+        <item> - 지하 벙커를 찾기\n - 지하 벙커의 제어실 찾기\n - 탈출하기</item>
+        <item>10레벨</item>
+        <item>경험치 6000\n프라퍼 우호도 +0.08\n20000루블\nAK-74N\n5.45x39mm BT 120발</item>
+        <item> </item>
+        <item>The bunker - Part 2</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_bunker_part_2">
+        <item>The bunker - Part 2(벙커2)</item>
+        <item>성공</item>
+        <item> - 벙커 문을 찾고(흰 비숍, 검은 비숍, 검은 폰, 흰 폰, 흰 킹) 탈출하기</item>
+        <item> </item>
+        <item>경험치 6600\n프라퍼 우호도 +0.08\n25000루블\nAKS-74UB\n5.45x39mm BS 120발</item>
+        <item> </item>
+        <item>x</item>
+        <item>한 레이드에 모두 찾아야합니다.</item>
+        <item>아니오</item>
+        <item>문이 있는 건물의 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/61/Bunker_pt2.png/revision/latest?cb=20200704024601&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_bad_rep_evidence">
+        <item>Bad rep evidence(나쁜 평판의 증거)</item>
+        <item>들고오기</item>
+        <item> - 세관(Customs)에서 secure folder 0031을 가져오기\n - 프라퍼에게 secure folder 0031 넘기기\n - 커스텀에서 탈출하기</item>
+        <item>6레벨</item>
+        <item>경험치 4200\n프라퍼 우호도 +0.1\n16000루블\nPP–9 Klin\nStandard 9x18PM 30–round magazine for PP–91 3개\n프라퍼 LL2에서 Zenit–Belomo PSO 1M2–1 4x24 scope 해금</item>
+        <item> </item>
+        <item>Ice cream cones</item>
+        <item> </item>
+        <item>예</item>
+        <item>문서의 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/Bad_Rep_Evidence_Customs.png/revision/latest?cb=20190306221306&amp;format=original)</item>
+    </string-array>
+
+    <string-array name="q_ice_cream_cones">
+        <item>Ice cream cones(아이스크림 콘)</item>
+        <item>들고오기</item>
+        <item> - 6L31 60-rounds mags for AK 3개를 레이드에서 찾거나 하이드아웃에서 만들기\n - 6L31 60-rounds mags for AK 3개를 프라퍼에게 넘기기</item>
+        <item>9레벨</item>
+        <item>경험치 5400\n프라퍼 우호도 +0.08\n17000루블\nRPK-16\n5.45x39mm BP 200개\n프라퍼 LL2에서 60-rounds 6L31 5.45x39mm magazine for AK-74 and compatibles 해금</item>
+        <item> </item>
+        <item>Postman Pat - Part 1</item>
+        <item>우드의 ZB-014에서 열쇠를 열고 들어가면 스폰할 확률이 있습니다.\n하이드아웃의 화장실 2레벨에서 만들 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_postman_pat_part_1">
+        <item>Postman Pat - Part 1(전달책 쓰다듬기 1)</item>
+        <item>들고오기</item>
+        <item> - 공장(Factory)에서 전달책에 있는 편지 찾기\n - 공장(Factory)에서 탈출하기\n - 테라피스트에게 편지 넘기기</item>
+        <item>10레벨</item>
+        <item>경험치 6000\n프라퍼 우호도 +0.08\n19000루블\nFlyye MBSS Backpack</item>
+        <item> </item>
+        <item>Postman Pat - part 2(동시에 해금), Shaking up teller</item>
+        <item>빠르게 편지를 주워서 탈출해야합니다. 탈출하다가 사망하면 다시 주워와야합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_shaking_up_teller">
+        <item>Shaking up teller(현금가방 흔들기)</item>
+        <item>들고 오기</item>
+        <item> - 기숙사 203호에서 귀중품 찾기\n - 프라퍼에게 넘기기</item>
+        <item>프라퍼 LL2</item>
+        <item>경험치 6100\n프라퍼 우호도 +0.08\n예거 우호도 -0.01\n52000루블\n프라퍼 LL3에서 PBS-4 5.45x39 Silencer 해금\n프라퍼 LL2에서 Hexagon 12K sound suppressor 해금</item>
+        <item> </item>
+        <item>The Punisher - Part 1, Perfect mediator, Grenadier, Anesthesia</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_1">
+        <item>The Punisher - Part 1(처벌자 1)</item>
+        <item>제거</item>
+        <item> - 해안가(Shoreline)에서 AKM 류 무기로 스캐브 15명 사살하기</item>
+        <item>17레벨</item>
+        <item>경험치 10800\n프라퍼 우호도 +0.08, 40000루블, 6B43 Zabralo-Sh 6A Armor, 프라퍼 LL3에서 SV-98 bolt-action sniper rifle 해금</item>
+        <item> </item>
+        <item>The Punisher - Part 2</item>
+        <item>VPO시리즈의 AKM은 사용할 수 없습니다. 외곽을 돌면서 스캐브를 사냥하시면 됩니다.</item>
+        <item>에</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_2">
+        <item>The Punisher - Part 2(처벌자 2)</item>
+        <item>제거</item>
+        <item> - 해안가(Shoreline)에서 소음기가 장착된 무기로 스캐브 12명 사살하기\n - 레이드에서 lower half-masks 7개 찾기\n - 마스크를 프라퍼에게 넘기기</item>
+        <item>18레벨</item>
+        <item>경험치 13900\n프라퍼 우호도 +0.1\n70000루블\nMilitary cable 2개</item>
+        <item> </item>
+        <item>The Punisher - Part 3</item>
+        <item>lower half-masks는 스캐브에서 나옵니다. 미리미리 모아두는 게 편합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_3">
+        <item>The Punisher - Part 3(처벌자 3)</item>
+        <item>제거</item>
+        <item> - 세관(Customs)에서 AKS-74U 류 무기로 스캐브 25명 사살하기</item>
+        <item>19레벨</item>
+        <item>경험치 12400\n프라퍼 +0.08\n스키어 우호도 +0.05\n2500달러\nDVL-10 Saboteur sniper rifle</item>
+        <item> </item>
+        <item>The Punisher - Part 4</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_4">
+        <item>The Punisher - Part 4(처벌자 4)</item>
+        <item>제거</item>
+        <item> - 숲(Woods)에서 12게이지 샷건으로 스캐브 10명 사살하기\n - 해안가(Shoreline)에서 balaclava와 scav vest를 입고 PMC 10명 사살하기\n - 레이드에서 Bars A-2607 5개 찾기\n - 칼을 프라퍼에게 넘기기</item>
+        <item>20레벨</item>
+        <item>경험치 19000\n프라퍼 우호도 +0.12\n예거 우호도 -0.01\n100000루블\nColt M4A1 5.56x45 Assault Rifle\n프라퍼 LL3에서 5.45x39mm BT 해금</item>
+        <item> </item>
+        <item>The Punisher - Part 5</item>
+        <item>Balaclava만 착용해도 퀘스트가 깨지는 버그가 있습니다. 12게이지 슬러그 탄이나 6.5mm 탄을 사용해 멀리서 사살하는 편이 좋습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_5">
+        <item>The Punisher - Part 5(처벌자 5)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 AK-74N 찾기\n - 레이드에서 M4A1 찾기\n - 레이드에서 PM pistol 찾기\n - 프라퍼에게 넘기기\n - PACA vest와 6b47 helmet을 끼고 PMC 10명 사살하기</item>
+        <item>20레벨</item>
+        <item>경험치 19300\n프라퍼 우호도 +0.12\n5000달러\nPistol case\nDocuments case\n프라퍼 LL3에서 7.62x39mm BP 해금</item>
+        <item> </item>
+        <item>The Punisher - Part 6</item>
+        <item>M4A1은 전 퀘스트에서 보상으로 준 것으로 내도 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_punisher_part_6">
+        <item>The Punisher - Part 6(처벌자 6)</item>
+        <item>제거</item>
+        <item> - SVD를 사용해 PMC 15명 사살하기\n - PMC Bear dogtags 7개 찾기\n - PMC USEC dogtags 7개 찾기\n - 프라퍼에게 넘기기</item>
+        <item>21레벨</item>
+        <item>경험치 20600\n프라퍼 우호도 +0.12\n테라피스트 우호도 +0.15\n스키어 우호도 +0.06\n250000루블\nSecure container Epsilon</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_anesthesia">
+        <item>Anesthesia(마취)</item>
+        <item>발견</item>
+        <item> - 해안가(Shoreline)에서 거래 장소 3곳에 신호기 설치하기\n - 탈출하기</item>
+        <item>21레벨</item>
+        <item>경험치 12600\n프라퍼 우호도 +0.1\n50000루블\nAS VAL\n9x39mm 7N9 SPP 100발\n9x39mm SP-6 100발</item>
+        <item> </item>
+        <item>Rigged game, Samples</item>
+        <item>테라피스트의 Colleagues - Part 1과 장소가 같으니 같이 깰 수 있습니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_grenadier">
+        <item>Grenadier(척탄병)</item>
+        <item>제거</item>
+        <item> - 수류탄을 사용해 PMC 12명 사살하기</item>
+        <item>30레벨</item>
+        <item>경험치 21300\n50000루블\nf-1 수류탄 7개\n5.45x39mm BT 240발\n프라퍼 LL4에서 9x39mm 7N12 BP 해금</item>
+        <item> </item>
+        <item>Insomnia, Test drive - Part 1</item>
+        <item>도끼런의 다리를 부러뜨리고 수류탄으로 죽이면 킬카운트를 올리기 쉽습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_test_drive_part_1">
+        <item>Test drive - Part 1(시험 운행 1)</item>
+        <item>제거</item>
+        <item> - Hybrid 46 silencer와 REAP-IR thermal scope를 단 M1A로 PMC 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 31000\n프라퍼 우호도 +0.12\n300000루블\nRPK-16 2정\n95-round 5.45x39mm magazine for RPK-16 and compatibles 6개\nGolden neck chain 5개</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_insomnia">
+        <item>Insomnia</item>
+        <item>제거</item>
+        <item> - 야간 시간에 PMC 30명 사살(22시에서 5시)</item>
+        <item> </item>
+        <item>경험치 18900\n85000루블\nPNV-10T Night Vision 3개\nZenit 2P Klesch flashlight + laser designator 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item>야간 시간 팩토리를 이용하면 편리하게 깰 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_perfect_mediator">
+        <item>Perfect Mediator(완벽한 중재자)</item>
+        <item>능력</item>
+        <item> - 라그만, 스키어, 메카닉, 피스키퍼, 프라퍼, 테라피스트 LL4 도달하기</item>
+        <item>35레벨</item>
+        <item>경험치 17200\n프라퍼 우호도 +0.9\n55000루블\nT H I C C Weapon case</item>
+        <item> </item>
+        <item>x</item>
+        <item>40렙에 도달해야 메카닉과 라그만의 LL4 조건을 도달할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_polikhim_hobo">
+        <item>Polikhim hobo(Polikhim의 노동자)</item>
+        <item>제거</item>
+        <item> - 커스텀에서 스캐브 25명 사살하기</item>
+        <item></item>
+        <item>경험치 7000\n프라퍼 우호도 +0.1\n17000루블\nF-1 수류탄 4개</item>
+        <item> </item>
+        <item>Regulated materials</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_regulated_materials">
+        <item>Regulated Materials(규제 물질)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 military battery 찾기\n - 레이드에서 shells for BMP cannon 5개 찾기\n - 프라퍼에게 넘기기</item>
+        <item>25레벨</item>
+        <item>150000루블\n프라퍼 LL4에서 ASh-12 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>군사기지(Reserve)에서 해당 아이템들이 뜹니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_big_customer">
+        <item>Big Customer(거물)</item>
+        <item>완료</item>
+        <item> - 화학 물질의 위치를 찾기\n - 위치에 신호기 설치하기\n - 세관(Customs)를 탈출하기</item>
+        <item> </item>
+        <item>경험치 8200\n프라퍼 우호도 +0.1\n예거 우호도 -0.01\n200000루블\nPACA Soft Armor\nAmmo case 2개</item>
+        <item>프라퍼 우호도 -0.15</item>
+        <item>No offence(실패)</item>
+        <item>스키어의 퀘스트를 선택하는게 이득입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_no_offence">
+        <item>No offence(나쁜 뜻은 아니었어)</item>
+        <item>주워오기</item>
+        <item> - M67 수류탄 10개 찾기\n - 프라퍼에게 수류탄 넘기기</item>
+        <item> </item>
+        <item>프라퍼 우호도 +0.4</item>
+        <item> </item>
+        <item>x</item>
+        <item>피스키퍼의 퀘스트를 깨다보면 M67를 구매할 수 있습니다.</item>
+        <item>아니오</item>
+        <item> </item>
     </string-array>
 
 </resources>

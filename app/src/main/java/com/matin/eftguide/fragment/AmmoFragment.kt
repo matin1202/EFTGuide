@@ -196,8 +196,8 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 context!!, R.raw.ammo_338,
                 ".338",
-                arrayListOf("Tac-X", "UPZ", "FMJ", "AP"),
-                arrayListOf(R.drawable.tac_x_338, R.drawable.upz_338, R.drawable.fmj_338, R.drawable.ap_338)
+                arrayListOf("AP", "FMJ", "UPZ", "Tac-X"),
+                arrayListOf(R.drawable.ap_338, R.drawable.upz_338, R.drawable.fmj_338, R.drawable.tac_x_338)
             )
         )
         list.add(
