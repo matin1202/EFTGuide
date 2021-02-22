@@ -6841,4 +6841,95 @@
         <item> </item>
     </string-array>
 
+    <string-array name="q_shortage">
+        <item>Shortage(부족)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 Salewa kits를 3개 찾기\n - 테라피스트에게 넘기기</item>
+        <item>1레벨</item>
+        <item>경험치 2000\n테라피스트 우호도 +0.07\n15000루블\nAnalgin Painkillers 4개\nAI-2 medikit 4개\nImmobilizing splint 4개</item>
+        <item> </item>
+        <item>Sanitary Standards - Part 1, Operation Aquarius - Part 1</item>
+        <item>하이드아웃 Meds Station 1레벨에서 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_operation_aquarius_part_1">
+        <item>Operation Aquarius - Part 1(작전명 물병자리 1)</item>
+        <item>주워오기</item>
+        <item> - 기숙사에 숨겨진 물 찾기\n - 세관(Customs)를 탈출하기</item>
+        <item>6레벨</item>
+        <item>경험치 3400\n테라피스트 우호도 +0.09\n스키어 우호도 -0.08\n14000루블\n0.6L water bottle 6개</item>
+        <item> </item>
+        <item>Operation Aquarius - Part 2</item>
+        <item>세관에서 기숙사 2층 건물의 206호에 열쇠를 사용해 들어가면 깰 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_operation_aquarius_part_2">
+        <item>Operation Aquarius - Part 2(작전명 물병자리 2)</item>
+        <item>제거</item>
+        <item> - 세관(Customs)에서 SCAV 15명 사살하기</item>
+        <item>6레벨</item>
+        <item>경험치 3400\n테라피스트 우호도 +0.09\n스키어 우호도 -0.08\n15000루블\nArmy bandage 3개\n테라피스트 LL2에서 Army bandage 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sanitary_standards_part_1">
+        <item>Sanitary Standard - Part 1(위생 기준 1)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 gas analyzer 주워오기\n - 테라피스트에게 넘기기</item>
+        <item>4레벨</item>
+        <item>경험치 2200\n테라피스트 우호도 +0.09\nCar first aid kit 2개\n14000루블\n테라피스트 LL1에서 Car first aid kit 해금</item>
+        <item> </item>
+        <item>Sanitary Standard - Part 2</item>
+        <item>공장(Factory)의 Door key를 사용해 들어갈 수 있는 Pumping Station에서 Gas analyzer가 자주 스폰됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sanitary_standards_part_2">
+        <item>Sanitary Standard - Part 2(위생 기준 2)</item>
+        <item>완료</item>
+        <item> - 레이드에서 Gas Analyzer 2개 찾기\n - 테라피스트에게 넘기기</item>
+        <item>8레벨</item>
+        <item>경험치 4500\n테라피스트 우호도 +0.09\n18000루블\n</item>
+        <item> </item>
+        <item>Painkiller</item>
+        <item>공장(Factory)의 Door key를 사용해 들어갈 수 있는 Pumping Station에서 Gas analyzer가 자주 스폰됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_painkiller">
+        <item>Painkiller(진통제)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 morphine syringes 4개 찾기\n - 테라피스트에게 넘기기</item>
+        <item>8레벨</item>
+        <item>경험치 4600\n테라피스트 우호도 +0.09\n17000루블\nAnalgin painkillers 10개\nDisposable syringe 5개</item>
+        <item> </item>
+        <item>Pharmacist</item>
+        <item>Morphine은 의료 가방에서 자주 스폰합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_pharmacist">
+        <item>Pharmacist(약사)</item>
+        <item>주워오기</item>
+        <item> - 장치가 들어있는 가방을 찾기\n -  테라피스트에게 넘기기</item>
+        <item>10레벨</item>
+        <item>경험치 5900\n테라피스트 +0.09\n25000루블\nIFAK personal tactical aid kit 4개\n라그만 LL2에서 6B47 Helmet with cover 해금</item>
+        <item> </item>
+        <item>General wares, Health Care Privacy - Part 1, Car repair, Supply plans, Kind of sabotage</item>
+        <item>세관(Customs)의 기숙사 2층 건물의 114호에 가방이 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
 </resources>
