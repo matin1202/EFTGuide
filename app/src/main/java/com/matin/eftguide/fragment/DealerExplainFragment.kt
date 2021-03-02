@@ -71,7 +71,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                 var requirement = ""
                 for(y in cache.indices){
                     
-                    requirement += "상인 ${y+1}레벨 요구 조건\n - ${cache[y].split(", ")[0]}, 우호도 ${cache[y].split(", ")[1]}이상\n - 소비량 ${cache[y].split(", ")[2]} 이상\n"
+                    requirement += "상인 ${y+2}레벨 요구 조건\n - ${cache[y].split(", ")[0]}, 우호도 ${cache[y].split(", ")[1]}이상\n - 소비량 ${cache[y].split(", ")[2]} 이상\n"
                 }
                 view.findViewById<TextView>(R.id.tv_dealer_requirement).text = requirement
             }

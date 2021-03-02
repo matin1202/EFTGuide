@@ -108,6 +108,11 @@ class MenuActivity : BaseActivity() {
                     .replace(R.id.fl_menu, NightVisionFragment())
                     .commit()
             }
+            "quest" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, QuestFragment())
+                    .commit()
+            }
             else -> {
                 Toast.makeText(applicationContext, "준비 중입니다.", Toast.LENGTH_SHORT).show()
             }
