@@ -591,7 +591,7 @@
     </string-array>
 
     <string-array name="a45_ACP_45_ACP_AP">
-        <item>.45 AP</item>
+        <item>.45 ACP AP</item>
         <item>70</item>
         <item>36</item>
         <item>43%</item>
@@ -745,7 +745,7 @@
         <item>716m/s</item>
         <item>@string/tracer</item>
         <item>Peacekeeper LL3</item>
-        <item>666311</item>
+        <item>666322</item>
     </string-array>
 
     <string-array name="a57x28_R37F">
@@ -796,7 +796,7 @@
         <item>305m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL4</item>
-        <item>666421</item>
+        <item>666432</item>
     </string-array>
 
     <string-array name="a57x28_SS190">
@@ -813,7 +813,7 @@
         <item>716m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
-        <item>666531</item>
+        <item>666543</item>
     </string-array>
 
     <string-array name="a57x28_SS197SR">
@@ -2284,7 +2284,7 @@
         <item> </item>
         <item> </item>
         <item>375m/s</item>
-        <item> </item>
+        <item>643333</item>
         <item>Prapor LL3</item>
         <item> </item>
     </string-array>
@@ -2303,7 +2303,7 @@
         <item>270m/s</item>
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
-        <item> </item>
+        <item>643333</item>
     </string-array>
 
     <string-array name="a2375_Star">
@@ -2337,7 +2337,7 @@
         <item>420m/s</item>
         <item> </item>
         <item>Prapor LL4</item>
-        <item> </item>
+        <item>666644</item>
     </string-array>
 
     <!--                    40x46mm                         -->
