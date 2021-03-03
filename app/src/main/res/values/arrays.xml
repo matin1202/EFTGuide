@@ -6466,7 +6466,7 @@
 
     <string-array name="h_additional_armor_bastion">
         <item>Additional Armor for the Bastion helmet</item>
-        <item>5</item>
+        <item>6</item>
         <item>정수리</item>
         <item>40</item>
         <item>높음</item>
@@ -6569,7 +6569,7 @@
     </string-array>
 
     <string-array name="q_the_bunker_part_1">
-        <item>The bunker - Part 1(벙커1)</item>
+        <item>The bunker - Part 1(벙커 1)</item>
         <item>성공</item>
         <item> - 지하 벙커를 찾기\n - 지하 벙커의 제어실 찾기\n - 탈출하기</item>
         <item>10레벨</item>
@@ -6582,7 +6582,7 @@
     </string-array>
 
     <string-array name="q_the_bunker_part_2">
-        <item>The bunker - Part 2(벙커2)</item>
+        <item>The bunker - Part 2(벙커 2)</item>
         <item>성공</item>
         <item> - 벙커 문을 찾고(흰 비숍, 검은 비숍, 검은 폰, 흰 폰, 흰 킹) 탈출하기</item>
         <item> </item>
@@ -6764,7 +6764,7 @@
     </string-array>
 
     <string-array name="q_insomnia">
-        <item>Insomnia</item>
+        <item>Insomnia(불면증)</item>
         <item>제거</item>
         <item> - 야간 시간에 PMC 30명 사살(22시에서 5시)</item>
         <item> </item>
@@ -6929,6 +6929,214 @@
         <item>General wares, Health Care Privacy - Part 1, Car repair, Supply plans, Kind of sabotage</item>
         <item>세관(Customs)의 기숙사 2층 건물의 114호에 가방이 있습니다.</item>
         <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_car_repair">
+        <item>Car repair(차 고치기)</item>
+        <item>주워오기</item>
+        <item> - 레이드에서 Car battery를 4개 찾기\n - 레이드에서 Spark Plug 8개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> </item>
+        <item>경험치 7600\n테라피스트 우호도 +0.08\n1500달러\nGrizzly First Aid kit 2개\nRegenerative stimulator injector eTG-change 1개</item>
+        <item> </item>
+        <item>Hippocratic Vow</item>
+        <item>Spark Plug는 서랍(Drawer)에서 자주 스폰됩니다. Car battery는 하이드아웃 Workbench 2레벨에 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_hippocratic_vow">
+        <item>Hippocratic Vow(히포크라테스 선서)</item>
+        <item>완료</item>
+        <item> - 500달러 넘기기</item>
+        <item>Stirrup 완료, Car repair 완료, 테라피스트 우호도 0.6 이하</item>
+        <item>테라피스트 우호도 +0.2</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_supply_plans">
+        <item>Supply Plans(공급 계획)</item>
+        <item>주워 오기</item>
+        <item> - 숲(Woods)에서 Secure folder 찾기\n - 숲(Woods) 탈출하기\n - 테라피스트에게 넘기기</item>
+        <item>13레벨</item>
+        <item>경험치 7700\n테라피스트 우호도 +0.09\n70000루블</item>
+        <item>테라피스트 우호도 -0.1</item>
+        <item>x</item>
+        <item>스키어에게 전달하는 것이 보상이 더 좋습니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_health_care_privacy_part_1">
+        <item>Health Care Privacy - Part 1(의료 개인 정보 보호 1)</item>
+        <item>발견</item>
+        <item> - 구급차 3대에 신호기 설치하기\n해안선(Shoreline)을 탈출하기</item>
+        <item> </item>
+        <item>경험치 6500\n테라피스트 우호도 +0.07\n22000루블\nIFAK 2개\n테라피스트 LL3에서 IFAK 해금</item>
+        <item> </item>
+        <item>Health Care Privacy - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_health_care_privacy_part_2">
+        <item>Health Care Privacy - Part 2(의료 개인 정보 보호 2)</item>
+        <item>발견</item>
+        <item> - Terragroup의 연구의 진상에 대한 정보를 얻기\n - 정보를 넘기기\n - 해안선(Shoreline)에서 탈출하기</item>
+        <item> </item>
+        <item>경험치 8600\n테라피스트 우호도 +0.09\n24000루블\nSalewa 4개</item>
+        <item> </item>
+        <item>Health Care Privacy - Part 3</item>
+        <item>해안선(Shoreline)의 리조트의 서관 306호를 열쇠를 사용해 들어가면 의자 뒤 창문에 정보가 놓여있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_health_care_privacy_part_3">
+        <item>Health Care Privacy - Part 3(의료 개인 정보 보호 3)</item>
+        <item>발견</item>
+        <item> - 숲(Woods)에서 의료 서비스 차량을 찾기\n - Blood sample 찾기\n - 테라피스트에게 넘기기 - 숲(Woods)에서 탈출하기</item>
+        <item> </item>
+        <item>경험치 9400\n테라피스트 우호도 +0.09\n26000루블\nMorphine injector 2개\n테라피스트 LL4에서 Morphine injectort 해금</item>
+        <item> </item>
+        <item>Health Care Privacy - Part 4, An apple a day - keeps the doctor away</item>
+        <item>숲의 큰 호수 쪽에 가면 의료 차량이 있는 데 피가 묻어있는 차량 외부에서 Blood sample을 채취할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_health_care_privacy_part_4">
+        <item>Health Care Privacy - Part 4(의료 개인 정보 보호 4)</item>
+        <item>능력</item>
+        <item> - 건강(Health) 능력 4레벨까지 올리기</item>
+        <item> </item>
+        <item>경험치 10200\n테라피스트 우호도 +0.09\n29000루블\nGrizzly 2개</item>
+        <item> </item>
+        <item>Health Care Privacy - Part 5, Private clinic, Athlete</item>
+        <item>건강(Health)은 힘(Strength), 지구력(Endurance), 활력(Vitality)를 올려서 레벨을 올릴 수 있으며, An apple a day - keeps the doctor away를 클리어 하여 2레벨을 올릴 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_health_care_privacy_part_5">
+        <item>Health Care Privacy - Part 5(의료 개인 정보 보호 5)</item>
+        <item>다중</item>
+        <item> - 공장(Factory)에 밤 시간에 약속 장소에 가기\n - Gunpowder "Kite" 3개 두기</item>
+        <item> </item>
+        <item>경험치 13300\n테라피스트 +0.1\n35000루블\nMeds case</item>
+        <item> </item>
+        <item>Decontamination service</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_decontamination_service">
+        <item>Decontamination Service(제염 작업)</item>
+        <item>제거</item>
+        <item> - 쇼핑몰(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
+        <item>Health Care Privacy - Part 5와 Private Clinic 완료</item>
+        <item>경험치 21600\n300000루블\n테라피스트 우호도 +0.11\nMorphine 3개\nIFAK 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item>플레이어는 Respirator또는 GP-5 gasmask를 끼고 있어야합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_general_wares">
+        <item>General wares(일반적인 상품)</item>
+        <item>완료</item>
+        <item> - 레이드에서 can of meat 15개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> </item>
+        <item>경험치 6500\n테라피스트 우호도 +0.07\n30000루블\nCan of pacific saury 4개\nIskra lunch box 2개\nCoffee Majaica 2개</item>
+        <item> </item>
+        <item>Colleagues - Part 1</item>
+        <item>can of meat는 작은 Tushonka로 Nutrition unit 1레벨에서 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_an_apple_a_day_keeps_the_doctor_away">
+        <item>An apple a day - keeps the doctor away(하루에 사과 하나면 의사를 멀리한다.)</item>
+        <item>완료</item>
+        <item> - 40만 루블을 넘기기</item>
+        <item> </item>
+        <item>건강(Health) +2 레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_private_clinic">
+        <item>Private clinic(개인 진료소)</item>
+        <item>완료</item>
+        <item> - 레이드에서 Ophthalmoscope 찾기\n - 레이드에서 LEDX 찾기\n - 테라피스트에게 넘기기</item>
+        <item>35레벨</item>
+        <item>경험치 20100, 130000루블, 테라피스트 우호도 +0.11, T H I C C Items case, West wing room 306 key</item>
+        <item> </item>
+        <item>Decomination Service</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_athlete">
+        <item>Athlete(운동선수)</item>
+        <item>완료</item>
+        <item> - 건강(Health) 10레벨 달성하기</item>
+        <item>30레벨</item>
+        <item>경험치 19600, 테라피스트 우호도 +0.11, Hemostactic drug Zagustin 3개, Adrenaline injector 3개, 테라피스트 LL4에서 Adrenaline injector 해금, 11만 루블</item>
+        <item> </item>
+        <item>x</item>
+        <item>건강(Health)은 힘(Strength), 지구력(Endurance), 활력(Vitality)를 올려서 레벨을 올릴 수 있으며, An apple a day - keeps the doctor away를 클리어 하여 2레벨을 올릴 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_colleagues_part_1">
+        <item>Colleagues - Part 2(동료 1)</item>
+        <item>탐험</item>
+        <item> - Health resort, pier, cottage에 보냈던 그룹을 찾기\n - 해안선(Shoreline)에서 탈출하기</item>
+        <item>21레벨</item>
+        <item>경험치 12600, 테라피스트 우호도 +0.08, 45000루블</item>
+        <item> </item>
+        <item>Colleagues - Part 2</item>
+        <item>프라퍼의 퀘스트 Anesthesia와 동선이 같습니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_colleagues_part_2">
+        <item>Colleagues - Part 2(동료 2)</item>
+        <item>주워 오기</item>
+        <item> - 레이드에서 Sanitar's surgery kit, marked with a blue symbol 찾기\n - 레이드에서 Sanitar's ophthalmoscope 찾기\n - 테라피스트에게 넘기기</item>
+        <item> </item>
+        <item>경험치 13200, 테라피스트 우호도 +0.12, 60000루블</item>
+        <item> </item>
+        <item>Colleagues - Part 3, Huntsman path - Sadist</item>
+        <item>해안선(Shoreline)의 Cottage에 열쇠를 사용해 들어가면 2층의 식탁에 ophtalmoscope가 있고, pier의 Office 건물 서랍위에 surgery kit이 스폰합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_colleagues_part_3">
+        <item>Colleagues - Part 3(동료 3)</item>
+        <item>주워오기</item>
+        <item> - 세니타를 사살하지 않기\n - 레이드에서 AHF1-M을 찾기\n - 레이드에서 3-(b-TG)를 찾기\n - blue keycard를 얻기\n - green keycard를 얻기</item>
+        <item>Colleague - Part 2, Rigged game, The chemistry closet 완료</item>
+        <item></item>
+        <item> </item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item> </item>
     </string-array>
 

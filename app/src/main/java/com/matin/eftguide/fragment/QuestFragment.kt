@@ -132,7 +132,7 @@ class QuestFragment : Fragment() {
                 ctx.startActivity(
                     Intent(ctx, MenuActivity::class.java).putExtra(
                         "where",
-                        "dealer_explain"
+                        "quest list"
                     ).putExtra("dealer", dealer.split("(")[0])
                 )
             }

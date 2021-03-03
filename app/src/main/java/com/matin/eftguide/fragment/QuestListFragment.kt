@@ -34,7 +34,8 @@ class QuestListFragment : Fragment() {
 
         val list = ArrayList<QLRecycler>()
 
-
+        val prapor = arrayListOf("Debut(데뷔)", "Search Mission(수색 임무)", "Checking(찾기)", "Shootout Picnic(사격 연습)", "Delivery from the past(과거로부터의 배달)", "BP depot(유류창고 확보)", "The Bunker - Part 1(벙커 1)", "The Bunker - Part 2(벙커 2)", "Bad rep evidence(나쁜 평판의 증거)", "Ice cream cones(아이스크림 콘)", "Postman_Pat - Part 1(전달책 쓰다듬기 1)", "Shaking up teller(현금가방 흔들기)", "The Punisher - Part 1(처벌자 1)", "The Punisher - Part 2(처벌자 2)", "The Punisher - Part 3(처벌자 3)", "The Punisher - Part 4(처벌자 4)", "The Punisher - Part 5(처벌자 5)", "The Punisher - Part 6(처벌자 6)", "Anesthesia(마취)", "Grenadier(척탄병)", "Test drive - Part 1(시험 운행 1)", "Insomnia(불면증)", "Perfect Mediator(완벽한 중재자)", "Polikhim hobo(Polikhim의 노동자)", "Regulated Materials(규제 물질)", "Big Customer(거물)", "No Offence(나쁜 뜻은 아니었어)")
+        val therapist = arrayListOf("Shortage(부족)", "Operation Aquarius - Part 1(작전명 물병자리 1)", "Operation Aquarius - Part 2(작전명 물병자리 2)", "Sanitary Standards - Part 1(위생 기준 1)", "Sanitary Standards - Part 2(위생 기준 2)", "Painkiller(진통제)", "Pharmacist(약사)", )
 
         val adapter = QLAdapter(list)
         val recyclerView = view.rl_headset_menu
