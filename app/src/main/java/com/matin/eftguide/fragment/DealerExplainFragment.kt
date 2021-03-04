@@ -125,9 +125,9 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         val cm = context?.getSystemService(Context.CONNECTIVITY_SERVICE)  as ConnectivityManager
         val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
-        val isConnected: Boolean? = (activeNetwork != null&& activeNetwork.isConnectedOrConnecting)
+        val isConnected: Boolean = (activeNetwork != null&& activeNetwork.isConnectedOrConnecting)
         Log.d("DEF", "onClick: Is Internet connected? $isConnected}")
-        if(isConnected == null||!isConnected){
+        if(!isConnected){
            toast("인터넷에 연결해 주세요...")
             return
         }

@@ -6477,17 +6477,17 @@
     <!--                        Prapor's Quests                     -->
 
     <!--  이름, 유형, 목표, 요구 조건, 보상, 실패 패널티, 연계 퀘스트, 팁, 카파퀘 필요 여부, 지도-->
-    <string-array name="q_">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
-        <item> </item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item> </item>
+    <string-array name="q_test_quest">
+        <item>Test Quest</item>
+        <item>제거</item>
+        <item> - 목표 1\n - 목표 2</item>
+        <item>13레벨</item>
+        <item>경험치 10000\n100만루블</item>
+        <item>100만루블</item>
+        <item>Test Quest - Part 2</item>
+        <item>팁</item>
+        <item>아니오</item>
+        <item>위치 보기(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&amp;format=original)</item>
     </string-array>
 
     <string-array name="q_debut">
@@ -6498,7 +6498,7 @@
         <item>경험치 1700\n프라퍼 친밀도 +0.08\n15000루블\nPM 권총\n90–93 9x18PM Magazine, for 8 PM rounds 3개\nPrapor LL1에서 AKS-74U 해금</item>
         <item> </item>
         <item>Checking, Search Mission</item>
-        <item>커스텀에서 스캐브를 잡으면 확률적으로 MP-133을 들고 나옵니다. 또한 Jaeger가 MP-133을 판매하고 Mechanic이 교환으로 판매하며, 플리마켓에서 구매할 수도 있습니다.</item>
+        <item>커스텀에서 스캐브를 잡으면 확률적으로 MP-133을 들고 나옵니다\n또한 Jaeger가 MP-133을 판매하고 Mechanic이 교환으로 판매하며, 플리마켓에서 구매할 수도 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6511,7 +6511,7 @@
         <item>경험치 2000\n프라퍼 친밀도 +0.04\n22000루블\nEYE MK2 profession hand-held compass</item>
         <item> </item>
         <item>x</item>
-        <item>우드에서 2지점을 확인해야합니다. 다른 레이드에서 각각 하나씩 확인해도 되지만, 두지점 모두 확인한 후에는 반드시 탈출해야합니다.</item>
+        <item>우드에서 2지점을 확인해야합니다\n다른 레이드에서 각각 하나씩 확인해도 되지만, 두지점 모두 확인한 후에는 반드시 탈출해야합니다.</item>
         <item>예</item>
         <item>위치 보기(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&amp;format=original)</item>
     </string-array>
@@ -6521,10 +6521,10 @@
         <item>들고오기</item>
         <item> - 황동 시계 찾기\n황동 시계를 프라퍼에게 넘기기</item>
         <item>2레벨</item>
-        <item>경험치 2500\n프라퍼 친밀도 +0.05\n20000루블\nTT pistol 7.62x25 TT\nTT-105 7.62x25 TT Magazine 3개</item>
+        <item>경험치 2500\n프라퍼 친밀도 +0.05\n2만루블\nTT pistol 7.62x25 TT\nTT-105 7.62x25 TT Magazine 3개</item>
         <item> </item>
         <item>Shootout picnic, Delivery from the past</item>
-        <item>열쇠는 플리마켓에서 사도 되고, 커스텀의 기숙사 3층 건물의 2층의 205호 방의 황색의 옷속에서 고정 스폰됩니다. 그 뒤 유조 트럭의 운전석에 있는 황동 열쇠를 들고 탈출하면 됩니다.</item>
+        <item>열쇠는 플리마켓에서 사도 되고, 커스텀의 기숙사 3층 건물의 2층의 205호 방의 황색의 옷속에서 고정 스폰됩니다\n그 뒤 유조 트럭의 운전석에 있는 황동 열쇠를 들고 탈출하면 됩니다.</item>
         <item>예</item>
         <item>열쇠와 트럭 위치 지도(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f2/Checking_Map.png/revision/latest?cb=20180516165900&amp;format=original)</item>
     </string-array>
@@ -6534,7 +6534,7 @@
         <item>제거</item>
         <item> - 우드에서 스캐브 15마리 죽이기</item>
         <item>3레벨</item>
-        <item>경험치 2500\n프라퍼 우호도 +0.1\n20000루블\nAKS-74U\n6L20 30-round 5.45x39 magazine for AK-74 and compatible weapons 3개</item>
+        <item>경험치 2500\n프라퍼 우호도 +0.1\n2만루블\nAKS-74U\n6L20 30-round 5.45x39 magazine for AK-74 and compatible weapons 3개</item>
         <item> </item>
         <item>x</item>
         <item> </item>
@@ -6550,7 +6550,7 @@
         <item>경험치 4100\n프라퍼 우호도 +0.11\n12000루블\nSaiga 12ga\nSb.5 5-round 12/76 magazine for SOK-12and compatible weapons 3개\n프라퍼 LL1에서 5.45mm PS 해금</item>
         <item> </item>
         <item>BP depot</item>
-        <item>빨간 창고 2층을 Custom Office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다. 전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
+        <item>빨간 창고 2층을 Custom Office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다\n전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
         <item>예</item>
         <item>빨간 창고 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/Delivery_from_the_past_Customs.png/revision/latest?cb=20180516174114&amp;format=original)||팩토리 전달 장소(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5c/Delivery_from_the_past_dropoff.png/revision/latest?cb=20180516171946&amp;format=original)</item>
     </string-array>
@@ -6560,10 +6560,10 @@
         <item>발견</item>
         <item> - 커스텀에 유조 트럭 1, 2, 3, 4에 신호기를 설치한 뒤 탈출하기</item>
         <item>5레벨</item>
-        <item>경험치 3800\n프라퍼 우호도 +0.08\n예거 우호도 -0.01\n30000루블\nRGD-5 수류탄 3개\nExpeditionary 기름통</item>
+        <item>경험치 3800\n프라퍼 우호도 +0.08\n예거 우호도 -0.01\n3만루블\nRGD-5 수류탄 3개\nExpeditionary 기름통</item>
         <item> </item>
         <item>Bad rep evidence, The bunker - Part 1</item>
-        <item>신호기를 한 레이드에서 설치하진 않아도 됩니다. 또한 신호기는 잃어버려도 프라퍼에게 다시 살 수 있습니다.</item>
+        <item>신호기를 한 레이드에서 설치하진 않아도 됩니다\n또한 신호기는 잃어버려도 프라퍼에게 다시 살 수 있습니다.</item>
         <item>예</item>
         <item>유조 탱크 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/BP_Depot_Marked_Map.jpg/revision/latest?cb=20210112151343&amp;format=original)</item>
     </string-array>
@@ -6573,7 +6573,7 @@
         <item>성공</item>
         <item> - 지하 벙커를 찾기\n - 지하 벙커의 제어실 찾기\n - 탈출하기</item>
         <item>10레벨</item>
-        <item>경험치 6000\n프라퍼 우호도 +0.08\n20000루블\nAK-74N\n5.45x39mm BT 120발</item>
+        <item>경험치 6000\n프라퍼 우호도 +0.08\n2만루블\nAK-74N\n5.45x39mm BT 120발</item>
         <item> </item>
         <item>The bunker - Part 2</item>
         <item> </item>
@@ -6628,7 +6628,7 @@
         <item>경험치 6000\n프라퍼 우호도 +0.08\n19000루블\nFlyye MBSS Backpack</item>
         <item> </item>
         <item>Postman Pat - part 2(동시에 해금), Shaking up teller</item>
-        <item>빠르게 편지를 주워서 탈출해야합니다. 탈출하다가 사망하면 다시 주워와야합니다.</item>
+        <item>빠르게 편지를 주워서 탈출해야합니다\n탈출하다가 사망하면 다시 주워와야합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6651,10 +6651,10 @@
         <item>제거</item>
         <item> - 해안가(Shoreline)에서 AKM 류 무기로 스캐브 15명 사살하기</item>
         <item>17레벨</item>
-        <item>경험치 10800\n프라퍼 우호도 +0.08, 40000루블, 6B43 Zabralo-Sh 6A Armor, 프라퍼 LL3에서 SV-98 bolt-action sniper rifle 해금</item>
+        <item>경험치 10800\n프라퍼 우호도 +0.08, 4만루블, 6B43 Zabralo-Sh 6A Armor, 프라퍼 LL3에서 SV-98 bolt-action sniper rifle 해금</item>
         <item> </item>
         <item>The Punisher - Part 2</item>
-        <item>VPO시리즈의 AKM은 사용할 수 없습니다. 외곽을 돌면서 스캐브를 사냥하시면 됩니다.</item>
+        <item>VPO시리즈의 AKM은 사용할 수 없습니다\n외곽을 돌면서 스캐브를 사냥하시면 됩니다.</item>
         <item>에</item>
         <item> </item>
     </string-array>
@@ -6664,10 +6664,10 @@
         <item>제거</item>
         <item> - 해안가(Shoreline)에서 소음기가 장착된 무기로 스캐브 12명 사살하기\n - 레이드에서 lower half-masks 7개 찾기\n - 마스크를 프라퍼에게 넘기기</item>
         <item>18레벨</item>
-        <item>경험치 13900\n프라퍼 우호도 +0.1\n70000루블\nMilitary cable 2개</item>
+        <item>경험치 13900\n프라퍼 우호도 +0.1\n7만루블\nMilitary cable 2개</item>
         <item> </item>
         <item>The Punisher - Part 3</item>
-        <item>lower half-masks는 스캐브에서 나옵니다. 미리미리 모아두는 게 편합니다.</item>
+        <item>lower half-masks는 스캐브에서 나옵니다\n미리미리 모아두는 게 편합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6690,10 +6690,10 @@
         <item>제거</item>
         <item> - 숲(Woods)에서 12게이지 샷건으로 스캐브 10명 사살하기\n - 해안가(Shoreline)에서 balaclava와 scav vest를 입고 PMC 10명 사살하기\n - 레이드에서 Bars A-2607 5개 찾기\n - 칼을 프라퍼에게 넘기기</item>
         <item>20레벨</item>
-        <item>경험치 19000\n프라퍼 우호도 +0.12\n예거 우호도 -0.01\n100000루블\nColt M4A1 5.56x45 Assault Rifle\n프라퍼 LL3에서 5.45x39mm BT 해금</item>
+        <item>경험치 19000\n프라퍼 우호도 +0.12\n예거 우호도 -0.01\n10만루블\nColt M4A1 5.56x45 Assault Rifle\n프라퍼 LL3에서 5.45x39mm BT 해금</item>
         <item> </item>
         <item>The Punisher - Part 5</item>
-        <item>Balaclava만 착용해도 퀘스트가 깨지는 버그가 있습니다. 12게이지 슬러그 탄이나 6.5mm 탄을 사용해 멀리서 사살하는 편이 좋습니다.</item>
+        <item>Balaclava만 착용해도 퀘스트가 깨지는 버그가 있습니다\n12게이지 슬러그 탄이나 6.5mm 탄을 사용해 멀리서 사살하는 편이 좋습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6716,7 +6716,7 @@
         <item>제거</item>
         <item> - SVD를 사용해 PMC 15명 사살하기\n - PMC Bear dogtags 7개 찾기\n - PMC USEC dogtags 7개 찾기\n - 프라퍼에게 넘기기</item>
         <item>21레벨</item>
-        <item>경험치 20600\n프라퍼 우호도 +0.12\n테라피스트 우호도 +0.15\n스키어 우호도 +0.06\n250000루블\nSecure container Epsilon</item>
+        <item>경험치 20600\n프라퍼 우호도 +0.12\n테라피스트 우호도 +0.15\n스키어 우호도 +0.06\n25만루블\nSecure container Epsilon</item>
         <item> </item>
         <item>x</item>
         <item> </item>
@@ -6729,7 +6729,7 @@
         <item>발견</item>
         <item> - 해안가(Shoreline)에서 거래 장소 3곳에 신호기 설치하기\n - 탈출하기</item>
         <item>21레벨</item>
-        <item>경험치 12600\n프라퍼 우호도 +0.1\n50000루블\nAS VAL\n9x39mm 7N9 SPP 100발\n9x39mm SP-6 100발</item>
+        <item>경험치 12600\n프라퍼 우호도 +0.1\n5만루블\nAS VAL\n9x39mm 7N9 SPP 100발\n9x39mm SP-6 100발</item>
         <item> </item>
         <item>Rigged game, Samples</item>
         <item>테라피스트의 Colleagues - Part 1과 장소가 같으니 같이 깰 수 있습니다.</item>
@@ -6742,7 +6742,7 @@
         <item>제거</item>
         <item> - 수류탄을 사용해 PMC 12명 사살하기</item>
         <item>30레벨</item>
-        <item>경험치 21300\n50000루블\nf-1 수류탄 7개\n5.45x39mm BT 240발\n프라퍼 LL4에서 9x39mm 7N12 BP 해금</item>
+        <item>경험치 21300\n5만루블\nf-1 수류탄 7개\n5.45x39mm BT 240발\n프라퍼 LL4에서 9x39mm 7N12 BP 해금</item>
         <item> </item>
         <item>Insomnia, Test drive - Part 1</item>
         <item>도끼런의 다리를 부러뜨리고 수류탄으로 죽이면 킬카운트를 올리기 쉽습니다.</item>
@@ -6755,7 +6755,7 @@
         <item>제거</item>
         <item> - Hybrid 46 silencer와 REAP-IR thermal scope를 단 M1A로 PMC 5명 사살하기</item>
         <item> </item>
-        <item>경험치 31000\n프라퍼 우호도 +0.12\n300000루블\nRPK-16 2정\n95-round 5.45x39mm magazine for RPK-16 and compatibles 6개\nGolden neck chain 5개</item>
+        <item>경험치 31000\n프라퍼 우호도 +0.12\n30만루블\nRPK-16 2정\n95-round 5.45x39mm magazine for RPK-16 and compatibles 6개\nGolden neck chain 5개</item>
         <item> </item>
         <item>x</item>
         <item> </item>
@@ -6807,7 +6807,7 @@
         <item>주워오기</item>
         <item> - 레이드에서 military battery 찾기\n - 레이드에서 shells for BMP cannon 5개 찾기\n - 프라퍼에게 넘기기</item>
         <item>25레벨</item>
-        <item>150000루블\n프라퍼 LL4에서 ASh-12 해금</item>
+        <item>15만루블\n프라퍼 LL4에서 ASh-12 해금</item>
         <item> </item>
         <item>x</item>
         <item>군사기지(Reserve)에서 해당 아이템들이 뜹니다.</item>
@@ -6820,7 +6820,7 @@
         <item>완료</item>
         <item> - 화학 물질의 위치를 찾기\n - 위치에 신호기 설치하기\n - 세관(Customs)를 탈출하기</item>
         <item> </item>
-        <item>경험치 8200\n프라퍼 우호도 +0.1\n예거 우호도 -0.01\n200000루블\nPACA Soft Armor\nAmmo case 2개</item>
+        <item>경험치 8200\n프라퍼 우호도 +0.1\n예거 우호도 -0.01\n20만루블\nPACA Soft Armor\nAmmo case 2개</item>
         <item>프라퍼 우호도 -0.15</item>
         <item>No offence(실패)</item>
         <item>스키어의 퀘스트를 선택하는게 이득입니다.</item>
@@ -6940,7 +6940,7 @@
         <item>경험치 7600\n테라피스트 우호도 +0.08\n1500달러\nGrizzly First Aid kit 2개\nRegenerative stimulator injector eTG-change 1개</item>
         <item> </item>
         <item>Hippocratic Vow</item>
-        <item>Spark Plug는 서랍(Drawer)에서 자주 스폰됩니다. Car battery는 하이드아웃 Workbench 2레벨에 제작할 수 있습니다.</item>
+        <item>Spark Plug는 서랍(Drawer)에서 자주 스폰됩니다\nCar battery는 하이드아웃 Workbench 2레벨에 제작할 수 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6963,7 +6963,7 @@
         <item>주워 오기</item>
         <item> - 숲(Woods)에서 Secure folder 찾기\n - 숲(Woods) 탈출하기\n - 테라피스트에게 넘기기</item>
         <item>13레벨</item>
-        <item>경험치 7700\n테라피스트 우호도 +0.09\n70000루블</item>
+        <item>경험치 7700\n테라피스트 우호도 +0.09\n7만루블</item>
         <item>테라피스트 우호도 -0.1</item>
         <item>x</item>
         <item>스키어에게 전달하는 것이 보상이 더 좋습니다.</item>
@@ -7041,7 +7041,7 @@
         <item>제거</item>
         <item> - 쇼핑몰(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
         <item>Health Care Privacy - Part 5와 Private Clinic 완료</item>
-        <item>경험치 21600\n300000루블\n테라피스트 우호도 +0.11\nMorphine 3개\nIFAK 3개</item>
+        <item>경험치 21600\n30만루블\n테라피스트 우호도 +0.11\nMorphine 3개\nIFAK 3개</item>
         <item> </item>
         <item>x</item>
         <item>플레이어는 Respirator또는 GP-5 gasmask를 끼고 있어야합니다.</item>
@@ -7054,7 +7054,7 @@
         <item>완료</item>
         <item> - 레이드에서 can of meat 15개 찾기\n - 테라피스트에게 넘기기</item>
         <item> </item>
-        <item>경험치 6500\n테라피스트 우호도 +0.07\n30000루블\nCan of pacific saury 4개\nIskra lunch box 2개\nCoffee Majaica 2개</item>
+        <item>경험치 6500\n테라피스트 우호도 +0.07\n3만루블\nCan of pacific saury 4개\nIskra lunch box 2개\nCoffee Majaica 2개</item>
         <item> </item>
         <item>Colleagues - Part 1</item>
         <item>can of meat는 작은 Tushonka로 Nutrition unit 1레벨에서 제작할 수 있습니다.</item>
@@ -7080,7 +7080,7 @@
         <item>완료</item>
         <item> - 레이드에서 Ophthalmoscope 찾기\n - 레이드에서 LEDX 찾기\n - 테라피스트에게 넘기기</item>
         <item>35레벨</item>
-        <item>경험치 20100, 130000루블, 테라피스트 우호도 +0.11, T H I C C Items case, West wing room 306 key</item>
+        <item>경험치 20100\n13만루블\n테라피스트 우호도 +0.11\nT H I C C Items case\nWest wing room 306 key</item>
         <item> </item>
         <item>Decomination Service</item>
         <item> </item>
@@ -7093,7 +7093,7 @@
         <item>완료</item>
         <item> - 건강(Health) 10레벨 달성하기</item>
         <item>30레벨</item>
-        <item>경험치 19600, 테라피스트 우호도 +0.11, Hemostactic drug Zagustin 3개, Adrenaline injector 3개, 테라피스트 LL4에서 Adrenaline injector 해금, 11만 루블</item>
+        <item>경험치 19600\n테라피스트 우호도 +0.11\nHemostactic drug Zagustin 3개\nAdrenaline injector 3개\n테라피스트 LL4에서 Adrenaline injector 해금\n11만 루블</item>
         <item> </item>
         <item>x</item>
         <item>건강(Health)은 힘(Strength), 지구력(Endurance), 활력(Vitality)를 올려서 레벨을 올릴 수 있으며, An apple a day - keeps the doctor away를 클리어 하여 2레벨을 올릴 수 있습니다.</item>
@@ -7106,7 +7106,7 @@
         <item>탐험</item>
         <item> - Health resort, pier, cottage에 보냈던 그룹을 찾기\n - 해안선(Shoreline)에서 탈출하기</item>
         <item>21레벨</item>
-        <item>경험치 12600, 테라피스트 우호도 +0.08, 45000루블</item>
+        <item>경험치 12600\n테라피스트 우호도 +0.08\n45000루블</item>
         <item> </item>
         <item>Colleagues - Part 2</item>
         <item>프라퍼의 퀘스트 Anesthesia와 동선이 같습니다.</item>
@@ -7117,9 +7117,9 @@
     <string-array name="q_colleagues_part_2">
         <item>Colleagues - Part 2(동료 2)</item>
         <item>주워 오기</item>
-        <item> - 레이드에서 Sanitar's surgery kit, marked with a blue symbol 찾기\n - 레이드에서 Sanitar's ophthalmoscope 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Sanitar\'s surgery kit, marked with a blue symbol 찾기\n - 레이드에서 Sanitar\'s ophthalmoscope 찾기\n - 테라피스트에게 넘기기</item>
         <item> </item>
-        <item>경험치 13200, 테라피스트 우호도 +0.12, 60000루블</item>
+        <item>경험치 13200\n테라피스트 우호도 +0.12\n6만루블</item>
         <item> </item>
         <item>Colleagues - Part 3, Huntsman path - Sadist</item>
         <item>해안선(Shoreline)의 Cottage에 열쇠를 사용해 들어가면 2층의 식탁에 ophtalmoscope가 있고, pier의 Office 건물 서랍위에 surgery kit이 스폰합니다.</item>
@@ -7132,7 +7132,7 @@
         <item>주워오기</item>
         <item> - 세니타를 사살하지 않기\n - 레이드에서 AHF1-M을 찾기\n - 레이드에서 3-(b-TG)를 찾기\n - blue keycard를 얻기\n - green keycard를 얻기</item>
         <item>Colleague - Part 2, Rigged game, The chemistry closet 완료</item>
-        <item>경험치 13800, 테라피스트 우호도 +0.2, 150000루블</item>
+        <item>경험치 13800\n테라피스트 우호도 +0.2\n15만루블</item>
         <item>테라피스트 우호도 -0.2</item>
         <item>x</item>
         <item>퀘스트의 난이도와 보상 모두 예거의 Huntsman past - Sadist가 낫습니다.</item>
@@ -7145,7 +7145,7 @@
         <item>주워오기</item>
         <item> - 연락치의 편지를 테라피스트에게 넘기기</item>
         <item>Post man Pat - Part 1의 해금</item>
-        <item>경험치 4200, 테라피스트 우호도 +0.06, 5000루블, 테라피스트 LL2에서 Salewa 해금</item>
+        <item>경험치 4200\n테라피스트 우호도 +0.06\n5000루블\n테라피스트 LL2에서 Salewa 해금</item>
         <item> </item>
         <item>x</item>
         <item>Postman Pat - Part 1에서 가져온 편지를 전달하면 됩니다.</item>
@@ -7158,7 +7158,7 @@
         <item>주워오기</item>
         <item> - 화학물질이 담긴 차를 찾기\n - 신호기를 설치하기\n - 커스텀에서 탈출하기</item>
         <item>Chemical - Part 3 완료</item>
-        <item>경험치 8300, 테라피스트 우호도 +0.3, 17만루블, Meds case</item>
+        <item>경험치 8300\n테라피스트 우호도 +0.3\n17만루블\nMeds case</item>
         <item>테라피스트 -0.3</item>
         <item>Loyalty buyout, No offence</item>
         <item>스키어의 Chemical - Part 4를 깨는 것이 이득입니다.</item>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="이름"
+                
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Quest Name in Here"
+                android:id="@+id/tv_quest_name"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:text="유형"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="16dp"
+                android:text="Kinds"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_kind"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="요구 조건"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginEnd="4dp"
+                
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requirement"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_requirement"
+                />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+            
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:text="목표"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginEnd="4dp"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - 1st Object\n - 2nd Object"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_object"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:text="보상"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - 1st Reward\n - 2st Reward"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_reward"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:text="실패 패널티"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - 1st Penalty\n - 2nd Penalty"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_penalty"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="연계 퀘스트"
+                android:gravity="center"
+                android:layout_marginEnd="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relate Quest in Here"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/tv_quest_relate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="17dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="팁"
+                android:gravity="center"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - 1st Tip in Here\n - 2st Tip in Here"
+                android:textSize="20sp"
+                android:id="@+id/tv_quest_tip"
+                 />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/tv_quest_need_for_kappa"
+            android:text="Kappa 컨테이너에 필요 : O/X"/>
+
+    </TableLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

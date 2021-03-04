@@ -70,8 +70,6 @@ class MapActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelecte
                     }
                 ).commit()
             }
-            
-            
             R.id.item_menu_features -> {
                 supportFragmentManager.beginTransaction().replace(
                     R.id.fl_mapFrame,

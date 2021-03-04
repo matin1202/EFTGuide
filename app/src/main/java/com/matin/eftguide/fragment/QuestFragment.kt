@@ -14,6 +14,8 @@ import com.matin.eftguide.MenuActivity
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.hideout_list.view.*
 import org.jetbrains.anko.imageResource
+import java.util.*
+import kotlin.collections.ArrayList
 
 class QuestFragment : Fragment() {
     override fun onCreateView(
@@ -130,10 +132,8 @@ class QuestFragment : Fragment() {
 
             private fun loadPage(ctx: Context, dealer: String) {
                 ctx.startActivity(
-                    Intent(ctx, MenuActivity::class.java).putExtra(
-                        "where",
-                        "quest list"
-                    ).putExtra("dealer", dealer.split("(")[0])
+                    Intent(ctx, MenuActivity::class.java).putExtra("where", "quest list").putExtra("dealer", dealer.split("(")[0].toLowerCase(
+                        Locale.ROOT))
                 )
             }
         }

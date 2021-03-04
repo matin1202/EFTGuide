@@ -1,9 +1,7 @@
 package com.matin.eftguide
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.google.android.gms.ads.AdRequest
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
@@ -33,7 +31,7 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
         bn_quest_navigation.setOnNavigationItemSelectedListener(this)
         supportFragmentManager.beginTransaction().replace(
             R.id.fl_questFrame,
-            MenuQuestFragment().apply{
+            MenuQuestMapFragment().apply{
                 arguments = Bundle().apply {
                     putString("quest", intent.getStringExtra("quests"))
                     putInt("image", intent.getIntExtra("image", 0))
@@ -45,37 +43,32 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
         
         when(p0.itemId){
-            R.id.item_menu_extraction -> {
+            R.id.item_menu_dialogue -> {
                 supportFragmentManager.beginTransaction().replace(
                     R.id.fl_questFrame,
                     MenuDialogueFragment().apply{
                         arguments = Bundle().apply {
                             putString("quest", intent.getStringExtra("quests"))
-                            putInt("image", intent.getIntExtra("image", 0))
                         }
                     }
                 ).commit()
             }
-            
-            
-            R.id.item_menu_features -> {
+            R.id.item_menu_quest -> {
                 supportFragmentManager.beginTransaction().replace(
                     R.id.fl_questFrame,
-                    MenuQuestFeatureFragment().apply{
+                    MenuQuestExplainFragment().apply{
                         arguments = Bundle().apply {
                             putString("quest", intent.getStringExtra("quests"))
-                            putInt("image", intent.getIntExtra("image", 0))
                         }
                     }
                 ).commit()
             }
-            R.id.item_menu_maps -> {
+            R.id.item_menu_quest_maps -> {
                 supportFragmentManager.beginTransaction().replace(
                     R.id.fl_questFrame,
-                    MenuQuestFragment().apply{
+                    MenuQuestMapFragment().apply{
                         arguments = Bundle().apply {
                             putString("quest", intent.getStringExtra("quests"))
-                            putInt("image", intent.getIntExtra("image", 0))
                         }
                     }
                 ).commit()

@@ -34,6 +34,7 @@
 
     <style name="customTextViewFontStyle" parent="@android:style/Widget.DeviceDefault.TextView">
         <item name="android:fontFamily">@font/font_family</item>
+        <item name="android:textColor">@color/text_color</item>
     </style>
 
     <style name="customButtonFontStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">

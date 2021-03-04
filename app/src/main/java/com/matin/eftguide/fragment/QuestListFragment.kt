@@ -3,12 +3,16 @@ package com.matin.eftguide.fragment
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AlphaAnimation
 import android.widget.ImageView
+import androidx.core.widget.TextViewCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -21,6 +25,7 @@ import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_headset.view.*
 import kotlinx.android.synthetic.main.image_dialog.view.*
 import kotlinx.android.synthetic.main.main_list.view.*
+import org.jetbrains.anko.image
 import org.jetbrains.anko.imageResource
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import java.util.*
@@ -74,9 +79,21 @@ class QuestListFragment : Fragment() {
             val view = v
             fun bind(item: QLRecycler){
                 view.main_textView.text = item.title
+                view.main_imageView.imageAlpha = Color.TRANSPARENT
+                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    view.main_textView.setAutoSizeTextTypeUniformWithConfiguration(
+                        8,
+                        24,
+                        2,
+                        TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM
+                    )
+                }
+                else{
+                    view.main_textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18.0F)
+                }
 
                 view.onClick{
-                    item.context?.startActivity(Intent(item.context, QuestActivity::class.java).putExtra("quest", item.title.split("(")[0].replace(" - ", "_").replace(" ", "_").toLowerCase(Locale.ROOT)))
+                    item.context?.startActivity(Intent(item.context, QuestActivity::class.java).putExtra("quest", "q_${item.title.split("(")[0].replace(" - ", "_").replace(" ", "_").toLowerCase(Locale.ROOT)}"))
                     return@onClick
                 }
             }
