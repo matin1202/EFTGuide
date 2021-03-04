@@ -61,7 +61,7 @@ class MainActivity : BaseActivity() {
         }
 
 
-        val appUpdateManager = AppUpdateManagerFactory.create(this)
+        /*val appUpdateManager = AppUpdateManagerFactory.create(this)
         appUpdateManager.let {
             it.appUpdateInfo.addOnSuccessListener { appUpdateInfo ->
                 if(appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
@@ -83,7 +83,7 @@ class MainActivity : BaseActivity() {
                     )
                 }
             }
-            
+
         }
 
         val listener = InstallStateUpdatedListener {
@@ -93,17 +93,7 @@ class MainActivity : BaseActivity() {
                 }
             }
         }
-        appUpdateManager.registerListener(listener)
-
-        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
-            if(!task.isSuccessful){
-                Log.w("MA", "Fetching FCM registration token failed", task.exception)
-            }
-
-            val token = task.result
-
-            Log.d("MA", "Token is $token")
-        })
+        appUpdateManager.registerListener(listener)*/
 
         MobileAds.initialize(this, getString(R.string.test_ad_code))
 

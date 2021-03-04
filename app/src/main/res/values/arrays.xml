@@ -7132,11 +7132,50 @@
         <item>주워오기</item>
         <item> - 세니타를 사살하지 않기\n - 레이드에서 AHF1-M을 찾기\n - 레이드에서 3-(b-TG)를 찾기\n - blue keycard를 얻기\n - green keycard를 얻기</item>
         <item>Colleague - Part 2, Rigged game, The chemistry closet 완료</item>
-        <item></item>
+        <item>경험치 13800, 테라피스트 우호도 +0.2, 150000루블</item>
+        <item>테라피스트 우호도 -0.2</item>
+        <item>x</item>
+        <item>퀘스트의 난이도와 보상 모두 예거의 Huntsman past - Sadist가 낫습니다.</item>
+        <item>아니오</item>
         <item> </item>
-        <item></item>
-        <item></item>
-        <item></item>
+    </string-array>
+
+    <string-array name="q_postman_pat_part_2">
+        <item>Postman Pat - Part 2(연락책 쓰다듬기 2)</item>
+        <item>주워오기</item>
+        <item> - 연락치의 편지를 테라피스트에게 넘기기</item>
+        <item>Post man Pat - Part 1의 해금</item>
+        <item>경험치 4200, 테라피스트 우호도 +0.06, 5000루블, 테라피스트 LL2에서 Salewa 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>Postman Pat - Part 1에서 가져온 편지를 전달하면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_out_of_curiosity">
+        <item>Out of Curiosity(호기심에서)</item>
+        <item>주워오기</item>
+        <item> - 화학물질이 담긴 차를 찾기\n - 신호기를 설치하기\n - 커스텀에서 탈출하기</item>
+        <item>Chemical - Part 3 완료</item>
+        <item>경험치 8300, 테라피스트 우호도 +0.3, 17만루블, Meds case</item>
+        <item>테라피스트 -0.3</item>
+        <item>Loyalty buyout, No offence</item>
+        <item>스키어의 Chemical - Part 4를 깨는 것이 이득입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_trust_regain">
+        <item>Trust Regain(신뢰 되찾기)</item>
+        <item>주워오기</item>
+        <item> - 기숙사 303호 열쇠를 찾기\n - ZB-014의 열쇠를 찾기\n - the customs military checkpoint key를 찾기\n - gas station closet key를 찾기\n - 테라피스트에게 넘기기</item>
+        <item>Out of curiosity의 실패</item>
+        <item>테라피스트 우호도 +0.3</item>
+        <item> </item>
+        <item>x</item>
+        <item>플리마켓에서 해당 열쇠들을 구매하여 전달하면 됩니다.</item>
+        <item>아니오</item>
         <item> </item>
     </string-array>
 
