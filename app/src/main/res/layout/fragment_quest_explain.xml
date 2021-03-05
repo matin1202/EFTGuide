@@ -19,7 +19,8 @@
         android:stretchColumns="*"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:divider="@color/text_color">
 
         <LinearLayout
             android:layout_height="wrap_content"
@@ -27,17 +28,17 @@
             android:padding="8dp">
 
             <TextView
-                android:layout_width="39dp"
+                android:layout_width="97dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="8dp"
                 android:text="이름"
-                
+                android:gravity="center_vertical"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="8dp"
                 android:text="Quest Name in Here"
                 android:id="@+id/tv_quest_name"
                 android:textSize="20sp" />
@@ -51,14 +52,15 @@
             <TextView
                 android:layout_width="39dp"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="8dp"
                 android:text="유형"
+                android:gravity="center_vertical"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="74dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 android:text="Kinds"
                 android:textSize="20sp"
@@ -71,7 +73,7 @@
                 android:text="요구 조건"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="8dp"
                 
                 />
 
@@ -91,12 +93,12 @@
             android:padding="8dp">
             
             <TextView
-                android:layout_width="39dp"
+                android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:text="목표"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
-                android:layout_marginEnd="4dp"/>
+                android:layout_marginEnd="16dp"/>
             
             <TextView
                 android:layout_width="match_parent"
@@ -113,12 +115,12 @@
             android:padding="8dp">
 
             <TextView
-                android:layout_width="39dp"
+                android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:text="보상"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
-                android:layout_marginEnd="4dp"/>
+                android:layout_marginEnd="16dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -140,7 +142,7 @@
                 android:text="실패 패널티"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:layout_marginEnd="4dp"/>
+                android:layout_marginEnd="16dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -162,7 +164,7 @@
                 android:textSize="20sp"
                 android:text="연계 퀘스트"
                 android:gravity="center"
-                android:layout_marginEnd="2dp"
+                android:layout_marginEnd="4dp"
                 />
 
             <TextView
@@ -181,17 +183,18 @@
             android:padding="8dp">
 
             <TextView
-                android:layout_width="17dp"
+                android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:textSize="20sp"
                 android:text="팁"
-                android:gravity="center"
-                android:layout_marginEnd="4dp"/>
+                android:gravity="center_vertical"
+                android:layout_marginEnd="16dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=" - 1st Tip in Here\n - 2st Tip in Here"
+                android:gravity="center"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_tip"
                  />

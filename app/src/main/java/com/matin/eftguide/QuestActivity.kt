@@ -17,13 +17,6 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quest)
 
-        val firebaseAnalytics = Firebase.analytics
-
-        firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT) {
-            param(FirebaseAnalytics.Param.CONTENT_TYPE, "quest")
-            param(FirebaseAnalytics.Param.ITEM_NAME, intent.getStringExtra("quests")!!)
-        }
-
         if(prefs.getBoolean("adLoad", true)) {
             quest_adView.loadAd(AdLoaderClass().adRequest)
         }
@@ -31,9 +24,9 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
         bn_quest_navigation.setOnNavigationItemSelectedListener(this)
         supportFragmentManager.beginTransaction().replace(
             R.id.fl_questFrame,
-            MenuQuestMapFragment().apply{
+            MenuQuestExplainFragment().apply{
                 arguments = Bundle().apply {
-                    putString("quest", intent.getStringExtra("quests"))
+                    putString("quest", intent.getStringExtra("quest"))
                     putInt("image", intent.getIntExtra("image", 0))
                 }
             }
@@ -48,7 +41,7 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
                     R.id.fl_questFrame,
                     MenuDialogueFragment().apply{
                         arguments = Bundle().apply {
-                            putString("quest", intent.getStringExtra("quests"))
+                            putString("quest", intent.getStringExtra("quest"))
                         }
                     }
                 ).commit()
@@ -58,7 +51,7 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
                     R.id.fl_questFrame,
                     MenuQuestExplainFragment().apply{
                         arguments = Bundle().apply {
-                            putString("quest", intent.getStringExtra("quests"))
+                            putString("quest", intent.getStringExtra("quest"))
                         }
                     }
                 ).commit()
@@ -68,7 +61,7 @@ class QuestActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelec
                     R.id.fl_questFrame,
                     MenuQuestMapFragment().apply{
                         arguments = Bundle().apply {
-                            putString("quest", intent.getStringExtra("quests"))
+                            putString("quest", intent.getStringExtra("quest"))
                         }
                     }
                 ).commit()

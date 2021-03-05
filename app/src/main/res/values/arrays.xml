@@ -6480,7 +6480,7 @@
     <string-array name="q_test_quest">
         <item>Test Quest</item>
         <item>제거</item>
-        <item> - 목표 1\n - 목표 2</item>
+        <item>- 목표 1\n- 목표 2</item>
         <item>13레벨</item>
         <item>경험치 10000\n100만루블</item>
         <item>100만루블</item>
@@ -6493,7 +6493,7 @@
     <string-array name="q_debut">
         <item>Debut(데뷔)</item>
         <item>제거</item>
-        <item> - 커스텀에서 5명의 스캐브를 죽이기.\n - MP-133 샷건을 2개 넘기기.</item>
+        <item>- 커스텀에서 5명의 스캐브를 죽이기.\n- MP-133 샷건을 2개 넘기기.</item>
         <item>1레벨</item>
         <item>경험치 1700\n프라퍼 친밀도 +0.08\n15000루블\nPM 권총\n90–93 9x18PM Magazine, for 8 PM rounds 3개\nPrapor LL1에서 AKS-74U 해금</item>
         <item> </item>
@@ -6506,7 +6506,7 @@
     <string-array name="q_search_mission">
         <item>Search Mission(수색 임무)</item>
         <item>성공</item>
-        <item> - 프라퍼의 사라진 호송대를 찾기.\n - USEC 임시 캠프를 찾기\n - 생존하여 탈출하기</item>
+        <item>- 프라퍼의 사라진 호송대를 찾기.\n- USEC 임시 캠프를 찾기\n- 생존하여 탈출하기</item>
         <item>5레벨</item>
         <item>경험치 2000\n프라퍼 친밀도 +0.04\n22000루블\nEYE MK2 profession hand-held compass</item>
         <item> </item>
@@ -6571,7 +6571,7 @@
     <string-array name="q_the_bunker_part_1">
         <item>The bunker - Part 1(벙커 1)</item>
         <item>성공</item>
-        <item> - 지하 벙커를 찾기\n - 지하 벙커의 제어실 찾기\n - 탈출하기</item>
+        <item> - 지하 벙커를 찾기\n - 지하 벙커의 제어실 찾기\n- 탈출하기</item>
         <item>10레벨</item>
         <item>경험치 6000\n프라퍼 우호도 +0.08\n2만루블\nAK-74N\n5.45x39mm BT 120발</item>
         <item> </item>
@@ -6597,7 +6597,7 @@
     <string-array name="q_bad_rep_evidence">
         <item>Bad rep evidence(나쁜 평판의 증거)</item>
         <item>들고오기</item>
-        <item> - 세관(Customs)에서 secure folder 0031을 가져오기\n - 프라퍼에게 secure folder 0031 넘기기\n - 커스텀에서 탈출하기</item>
+        <item> - 세관(Customs)에서 secure folder 0031을 가져오기\n- 프라퍼에게 secure folder 0031 넘기기\n- 커스텀에서 탈출하기</item>
         <item>6레벨</item>
         <item>경험치 4200\n프라퍼 우호도 +0.1\n16000루블\nPP–9 Klin\nStandard 9x18PM 30–round magazine for PP–91 3개\n프라퍼 LL2에서 Zenit–Belomo PSO 1M2–1 4x24 scope 해금</item>
         <item> </item>
@@ -6610,7 +6610,7 @@
     <string-array name="q_ice_cream_cones">
         <item>Ice cream cones(아이스크림 콘)</item>
         <item>들고오기</item>
-        <item> - 6L31 60-rounds mags for AK 3개를 레이드에서 찾거나 하이드아웃에서 만들기\n - 6L31 60-rounds mags for AK 3개를 프라퍼에게 넘기기</item>
+        <item> - 6L31 60-rounds mags for AK 3개를 레이드에서 찾거나 하이드아웃에서 만들기\n- 6L31 60-rounds mags for AK 3개를 프라퍼에게 넘기기</item>
         <item>9레벨</item>
         <item>경험치 5400\n프라퍼 우호도 +0.08\n17000루블\nRPK-16\n5.45x39mm BP 200개\n프라퍼 LL2에서 60-rounds 6L31 5.45x39mm magazine for AK-74 and compatibles 해금</item>
         <item> </item>
@@ -6623,7 +6623,7 @@
     <string-array name="q_postman_pat_part_1">
         <item>Postman Pat - Part 1(전달책 쓰다듬기 1)</item>
         <item>들고오기</item>
-        <item> - 공장(Factory)에서 전달책에 있는 편지 찾기\n - 공장(Factory)에서 탈출하기\n - 테라피스트에게 편지 넘기기</item>
+        <item> - 공장(Factory)에서 전달책에 있는 편지 찾기\n- 공장(Factory)에서 탈출하기\n- 테라피스트에게 편지 넘기기</item>
         <item>10레벨</item>
         <item>경험치 6000\n프라퍼 우호도 +0.08\n19000루블\nFlyye MBSS Backpack</item>
         <item> </item>
@@ -6636,7 +6636,7 @@
     <string-array name="q_shaking_up_teller">
         <item>Shaking up teller(현금가방 흔들기)</item>
         <item>들고 오기</item>
-        <item> - 기숙사 203호에서 귀중품 찾기\n - 프라퍼에게 넘기기</item>
+        <item> - 기숙사 203호에서 귀중품 찾기\n- 프라퍼에게 넘기기</item>
         <item>프라퍼 LL2</item>
         <item>경험치 6100\n프라퍼 우호도 +0.08\n예거 우호도 -0.01\n52000루블\n프라퍼 LL3에서 PBS-4 5.45x39 Silencer 해금\n프라퍼 LL2에서 Hexagon 12K sound suppressor 해금</item>
         <item> </item>
@@ -6662,7 +6662,7 @@
     <string-array name="q_the_punisher_part_2">
         <item>The Punisher - Part 2(처벌자 2)</item>
         <item>제거</item>
-        <item> - 해안가(Shoreline)에서 소음기가 장착된 무기로 스캐브 12명 사살하기\n - 레이드에서 lower half-masks 7개 찾기\n - 마스크를 프라퍼에게 넘기기</item>
+        <item> - 해안가(Shoreline)에서 소음기가 장착된 무기로 스캐브 12명 사살하기\n- 레이드에서 lower half-masks 7개 찾기\n- 마스크를 프라퍼에게 넘기기</item>
         <item>18레벨</item>
         <item>경험치 13900\n프라퍼 우호도 +0.1\n7만루블\nMilitary cable 2개</item>
         <item> </item>
@@ -6688,7 +6688,7 @@
     <string-array name="q_the_punisher_part_4">
         <item>The Punisher - Part 4(처벌자 4)</item>
         <item>제거</item>
-        <item> - 숲(Woods)에서 12게이지 샷건으로 스캐브 10명 사살하기\n - 해안가(Shoreline)에서 balaclava와 scav vest를 입고 PMC 10명 사살하기\n - 레이드에서 Bars A-2607 5개 찾기\n - 칼을 프라퍼에게 넘기기</item>
+        <item> - 숲(Woods)에서 12게이지 샷건으로 스캐브 10명 사살하기\n- 해안가(Shoreline)에서 balaclava와 scav vest를 입고 PMC 10명 사살하기\n- 레이드에서 Bars A-2607 5개 찾기\n- 칼을 프라퍼에게 넘기기</item>
         <item>20레벨</item>
         <item>경험치 19000\n프라퍼 우호도 +0.12\n예거 우호도 -0.01\n10만루블\nColt M4A1 5.56x45 Assault Rifle\n프라퍼 LL3에서 5.45x39mm BT 해금</item>
         <item> </item>
@@ -6701,7 +6701,7 @@
     <string-array name="q_the_punisher_part_5">
         <item>The Punisher - Part 5(처벌자 5)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 AK-74N 찾기\n - 레이드에서 M4A1 찾기\n - 레이드에서 PM pistol 찾기\n - 프라퍼에게 넘기기\n - PACA vest와 6b47 helmet을 끼고 PMC 10명 사살하기</item>
+        <item> - 레이드에서 AK-74N 찾기\n- 레이드에서 M4A1 찾기\n- 레이드에서 PM pistol 찾기\n- 프라퍼에게 넘기기\n- PACA vest와 6b47 helmet을 끼고 PMC 10명 사살하기</item>
         <item>20레벨</item>
         <item>경험치 19300\n프라퍼 우호도 +0.12\n5000달러\nPistol case\nDocuments case\n프라퍼 LL3에서 7.62x39mm BP 해금</item>
         <item> </item>
@@ -6714,7 +6714,7 @@
     <string-array name="q_the_punisher_part_6">
         <item>The Punisher - Part 6(처벌자 6)</item>
         <item>제거</item>
-        <item> - SVD를 사용해 PMC 15명 사살하기\n - PMC Bear dogtags 7개 찾기\n - PMC USEC dogtags 7개 찾기\n - 프라퍼에게 넘기기</item>
+        <item> - SVD를 사용해 PMC 15명 사살하기\n- PMC Bear dogtags 7개 찾기\n- PMC USEC dogtags 7개 찾기\n- 프라퍼에게 넘기기</item>
         <item>21레벨</item>
         <item>경험치 20600\n프라퍼 우호도 +0.12\n테라피스트 우호도 +0.15\n스키어 우호도 +0.06\n25만루블\nSecure container Epsilon</item>
         <item> </item>
@@ -6727,7 +6727,7 @@
     <string-array name="q_anesthesia">
         <item>Anesthesia(마취)</item>
         <item>발견</item>
-        <item> - 해안가(Shoreline)에서 거래 장소 3곳에 신호기 설치하기\n - 탈출하기</item>
+        <item> - 해안가(Shoreline)에서 거래 장소 3곳에 신호기 설치하기\n- 탈출하기</item>
         <item>21레벨</item>
         <item>경험치 12600\n프라퍼 우호도 +0.1\n5만루블\nAS VAL\n9x39mm 7N9 SPP 100발\n9x39mm SP-6 100발</item>
         <item> </item>
@@ -6805,7 +6805,7 @@
     <string-array name="q_regulated_materials">
         <item>Regulated Materials(규제 물질)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 military battery 찾기\n - 레이드에서 shells for BMP cannon 5개 찾기\n - 프라퍼에게 넘기기</item>
+        <item> - 레이드에서 military battery 찾기\n- 레이드에서 shells for BMP cannon 5개 찾기\n- 프라퍼에게 넘기기</item>
         <item>25레벨</item>
         <item>15만루블\n프라퍼 LL4에서 ASh-12 해금</item>
         <item> </item>
@@ -6818,7 +6818,7 @@
     <string-array name="q_big_customer">
         <item>Big Customer(거물)</item>
         <item>완료</item>
-        <item> - 화학 물질의 위치를 찾기\n - 위치에 신호기 설치하기\n - 세관(Customs)를 탈출하기</item>
+        <item> - 화학 물질의 위치를 찾기\n- 위치에 신호기 설치하기\n- 세관(Customs)를 탈출하기</item>
         <item> </item>
         <item>경험치 8200\n프라퍼 우호도 +0.1\n예거 우호도 -0.01\n20만루블\nPACA Soft Armor\nAmmo case 2개</item>
         <item>프라퍼 우호도 -0.15</item>
@@ -6831,7 +6831,7 @@
     <string-array name="q_no_offence">
         <item>No offence(나쁜 뜻은 아니었어)</item>
         <item>주워오기</item>
-        <item> - M67 수류탄 10개 찾기\n - 프라퍼에게 수류탄 넘기기</item>
+        <item> - M67 수류탄 10개 찾기\n- 프라퍼에게 수류탄 넘기기</item>
         <item> </item>
         <item>프라퍼 우호도 +0.4</item>
         <item> </item>
@@ -6844,7 +6844,7 @@
     <string-array name="q_shortage">
         <item>Shortage(부족)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 Salewa kits를 3개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Salewa kits를 3개 찾기\n- 테라피스트에게 넘기기</item>
         <item>1레벨</item>
         <item>경험치 2000\n테라피스트 우호도 +0.07\n15000루블\nAnalgin Painkillers 4개\nAI-2 medikit 4개\nImmobilizing splint 4개</item>
         <item> </item>
@@ -6857,7 +6857,7 @@
     <string-array name="q_operation_aquarius_part_1">
         <item>Operation Aquarius - Part 1(작전명 물병자리 1)</item>
         <item>주워오기</item>
-        <item> - 기숙사에 숨겨진 물 찾기\n - 세관(Customs)를 탈출하기</item>
+        <item> - 기숙사에 숨겨진 물 찾기\n- 세관(Customs)를 탈출하기</item>
         <item>6레벨</item>
         <item>경험치 3400\n테라피스트 우호도 +0.09\n스키어 우호도 -0.08\n14000루블\n0.6L water bottle 6개</item>
         <item> </item>
@@ -6883,7 +6883,7 @@
     <string-array name="q_sanitary_standards_part_1">
         <item>Sanitary Standard - Part 1(위생 기준 1)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 gas analyzer 주워오기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 gas analyzer 주워오기\n- 테라피스트에게 넘기기</item>
         <item>4레벨</item>
         <item>경험치 2200\n테라피스트 우호도 +0.09\nCar first aid kit 2개\n14000루블\n테라피스트 LL1에서 Car first aid kit 해금</item>
         <item> </item>
@@ -6896,7 +6896,7 @@
     <string-array name="q_sanitary_standards_part_2">
         <item>Sanitary Standard - Part 2(위생 기준 2)</item>
         <item>완료</item>
-        <item> - 레이드에서 Gas Analyzer 2개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Gas Analyzer 2개 찾기\n- 테라피스트에게 넘기기</item>
         <item>8레벨</item>
         <item>경험치 4500\n테라피스트 우호도 +0.09\n18000루블\n</item>
         <item> </item>
@@ -6909,7 +6909,7 @@
     <string-array name="q_painkiller">
         <item>Painkiller(진통제)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 morphine syringes 4개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 morphine syringes 4개 찾기\n- 테라피스트에게 넘기기</item>
         <item>8레벨</item>
         <item>경험치 4600\n테라피스트 우호도 +0.09\n17000루블\nAnalgin painkillers 10개\nDisposable syringe 5개</item>
         <item> </item>
@@ -6922,7 +6922,7 @@
     <string-array name="q_pharmacist">
         <item>Pharmacist(약사)</item>
         <item>주워오기</item>
-        <item> - 장치가 들어있는 가방을 찾기\n -  테라피스트에게 넘기기</item>
+        <item> - 장치가 들어있는 가방을 찾기\n-  테라피스트에게 넘기기</item>
         <item>10레벨</item>
         <item>경험치 5900\n테라피스트 +0.09\n25000루블\nIFAK personal tactical aid kit 4개\n라그만 LL2에서 6B47 Helmet with cover 해금</item>
         <item> </item>
@@ -6935,7 +6935,7 @@
     <string-array name="q_car_repair">
         <item>Car repair(차 고치기)</item>
         <item>주워오기</item>
-        <item> - 레이드에서 Car battery를 4개 찾기\n - 레이드에서 Spark Plug 8개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Car battery를 4개 찾기\n- 레이드에서 Spark Plug 8개 찾기\n- 테라피스트에게 넘기기</item>
         <item> </item>
         <item>경험치 7600\n테라피스트 우호도 +0.08\n1500달러\nGrizzly First Aid kit 2개\nRegenerative stimulator injector eTG-change 1개</item>
         <item> </item>
@@ -6961,7 +6961,7 @@
     <string-array name="q_supply_plans">
         <item>Supply Plans(공급 계획)</item>
         <item>주워 오기</item>
-        <item> - 숲(Woods)에서 Secure folder 찾기\n - 숲(Woods) 탈출하기\n - 테라피스트에게 넘기기</item>
+        <item> - 숲(Woods)에서 Secure folder 찾기\n- 숲(Woods) 탈출하기\n- 테라피스트에게 넘기기</item>
         <item>13레벨</item>
         <item>경험치 7700\n테라피스트 우호도 +0.09\n7만루블</item>
         <item>테라피스트 우호도 -0.1</item>
@@ -6987,7 +6987,7 @@
     <string-array name="q_health_care_privacy_part_2">
         <item>Health Care Privacy - Part 2(의료 개인 정보 보호 2)</item>
         <item>발견</item>
-        <item> - Terragroup의 연구의 진상에 대한 정보를 얻기\n - 정보를 넘기기\n - 해안선(Shoreline)에서 탈출하기</item>
+        <item> - Terragroup의 연구의 진상에 대한 정보를 얻기\n- 정보를 넘기기\n- 해안선(Shoreline)에서 탈출하기</item>
         <item> </item>
         <item>경험치 8600\n테라피스트 우호도 +0.09\n24000루블\nSalewa 4개</item>
         <item> </item>
@@ -7000,7 +7000,7 @@
     <string-array name="q_health_care_privacy_part_3">
         <item>Health Care Privacy - Part 3(의료 개인 정보 보호 3)</item>
         <item>발견</item>
-        <item> - 숲(Woods)에서 의료 서비스 차량을 찾기\n - Blood sample 찾기\n - 테라피스트에게 넘기기 - 숲(Woods)에서 탈출하기</item>
+        <item> - 숲(Woods)에서 의료 서비스 차량을 찾기\n- Blood sample 찾기\n- 테라피스트에게 넘기기 - 숲(Woods)에서 탈출하기</item>
         <item> </item>
         <item>경험치 9400\n테라피스트 우호도 +0.09\n26000루블\nMorphine injector 2개\n테라피스트 LL4에서 Morphine injectort 해금</item>
         <item> </item>
@@ -7026,7 +7026,7 @@
     <string-array name="q_health_care_privacy_part_5">
         <item>Health Care Privacy - Part 5(의료 개인 정보 보호 5)</item>
         <item>다중</item>
-        <item> - 공장(Factory)에 밤 시간에 약속 장소에 가기\n - Gunpowder "Kite" 3개 두기</item>
+        <item> - 공장(Factory)에 밤 시간에 약속 장소에 가기\n- Gunpowder "Kite" 3개 두기</item>
         <item> </item>
         <item>경험치 13300\n테라피스트 +0.1\n35000루블\nMeds case</item>
         <item> </item>
@@ -7052,7 +7052,7 @@
     <string-array name="q_general_wares">
         <item>General wares(일반적인 상품)</item>
         <item>완료</item>
-        <item> - 레이드에서 can of meat 15개 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 can of meat 15개 찾기\n- 테라피스트에게 넘기기</item>
         <item> </item>
         <item>경험치 6500\n테라피스트 우호도 +0.07\n3만루블\nCan of pacific saury 4개\nIskra lunch box 2개\nCoffee Majaica 2개</item>
         <item> </item>
@@ -7078,7 +7078,7 @@
     <string-array name="q_private_clinic">
         <item>Private clinic(개인 진료소)</item>
         <item>완료</item>
-        <item> - 레이드에서 Ophthalmoscope 찾기\n - 레이드에서 LEDX 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Ophthalmoscope 찾기\n- 레이드에서 LEDX 찾기\n- 테라피스트에게 넘기기</item>
         <item>35레벨</item>
         <item>경험치 20100\n13만루블\n테라피스트 우호도 +0.11\nT H I C C Items case\nWest wing room 306 key</item>
         <item> </item>
@@ -7104,7 +7104,7 @@
     <string-array name="q_colleagues_part_1">
         <item>Colleagues - Part 2(동료 1)</item>
         <item>탐험</item>
-        <item> - Health resort, pier, cottage에 보냈던 그룹을 찾기\n - 해안선(Shoreline)에서 탈출하기</item>
+        <item> - Health resort, pier, cottage에 보냈던 그룹을 찾기\n- 해안선(Shoreline)에서 탈출하기</item>
         <item>21레벨</item>
         <item>경험치 12600\n테라피스트 우호도 +0.08\n45000루블</item>
         <item> </item>
@@ -7117,7 +7117,7 @@
     <string-array name="q_colleagues_part_2">
         <item>Colleagues - Part 2(동료 2)</item>
         <item>주워 오기</item>
-        <item> - 레이드에서 Sanitar\'s surgery kit, marked with a blue symbol 찾기\n - 레이드에서 Sanitar\'s ophthalmoscope 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 레이드에서 Sanitar\'s surgery kit, marked with a blue symbol 찾기\n- 레이드에서 Sanitar\'s ophthalmoscope 찾기\n- 테라피스트에게 넘기기</item>
         <item> </item>
         <item>경험치 13200\n테라피스트 우호도 +0.12\n6만루블</item>
         <item> </item>
@@ -7130,7 +7130,7 @@
     <string-array name="q_colleagues_part_3">
         <item>Colleagues - Part 3(동료 3)</item>
         <item>주워오기</item>
-        <item> - 세니타를 사살하지 않기\n - 레이드에서 AHF1-M을 찾기\n - 레이드에서 3-(b-TG)를 찾기\n - blue keycard를 얻기\n - green keycard를 얻기</item>
+        <item> - 세니타를 사살하지 않기\n- 레이드에서 AHF1-M을 찾기\n- 레이드에서 3-(b-TG)를 찾기\n- blue keycard를 얻기\n- green keycard를 얻기</item>
         <item>Colleague - Part 2, Rigged game, The chemistry closet 완료</item>
         <item>경험치 13800\n테라피스트 우호도 +0.2\n15만루블</item>
         <item>테라피스트 우호도 -0.2</item>
@@ -7156,7 +7156,7 @@
     <string-array name="q_out_of_curiosity">
         <item>Out of Curiosity(호기심에서)</item>
         <item>주워오기</item>
-        <item> - 화학물질이 담긴 차를 찾기\n - 신호기를 설치하기\n - 커스텀에서 탈출하기</item>
+        <item> - 화학물질이 담긴 차를 찾기\n- 신호기를 설치하기\n- 커스텀에서 탈출하기</item>
         <item>Chemical - Part 3 완료</item>
         <item>경험치 8300\n테라피스트 우호도 +0.3\n17만루블\nMeds case</item>
         <item>테라피스트 -0.3</item>
@@ -7169,7 +7169,7 @@
     <string-array name="q_trust_regain">
         <item>Trust Regain(신뢰 되찾기)</item>
         <item>주워오기</item>
-        <item> - 기숙사 303호 열쇠를 찾기\n - ZB-014의 열쇠를 찾기\n - the customs military checkpoint key를 찾기\n - gas station closet key를 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 기숙사 303호 열쇠를 찾기\n- ZB-014의 열쇠를 찾기\n- the customs military checkpoint key를 찾기\n- gas station closet key를 찾기\n- 테라피스트에게 넘기기</item>
         <item>Out of curiosity의 실패</item>
         <item>테라피스트 우호도 +0.3</item>
         <item> </item>

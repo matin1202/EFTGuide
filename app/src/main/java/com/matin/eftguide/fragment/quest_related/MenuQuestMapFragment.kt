@@ -21,7 +21,7 @@ import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
 class MenuQuestMapFragment : Fragment() {
-    private val maps: String? by lazy { "q_test_quest"}//requireArguments().getString("map") }
+    private val maps: String? by lazy { "q_test_quest" }//requireArguments().getString("map") }
     private val resID: Int by lazy{ resources.getIdentifier(maps, "array", context?.packageName) }
 
     override fun onCreateView(
@@ -37,8 +37,8 @@ class MenuQuestMapFragment : Fragment() {
                 val mapsList = arrayListOf<String>()
                 val titleList = arrayListOf<String>()
                 for(i in map.indices){
-                    titleList.add(mapsList[i].split("(")[0])
-                    mapsList.add(mapsList[i].split("(")[1].split(")")[0])
+                    titleList.add(map[i].split("(")[0])
+                    mapsList.add(map[i].split("(")[1].split(")")[0])
                 }
                 for(i in titleList.indices){
                     textView {

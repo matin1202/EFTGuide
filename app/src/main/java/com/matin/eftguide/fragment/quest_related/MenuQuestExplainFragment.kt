@@ -1,5 +1,6 @@
 package com.matin.eftguide.fragment.quest_related
 
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -7,8 +8,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.widget.TextViewCompat
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_quest_explain.view.*
+import kotlinx.android.synthetic.main.main_list.view.*
 import org.jetbrains.anko.support.v4.toast
 
 class MenuQuestExplainFragment : Fragment() {
@@ -27,6 +30,14 @@ class MenuQuestExplainFragment : Fragment() {
             val resId = resources.getIdentifier(quests, "array", context?.packageName)
             val quest = resources.getStringArray(resId)
 
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                view.tv_quest_name.setAutoSizeTextTypeUniformWithConfiguration(
+                    8,
+                    24,
+                    2,
+                    TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM
+                )
+            }
             view.tv_quest_name.text = quest[0]
             view.tv_quest_kind.text = quest[1]
             view.tv_quest_object.text = quest[2]
@@ -35,7 +46,7 @@ class MenuQuestExplainFragment : Fragment() {
             view.tv_quest_penalty.text = quest[5]
             view.tv_quest_relate.text = quest[6]
             view.tv_quest_tip.text = quest[7]
-            view.tv_quest_need_for_kappa.text = quest[8]
+            view.tv_quest_need_for_kappa.text = "Kappa 컨테이너를 위한 필수 퀘스트 : ${quest[8]}"
 
         }catch (e: Exception){
             toast("에러가 발생하였습니다. $e")
