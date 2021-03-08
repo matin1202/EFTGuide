@@ -21,18 +21,22 @@ import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
 class MenuQuestMapFragment : Fragment() {
-    private val maps: String? by lazy { "q_test_quest" }//requireArguments().getString("map") }
-    private val resID: Int by lazy{ resources.getIdentifier(maps, "array", context?.packageName) }
+    private val maps: String? by lazy { requireArguments().getString("quest") }
+    private var resID: Int? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View = QuestMapUI(resID).createView(AnkoContext.create(context!!, this))
+    ): View {
+        resID = resources.getIdentifier(maps, "array", context?.packageName)
+        return QuestMapUI(resID, maps).createView(AnkoContext.create(context!!, this))
+    }
 
-    class QuestMapUI(private val resID: Int): AnkoComponent<MenuQuestMapFragment>{
+    class QuestMapUI(private val resID: Int?, maps: String?): AnkoComponent<MenuQuestMapFragment>{
         override fun createView(ui: AnkoContext<MenuQuestMapFragment>): View = with(ui) {
             verticalLayout {
-                val quest = resources.getStringArray(resID)
+
+                val quest = resources.getStringArray(resID!!)
                 val map = quest[9].split("||")
                 val mapsList = arrayListOf<String>()
                 val titleList = arrayListOf<String>()
@@ -46,10 +50,11 @@ class MenuQuestMapFragment : Fragment() {
                         this.textColor = R.color.text_color
                         this.textSize = 24.0f
                         this.gravity = Gravity.CENTER
+                        this.padding = 16
                         this.onClick {
                             val cm = context?.getSystemService(Context.CONNECTIVITY_SERVICE)  as ConnectivityManager
                             val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
-                            val isConnected: Boolean = (activeNetwork != null&& activeNetwork.isConnectedOrConnecting)
+                            val isConnected: Boolean = (activeNetwork != null&&activeNetwork.isConnectedOrConnecting)
                             if(!isConnected){
                                 toast("인터넷에 연결해주세요...")
                                 return@onClick

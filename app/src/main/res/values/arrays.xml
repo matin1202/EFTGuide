@@ -6477,17 +6477,17 @@
     <!--                        Prapor's Quests                     -->
 
     <!--  이름, 유형, 목표, 요구 조건, 보상, 실패 패널티, 연계 퀘스트, 팁, 카파퀘 필요 여부, 지도-->
-    <string-array name="q_test_quest">
-        <item>Test Quest</item>
-        <item>제거</item>
-        <item>- 목표 1\n- 목표 2</item>
-        <item>13레벨</item>
-        <item>경험치 10000\n100만루블</item>
-        <item>100만루블</item>
-        <item>Test Quest - Part 2</item>
-        <item>팁</item>
-        <item>아니오</item>
-        <item>위치 보기(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&amp;format=original)</item>
+    <string-array name="q_">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>레벨</item>
+        <item></item>
+        <item> </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_debut">
@@ -6706,7 +6706,7 @@
         <item>경험치 19300\n프라퍼 우호도 +0.12\n5000달러\nPistol case\nDocuments case\n프라퍼 LL3에서 7.62x39mm BP 해금</item>
         <item> </item>
         <item>The Punisher - Part 6</item>
-        <item>M4A1은 전 퀘스트에서 보상으로 준 것으로 내도 됩니다.</item>
+        <item>M4A1은 전 퀘스트에서 보상으로 준 것으로 내도 되지만 모딩되어 있는 것을 제출하는 것은 아까우니 미리 주워두는 것이 좋습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6818,12 +6818,12 @@
     <string-array name="q_big_customer">
         <item>Big Customer(거물)</item>
         <item>완료</item>
-        <item> - 화학 물질의 위치를 찾기\n- 위치에 신호기 설치하기\n- 세관(Customs)를 탈출하기</item>
+        <item> - 화학 물질이 담긴 차의 위치를 찾기\n- 신호기를 설치하기\n- 세관(Customs)를 탈출하기</item>
         <item> </item>
         <item>경험치 8200\n프라퍼 우호도 +0.1\n예거 우호도 -0.01\n20만루블\nPACA Soft Armor\nAmmo case 2개</item>
         <item>프라퍼 우호도 -0.15</item>
         <item>No offence(실패)</item>
-        <item>스키어의 퀘스트를 선택하는게 이득입니다.</item>
+        <item>스키어의 Chemical - Part 4를 깨는 것이 이득입니다.</item>
         <item>아니오</item>
         <item> </item>
     </string-array>
@@ -6836,10 +6836,12 @@
         <item>프라퍼 우호도 +0.4</item>
         <item> </item>
         <item>x</item>
-        <item>피스키퍼의 퀘스트를 깨다보면 M67를 구매할 수 있습니다.</item>
+        <item>피스키퍼의 퀘스트를 Spa Tour - Part 6까지 깨면 M67를 구매할 수 있습니다.</item>
         <item>아니오</item>
         <item> </item>
     </string-array>
+
+    <!-- Prapor -->
 
     <string-array name="q_shortage">
         <item>Shortage(부족)</item>
@@ -7039,7 +7041,7 @@
     <string-array name="q_decontamination_service">
         <item>Decontamination Service(제염 작업)</item>
         <item>제거</item>
-        <item> - 쇼핑몰(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
+        <item> - 교차로(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
         <item>Health Care Privacy - Part 5와 Private Clinic 완료</item>
         <item>경험치 21600\n30만루블\n테라피스트 우호도 +0.11\nMorphine 3개\nIFAK 3개</item>
         <item> </item>
@@ -7116,7 +7118,7 @@
 
     <string-array name="q_colleagues_part_2">
         <item>Colleagues - Part 2(동료 2)</item>
-        <item>주워 오기</item>
+        <item>주워오기</item>
         <item> - 레이드에서 Sanitar\'s surgery kit, marked with a blue symbol 찾기\n- 레이드에서 Sanitar\'s ophthalmoscope 찾기\n- 테라피스트에게 넘기기</item>
         <item> </item>
         <item>경험치 13200\n테라피스트 우호도 +0.12\n6만루블</item>
@@ -7176,6 +7178,323 @@
         <item>x</item>
         <item>플리마켓에서 해당 열쇠들을 구매하여 전달하면 됩니다.</item>
         <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <!-- Fence Quest -->
+
+    <string-array name="q_collector">
+        <item>Collector(수집가)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Old firesteel 찾기\n- 레이드에서 Antique axe 찾기\n- 레이드에서 Battered antique Book 찾기\n- 레이드에서 FireKlean gun lube 찾기\n- 레이드에서 Golden rooster 찾기\n- 레이드에서 Silver Badge 찾기\n- 레이드에서 Deadlyslob\'s beard oil 찾기\n- 레이드에서 Golden 1GPhone 찾기\n- 레이드에서 Jar of DevilDog mayo 찾기\n- 레이드에서 Can of sprats 찾기\n- 레이드에서 Fast mustache 찾기\n- 레이드에서 Kotton beanie 찾기\n- 레이드에서 Can of Dr. Lupo\'s coffe beans 찾기\n- 레이드에서 Pestily plague mask 찾기\n- 레이드에서 Raven figurine 찾기\n- 레이드에서 Shroud half-mask 찾기\n- 레이드에서 Veritas guitar pick 찾기\n- 레이드에서 42nd Signature Blend English Tea 찾기</item>
+        <item>일부 퀘스트를 제외한 모든 퀘스트를 완료</item>
+        <item>Secure Container Kappa(3*4)</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <!-- Skier -->
+
+    <string-array name="q_supplier">
+        <item>Supplier(공급자)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Module-3M bodyarmor를 찾기\n- 레이드에서 toz-106을 찾기\n- 스키어에게 넘기기</item>
+        <item>5레벨</item>
+        <item>경험치 3300\n스키어 우호도 +0.12\n6만 루블\n스키어 LL1에서 Saiga-9 해금</item>
+        <item> </item>
+        <item>The Extortionist</item>
+        <item>스캐브를 죽이다보면 나오니 프라퍼의 Debut 퀘스트와 함께 깨면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_extortionist">
+        <item>The Extortionist(탈취자)</item>
+        <item>주워오기</item>
+        <item>- 숨겨진 화물을 찾기\n- 스키어에게 넘기기</item>
+        <item>7레벨</item>
+        <item>경험치 3200\n스키어 우호도 +0.08\n</item>
+        <item> </item>
+        <item>Stirrup, What\'s on the flash drive?</item>
+        <item>세관(Customs)의 L자 팔 쪽의 Dead Scav에서 확정적으로 Unknown키가 스폰합니다.\n세관(Customs)의 4번 창고옆의 컨테이너를 열쇠를 사용해 들어가면 바닥의 옷 아래에 목표물이 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_stirrup">
+        <item>Stirrup(휘저어 놓다)</item>
+        <item>제거</item>
+        <item>- 권총을 사용해 PMC 3명 사살하기</item>
+        <item>8레벨</item>
+        <item>경험치 4700\n스키어 우호도 +0.12\n프라퍼 우호도 -0.12\n테라피스트 우호도 -0.05\n65000루블\nTri-Zip Backpack\n스키어 LL1에서 Vepr AKM/VPO-209 해금</item>
+        <item> </item>
+        <item>Hippocratic Vow</item>
+        <item>섬광 샷건으로 눈을 멀게 한 후, 권총으로 따는 것을 추천합니다.\n또는 FN 5–7, SR-1MP와 같이 고관통탄을 사용하는 권총으로 머리를 노리는 것도 괜찮습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_whats_on_the_flash_drive">
+        <item>What\'s on the flash drive?(USB에 뭐가 들어 있을까?)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 USB flash drvie 2개 찾기\n- 스키어에게 넘기기</item>
+        <item>8레벨</item>
+        <item>경험치 4500\n스키어 우호도 +0.1\n예거 우호도 -0.01\n3만 루블\nOP-SKS\nProMag SKS-A5 7.62x39 20-round SKS magazine 2개\nHexagon \"DTKP MK.2\" 7.62x39mm sound suppressor</item>
+        <item> </item>
+        <item>Golden Swag, Shady business</item>
+        <item>USB는 컴퓨터 본체에 꽃힌 채로 주로 스폰합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_golden_swag">
+        <item>Golden Swag(훔친 금 장물)</item>
+        <item>완료</item>
+        <item>- Gilded Zibbo lighter 찾기\n- 세관(Customs) Trailer Park의 컨테이너에 가져다 놓기</item>
+        <item>8레벨</item>
+        <item>경험치 4600\n스키어 우호도 +0.1\n17000루블\nAS VAL\n20-round 6L25 9x39 VSS magazine 3개\n스키어 LL2에서 VOMZ Pilad P1X42 \"WEAVER\" 해금</item>
+        <item> </item>
+        <item>Chemical - Part 1, Friends from the West - Part 1</item>
+        <item>Gilded Zibbo lighter는 세관(Customs)의 기숙사 3층 건물의 303호를 열쇠를 사용해 들어가면 책상 위에 스폰합니다.\n그 뒤 세관의 Trailer Park에 컨테이너에 Trailer park cabin key를 사용해 들어가 놓으면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_friend_from_the_west_part_1">
+        <item>Friend from the West - Part 1(서쪽에서 온 친구 1)</item>
+        <item>제거</item>
+        <item>- USEC 7명 사살하기\n- USEC Dogtag 7개 찾기\n- 스키어에게 넘기기</item>
+        <item>9레벨</item>
+        <item>경험치 10800\n스키어 우호도 +0.14\n700달러\nM4A1\nGolden rooster</item>
+        <item> </item>
+        <item>Friend from the West - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_friend_from_the_west_part_2">
+        <item>Friend from the West - Part 2(서쪽에서 온 친구 2)</item>
+        <item>상인</item>
+        <item>- 6천 달러 넘기기</item>
+        <item>9레벨</item>
+        <item>경험치 9200\n스키어 우호도 +0.12</item>
+        <item> </item>
+        <item>Lend lease - Part 1, Informed means armed, Fishing Gear</item>
+        <item>피스키퍼의 거래량도 올릴 겸 달러를 대량으로 사서 주면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_informed_means_armed">
+        <item>Informed Means Armed(아는 것이 힘이다)</item>
+        <item>완료</item>
+        <item>- WIFI camera를 pier, road to port, Kiba Arms store에 설치하기</item>
+        <item>24레벨</item>
+        <item>경험치 15900\n스키어 우호도 +0.1\n45000루블\nFab Defense UAS for AK 2개</item>
+        <item> </item>
+        <item>Chumming</item>
+        <item>숲(Woods)의 제제소의 항구, 세관(Customs)의 Sniper Block, 교차로(Interchange)의 Brutal 상점에 카메라를 설치하면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_chumming">
+        <item>Chumming(밑밥뿌리기)</item>
+        <item>완료</item>
+        <item>- Gold chain 3개를 BTR-80A 옆의 메트리스 아래에 숨기기\n- Gold chain 3개를 기숙사 3층의 전자레인지에 숨기기\n- Gold chain 3개를 제제소의 숙박시설 중간에 숨기기\n- 교차로(Interchange)에서 22시에서 10시 사이에 PMC 5명 사살하기</item>
+        <item>27레벨</item>
+        <item>경험치 22000\n스키어 우호도 +0.12\n65000루블\nRoler submariner gold wrist watch</item>
+        <item> </item>
+        <item>Slient Caliber, Flint, Bullshit</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_silent_caliber">
+        <item>Silent Caliber(조용한 구경)</item>
+        <item>제거</item>
+        <item>- 소음기를 단 12게이지 샷건으로 SCAV 20명 사살하기\n- 소음기를 단 12게이지 샷건으로 PMC 10명 사살하기</item>
+        <item> </item>
+        <item>경험치 12900\n스키어 우호도 +0.09\n10만 루블\nDVL-10</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_flint">
+        <item>Flint(냉혈한)</item>
+        <item>능력</item>
+        <item>- 스트레스 저항(Stress Resistance) 6레벨 달성하기</item>
+        <item>35레벨</item>
+        <item>경험치 20000\n스키어 우호도 +0.08\n15만 루블\n스키어 LL4에서 M-2 Tactical Sword 교환 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>스트레스 저항은 추락으로 다리가 부러지거나 낮은 체력으로 있거나, 고통 디버프가 있는 상태이거나, 데미지를 입으면 오릅니다.
+        \n또한 Psycho Sniper를 통해 1레벨을 올릴 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_bullshit">
+        <item>Bullshit(개소리)</item>
+        <item>발견</item>
+        <item>- 가짜 USB를 찾기\n- 가짜 USB, SV-98, Rolar watch를 기숙사 3층의 쓰레기 더미에 숨기기</item>
+        <item> </item>
+        <item>경험치 29700\n스키어 우호도 +0.07\n12만 루블\n스키어 LL3에서 5 pcs, 12x70 DIPP 교환 해금</item>
+        <item> </item>
+        <item>Setup</item>
+        <item>가짜 USB는 세관(Customs)의 메인다리의 빨간 승용차의 트렁크에서 찾을 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_setup">
+        <item>Setup(준비)</item>
+        <item>제거</item>
+        <item>- 세관에서 특정 복장을 입고 PMC 15명 사살하기</item>
+        <item> </item>
+        <item>경험치 29300\n스키어 우호도 +0.07\n10만 루블\n스키어 LL4에서 20pcs. 9x19mm DIPP 교환 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>MP-133이나 MP-153을 들고 Ushanka ear-flap cap과 Scav vest를 입고 15명을 사살하면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_chemical_part_1">
+        <item>Chemical - Part 1(화학 물질 1)</item>
+        <item>주워오기</item>
+        <item>- 부국장의 삶(Docs 0013)에 대한 정보 찾기\n- 조사를 도울 수 있는 물건 찾기\n- 스키어에게 넘기기</item>
+        <item>10레벨</item>
+        <item>경험치 4800\n스키어 우호도 +0.08\nPACA Soft Armor\n15000루블</item>
+        <item> </item>
+        <item>Chemical - Part 2</item>
+        <item>조사를 도울 수 있는 물건은 기숙사 220호 열쇠로 플리마켓에서 사거나 후술할 Docs 0013이 뜨는 기차에 확률적으로 스폰하니 얻어서 제출하면 됩니다.\nDocs 0013은 ZB-1012 담 넘어 열차의 상자의 왼쪽 아래에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_chemical_part_2">
+        <item>Chemical - Part 2(화학 물질 2)</item>
+        <item>주워오기</item>
+        <item>- 조사를 도울 수 있는 증거를 찾기\n- 조사를 도울 수 있는 정보를 찾기\n- 스키어에게 넘기기</item>
+        <item>10레벨</item>
+        <item>경험치 +4900\n스키어 우호도 +0.08\nF-1 수류탄 3개\n15000루블\n예거 LL2에서 SAI-02 10-round 12x76 magazine 해금</item>
+        <item> </item>
+        <item>Chemical - Part 3</item>
+        <item>퀘스트를 받으면 스키어가 기숙사 220호 열쇠를 다시 줍니다.\n이걸 들고 기숙사 3층 건물의 220호에 들어가 USB와 편지를 들고 나오면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_chemical_part_3">
+        <item>Chemical - Part 3(화학 물질 3)</item>
+        <item>주워오기</item>
+        <item>- 공장(Factory)에서 화학물질이 든 주사기를 찾기\n스키어에게 넘기기</item>
+        <item>11레벨</item>
+        <item>경험치 5400\n스키어 우호도 +0.08\n예거 우호도 –0.01\n17000루블\nZenit–Belomo PSO 1M2–1 4x24 scope 2개</item>
+        <item> </item>
+        <item>\"Vitamins\" - Part 1, Chemical - Part 4, Out of Curiosity, Big customer</item>
+        <item>주사기는 공장(Factory)의 브리칭 방의 서랍에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_chemical_part_4">
+        <item>Chemical - Part 4(화학 물질 4)</item>
+        <item>주워오기</item>
+        <item>- 화학 물질이 담긴 차를 찾기\n- 신호기를 설치하기\n- 세관(Customs)에서 탈출하기</item>
+        <item>11레벨</item>
+        <item>경험치 6600\n스키어 우호도 +0.1\n예거 우호도 –0.01\n35000루블\nGrenade case\n라그만 LL3에서 ZSh–1–2M helmet (black) 해금</item>
+        <item>스키어 우호도 -0.3</item>
+        <item>No offence, Trust Again</item>
+        <item>차량은 세관(Customs)의 물창고에 있습니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_vitamins_part_1">
+        <item>\"Vitamins\" - Part 1(비타민 1)</item>
+        <item>주워오기</item>
+        <item>- 화학 물질 보관함을 3개 찾기\n- 스키어에게 넘기기</item>
+        <item>22레벨</item>
+        <item>겸험치 14100\n스키어 우호도 +0.1\n예거 우호도 -0.01\n37000루블\nHolosun HS401G5 3개</item>
+        <item> </item>
+        <item>\"Vitamins\" - Part 2</item>
+        <item>화학물질은 각각 해안선(Shoreline)의 리조트 서관의 112호 냉장고, 교차로(Interchange)의 Mantis, EMERCOM medical Unit에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_vitamins_part_2">
+        <item>\"Vitamins\" - Part 2(비타민 2)</item>
+        <item>주워오기</item>
+        <item>- Medical bloodset 3개 찾기\n- Respirator 4개 찾기\n- 스키어에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +17200\n스키어 우호도 +0.12\n4만 루블\nMorphine injector 5개</item>
+        <item> </item>
+        <item>x</item>
+        <item>Bloodset은 Medstation 2레벨에서 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_loyalty_buyout">
+        <item>Loyalty Buyout(충성심 매수)</item>
+        <item>충성</item>
+        <item>- 100만 루블을 스키어에게 넘기기</item>
+        <item>Chemical - Part 4의 실패</item>
+        <item>스키어 우호도 +0.3</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_kind_of_sabotage">
+        <item>Kind of Sabotage(방해 공작의 일종)</item>
+        <item>주워오기</item>
+        <item>- folder 0052를 스키어에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +4600\n스키어 우호도 +0.3\n18만 루블</item>
+        <item>스키어 우호도 -0.3</item>
+        <item>x</item>
+        <item>Supply plan을 통해 테라피스트에게 넘길 folder를 스키어에게 넘기면 됩니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_rigged_game">
+        <item>Rigged Game(조작된 게임)</item>
+        <item>발견</item>
+        <item>- 리조트, 작은 집, 항구의 의료 상자에 신호기를 설치하기\n해안선(Shoreline)에서 탈출하기</item>
+        <item> </item>
+        <item>경험치 +13200\n스키어 우호도 +0.1\n9만 루블\nDVL-10 2정</item>
+        <item> </item>
+        <item>Huntsman path - Sadist, Colleagues - Part 3</item>
+        <item>프라퍼의 Anesthesia, 테라피스트의 Colleagues - Part 1과 동선이 같습니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_lend_lease">
+        <item>Lend lease - Part 1(무기 대여 1)</item>
+        <item>주워오기</item>
+        <item>- 모터 컨트롤러 3개 찾기\n- 자이로스코프 2개 찾기\n- 스키어에게 넘기기</item>
+        <item>25레벨</item>
+        <item>경험치 +20000\n스키어 우호도 +0.12\n3500달러</item>
+        <item> </item>
+        <item>Lend lease - Part 2</item>
+        <item>자이로 스코프와 모터 컨트롤러 하나씩은 숲(Woods)의 각각 검문소 차량과 제제소 차량에 있습니다.\n나머지는 해안선(Shoreline)의 Road to Custom 근처에 하나, 리조트 동관 306(308)호 베란다, 서관 216호 서랍에 있습니다.</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 

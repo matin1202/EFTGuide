@@ -14,7 +14,7 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="16dp"
         android:shrinkColumns="*"
         android:stretchColumns="*"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,55 +25,61 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:padding="1dp"
+            android:background="@color/text_color">
 
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
                 android:text="이름"
                 android:gravity="center_vertical"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:background="@color/background" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="1dp"
                 android:text="Quest Name in Here"
                 android:id="@+id/tv_quest_name"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:background="@color/background" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
 
             <TextView
-                android:layout_width="39dp"
+                android:layout_width="45dp"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="1dp"
                 android:text="유형"
                 android:gravity="center_vertical"
+                android:background="@color/background"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="74dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
                 android:text="Kinds"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_kind"
+                android:background="@color/background"
                 android:gravity="center"/>
 
             <TextView
-                android:layout_width="78dp"
+                android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:text="요구 조건"
                 android:textSize="20sp"
-                android:gravity="center"
-                android:layout_marginEnd="8dp"
+                android:gravity="center_vertical"
+                android:background="@color/background"
+                android:layout_marginEnd="1dp"
                 
                 />
 
@@ -82,6 +88,7 @@
                 android:layout_height="wrap_content"
                 android:text="Requirement"
                 android:gravity="center"
+                android:background="@color/background"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_requirement"
                 />
@@ -90,21 +97,24 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
             
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="match_parent"
+                android:background="@color/background"
                 android:text="목표"
                 android:gravity="center_vertical"
                 android:textSize="20sp"
-                android:layout_marginEnd="16dp"/>
+                android:layout_marginEnd="1dp"/>
             
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=" - 1st Object\n - 2nd Object"
                 android:textSize="20sp"
+                android:background="@color/background"
                 android:id="@+id/tv_quest_object"/>
 
         </LinearLayout>
@@ -112,19 +122,22 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
 
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:text="보상"
                 android:gravity="center_vertical"
+                android:background="@color/background"
                 android:textSize="20sp"
-                android:layout_marginEnd="16dp"/>
+                android:layout_marginEnd="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/background"
                 android:text=" - 1st Reward\n - 2st Reward"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_reward"/>
@@ -134,19 +147,22 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
 
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:text="실패 패널티"
+                android:background="@color/background"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:layout_marginEnd="16dp"/>
+                android:layout_marginEnd="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/background"
                 android:text=" - 1st Penalty\n - 2nd Penalty"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_penalty"/>
@@ -156,19 +172,22 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
 
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:textSize="20sp"
+                android:background="@color/background"
                 android:text="연계 퀘스트"
                 android:gravity="center"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="1dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
+                android:background="@color/background"
                 android:layout_height="wrap_content"
                 android:text="Relate Quest in Here"
                 android:textSize="20sp"
@@ -180,7 +199,8 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:padding="8dp">
+            android:background="@color/text_color"
+            android:padding="1dp">
 
             <TextView
                 android:layout_width="97dp"
@@ -188,7 +208,8 @@
                 android:textSize="20sp"
                 android:text="팁"
                 android:gravity="center_vertical"
-                android:layout_marginEnd="16dp"/>
+                android:background="@color/background"
+                android:layout_marginEnd="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -196,6 +217,7 @@
                 android:text=" - 1st Tip in Here\n - 2st Tip in Here"
                 android:gravity="center"
                 android:textSize="20sp"
+                android:background="@color/background"
                 android:id="@+id/tv_quest_tip"
                  />
 
