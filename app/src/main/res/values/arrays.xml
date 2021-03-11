@@ -6627,7 +6627,7 @@
         <item>10레벨</item>
         <item>경험치 6000\n프라퍼 우호도 +0.08\n19000루블\nFlyye MBSS Backpack</item>
         <item> </item>
-        <item>Postman Pat - part 2(동시에 해금), Shaking up teller</item>
+        <item>Postman Pat - Part 2(동시에 해금), Shaking up teller</item>
         <item>빠르게 편지를 주워서 탈출해야합니다\n탈출하다가 사망하면 다시 주워와야합니다.</item>
         <item>예</item>
         <item> </item>
@@ -7495,6 +7495,386 @@
         <item>Lend lease - Part 2</item>
         <item>자이로 스코프와 모터 컨트롤러 하나씩은 숲(Woods)의 각각 검문소 차량과 제제소 차량에 있습니다.\n나머지는 해안선(Shoreline)의 Road to Custom 근처에 하나, 리조트 동관 306(308)호 베란다, 서관 216호 서랍에 있습니다.</item>
         <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <!-- Peacekeeper Quests  -->
+
+    <string-array name="q_fishing_gear">
+        <item>Fishing Gear(낚시 용품)</item>
+        <item>완료</item>
+        <item>- 비밀 장소를 찾기\n- SV-98을 숨기기\n- Multitool을 숨기기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>10레벨, Friend from the West - Part 2 완료</item>
+        <item>경험치 +5400\n피스키퍼 우호도 +0.06\n800달러\nKiver-M helmet\n피스키퍼 LL1에서 Micro T-1 해금</item>
+        <item> </item>
+        <item>Tigr Safari</item>
+        <item>해안선(Shoreline)의 주유소 아래의 낚싯배가 있는 곳에 숨기면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_tigr_safari">
+        <item>Tigr Safari(티그르 여행)</item>
+        <item>발견</item>
+        <item>- 세관(Customs)에서 티그르 차량 세대에 신호기를 설치하기\n세관(Customs)에서 탈출하기</item>
+        <item>10레벨</item>
+        <item>경험치 +6600\n피스키퍼 우호도 +0.07\n예거 우호도 –0.01\n900달러\nANA Tactical Alpha chest rig\n60–round MAG5–60 5.56x45 STANAG magazine 2개</item>
+        <item> </item>
+        <item>Scrap Metal</item>
+        <item>티그르 차량은 각각 메인 다리 입구, 주유소 도로, 밀리터리 체크포인트에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_scrap_metal">
+        <item>Scrap Metal(고철 덩어리)</item>
+        <item>발견</item>
+        <item>- 해안선(Shoreline)에서 T-90 전차 세대에 신호기를 설치하기</item>
+        <item>10레벨</item>
+        <item>경험치 +7200\n피스키퍼 우호도 +0.07\n예거 우호도 -0.01\n850달러\nAKM 2정\n7.62x39mm PS 200발\n피스키퍼 LL2에서 MP5SD 해금</item>
+        <item> </item>
+        <item>Eagle eye</item>
+        <item>전차는 각각 Rock passage의 벙커앞, Tunnel쪽 마을, 변전소와 기상 레이더 중간 다리에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_eagle_eye">
+        <item>Eagle Eye(예리한 관찰력)</item>
+        <item>주워오기</item>
+        <item>- 해안선(Shoreline)에서 UAV 충동 지점 찾기\n- UAV 드론에서 SAS 드라이브 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>11레벨</item>
+        <item>경험치 +7300\n피스키퍼 우호도 +0.07\n900달러\nHAMR 4x24mm DeltaPoint hybrid assault scope\nELCAN SpecterDR 1x/4x Scope FDE</item>
+        <item> </item>
+        <item>Humanitarian Supplies</item>
+        <item>드론은 기상 레이더의 동쪽과 락 페시지 서쪽에 각각 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_humanitarian_supplies">
+        <item>Humanitarian Supplies(인도적 보급품)</item>
+        <item>발견</item>
+        <item>- 잃어버린 UN 화물 두개에 신호기 설치하기\n- MRE ration packs 5개 찾기\n- 피스키퍼에게 넘기기\n- 해안선(Shoreline)에서 UN 유니폼(MF-UNTAR armor vest와 UNTAR helmet)을 입고 SCAV 10명 사살하기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>11레벨</item>
+        <item>경험치 +7400\n피스키퍼 우호도 +0.07\n800달러\n스키어 LL2에서 Hexagon AK-74 5.45x39 sound suppressor 해금</item>
+        <item> </item>
+        <item>The Cult - Part 1, Spa Tour - Part 1</item>
+        <item>화물은 각각 CCP Temp 탈출구와 리조트에 위치해 있습니다.\nMRE는 플리마켓에서 사도 됩니다.\n퀘스트를 수주하면 UN 유니폼을 받습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_1">
+        <item>Spa Tour - Part 1(휴양 시설 여행 1)</item>
+        <item>제거</item>
+        <item>- 12게이지 샷건을 사용해 SCAV 7명 사살하기</item>
+        <item>12레벨</item>
+        <item>경험치 +8900\n피스키퍼 우호도 +0.07\n950달러\nMPX</item>
+        <item> </item>
+        <item>Spa Tour - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_2">
+        <item>Spa Tour - Part 2(휴양 시설 여행 2)</item>
+        <item>탐험</item>
+        <item>- 헬리콥터와 안전한 길에 신호기를 설치하기\n- 해안선(Shoreline)을 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +7500\n피스키퍼 우호도 +0.06\n900달러\n피스키퍼 LL2에서 M67 해금</item>
+        <item> </item>
+        <item>Spa Tour - Part 3</item>
+        <item>리조트 앞쪽의 헬리콥터와 그의 동쪽의 길에 신호기를 설치하면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_3">
+        <item>Spa Tour - Part 3(휴양 시설 여행 3)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 WD-40 100ml 찾기\n- 레이드에서 Clin wiper 2개 찾기\n- 레이드에서 Corrugated hoses 2개 찾기\n- 레이드에서 Ox bleach 2개 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +9100\n피스키퍼 우호도 +0.07\n800달러\nMP5 2정\nM67 5개\nset of tools 1개</item>
+        <item> </item>
+        <item>Spa Tour - Part 4</item>
+        <item>WD-40, Clin Wiper, Corrugated hoses, Ox bleach는 모두 화장실 2레벨에서 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_4">
+        <item>Spa Tour - Part 4(휴양 시설 여행 4)</item>
+        <item>발견</item>
+        <item>- 리조트의 동,서관의 발전기를 찾기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +9300\n피스키퍼 우호도 +0.07\n1100달러</item>
+        <item> </item>
+        <item>Spa Tour - Part 5</item>
+        <item>발전기는 각각 서관 219호(220호를 통해 발코니로 확인 가능, 둘다 열쇠 필요), 동관 220호에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_5">
+        <item>Spa Tour - Part 5(휴양 시설 여행 5)</item>
+        <item>주워오기</item>
+        <item>- 잠겨있는 리조트 방에서 열쇠를 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +7800\n피스키퍼 우호도 +0.06\n980달러\nIFAK 4개</item>
+        <item> </item>
+        <item>Spa Tour - Part 6</item>
+        <item>락 페시지 옆의 벙커에 의자 위에 열쇠가 놓여있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_6">
+        <item>Spa Tour - Part 6(휴양 시설 여행 6)</item>
+        <item>충성</item>
+        <item>- 8천 달러를 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +11400\n피스키퍼 우호도 +0.09\n피스키퍼 LL3에서 M62 해금</item>
+        <item> </item>
+        <item>Spa Tour - Part 7</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_spa_tour_part_7">
+        <item>Spa Tour - Part 7(휴양 시설 여행 7)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Morphine injector 4개 찾기\n- 레이드에서 Heat-exchange Alkali surface washer 2개 찾기\n레이드에서 Corrugated hose 2개 찾기\n레이드에서 5L propane tank 2개 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +11600\n피스키퍼 우호도 +0.09\n예거 우호도 -0.01\nFactory exit key</item>
+        <item> </item>
+        <item>Wet Job - Part 1, Cargo X - Part 1</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_1">
+        <item>Wet Job - Part 1(궂은 일 1)</item>
+        <item>제거</item>
+        <item>- 해안선(Shoreline)에서 소음기가 달린 M4A1이나 ADAR로 SCAV를 10명 사살하기</item>
+        <item>14레벨</item>
+        <item>경험치 +13000\n피스키퍼 우호도 +0.09\n예거 우호도 -0.01\n1200달러</item>
+        <item> </item>
+        <item>Wet Job - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_2">
+        <item>Wet Job - Part 2(궂은 일 2)</item>
+        <item>탐험</item>
+        <item>- 어부의 집을 찾기\n- 신호기를 설치하기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>14레벨</item>
+        <item>경험치 +11700\n피스키퍼 우호도 +0.07\n1300달러\n피스키퍼 LL3에서 Magpul PMAG D-60 5.56x45 60-round magazine 교환 해금</item>
+        <item> </item>
+        <item>Wet Job - Part 3</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_3">
+        <item>Wet Job - Part 3(궂은 일 3)</item>
+        <item>발견</item>
+        <item>- Artyom의 차를 찾기\n해안선(Shoreline)에서 탈출하기</item>
+        <item>14레벨</item>
+        <item>경험치 +9900\n피스키퍼 우호도 +0.06\n1500달러</item>
+        <item> </item>
+        <item>Spa Tour - Part 4</item>
+        <item>차는 해안선(Shoreline)의 해변 도로에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_4">
+        <item>Wet Job - Part 4(궂은 일 4)</item>
+        <item>주워오기</item>
+        <item>- 리조트 세입자의 리스트를 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>14레벨</item>
+        <item>경험치 +10000\n피스키퍼 우호도 +0.06\n1600달러</item>
+        <item> </item>
+        <item>Wet Job - Part 5, Mentor</item>
+        <item>리스트는 해안선(Shoreline)의 리조트 본관의 꼭대기층 동쪽의 테이블 위에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_mentor">
+        <item>Mentor(멘토)</item>
+        <item>스킬</item>
+        <item>- 5만 유로 넘기기</item>
+        <item> </item>
+        <item>스나이퍼 +3레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_5">
+        <item>Wet Job - Part 5(궂은 일 5)</item>
+        <item>주워오기</item>
+        <item>- Artyom의 일에 대한 정보를 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>14레벨</item>
+        <item>경험치 +10200\n피스키퍼 우호도 +0.06\n1600달러\n피스키퍼 LL4에서 RSASS 해금</item>
+        <item> </item>
+        <item>Wet Job - Part 6</item>
+        <item>정보는 해안선(Shoreline)의 리조트 328호(utility 방과 연결되어 있음)안에 컴퓨터 위에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_wet_job_part_6">
+        <item>Wet Job - Part 6(궂은 일 6)</item>
+        <item>스킬</item>
+        <item>- 스나이퍼 7레벨 달성하기</item>
+        <item>14레벨</item>
+        <item>경험치 +10400\n피스키퍼 우호도 +0.06\n예거 우호도 -0.01\n3500달러\nDVL-10\n피스키퍼 LL4에서 7.62x51mm M61 해금</item>
+        <item> </item>
+        <item>Psycho Sniper, The Guide</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_guide">
+        <item>The guide(가이드)</item>
+        <item>탐험</item>
+        <item>- 교차로(Interchange)에서 탈출하기\n- 해안선(Shoreline)에서 탈출하기\n- 공장(Factory)에서 탈출하기\n- 연구소(Labs)에서 탈출하기\n- 숲(Woods)에서 탈출하기\n- 세관(Customs)에서 탈출하기\n- 군사기지(Reserve)에서 탈출하기</item>
+        <item>40레벨</item>
+        <item>경험치 +35100\n피스키퍼 우호도 +0.12\n25000달러\nEotech HHS-1 sight Tan\nSLAAP armor Plate (Tan)\nAresnal CWP 30-round 5.56x45 magazine for SLR-106 and compatible weapons 3개\n피스키퍼 LL4에서 Eotect HHS-1 sight Tan과 SLAAP armor Plate (Tan) 해금\n피스키퍼 LL2에서 Arsenal CWP 30-round 5.56x45 magazine for SLR-106 and compatible weapons 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>한번 죽으면 모든 맵을 다시 돌아야합니다\nRun Through는 퀘스트가 초기화되진 않지만 깨지지는 않습니다.\n탈출구 앞에서 탈출조건을 맞출 때 까지 기다렸다가 탈출하는 방식을 추천합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_cult_part_1">
+        <item>The Cult - Part 1(광신도 1)</item>
+        <item>탐험</item>
+        <item>- 사라진 정보책을 찾기\n해안선(Shoreline)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +6700\n피스키퍼 우호도 +0.06\n700달러\nGolden neck chain 3개\n피스키퍼 LL2에서 5.56x45mm M856A1 해금</item>
+        <item> </item>
+        <item>The Cult - Part 2</item>
+        <item>정보책은 해안선(Shoreline)의 늪지대의 무너진 집에 위치해 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_cult_part_2">
+        <item>The Cult - Part 2(광신도 2)</item>
+        <item>탐험</item>
+        <item>- 세관(Customs)의 의식 장소에 신호기를 설치하기\n- 숲(Woods)의 의식 장소 두 곳에 신호기를 설치하기\n- 해안선(Shoreline)의 의식 장소에 신호기를 설치하기</item>
+        <item>12레벨</item>
+        <item>경험치 +8200\n피스키퍼 우호도 +0.07\n850달러\nGas analyzer 3개\nGeiger-Muller counter 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item>일명 마크방이라 불리는 곳에 신호기를 설치하시면 됩니다.\n신호기를 설치해야하는 마크방은 각각 세관(Customs)에는 기숙사 3층에, 숲(Woods)는 제제소 옆과 늪지대 마을에, 그리고 해안선(Shoreline)에는 리조트에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_cargo_x_part_1">
+        <item>Cargo X - Part 1(화물 X 1)</item>
+        <item>주워오기</item>
+        <item>- 화물 기록을 컴퓨터 방에서 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +10400\n피스키퍼 우호도 +0.07\n700달러\nPistol case</item>
+        <item> </item>
+        <item>Cargo X - Part 2</item>
+        <item>기록은 해안선(Shoreline)의 리조트 동관 306호(308호와 연결)에 있습니다\n컴퓨터 아래 의자에 스폰됩니다</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_cargo_x_part_2">
+        <item>Cargo X - Part 2(화물 X 2)</item>
+        <item>탐험</item>
+        <item>- 물 저장통이 있는 방을 찾기\n- 수송품의 두번째 부분에 대한 정보를 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +8600\n피스키퍼 우호도 +0.07\n850달러\n피스키퍼 LL3에서 KAC QDSS NT-4 5.56x45 silencer 해금</item>
+        <item> </item>
+        <item>Cargo X - Part 3</item>
+        <item>정보는 해안선(Shoreline)의 리조트 동관 108호에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_cargo_x_part_3">
+        <item>Cargo X - Part 3(화물 X 3)</item>
+        <item>다중</item>
+        <item>- 숨겨진 Terragroup의 화물을 찾기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +10700\n피스키퍼 우호도 +0.07\n900달러\nMP5\nStandard MP% 30-round 9x19 magazine</item>
+        <item> </item>
+        <item>x</item>
+        <item>화물은 해안선(Shoreline)의 리조트 서관의 지하에 있습니다\n모습만 확인하고 탈출하시면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_lend_lease_part_2">
+        <item>Lend lease - Part 2(무기 대여 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Military COFPM wireless Signal Transmitter 찾기\n- 레이드에서 Virtex programmable processor 2개 찾기\n- 피스키퍼에게 넘기기</item>
+        <item>30레벨</item>
+        <item>경험치 +22000\n피스키퍼 우호도 +0.09\nHK 416A5\n5.56x45mm M995 300발\nMagpul PMAG D–60 5.56x45mm 60–round magazine 2개\n60–round MAG5–60 5.56x45m STANAG magazine 2개\n2천 달러</item>
+        <item> </item>
+        <item>Peacekeeping mission</item>
+        <item>둘 다 Intelligence Center 2레벨에 제작가능하며, 둘 다 연구소(Labs)에서만 스폰합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_peacekeeping_mission">
+        <item>Peacekeeping Mission(평화 유지 임무)</item>
+        <item>제거</item>
+        <item>- UN 유니폼을 입고 세관(Customs)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 교차로(Interchange)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 해안선(Shoreline)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 숲(Woods)에서 SCAV 12명 사살하기
+        </item>
+        <item> </item>
+        <item>경험치 +32400\n피스키퍼 우호도 +0.12\n7.62x51mm M61 150발\nGPNVG-18 Night Vision 2개\nM700</item>
+        <item> </item>
+        <item>x</item>
+        <item>UN 유니폼은 UNTAR helmet, MF-UNTAR armor vest, M4A1을 의미합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_samples">
+        <item>Samples(샘플)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 M.U.L.E. stimulant 찾기\n- 레이드에서 \"Obdolbos\" cocktail 찾기\n- 레이드에서 \"Meldonin\" 찾기\n- 레이드에서 AHF1-M 찾기\n- 레이드에서 \"Norepinephrine\"찾기\n- 레이드에 3-(b-TG) 찾기\n- 피스키퍼에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +13200\n피스키퍼 우호도 +0.12\n4600달러\nSA-58\nAmmo case</item>
+        <item> </item>
+        <item>Terragroup employee</item>
+        <item>M.U.L.E. stimulant는 Medstation 레벨 2에서 제작이 가능합니다.\n또한 다른 주사기를 얻는 가장 빠른 방법은 연구소(Labs)의 Keycard with a blue marking 에 들어가는 것입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_terragroup_employee">
+        <item>Terragroup Employee(테라 그룹의 고용자)</item>
+        <item>주워오기</item>
+        <item>- 연구소(Labs)의 Sanitar의 일터 찾기\n- Sanitar의 일에 대한 정보 찾기\n- 피스키퍼에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +14400\n피스키퍼 우호도 +0.12\n5천 달러\nM4A1 4정\n5.56x45mm M856A1 300발</item>
+        <item> </item>
+        <item>x</item>
+        <item>Sanitar의 일터는 keycard with a blue marking으로 여는 곳으로 방안에 flash drive에 정보가 들어있습니다.</item>
+        <item>아니오</item>
         <item> </item>
     </string-array>
 

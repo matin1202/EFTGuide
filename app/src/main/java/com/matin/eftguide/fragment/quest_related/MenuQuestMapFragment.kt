@@ -37,12 +37,14 @@ class MenuQuestMapFragment : Fragment() {
             verticalLayout {
 
                 val quest = resources.getStringArray(resID!!)
-                val map = quest[9].split("||")
                 val mapsList = arrayListOf<String>()
                 val titleList = arrayListOf<String>()
-                for(i in map.indices){
-                    titleList.add(map[i].split("(")[0])
-                    mapsList.add(map[i].split("(")[1].split(")")[0])
+                if(quest[9].indexOf("https")!=-1) {
+                    val map = quest[9].split("||")
+                    for (i in map.indices) {
+                        titleList.add(map[i].split("(")[0])
+                        mapsList.add(map[i].split("(")[0].split(")")[0])
+                    }
                 }
                 for(i in titleList.indices){
                     textView {
