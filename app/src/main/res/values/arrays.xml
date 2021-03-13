@@ -8019,34 +8019,34 @@
         <item> </item>
         <item>Gunsmith - Part 11</item>
         <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL3의 AK-105을 기초로 합니다.\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles(Prapor 교환(LL2), LL4)\nB-10M foregrip and rail mount B-19(SKier LL3)\nKAC Vertical pistol grip(Peacekeeper LL1)\nPrimary Arms Compact prism scope 2.5x(Skier LL2)\nCompact mount for sights(Skier LL2)\nZenit B-33 dust cover for AK-74(Skier LL3)\nZenit RK-3 AK pistol grip(Skier LL3)\nDirect Thread Mount adapter for Silencerco Hybrid 46.(Peacekeeper, Mechanic LL2)\nSilencerco Hybrid 46 multi-caliber silencer(Peacekeeper LL2, Mechanic 교환(LL2))</item>
-        <item></item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
 
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
+    <string-array name="q_gunsmith_part_11">
+        <item>Gunsmith - Part 11(총기 제작자 11)</item>
+        <item>총기개조</item>
+        <item>- AS VAL을 조건에 맞춰 개조하기\n-> 반동 합 250 이하\n-> 인체 공학 34 이상\n-> Fab Defence GL Shock Stock\n-> AN/PEQ-15 tactical device\n-> NSPU-M night Scope\n-> 30-round SR3M. 130 SR3M magazine</item>
+        <item>20레벨</item>
+        <item>경험치 +18600\n메카닉 우호도 +0.06\nKey to KIBA Outlet grate door</item>
         <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
+        <item>Gunsmith - Part 12</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL4의 AS VAL을 기초로 합니다.\nFab Defence GL Shock Stock(Mechanic 교환(LL2), Skier LL4)\nNSPU-M night Scope(Prapor LL1)\nAN/PEQ-15 tactical device(Skier LL4, Peacekeeper LL3)\n30-round SR3M.130 9x39 SR3M magazine(Prapor 교환(LL3), LL4)\nTOZ 6P29M Mount(Jaeger LL3)\nAS VAL Pistol grip-buffer tube(Mecahnic LL2)</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
+    <string-array name="q_gunsmith_part_12">
+        <item>Gunsmith - Part 12(총기 제작자 12)</item>
+        <item>총기개조</item>
+        <item>- AK-102를 조건에 맞춰 개조하기\n-> 반동 합 500 이하\n-> 사정거리 500 이상\n-> 8칸 이하(제출 시 개머리판을 접어서 내야합니다.)\n-> Rotor 43 5.56x45 muzzle brake\n-> Magpul AFG grip OD\n-> Zenit 2U Klesch tactical flashlight</item>
+        <item>23레벨</item>
+        <item>Gunsmith - Part 13</item>
         <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
+        <item>경험치 +14400\n메카닉 우호도 +0.04\n7만 루블\nM870 Breacher\n메카닉 LL3에서 Magpul AFG grip OD 해금</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\nCAA RS47 foregrip for AK-compatible systems(Peacekeeper LL2)\nZenit 2U Klesch tactical flashlight(Mechanic LL3)\nMagpul AFG grip OD(Mechanic LL3)\nRotor 43 5.56x45 muzzle brake(Mechanic LL3)</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
