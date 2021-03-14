@@ -7901,7 +7901,7 @@
         <item>경험치 +6500\n메카닉 우호도 +0.04\n2만 루블\nGLOCK 17\n9x19mm Pst gzh 50발</item>
         <item> </item>
         <item>Gunsmith - Part 2, Gunsmith - Part 3, Farming - Part 1</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Jaeger LL1의 MP-133을 기초로 합니다.\nRemington Tectical Choke 12ga는 메카닉 LL1의 MP-133 교환으로 얻을 수 있습니다.\nDelta-tek Sprut mount for pump-action shotguns(Jaeger LL2)\nPlastic pistol grip for MP-133/153(Jaeger LL1)\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nRemington Tactical Choke-12ga(Skier LL2)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 예거 LL1의 MP-133을 기초로 합니다.\nRemington Tectical Choke 12ga는 메카닉 LL1의 MP-133 교환으로 얻을 수 있습니다.\nDelta-tek Sprut mount for pump-action shotguns(Jaeger LL2)\nPlastic pistol grip for MP-133/153(Jaeger LL1)\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nRemington Tactical Choke-12ga(Skier LL2)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7909,7 +7909,7 @@
     <string-array name="q_gunsmith_part_2">
         <item>Gunsmith - Part 2(총기 제작자 2)</item>
         <item>총기개조</item>
-        <item>- AKS-74U를 조건에 맞춰 개조하기\n-> 인체공학 56 이상\n-> 반동 합 600 이하\n-> 사정 거리 100 이상\n-> 무게 3.5kg 이하\n6칸 이하\nB-11 AKS-74U Handguard 부착\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles 부착</item>
+        <item>- AKS-74U를 조건에 맞춰 개조하기\n-> 인체공학 56 이상\n-> 반동 합 600 이하\n-> 영점 거리 100m 이상\n-> 무게 3.5kg 이하\n6칸 이하\nB-11 AKS-74U Handguard 부착\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles 부착</item>
         <item>11레벨</item>
         <item>경험치 +6000\n메카닉 우호도 +0.04\n6만 루블</item>
         <item> </item>
@@ -7922,12 +7922,12 @@
     <string-array name="q_gunsmith_part_3">
         <item>Gunsmith - Part 3(총기 제작자 3)</item>
         <item>총기개조</item>
-        <item>- MP5를 조건에 맞춰 개조하기\n-> 인체공학 45 이상\n-> 반동 합 250 이하\n-> 사정거리 200 이상\n-> 무게 3.8kg 이하\n-> 아무 전술장비\n-> X Products X-5 MP5 50-round 9x19 magazine 부착\n-> 소음기 장착</item>
+        <item>- MP5를 조건에 맞춰 개조하기\n-> 인체공학 45 이상\n-> 반동 합 250 이하\n-> 영점 거리 200m 이상\n-> 무게 3.8kg 이하\n-> 아무 전술장비\n-> X Products X-5 MP5 50-round 9x19 magazine 부착\n-> 소음기 장착</item>
         <item>12레벨</item>
         <item>경험치 +8800\n메카닉 우호도 +0.05\n500유로\nPP–19–01 Zenit</item>
         <item> </item>
         <item>Gunsmith - Part 4, Insider</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Peacekeeper LL2의 MP5를 기초로 합니다.\nX Products X-5 MP5 50-round 9x19 magazine(Mechanic 교환 (LL2, LL3)\nB&T MP5 SD Tri Rail Ring Mount(Peacekeeper LL2, Mechanic 교환(LL2))\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nMP5SD Polymer handguard(Peacekeeper LL2)\nHK MP5SD Upper receiver(Peacekeeper LL2)\nMP5SD 9x19 silencer(Peacekeeper LL2)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL2의 MP5를 기초로 합니다.\nX Products X-5 MP5 50-round 9x19 magazine(Mechanic 교환 (LL2, LL3)\nB&amp;T MP5 SD Tri Rail Ring Mount(Peacekeeper LL2, Mechanic 교환(LL2))\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nMP5SD Polymer handguard(Peacekeeper LL2)\nHK MP5SD Upper receiver(Peacekeeper LL2)\nMP5SD 9x19 silencer(Peacekeeper LL2)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7935,12 +7935,12 @@
     <string-array name="q_gunsmith_part_4">
         <item>Gunsmith - Part 4(총기 제작자 4)</item>
         <item>총기개조</item>
-        <item>- M4A1을 조건에 맞춰 개조하기\n-> 인체 공학 51 이상\n-> 반동 합 300 이하\n사정거리 800 이상\n-> 무게 3.8kg 이하\n-> 60발 들이 탄창\n-> 소음기 장착</item>
+        <item>- M4A1을 조건에 맞춰 개조하기\n-> 인체 공학 51 이상\n-> 반동 합 300 이하\n영점 거리 800m 이상\n-> 무게 3.8kg 이하\n-> 60발 들이 탄창\n-> 소음기 장착</item>
         <item>15레벨</item>
         <item>경험치 +10100\n메카닉 우호도 +0.05\n800유로\n비트코인</item>
         <item> </item>
         <item>Gunsmith - Part 5</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Peacekeeper LL2의 M4A1을 기초로 합니다.\nSurefire WarComp 5.56x45 Flash hider for AR-15(Skier LL2)\nSurefire SOCOM556-MINI MONSTER 5.56x45 Silencer(Mechanic LL3)\nPrimary Arms Compact prism scope 2.5x(Mechanic LL3)\nTroy M7A1 PDW(Mechanic LL2(Black), LL3(FDE)\nMagpul MOE Sl carbine length M-LOK foregrip for AR15(Skier LL1)\nMagpul M-LOK 4.1 inch guide(Mechanic LL2)\nTango Down Stubby BGV-MK46K tactical grip(Peacekeeper LL2, Skier LL2)\nMK12 Low Profile Gas Block(Mechanic LL1)\n60-round MAG5-60 5.56x45 STANAG magazine(Peacekeeper 교환(LL2))</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL2의 M4A1을 기초로 합니다.\nSurefire WarComp 5.56x45 Flash hider for AR–15(Skier LL2)\nSurefire SOCOM556–MINI MONSTER 5.56x45 Silencer(Mechanic LL3)\nPrimary Arms Compact prism scope 2.5x(Mechanic LL3)\nTroy M7A1 PDW(Mechanic LL2(Black), LL3(FDE))\nMagpul MOE Sl carbine length M–LOK foregrip for AR15(Skier LL1)\nMagpul M–LOK 4.1 inch guide(Mechanic LL2)\nTango Down Stubby BGV–MK46K tactical grip(Peacekeeper LL2, Skier LL2)\nMK12 Low Profile Gas Block(Mechanic LL1)\n60–round MAG5–60 5.56x45 STANAG magazine(Peacekeeper 교환(LL2))</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7948,12 +7948,12 @@
     <string-array name="q_gunsmith_part_5">
         <item>Gunsmith - Part 5(총기 제작자 5)</item>
         <item>총기개조</item>
-        <item>- DVL-10을 조건에 맞춰 개조하기\n-> 인체 공학 20 이상\n-> 반동 합 400 이하\n=-> 사정거리 2000 이상\n-> 무게 6.6kg 이하\n-> 아무 전술장비</item>
+        <item>- DVL-10을 조건에 맞춰 개조하기\n-> 인체 공학 20 이상\n-> 반동 합 400 이하\n=-> 영점 거리 2000m 이상\n-> 무게 6.6kg 이하\n-> 아무 전술장비</item>
         <item> </item>
         <item>경험치 +13900\n메카닉 우호도 +0.06\n20만 루블</item>
         <item> </item>
         <item>Gunsmith - Part 6, \"The Tarkov Shooter\" - Part 1</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Skier LL3의 DVL–10을 기초로 합니다.\nNcSTAR Tactical blue laser LAM–Module(Skier LL1)\n34mm one piece magmount made by I–E–A Mil Optics(Mechanic 교환(LL2), Jaeger LL3)\nNightforce ATACR 7–35x56 riflescope(Jaeger LL4, 교환(LL2))</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 스키어 LL3의 DVL–10을 기초로 합니다.\nNcSTAR Tactical blue laser LAM–Module(Skier LL1)\n34mm one piece magmount made by I–E–A Mil Optics(Mechanic 교환(LL2), Jaeger LL3)\nNightforce ATACR 7–35x56 riflescope(Jaeger LL4, 교환(LL2))</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7961,12 +7961,12 @@
     <string-array name="q_gunsmith_part_6">
         <item>Gunsmith - Part 6(총기 제작자 6)</item>
         <item>총기개조</item>
-        <item>- RSASS를 조건에 맞춰 개조하기\n-> 인체 공학 21이상\n-> 반동 합 350 이하\n-> 사정거리 1500 이상\n-> 무게 6.5kg 이하\n-> 소음기</item>
+        <item>- RSASS를 조건에 맞춰 개조하기\n-> 인체 공학 21이상\n-> 반동 합 350 이하\n-> 영점 거리 1500m 이상\n-> 무게 6.5kg 이하\n-> 소음기</item>
         <item>18레벨</item>
         <item>경험치 +14900\n메카닉 우호도 +0.06\n1천 유로\n비트코인 3개</item>
         <item> </item>
         <item>Gunsmith - Part 7</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Peacekeeper LL3(교환)의 RSASS를 기초로 합니다.\nSig–Sauer \"SRD\" 7.62x51 Sound Suppressor(Peacekeeper LL3)\nMagpul M–LOK AFG Tactical grip(Peacekeeper, Jaeger LL3)\nEOtech Vudu 1–6 riflescope(Jaeger LL3)\n30mm Scope mount(Jaeger LL2)\nColt buffer tube(Peacekeeper LL2)\nMOE Carbine stock(Peacekeeper LL3)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL3(교환)의 RSASS를 기초로 합니다.\nSig–Sauer \"SRD\" 7.62x51 Sound Suppressor(Peacekeeper LL3)\nMagpul M–LOK AFG Tactical grip(Peacekeeper, Jaeger LL3)\nEOtech Vudu 1–6 riflescope(Jaeger LL3)\n30mm Scope mount(Jaeger LL2)\nColt buffer tube(Peacekeeper LL2)\nMOE Carbine stock(Peacekeeper LL3)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7979,7 +7979,7 @@
         <item>경험치 +16000\n메카닉 우호도 +0.06\n10만 루블\nGLOCK 17 Fischer</item>
         <item> </item>
         <item>Gunsmith - Part 8</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\해당 모딩은 nSkier LL2의 M870을 기초로 합니다.\nRemington Tactical Choke 12ga(Skier LL2)\nMagpul MOE M870 forestock\n(Mechanic 교환(LL2))\nMagpul M-LOK 4.1 inch guide(Mechanic LL2)\nKAC Vertical pistol grip(Peacekeeper LL1)\nMagpul M-LOK 2.5 inch guide(Mechanic LL2)\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nSGA stock for M870(Mechanic 교환(LL2), LL3)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\해당 모딩은 스키어 LL2의 M870을 기초로 합니다.\nRemington Tactical Choke 12ga(Skier LL2)\nMagpul MOE M870 forestock\n(Mechanic 교환(LL2))\nMagpul M-LOK 4.1 inch guide(Mechanic LL2)\nKAC Vertical pistol grip(Peacekeeper LL1)\nMagpul M-LOK 2.5 inch guide(Mechanic LL2)\nNcSTAR Tactical blue laser LAM-Module(Skier LL1)\nSGA stock for M870(Mechanic 교환(LL2), LL3)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7987,12 +7987,12 @@
     <string-array name="q_gunsmith_part_8">
         <item>Gunsmith - Part 8(총기 제작자 8)</item>
         <item>총기개조</item>
-        <item>- AKM을 조건에 맞춰 개조하기\n-> 반동 합 350 이하\n-> 인체 공학 45 이상\n-> 사정 거리 800 이상\n-> 소음기\n-> Fortis Shift tactical grip\n-> PMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-roudn capacitty(Black)</item>
+        <item>- AKM을 조건에 맞춰 개조하기\n-> 반동 합 350 이하\n-> 인체 공학 45 이상\n-> 영점 거리 800m 이상\n-> 소음기\n-> Fortis Shift tactical grip\n-> PMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-roudn capacitty(Black)</item>
         <item>19레벨</item>
         <item>경험치 +16200\n메카닉 우호도 +0.06\n1500유로\n비트코인 2개</item>
         <item> </item>
         <item>Gunsmith - Part 9</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL2의 AKM을 기초로 합니다.\nPrimary Arms Compact prism scope 2.5x(Skier LL2)\nCompact mount for sights(Skier LL2)\nFortis Shift tactical grip(Peacekeeper LL4)\nlzhmash polymer AK-74 stock (6P20 Sb.7)(Prapor LL1(Black), LL2(Plum)\nRecoil pad from GP-25 for AK Accessory Kit(Prapor LL2)\nDirect Thread Mount adapter for Silencero Hybird 46.(Peacekeeper, Mechanic LL2), Silencero Hybrid 46 multi-caliber silencer(Peacekeeper LL2, Mechanic 교환(LL2))\nZenit RK-3 AK pistol grip(Skier LL3)\nPMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity(Black)(Peacekeeper LL2)\nCAA RS47 foregrip for AK-compatible systems(Peacekeeper LL2)\nAKademia Bastion dust cover for AK(Skier LL1)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL2의 AKM을 기초로 합니다.\nPrimary Arms Compact prism scope 2.5x(Skier LL2)\nCompact mount for sights(Skier LL2)\nFortis Shift tactical grip(Peacekeeper LL4)\nlzhmash polymer AK-74 stock (6P20 Sb.7)(Prapor LL1(Black), LL2(Plum)\nRecoil pad from GP-25 for AK Accessory Kit(Prapor LL2)\nDirect Thread Mount adapter for Silencero Hybird 46.(Peacekeeper, Mechanic LL2), Silencero Hybrid 46 multi-caliber silencer(Peacekeeper LL2, Mechanic 교환(LL2))\nZenit RK-3 AK pistol grip(Skier LL3)\nPMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity(Black)(Peacekeeper LL2)\nCAA RS47 foregrip for AK-compatible systems(Peacekeeper LL2)\nAKademia Bastion dust cover for AK(Skier LL1)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8000,12 +8000,12 @@
     <string-array name="q_gunsmith_part_9">
         <item>Gunsmith - Part 9(총기 제작자 9)</item>
         <item>총기개조</item>
-        <item>- AKS-74N을 조건에 맞춰 개조하기\n-> 반동 합 500 이하\n-> 인체 공학 55 이상\n-> 8칸 이하(제출 시 개머리판을 접어야 합니다.)\nZenit RK-3 AK pistol grip\nAKS-74/AKS-74U PT Lock + Zenit PT-3 \"Klassika\" stock\nZenit B-33 dust for AK-74\nB-10M foregrip and rail mount B-19\nZenit DTK-1 7.62x39 & 5.45x39 muzzle brake & compensator for AK</item>
+        <item>- AKS-74N을 조건에 맞춰 개조하기\n-> 반동 합 500 이하\n-> 인체 공학 55 이상\n-> 8칸 이하(제출 시 개머리판을 접어야 합니다.)\nZenit RK-3 AK pistol grip\nAKS-74/AKS-74U PT Lock + Zenit PT-3 \"Klassika\" stock\nZenit B-33 dust for AK-74\nB-10M foregrip and rail mount B-19\nZenit DTK-1 7.62x39 &amp; 5.45x39 muzzle brake &amp; compensator for AK</item>
         <item>20레벨</item>
         <item>경험치 17300\n메카닉 우호도 +0.06\n500유로\nM4A1 SOPMOD II</item>
         <item> </item>
         <item>Gunsmith - Part 10</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL2의 AKS-74N을 기초로 합니다.\nZenit PT-3 \"Klassika\" stock(Skier LL3)\nAKS-74/AKS-74U PT Lock(Skier LL2)\nZenit RK-3 AK pistol grip(Skier LL3)\nZenit B-33 dust cover for AK-74(Skier LL3)\nB-10M foregrip and rail mount B-19(Skier LL3)\nZenit DTK-1 7.62x39 & 5.45x39 muzzle brake & compensator for AK</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL2의 AKS-74N을 기초로 합니다.\nZenit PT-3 \"Klassika\" stock(Skier LL3)\nAKS-74/AKS-74U PT Lock(Skier LL2)\nZenit RK-3 AK pistol grip(Skier LL3)\nZenit B-33 dust cover for AK-74(Skier LL3)\nB-10M foregrip and rail mount B-19(Skier LL3)\nZenit DTK-1 7.62x39 &amp; 5.45x39 muzzle brake &amp; compensator for AK</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8013,12 +8013,12 @@
     <string-array name="q_gunsmith_part_10">
         <item>Gunsmith - Part 10(총기 제작자 10)</item>
         <item>총기개조</item>
-        <item>- AK-105를 조건에 맞춰 개조하기\n-> 반동 합 550 이하\n-> 인체 공학 48 이상\n사정 거리 800 이상\n무게 4.8kg 이하\n8칸 이하(제출 시 개머리판을 접어야 합니다.)\n-> 소음기\n-> 60-round 6L31 5.45x39 magazine for AK-74 and compatibles</item>
+        <item>- AK-105를 조건에 맞춰 개조하기\n-> 반동 합 550 이하\n-> 인체 공학 48 이상\n영점 거리 800m 이상\n무게 4.8kg 이하\n8칸 이하(제출 시 개머리판을 접어야 합니다.)\n-> 소음기\n-> 60-round 6L31 5.45x39 magazine for AK-74 and compatibles</item>
         <item>20레벨</item>
         <item>경험치 +17500\n메카닉 우호도 +0.06\nAmmo case 2개\n메카닉 LL3에서 M4A1 SOPMOD I 해금</item>
         <item> </item>
         <item>Gunsmith - Part 11</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL3의 AK-105을 기초로 합니다.\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles(Prapor 교환(LL2), LL4)\nB-10M foregrip and rail mount B-19(SKier LL3)\nKAC Vertical pistol grip(Peacekeeper LL1)\nPrimary Arms Compact prism scope 2.5x(Skier LL2)\nCompact mount for sights(Skier LL2)\nZenit B-33 dust cover for AK-74(Skier LL3)\nZenit RK-3 AK pistol grip(Skier LL3)\nDirect Thread Mount adapter for Silencerco Hybrid 46.(Peacekeeper, Mechanic LL2)\nSilencerco Hybrid 46 multi-caliber silencer(Peacekeeper LL2, Mechanic 교환(LL2))</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL3의 AK-105을 기초로 합니다.\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles(Prapor 교환(LL2), LL4)\nB-10M foregrip and rail mount B-19(Skier LL3)\nKAC Vertical pistol grip(Peacekeeper LL1)\nPrimary Arms Compact prism scope 2.5x(Skier LL2)\nCompact mount for sights(Skier LL2)\nZenit B-33 dust cover for AK-74(Skier LL3)\nZenit RK-3 AK pistol grip(Skier LL3)\nDirect Thread Mount adapter for Silencerco Hybrid 46.(Peacekeeper, Mechanic LL2)\nSilencerco Hybrid 46 multi-caliber silencer(Peacekeeper LL2, Mechanic 교환(LL2))</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8032,7 +8032,7 @@
         <item>경험치 +18600\n메카닉 우호도 +0.06\nKey to KIBA Outlet grate door</item>
         <item> </item>
         <item>Gunsmith - Part 12</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 Prapor LL4의 AS VAL을 기초로 합니다.\nFab Defence GL Shock Stock(Mechanic 교환(LL2), Skier LL4)\nNSPU-M night Scope(Prapor LL1)\nAN/PEQ-15 tactical device(Skier LL4, Peacekeeper LL3)\n30-round SR3M.130 9x39 SR3M magazine(Prapor 교환(LL3), LL4)\nTOZ 6P29M Mount(Jaeger LL3)\nAS VAL Pistol grip-buffer tube(Mecahnic LL2)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL4의 AS VAL을 기초로 합니다.\nFab Defence GL Shock Stock(Mechanic 교환(LL2), Skier LL4)\nNSPU-M night Scope(Prapor LL1)\nAN/PEQ-15 tactical device(Skier LL4, Peacekeeper LL3)\n30-round SR3M.130 9x39 SR3M magazine(Prapor 교환(LL3), LL4)\nTOZ 6P29M Mount(Jaeger LL3)\nAS VAL Pistol grip-buffer tube(Mechanic LL2)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8040,78 +8040,143 @@
     <string-array name="q_gunsmith_part_12">
         <item>Gunsmith - Part 12(총기 제작자 12)</item>
         <item>총기개조</item>
-        <item>- AK-102를 조건에 맞춰 개조하기\n-> 반동 합 500 이하\n-> 사정거리 500 이상\n-> 8칸 이하(제출 시 개머리판을 접어서 내야합니다.)\n-> Rotor 43 5.56x45 muzzle brake\n-> Magpul AFG grip OD\n-> Zenit 2U Klesch tactical flashlight</item>
+        <item>- AK-102를 조건에 맞춰 개조하기\n-> 반동 합 500 이하\n-> 영점 거리 500m 이상\n-> 8칸 이하(제출 시 개머리판을 접어서 내야합니다.)\n-> Rotor 43 5.56x45 muzzle brake\n-> Magpul AFG grip OD\n-> Zenit 2U Klesch tactical flashlight</item>
         <item>23레벨</item>
-        <item>Gunsmith - Part 13</item>
-        <item> </item>
         <item>경험치 +14400\n메카닉 우호도 +0.04\n7만 루블\nM870 Breacher\n메카닉 LL3에서 Magpul AFG grip OD 해금</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\nCAA RS47 foregrip for AK-compatible systems(Peacekeeper LL2)\nZenit 2U Klesch tactical flashlight(Mechanic LL3)\nMagpul AFG grip OD(Mechanic LL3)\nRotor 43 5.56x45 muzzle brake(Mechanic LL3)</item>
+        <item> </item>
+        <item>Gunsmith - Part 13</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 메카닉 LL3의 AK-102를 기초로 합니다.\nCAA RS47 foregrip for AK-compatible systems(Peacekeeper LL2)\nZenit 2U Klesch tactical flashlight(Mechanic LL3)\nMagpul AFG grip OD(Mechanic LL3)\nRotor 43 5.56x45 muzzle brake(Mechanic LL3)</item>
         <item>예</item>
         <item> </item>
     </string-array>
 
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
+    <string-array name="q_gunsmith_part_13">
+        <item>Gunsmith - Part 13(총기 제작자 13)</item>
+        <item>총기개조</item>
+        <item>- SIG MPX를 조건에 맞춰 개조하기\n-> 반동 합 250 이하\n-> 인체 공학 52 이상\n-> 무게 4kg 이하\n-> 영점 거리 300m 이상\n-> Skeletionized AR-15 pistol grip\n-> Annihilator 7.62x39, 5.56x45 and 9mm flash hider for AR-15\n-> LAS/TAC 2 tactical flashlight</item>
+        <item>25레벨</item>
+        <item>경험치 +19000\n메카닉 우호도 +0.05\n500달러\nMuzzle brake Vendetta precision VP-09 5.56x45\n메카닉 LL3에서 Skeletonized AR-15 pistol grip 해금</item>
         <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
-        <item> </item>
-    </string-array>
-
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
-        <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
+        <item>Gunsmith - Part 14</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL2의 MPX를 기초로 합니다\nSkeletonized AR-15 pistol grip은 메카닉 LL3의 TX-15 교환을 통해서 싼 값에 얻을 수 있습니다.\nSkeletonized AR-15 pistol grip(Skier 교환 LL3)\nTango Down Stubby BGV-MK46K tactical grip(Peacekeeper, Skier LL2)\nAnnihilator 7.62x39, 5.56x45 and 9mm flash hider for AR-15(Mechanic LL3)\nLAS/TAC 2 tactical flashlight(퀘스트 후 Mechanic LL3)</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
+    <string-array name="q_gunsmith_part_14">
+        <item>Gunsmith - Part 14(총기 제작자 14)</item>
+        <item>총기개조</item>
+        <item>- AKMN을 조건에 맞춰 개조하기\n-> 반동 합 350 이하\n-> 인체 공학 47 이상\n-> 무게 5kg 이하\n-> 영점 거리 500m 이상\n-> Magpul MOE AKM HAND GUARD (Black) for AK\n-> MOE Carbine stock(Black)\n-> Magpul MOE pistol grip for AK\n-> PMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity (Black)\n-> Magpul M-LOK AFG Tactical grip(Black)\n-> Rotor 43 7.62x39 muzzle brake</item>
+        <item>27레벨</item>
+        <item>경험치 +20800\n메카닉 우호도 +0.05\n10만 루블\nEOtech Vudu 1–6 riflescope\n메카닉 LL3에서 LAS/TAC 2 tactical flashlight 해금</item>
         <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
-        <item> </item>
-    </string-array>
-
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
-        <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
+        <item>Gunsmith - Part 15</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL3의 AKMN을 기초로 합니다.\nMagpul MOE AKM HAND GUARD (Black) for AK(Skier LL3)\nMagpul M-LOK AFG Tactical grip (Black)(Peackeeper, Skier LL3)\nMOE Carbine stock(Black)(Skier LL3)\nMagpul MOE pistol grip for AK(Mechanic LL3)\nPMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity (Black) (Peacekeeper LL2)\nRotor 43 7.62x39 muzzle brake (Mechanic 교환 LL3)\nME adapter for AK(Skier LL3)\nColt buffer tube(Peacekeeper LL2, Skier LL3)</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
-    <string-array name="q_gunsmith_part_">
-        <item>Gunsmith - Part (총기 제작자 )</item>
-        <item></item>
-        <item></item>
-        <item>레벨</item>
-        <item></item>
+    <string-array name="q_gunsmith_part_15">
+        <item>Gunsmith - Part 15(총기 제작자 15)</item>
+        <item>총기개조</item>
+        <item>- M1A를 조건에 맞춰 개조하기\n-> 반동 합 400 이하\n-> 인체 공학 20 이상\n-> 무게 7.3kg 이하\n-> M14 Ultimak M8 upper part\n-> Nightforce ATACR 7-35x56 riflescope\n-> Aimpoint Micro T-1 reflex sight\n-> Holosun LS321 Tactical device</item>
+        <item>29레벨</item>
+        <item>경험치 +22600\n메카닉 우호도 +0.05\n700유로\nM1A SASS</item>
         <item> </item>
-        <item></item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.</item>
-        <item></item>
+        <item>Gunsmith - Part 16</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL3의 M1A를 기초로 합니다.\n제출 시 탄창을 제거해야 합니다.\n34mm one piece magmount made by I–E–A Mil Optics는 34mm one piece magmount made by Nightforce(Jaeger 교환 LL2)으로 교체 가능합니다.\nM14 Ultimak M8 upper part(Mechanic 교환 LL2)\nNightforce ATACR 7–35x56 riflescope(Jaeger 교환 LL2, LL3)\n34mm one piece magmount made by I-E-A Mil Optics(Mechanic 교환 LL2, Jaeger LL3)\nAimpoint Micro T-1 reflex sight(Peacekeeper LL1)\nAimpoint mount for the sights of Micro series(Peacekeeper LL1)\nHolosun LS321 Tactical device(Skier LL3)\n22\" barrel for a M1A 7.62x51 NATO(Mechanic LL3)\nM14 UTG 4 point locking deluxe mount(Mechanic LL3, Peacekeeper 교환 LL2)\nCompensator 2A \"X3\" 7.62x51 for AR-10(Mechanic LL2)\nM1A Archangel stock(Mechanic LL3)</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_gunsmith_part_16">
+        <item>Gunsmith - Part 16(총기 제작자 16)</item>
+        <item>총기개조</item>
+        <item>- M4A1을 조건에 맞춰 개조하기\n-> 인체 공학 52 이상\n-> 반동 합 250 이하\n-> 무게 5kg 이하\n 60발 들이 탄창\n-> KAC QDSS NT-4 FDE 5.56x45 silencer\n-> Handguard MK 10 for use with AR-15 and compatible\n-> Trijicon REAP-IR thermal riflescope</item>
+        <item>35레벨</item>
+        <item>경험치 +28500\n메카닉 우호도 +0.06\n2500유로\nM4A1 Space Trooper</item>
+        <item> </item>
+        <item>x</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 피스키퍼 LL2의 M4A1을 기초로 합니다.\n260mm barrel for AR-15 and compatible 5.56x45(Peacekeeper LL3)\nKAC QD Compensator 5.56x45\nKAC QDSS NT-4 FDE 5.56x45 silencer\nMK12 Low Profile Gas Block(Peacekeeper LL2, Mechanic LL1)\nHandguard MK 10 for use with AR-15 and compatible\nREAP-IR scope eyecup(Mechanic LL3)\nTrijicon REAP-IR thermal riflescope(Skier 교환 LL4, Mechanic 교환 LL4)\nUNV DLOC-IRD Mount for sights(Jaeger LL3)\nNaroh Arms GRAL-S Pistol grip for AR-15-compatible weapons(Peacekeeper LL4)\nRaptor charging handle for AR-15(Mechanic LL3)\nTroy M7A1 PDW stock(Mechanic LL2)\nMagpul PMAG D-60 5.56x45 60-round magazine(Peacekeeper 교환 LL3)\nVltor MUR-1S 5.56x45 Upper receiver for AR systems(Peacekeeper LL4)</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_insider">
+        <item>Insider(인싸)</item>
+        <item>평판</item>
+        <item>- 프라퍼 LL3 달성하기</item>
+        <item>12레벨</item>
+        <item>경험치 +9300\n메카닉 우호도 +0.04\n800유로\nSilencerCo Osprey 9 9x19mm sound suppressor 2개</item>
+        <item> </item>
+        <item>x</item>
+        <item>프라퍼 LL3의 요구 조건은 레벨 22, 우호도 0.35, 판매량 150만 루블입니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_farming_part_1">
+        <item>Farming - Part 1(채굴 1)</item>
+        <item>완료</item>
+        <item>- 조작 패널 2개를 고치기\n공장(Factory)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +8300\n메카닉 우호도 +0.04\n25000루블</item>
+        <item> </item>
+        <item>Farming - Part 2</item>
+        <item>패널을 고치기 위해서는 A set of Tools 가 소모됩니다</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_farming_part_2">
+        <item>Farming - Part 2(채굴 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Powercord 2개 찾기\n- 레이드에서 T-Shaped Plug 4개 찾기\n- 레이드에서 Printed circuit board 2개 찾기\n- 메카닉에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +6800\n메카닉 우호도 +0.03\n15000루블\nAS VAL\nNIXXOR lens</item>
+        <item> </item>
+        <item>Farming - Part 3, Bad habit</item>
+        <item>세 아이템 모두 Work Bench 1레벨에서 제작 가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_bad_habit">
+        <item>Bad habit(나쁜 습관)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Malboro cigarettes 5개 찾기\n- 레이드에서 Strike cigarettes 5개 찾기\n- 레이드에서 Wilston cigarettes 5개 찾기\n- 메카닉에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +9000\n메카닉 우호도 +0.04\n300유로\nGLOCK 18C 9x19 pistol\n9x19mm Green Tracer 300발</item>
+        <item> </item>
+        <item>x</item>
+        <item>Wilston cigarettes는 Nutrition unit 2레벨에 제작 가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_farming_part_3">
+        <item>Farming - Part 3(채굴 3)</item>
+        <item>완료</item>
+        <item>- 창고의 몰수품을 찾기\n- 그래픽카드 패키지 찾기\n- 메카닉에게 넘기기</item>
+        <item>14레벨</item>
+        <item>경험치 +8100\n메카닉 우호도 +0.03\n2만 루블\n비트코인</item>
+        <item> </item>
+        <item>Farming - Part 4, A Shooter Born in Heaven</item>
+        <item>세관(Customs)의 빨간 창고의 2층에 Customs office key를 사용해 들어가 안쪽 방에 서랍 아래 물건이 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_a_shooter_born_in_heaven">
+        <item>A Shooter Born in Heaven(천국에서 태어난 사격수)</item>
+        <item>제거</item>
+        <item>- 숲(Woods), 군사기지(Reserve), 해안선(Shoreline), 세관(Customs)에서 각각 100m이상 거리에서 3명의 PMC를 머리를 맞춰 사살하기</item>
+        <item> </item>
+        <item>경험치 +39500\n10만 루블\n7.62x54r ProMag OPROF for Archangel Mosin rifle kit, 10-round capacity 4개\n7.62x54R SNB 100발\nMosin sniper rifle\n메카닉 우호도 +0.06\n메카닉 LL3에서 Magazine case 해금\nSniper Rifles 스킬 +1레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
