@@ -34,7 +34,8 @@
                 android:text="이름"
                 android:gravity="center_vertical"
                 android:textSize="20sp"
-                android:background="@color/background" />
+                android:background="@color/background"
+                android:textColor="@color/text_color"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -43,7 +44,8 @@
                 android:text="Quest Name in Here"
                 android:id="@+id/tv_quest_name"
                 android:textSize="20sp"
-                android:background="@color/background" />
+                android:background="@color/background"
+                android:textColor="@color/text_color" />
         </LinearLayout>
 
         <LinearLayout
@@ -59,6 +61,7 @@
                 android:text="유형"
                 android:gravity="center_vertical"
                 android:background="@color/background"
+                android:textColor="@color/text_color"
                 android:textSize="20sp" />
 
             <TextView
@@ -70,6 +73,7 @@
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_kind"
                 android:background="@color/background"
+                android:textColor="@color/text_color"
                 android:gravity="center"/>
 
             <TextView
@@ -78,6 +82,7 @@
                 android:text="요구 조건"
                 android:textSize="20sp"
                 android:gravity="center_vertical"
+                android:textColor="@color/text_color"
                 android:background="@color/background"
                 android:layout_marginEnd="1dp"
                 
@@ -88,6 +93,7 @@
                 android:layout_height="wrap_content"
                 android:text="Requirement"
                 android:gravity="center"
+                android:textColor="@color/text_color"
                 android:background="@color/background"
                 android:textSize="20sp"
                 android:id="@+id/tv_quest_requirement"
@@ -105,6 +111,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/background"
                 android:text="목표"
+                android:textColor="@color/text_color"
                 android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:layout_marginEnd="1dp"/>
@@ -114,6 +121,7 @@
                 android:layout_height="wrap_content"
                 android:text=" - 1st Object\n - 2nd Object"
                 android:textSize="20sp"
+                android:textColor="@color/text_color"
                 android:background="@color/background"
                 android:id="@+id/tv_quest_object"/>
 
@@ -129,6 +137,7 @@
                 android:layout_width="97dp"
                 android:layout_height="match_parent"
                 android:text="보상"
+                android:textColor="@color/text_color"
                 android:gravity="center_vertical"
                 android:background="@color/background"
                 android:textSize="20sp"
@@ -140,6 +149,7 @@
                 android:background="@color/background"
                 android:text=" - 1st Reward\n - 2st Reward"
                 android:textSize="20sp"
+                android:textColor="@color/text_color"
                 android:id="@+id/tv_quest_reward"/>
 
         </LinearLayout>
@@ -157,6 +167,7 @@
                 android:background="@color/background"
                 android:textSize="20sp"
                 android:gravity="center"
+                android:textColor="@color/text_color"
                 android:layout_marginEnd="1dp"/>
 
             <TextView
@@ -165,6 +176,7 @@
                 android:background="@color/background"
                 android:text=" - 1st Penalty\n - 2nd Penalty"
                 android:textSize="20sp"
+                android:textColor="@color/text_color"
                 android:id="@+id/tv_quest_penalty"/>
 
         </LinearLayout>
@@ -182,6 +194,7 @@
                 android:background="@color/background"
                 android:text="연계 퀘스트"
                 android:gravity="center"
+                android:textColor="@color/text_color"
                 android:layout_marginEnd="1dp"
                 />
 
@@ -191,6 +204,7 @@
                 android:layout_height="wrap_content"
                 android:text="Relate Quest in Here"
                 android:textSize="20sp"
+                android:textColor="@color/text_color"
                 android:gravity="center"
                 android:id="@+id/tv_quest_relate"/>
 
@@ -207,6 +221,7 @@
                 android:layout_height="match_parent"
                 android:textSize="20sp"
                 android:text="팁"
+                android:textColor="@color/text_color"
                 android:gravity="center_vertical"
                 android:background="@color/background"
                 android:layout_marginEnd="1dp"/>
@@ -216,6 +231,7 @@
                 android:layout_height="wrap_content"
                 android:text=" - 1st Tip in Here\n - 2st Tip in Here"
                 android:gravity="center"
+                android:textColor="@color/text_color"
                 android:textSize="20sp"
                 android:background="@color/background"
                 android:id="@+id/tv_quest_tip"
@@ -227,6 +243,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:textColor="@color/text_color"
             android:id="@+id/tv_quest_need_for_kappa"
             android:text="Kappa 컨테이너에 필요 : O/X"/>
 

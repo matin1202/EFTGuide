@@ -7485,7 +7485,7 @@
         <item> </item>
     </string-array>
 
-    <string-array name="q_lend_lease">
+    <string-array name="q_lend_lease_part_1">
         <item>Lend lease - Part 1(무기 대여 1)</item>
         <item>주워오기</item>
         <item>- 모터 컨트롤러 3개 찾기\n- 자이로스코프 2개 찾기\n- 스키어에게 넘기기</item>
@@ -8071,7 +8071,7 @@
         <item>경험치 +20800\n메카닉 우호도 +0.05\n10만 루블\nEOtech Vudu 1–6 riflescope\n메카닉 LL3에서 LAS/TAC 2 tactical flashlight 해금</item>
         <item> </item>
         <item>Gunsmith - Part 15</item>
-        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL3의 AKMN을 기초로 합니다.\nMagpul MOE AKM HAND GUARD (Black) for AK(Skier LL3)\nMagpul M-LOK AFG Tactical grip (Black)(Peackeeper, Skier LL3)\nMOE Carbine stock(Black)(Skier LL3)\nMagpul MOE pistol grip for AK(Mechanic LL3)\nPMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity (Black) (Peacekeeper LL2)\nRotor 43 7.62x39 muzzle brake (Mechanic 교환 LL3)\nME adapter for AK(Skier LL3)\nColt buffer tube(Peacekeeper LL2, Skier LL3)</item>
+        <item>해당 모딩은 언제까지나 하나의 예시일 뿐입니다.\n해당 모딩은 프라퍼 LL3의 AKMN을 기초로 합니다.\nMagpul MOE AKM HAND GUARD (Black) for AK(Skier LL3)\nMagpul M-LOK AFG Tactical grip (Black)(Peacekeeper, Skier LL3)\nMOE Carbine stock(Black)(Skier LL3)\nMagpul MOE pistol grip for AK(Mechanic LL3)\nPMAG 30 AK/AKM GEN M3 7.62x39 magazine for AK and compatibles, 30-round capacity (Black) (Peacekeeper LL2)\nRotor 43 7.62x39 muzzle brake (Mechanic 교환 LL3)\nME adapter for AK(Skier LL3)\nColt buffer tube(Peacekeeper LL2, Skier LL3)</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8079,7 +8079,7 @@
     <string-array name="q_gunsmith_part_15">
         <item>Gunsmith - Part 15(총기 제작자 15)</item>
         <item>총기개조</item>
-        <item>- M1A를 조건에 맞춰 개조하기\n-> 반동 합 400 이하\n-> 인체 공학 20 이상\n-> 무게 7.3kg 이하\n-> M14 Ultimak M8 upper part\n-> Nightforce ATACR 7-35x56 riflescope\n-> Aimpoint Micro T-1 reflex sight\n-> Holosun LS321 Tactical device</item>
+        <item>– M1A를 조건에 맞춰 개조하기\n–> 반동 합 400 이하\n–> 인체 공학 20 이상\n-> 무게 7.3kg 이하\n-> M14 Ultimak M8 upper part\n-> Nightforce ATACR 7–35x56 riflescope\n-> Aimpoint Micro T–1 reflex sight\n-> Holosun LS321 Tactical device</item>
         <item>29레벨</item>
         <item>경험치 +22600\n메카닉 우호도 +0.05\n700유로\nM1A SASS</item>
         <item> </item>
@@ -8136,7 +8136,7 @@
         <item>경험치 +6800\n메카닉 우호도 +0.03\n15000루블\nAS VAL\nNIXXOR lens</item>
         <item> </item>
         <item>Farming - Part 3, Bad habit</item>
-        <item>세 아이템 모두 Work Bench 1레벨에서 제작 가능합니다.</item>
+        <item>세 아이템 모두 WorkBench 1레벨에서 제작 가능합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8173,6 +8173,137 @@
         <item>- 숲(Woods), 군사기지(Reserve), 해안선(Shoreline), 세관(Customs)에서 각각 100m이상 거리에서 3명의 PMC를 머리를 맞춰 사살하기</item>
         <item> </item>
         <item>경험치 +39500\n10만 루블\n7.62x54r ProMag OPROF for Archangel Mosin rifle kit, 10-round capacity 4개\n7.62x54R SNB 100발\nMosin sniper rifle\n메카닉 우호도 +0.06\n메카닉 LL3에서 Magazine case 해금\nSniper Rifles 스킬 +1레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_farming_part_4">
+        <item>Farming - Part 4(채굴 4)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Graphics card 3개 주워오기\n레이드에서 CPU Fan 8개 주워오기</item>
+        <item>14레벨</item>
+        <item>경험치 +9800\n메카닉 우호도 +0.04\n300유로\nGLOCK 17 Viper</item>
+        <item> </item>
+        <item>Import, Fertilizers</item>
+        <item>Graphics Card는 Intelligence Center 2레벨에서 제작할 수 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_import">
+        <item>Import(수입)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 UHF RFID Reader 찾기\n- 레이드에서 VPX Flash Storage Module 찾기\n- 메카닉에게 넘기기</item>
+        <item>35레벨</item>
+        <item>경험치 +42800\n메카닉 우호도 +0.07\n예거 우호도 -0.01\n85000루블\nGraphics card\nTrijicon REAP-IR thermal riflescope\n비트코인 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item>UHF RFID Reader와 VPX Flash Storage Module은 Intelligence Center 2레벨에서 제작 가능합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+
+    <string-array name="q_fertilizers">
+        <item>Fertilizers(비료)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Wires 5개 찾기\n- 레이드에서 Capacitors 5개 찾기\n- 메카닉에게 넘기기</item>
+        <item>30레벨</item>
+        <item>경험치 +19500\n메카닉 우호도 +0.06\n비트코인 3개\n65000루블</item>
+        <item> </item>
+        <item>x</item>
+        <item>Capacitors와 Wires는 Workbench 1레벨에서 제작 가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_signal_part_1">
+        <item>Signal - Part 1(신호 1)</item>
+        <item>발견</item>
+        <item>- 두 개의 신호 원천을 찾기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +8500\n메카닉 우호도 +0.04\n1만 루블\nSGMT Drum mag for Glock 9x19, 50 rounds capacity</item>
+        <item> </item>
+        <item>Signal - Part 2, Insider</item>
+        <item>목표물은 해안선(Shoreline)에서 하나는 기상 레이더쪽에 하나는 리조트의 서관 지붕에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_signal_part_2">
+        <item>Signal - Part 2(신호 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 PC CPU 3개 찾기\n- 레이드에서 Rechargeable battery 3개 찾기\n- 레이드에서 Printed circuit borad 3개 찾기\n- 레이드에서 Broken GPhone 3개 찾기\n- 메카닉에게 넘기기</item>
+        <item>12레벨</item>
+        <item>경험치 +8700\n메카닉 우로도 +0.04\n5만 루블</item>
+        <item> </item>
+        <item>Signal - Part 3, Scout</item>
+        <item>Rechargeable battery와 Printed circuit board는 각각 Workbench 레벨1, 레벨2에서 제작 가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_Scout">
+        <item>Scout(정찰병)</item>
+        <item>완료</item>
+        <item>- 공장(Factory)의 탈출구를 3개 찾기\n- 공장(Factory)에서 탈출하기</item>
+        <item>12레벨</item>
+        <item>경험치 +9200\n메카닉 우호도 +0.04\n3만 루블\n비트코인 2개</item>
+        <item> </item>
+        <item>x</item>
+        <item>Factory exit key 없이도 탈출구 문 앞에 가는 것만으로도 달성이 됩니다.\n한 레이드에서 모두 찾을 필요는 없습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_signal_part_3">
+        <item>Signal - Part 3(신호 3)</item>
+        <item>완료</item>
+        <item>- 신호 방해기 3개 설치하기\n- 해안선(Shoreline)에서 탈출하기</item>
+        <item>15레벨</item>
+        <item>경험치 +11000\n메카닉 우호도 +0.04\n3만 루블\nM870</item>
+        <item> </item>
+        <item>Signal - Part 4</item>
+        <item>해안선(Shoreline)의 기상 레이더, 리조트 서관, 라디오 타워에 각각 설치하면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_signal_part_4">
+        <item>Signal - Part 4(신호 4)</item>
+        <item>스킬</item>
+        <item>- Memory 스킬을 4레벨까지 올리기</item>
+        <item>15레벨</item>
+        <item>경험치 +11100\n메카닉 우호도 +0.04\n2만 루블\nNightforce ATACR 7–35x56 riflescope</item>
+        <item> </item>
+        <item>x</item>
+        <item>Memory 스킬은 다른 스킬의 경험치를 얻을 때마다 경험치를 얻습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_chemistry_closet">
+        <item>The Chemistry closet(화학 밀실)</item>
+        <item>완료</item>
+        <item>- 리조트에서 Sanitar의 방을 찾기\n- 해안선(Shoreline)을 탈출하기</item>
+        <item> </item>
+        <item>경험치 +13800\n메카닉 우호도 +0.14\n1000유로\nSilencerco Hybrid 46 multi-caliber silencer 2개\nGraphics card</item>
+        <item> </item>
+        <item>Huntsman path - Sadist, Colleague - Part 3</item>
+        <item>해안선(Shoreline)의 리조트 동관의 110호에 Key with Tape를 사용해 들어가면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_psycho_sniper">
+        <item>Psycho Sniper(싸이코 저격수)</item>
+        <item>스킬</item>
+        <item>- Sniper skill 9레벨까지 올리기</item>
+        <item> </item>
+        <item>경험치 +32400\n15만 루블\nIntellect +2레벨\nStress Resistance +1레벨\nPerception +2레벨</item>
         <item> </item>
         <item>x</item>
         <item> </item>
