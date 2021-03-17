@@ -6490,6 +6490,8 @@
         <item> </item>
     </string-array>
 
+    <!-- Prapor's Quest  -->
+
     <string-array name="q_debut">
         <item>Debut(데뷔)</item>
         <item>제거</item>
@@ -6779,12 +6781,12 @@
     <string-array name="q_perfect_mediator">
         <item>Perfect Mediator(완벽한 중재자)</item>
         <item>능력</item>
-        <item> - 라그만, 스키어, 메카닉, 피스키퍼, 프라퍼, 테라피스트 LL4 도달하기</item>
+        <item> - 래그맨, 스키어, 메카닉, 피스키퍼, 프라퍼, 테라피스트 LL4 도달하기</item>
         <item>35레벨</item>
         <item>경험치 17200\n프라퍼 우호도 +0.9\n55000루블\nT H I C C Weapon case</item>
         <item> </item>
         <item>x</item>
-        <item>40렙에 도달해야 메카닉과 라그만의 LL4 조건을 도달할 수 있습니다.</item>
+        <item>40렙에 도달해야 메카닉과 래그맨의 LL4 조건을 도달할 수 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -6841,7 +6843,7 @@
         <item> </item>
     </string-array>
 
-    <!-- Prapor -->
+    <!-- Therapist's Quests -->
 
     <string-array name="q_shortage">
         <item>Shortage(부족)</item>
@@ -6926,7 +6928,7 @@
         <item>주워오기</item>
         <item> - 장치가 들어있는 가방을 찾기\n-  테라피스트에게 넘기기</item>
         <item>10레벨</item>
-        <item>경험치 5900\n테라피스트 +0.09\n25000루블\nIFAK personal tactical aid kit 4개\n라그만 LL2에서 6B47 Helmet with cover 해금</item>
+        <item>경험치 5900\n테라피스트 +0.09\n25000루블\nIFAK personal tactical aid kit 4개\n래그맨 LL2에서 6B47 Helmet with cover 해금</item>
         <item> </item>
         <item>General wares, Health Care Privacy - Part 1, Car repair, Supply plans, Kind of sabotage</item>
         <item>세관(Customs)의 기숙사 2층 건물의 114호에 가방이 있습니다.</item>
@@ -7412,7 +7414,7 @@
         <item>주워오기</item>
         <item>- 화학 물질이 담긴 차를 찾기\n- 신호기를 설치하기\n- 세관(Customs)에서 탈출하기</item>
         <item>11레벨</item>
-        <item>경험치 6600\n스키어 우호도 +0.1\n예거 우호도 –0.01\n35000루블\nGrenade case\n라그만 LL3에서 ZSh–1–2M helmet (black) 해금</item>
+        <item>경험치 6600\n스키어 우호도 +0.1\n예거 우호도 –0.01\n35000루블\nGrenade case\n래그맨 LL3에서 ZSh–1–2M helmet (black) 해금</item>
         <item>스키어 우호도 -0.3</item>
         <item>No offence, Trust Again</item>
         <item>차량은 세관(Customs)의 물창고에 있습니다.</item>
@@ -8246,7 +8248,7 @@
         <item> </item>
     </string-array>
 
-    <string-array name="q_Scout">
+    <string-array name="q_scout">
         <item>Scout(정찰병)</item>
         <item>완료</item>
         <item>- 공장(Factory)의 탈출구를 3개 찾기\n- 공장(Factory)에서 탈출하기</item>
@@ -8310,5 +8312,360 @@
         <item>예</item>
         <item> </item>
     </string-array>
+
+    <!-- Ragman's Quests -->
+
+    <string-array name="q_only_business">
+        <item>Only Business(비지니스 관계)</item>
+        <item>상인</item>
+        <item>- 래그맨 LL2 도달하기</item>
+        <item>15레벨</item>
+        <item>경험치 +6700\n래그맨 우호도 +0.06\n1만 루블\nWartech gear rig (TV-109, TV-106)</item>
+        <item> </item>
+        <item>Make ULTRA Great Again, Big sale</item>
+        <item>래그맨 LL2는 레벨과 판매량만 올리면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_make_ultra_great_again">
+        <item>Make ULTRA Great Again(ULTRA몰을 다시 위대하게)</item>
+        <item>완료</item>
+        <item>- 교차로(Interchange)에서 SCAV 15명 사살하기</item>
+        <item> </item>
+        <item>경험치 +9800\n래그맨 우호도 +0.09\n5만 루블</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_big_sale">
+        <item>Big sale(대량 할인)</item>
+        <item>탐험</item>
+        <item>- AVOKADO, KOSTIN, tRend, DINE CLOTHES, TOP BRAND를 확인하기\n교차로(Interchange)에서 탈출하기</item>
+        <item> </item>
+        <item>경험치 +8900\n래그맨 우호도 +0.07\n17000루블\nTri-Zip Backpack</item>
+        <item> </item>
+        <item>The Blood of War - Part 1, Database - Part 1</item>
+        <item>해당 매점들을 들어갔다가 나오면 확인이 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sales_night">
+        <item>Sales Night(영업일)</item>
+        <item>완료</item>
+        <item>- 교차로(Interchange)에서 7번 탈출하기</item>
+        <item>30레벨</item>
+        <item>경험치 +19800\n래그맨 우호도 +0.09\n35000루블\n\"Attack 2\" raid backpack 2개</item>
+        <item> </item>
+        <item>Supervisor</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_supervisor">
+        <item>Supervisor(상사)</item>
+        <item>주워오기</item>
+        <item>- key for Goshan cash registers 찾기, 래그맨에게 넘기기</item>
+        <item>40레벨</item>
+        <item>경험치 +24100\n래그맨 우호도 +0.09\n235000루블\n래그맨 LL3에서 Gzhel-K 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_database_part_1">
+        <item>Database - Part 1(데이터베이스 1)</item>
+        <item>탐험</item>
+        <item>- Goshan cargo manifests, OLI cargo manifests, IDEA cargo manifests 찾기\n- 래그맨에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +11500\n래그맨 우호도 +0.07\n22000루블\nSordin active headphones</item>
+        <item> </item>
+        <item>Database - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_database_part_2">
+        <item>Database - Part 2(데이터베이스 2)</item>
+        <item>완료</item>
+        <item>- OLI cargo route document 찾기\n- 래그맨에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +11700\n래그맨 우호도 +0.07\n6만 루블</item>
+        <item> </item>
+        <item>Sew it good - Part 1, Minibus, Gratitude</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sew_it_good_part_1">
+        <item>Sew it good - Part 1(잘 꿰매다 1)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Ski hat with holes for eyes 찾기\n- 레이드에서 Pilgrim tourist backpack 찾기\n- 래그맨에게 넘기기</item>
+        <item>25레벨</item>
+        <item>경험치 +12300\n래그맨 우호도 +0.06\n25000루블\nSSSh-95 Sfera-S\nLBT 6094 Slick Plate Carrier</item>
+        <item> </item>
+        <item>Sew it good - Part 2, The Blood of War - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sew_it_good_part_2">
+        <item>Sew it good - Part 2(잘 꿰매다 2)</item>
+        <item>주워오기</item>
+        <item>- 0~50%의 내구도를 지닌 Gzhel 찾기\n- 50~100%의 내구도를 지닌 Gzhel 찾기\n래그맨에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +18700\n래그맨 우호도 +0.09\n1만루블\nZSh–1–2M face shield 2개</item>
+        <item> </item>
+        <item>Sew it good - Part 3, The key to success</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sew_it_good_part_3">
+        <item>Sew it good - Part 3(잘 꿰매다 3)</item>
+        <item>주워오기</item>
+        <item>- 0~50%의 내구도를 가진 6B43 찾기\n- 50~100%의 내구도를 가진 6B43 찾기</item>
+        <item> </item>
+        <item>경험치 +19700\n래그맨 우호도 +0.09\n65000루블</item>
+        <item> </item>
+        <item>Sew it good - Part 4, Living high is not a crime - Part 1</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_sew_it_good_part_4">
+        <item>Sew it good - Part 4(잘 꿰매다 4)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Wartech (TV-109, TV-106) 2개 찾기\n- 레이드에서 BlackRock chest rig 2개 찾기\n- 래그맨에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +20700\n래그맨 우호도 +0.09\n25000루블\nANA Tactical M2 armored rig</item>
+        <item> </item>
+        <item>Charisma brings success, Textile - Part 1</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_textile_part_1">
+        <item>Textile - part 1(재질 1)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Aramid fiber cloth 5개 찾기\n- 레이드에서 Ripstop cloth 10개 찾기\n- 레이드에서 Paracord 3개 찾기\n- 래그맨에게 넘기기</item>
+        <item>40레벨</item>
+        <item>10만 루블\nBEAR TIGR lower clothing(Bear인 경우)\nUSEC Commando Lower clothing(USEC인 경우)</item>
+        <item> </item>
+        <item>Textile - Part 2</item>
+        <item>Aramid, Ripstop은 Lavatory 1레벨에, Paracord는 Lavatory 2레벨에 제작가능합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_textile_part_2">
+        <item>Textile - Part 2(재질 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Fleece cloth 10개 찾기\n- 레이드에서 Polyamide fabric Cordura 10개 찾기\n- 레이드에서 KEKTAPE duct tape 5개 찾기\n- 래그맨에게 넘기기</item>
+        <item>40레벨</item>
+        <item>10만 루블\nBEAR TIGR upper clothing(Bear인 경우)\nUSEC TIER2 Upper clothing(USEC인 경우)</item>
+        <item> </item>
+        <item>x</item>
+        <item>Cordura는 Lavatory 1레벨에서 Fleece와 KEK Tape는 Lavatory 2레벨에서 제작가능합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_blood_of_war_part_1">
+        <item>The Blood of War - Part 1(전쟁의 피 1)</item>
+        <item>완료</item>
+        <item>- 유조 탱크 3대에 신호기를 설치하기\n- 교차로(Interchange)를 탈출하기</item>
+        <item> </item>
+        <item>경험치 +7500\n래그맨 우호도 +0.06\n6만 루블\nMetal fuel tank 2개</item>
+        <item> </item>
+        <item>Dressed to kill</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_blood_of_war_part_2">
+        <item>The Blood of War - Part 2(전쟁의 피 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Fuel conditioner 4개 찾기\n- 래그맨에게 넘기기</item>
+        <item>25레벨</item>
+        <item>경험치 +15600\n래그맨 우호도 +0.07\n2만 루블\nACHHC IIIA black helmet</item>
+        <item> </item>
+        <item>The Blood of War - Part 3</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_blood_of_war_part_3">
+        <item>The Blood of War - Part 3(전쟁의 피 3)</item>
+        <item>완료</item>
+        <item>- 연료 저장고 3곳에 신호기를 설치하기\n- 숲(Woods)에서 탈출하기</item>
+        <item>30레벨</item>
+        <item>경험치 +21000\n래그맨 우호도 +0.09\n75000루블\nTrooper TFO armor 2개\nBlackjack 50 backpack</item>
+        <item> </item>
+        <item>Living high is not a crime - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_living_high_is_not_a_crime_part_1">
+        <item>Living high is not a crime - Part 1(호화로운 삶은 죄가 아니다 1)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 Bronze lion 2개 찾기\n- 레이드에서 Horse figurine 2개 찾기\n- 레이드에서 Cat figurine 찾기\n- 레이드에서 Roler submariner gold wrist watch 찾기</item>
+        <item>27레벨</item>
+        <item>경험치 +23000\n래그맨 우호도 +0.09\n75000루블\nGolden neck chain 3개\nVulkan-5 (LShz-5) heavy helmet</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_living_high_is_not_a_crime_part_2">
+        <item>Living High is not a crime - Part 2(호화로운 삶은 죄가 아니다 2)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 antique teapots 3개 찾기\n- 레이드에서 Antique vase 2개 찾기\n- 래그맨에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +29600\n11만 루블\n래그맨 우호도 +0.12\nArs Arma CPC MOD.2 plate carrier 2개\nAltyn helmet 2개\nAltyn face shield 2개</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_dressed_to_kill">
+        <item>Dressed to kill(끝내주게 입은)</item>
+        <item>완료</item>
+        <item>- 레이드에서 Ushanka ear-flap cap 2개 찾기\n- 레이드에서 Cowboy hat 2개 찾기</item>
+        <item> </item>
+        <item>경험치 +10200\n래그맨 +0.07\n21000루블\nGzhel-K armor</item>
+        <item> </item>
+        <item>Gratitude</item>
+        <item>해당 모자들은 스캐브나 교차로(Interchange)의 마네킹의 머리에 스폰됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_gratitude">
+        <item>Gratitude(감사)</item>
+        <item>완료</item>
+        <item>- 비밀 장소에 Ghost balaclava, Shemagh, RayBench Hipster Reserve sunglasses, Round frame sunglasses 놓기</item>
+        <item> </item>
+        <item>경험치 +16300\n래그맨 우호도 +0.07\n8만 루블</item>
+        <item> </item>
+        <item>Sales Night, Hot delivery</item>
+        <item>해당 아이템들을 숲(Woods)의 항구에 숨기면 됩니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_hot_delivery">
+        <item>hot delivery(뜨거운 배송)</item>
+        <item>완료</item>
+        <item>- ComTac-2, 6B47, Gzhel-K를 특정한 장소에 2개 놓기</item>
+        <item>29레벨</item>
+        <item>경험치 +25000\n래그맨 우호도 +0.09\n55000루블\nIOTV Gen4 armor(full protection)\n래그맨 LL4에서 IOTV Gen4 armor (full protection) 해금</item>
+        <item> </item>
+        <item>Scavenger</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_scavenger">
+        <item>Scavenger(약탈자)</item>
+        <item>스킬</item>
+        <item>- Search 스킬 9레벨 달성하기</item>
+        <item> </item>
+        <item>경험치 +15400\n래그맨 우호도 +0.11\n65000루블\n래그맨 LL4에서 Crash Axe 교환 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item>Search 스킬은 인벤토리를 확인함으로서 오릅니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_charisma_brings_success">
+        <item>Charisma brings success(카리스마가 성공을 부른다)</item>
+        <item>스킬</item>
+        <item>- Charisma 스킬 10레벨 달성하기</item>
+        <item> </item>
+        <item>경험치 +12700\n래그맨 우호도 +0.07\n3만 루블\nAltyn face shield 2개</item>
+        <item> </item>
+        <item>x</item>
+        <item>Attention, Perception, Intellect 스킬의 경험치를 얻을 때 이 스킬의 경험치도 같이 쌓입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_key_to_success">
+        <item>The key to success(성공을 위한 열쇠)</item>
+        <item>주워오기</item>
+        <item>- Clothes design handbook Part 1, Part 2 찾기\n래그맨에게 넘기기</item>
+        <item>26레벨</item>
+        <item>경험치 +18100\n래그맨 우호도 +0.07\n6만 루블\nGhost blalaclava 2개</item>
+        <item> </item>
+        <item>The stylish one, No fuss needed, Supervisor</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_mini_bus">
+        <item>Mini Bus(미니버스)</item>
+        <item>완료</item>
+        <item>- 미니버스 3대에 신호기를 설치하기\n- 교차로(Interchange)를 탈출하기</item>
+        <item>24레벨</item>
+        <item>경험치 +16500\n래그맨 우호도 +0.07\n5만 루블\nBeta 2 battle backpack</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_no_fuss_needed">
+        <item>No Fuss needed(야단 법석 떨 필요없다.)</item>
+        <item>스킬</item>
+        <item>- 테라피스트 LL3 달성하기</item>
+        <item> </item>
+        <item>경험치 +12900\n래그맨 우호도 +0.07\n32000루블\nAltyn helmet</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_stylish_one">
+        <item>The Stylish one(멋쟁이)</item>
+        <item>제거</item>
+        <item>- 킬라를 100번 사살하기</item>
+        <item> </item>
+        <item>10만 루블\nAdik Tracksuit clothing</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <!-- Jaeger's Quests  -->
 
 </resources>
