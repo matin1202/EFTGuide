@@ -6515,7 +6515,7 @@
         <item>x</item>
         <item>우드에서 2지점을 확인해야합니다\n다른 레이드에서 각각 하나씩 확인해도 되지만, 두지점 모두 확인한 후에는 반드시 탈출해야합니다.</item>
         <item>예</item>
-        <item>위치 보기(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_checking">
@@ -6528,7 +6528,7 @@
         <item>Shootout picnic, Delivery from the past</item>
         <item>열쇠는 플리마켓에서 사도 되고, 커스텀의 기숙사 3층 건물의 2층의 205호 방의 황색의 옷속에서 고정 스폰됩니다\n그 뒤 유조 트럭의 운전석에 있는 황동 열쇠를 들고 탈출하면 됩니다.</item>
         <item>예</item>
-        <item>열쇠와 트럭 위치 지도(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f2/Checking_Map.png/revision/latest?cb=20180516165900&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_shootout_picnic">
@@ -6554,7 +6554,7 @@
         <item>BP depot</item>
         <item>빨간 창고 2층을 Custom Office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다\n전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
         <item>예</item>
-        <item>빨간 창고 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/Delivery_from_the_past_Customs.png/revision/latest?cb=20180516174114&amp;format=original)||팩토리 전달 장소(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5c/Delivery_from_the_past_dropoff.png/revision/latest?cb=20180516171946&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_bp_depot">
@@ -6567,7 +6567,7 @@
         <item>Bad rep evidence, The bunker - Part 1</item>
         <item>신호기를 한 레이드에서 설치하진 않아도 됩니다\n또한 신호기는 잃어버려도 프라퍼에게 다시 살 수 있습니다.</item>
         <item>예</item>
-        <item>유조 탱크 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/BP_Depot_Marked_Map.jpg/revision/latest?cb=20210112151343&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_the_bunker_part_1">
@@ -6593,7 +6593,7 @@
         <item>x</item>
         <item>한 레이드에 모두 찾아야합니다.</item>
         <item>아니오</item>
-        <item>문이 있는 건물의 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/61/Bunker_pt2.png/revision/latest?cb=20200704024601&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_bad_rep_evidence">
@@ -6606,7 +6606,7 @@
         <item>Ice cream cones</item>
         <item> </item>
         <item>예</item>
-        <item>문서의 위치(https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/Bad_Rep_Evidence_Customs.png/revision/latest?cb=20190306221306&amp;format=original)</item>
+        <item> </item>
     </string-array>
 
     <string-array name="q_ice_cream_cones">
@@ -7134,12 +7134,12 @@
     <string-array name="q_colleagues_part_3">
         <item>Colleagues - Part 3(동료 3)</item>
         <item>주워오기</item>
-        <item> - 세니타를 사살하지 않기\n- 레이드에서 AHF1-M을 찾기\n- 레이드에서 3-(b-TG)를 찾기\n- blue keycard를 얻기\n- green keycard를 얻기</item>
-        <item>Colleague - Part 2, Rigged game, The chemistry closet 완료</item>
+        <item> - 세니타(Sanitar)를 사살하지 않기\n- 레이드에서 AHF1-M을 찾기\n- 레이드에서 3-(b-TG)를 찾기\n- blue keycard를 얻기\n- green keycard를 얻기</item>
+        <item>Colleagues - Part 2, Rigged game, The chemistry closet 완료</item>
         <item>경험치 13800\n테라피스트 우호도 +0.2\n15만루블</item>
         <item>테라피스트 우호도 -0.2</item>
         <item>x</item>
-        <item>퀘스트의 난이도와 보상 모두 예거의 Huntsman past - Sadist가 낫습니다.</item>
+        <item>퀘스트의 난이도와 보상 모두 예거의 Huntsman past - Sadist가 낫습니다.\n세니타(Sanitar)를 사살하면 실패처리됩니다.</item>
         <item>아니오</item>
         <item> </item>
     </string-array>
@@ -8656,7 +8656,7 @@
     <string-array name="q_the_stylish_one">
         <item>The Stylish one(멋쟁이)</item>
         <item>제거</item>
-        <item>- 킬라를 100번 사살하기</item>
+        <item>- 킬라(Killa)를 100번 사살하기</item>
         <item> </item>
         <item>10만 루블\nAdik Tracksuit clothing</item>
         <item> </item>
@@ -8667,5 +8667,488 @@
     </string-array>
 
     <!-- Jaeger's Quests  -->
+
+    <string-array name="q_acquaintance">
+        <item>Acquaintance(지인)</item>
+        <item>완료</item>
+        <item>- 레이드에서 Iskra lunch boxes 3개 찾기\n- 레이드에서 Emelya rye croutons 2개\n- 레이드에서 delicious beef stew 2개 찾기</item>
+        <item> </item>
+        <item>경험치 +4000\n예거 우호도 +0.04\n35000루블</item>
+        <item> </item>
+        <item>the survivalist path - Unprotected, but dangerous , The survivalist path - Thrifty, \"The Tarkov shooter\" - Part 1</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_Unprotected_but_dangerous">
+        <item>The survivalist path - Unprotected, but dangerous(생존 주의자의 길 - 보호되지 않은,하지만 위험한)</item>
+        <item>완료</item>
+        <item>- 방탄복을 입지 않고 숲(Woods)에서 SCAV 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 +7000\n예거 우호도 +0.04\n2만 루블\nVepr AKM / VPO-209 366TKM carbine 2정\n.366 TKM EKO 200 발</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_thrifty">
+        <item>The survivalist path - Thrifty(생존 주의자의 길 - 절약)</item>
+        <item>완료</item>
+        <item>- ZB-016 벙커와 ZB-014벙커에 \"Iskra\" MRE (Lunchbox)와 bottle of water를 각각 하나씩 놓기</item>
+        <item> </item>
+        <item>경험치 +6500\n예거 우호도 +0.04\n2만 루블\nPhase control relay 2개\nMetal fuel tank</item>
+        <item> </item>
+        <item>The survivalist path - thrifty</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_zhivchik">
+        <item>The survivalist path - Zhivchik(생존 주의자의 길 - 지브치크 음료수)</item>
+        <item>경험</item>
+        <item>- 완전히 탈수된 상태로 5분 버티기\n- 탈출하기</item>
+        <item> </item>
+        <item>경험치 +9000\n예거 우호도 +0.03\n3만 루블\nWater bottle with a filter Aquamari 2개\nWater filters 2개</item>
+        <item> </item>
+        <item>The survivalist path - </item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_wounded_beast">
+        <item>The survivalist path - Wounded Beast(생존 주의자의 길 - 상처입은 짐승)</item>
+        <item>완료</item>
+        <item>- 고통 디버프가 있는 상태로 SCAV 3명 사살하기</item>
+        <item> </item>
+        <item>경험치 +10000\n65000루블</item>
+        <item> </item>
+        <item>The survivalist path - Tough guy, The survivalist path - Cold blooded, The survivalist path - Secured perimeter</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_tough_guy">
+        <item>The survivalist path - Tough guy(생존 주의자의 길 - 터프 가이)</item>
+        <item>완료</item>
+        <item>- 의료품을 사용하지 않고 숲(Woods)에서 SCAV 3명 사살하기</item>
+        <item> </item>
+        <item>경험치 +12000\n4만 루블\nCMS kit\nPile of meds 3개</item>
+        <item> </item>
+        <item>Courtesy visit</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_cold_blooded">
+        <item>The survivalist path - Cold blooded(생존 주의자의 길 - 냉혈한)</item>
+        <item>완료</item>
+        <item>- 부러진 팔로 인한 떨림(Tremor) 디버프가 있는 상태로 PMC 2명의 머리를 맞추어 사살하기</item>
+        <item> </item>
+        <item>경험치 +11000\n예거 우호도 +0.04\n5만 루블</item>
+        <item> </item>
+        <item>The survivalist path - Combat medic, The survivalist path - Junkie, The survivalist path - Eagle-owl, Ambulance</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_combat_medic">
+        <item>The survivalist path - (생존 주의자의 길 - 의무병)</item>
+        <item>완료</item>
+        <item>- Vitality 스킬 5레벨 달성하기</item>
+        <item> </item>
+        <item>경험치 +14000\n예거 우호도 +0.04\n3만 루블\nVitality 스킬 +0.02레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_eagle_owl">
+        <item>The survivalist path - Eagle-Owl(생존 주의자의 길 - 수리부엉이)</item>
+        <item>완료</item>
+        <item>- 21:00에서 04:00 사이에 야간투시경이나 열화상경없이 SCAV 6명 사살하기</item>
+        <item> </item>
+        <item>경험치 +13000\n예거 우호도 +0.03\n4만 루블\nVulcan MG night scope 3.5x 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_survivalist_path_junkie">
+        <item>The survivalist path - Junkie(생존 주의자의 길 - 약쟁이)</item>
+        <item>제거</item>
+        <item>- 자극제 효과를 받고 있는 상태로 숲(Woods)에서 SCAV 15명 사살하기</item>
+        <item> </item>
+        <item>경험치 +12000\n예거 우호도 +0.03\n3만 루블\n12x70 RIP 30발\n5.56x45mm Warmage 80발\nMetabolism 스킬 +2레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item>Cocktail \"Obdolbos\"는 1800초(30분)의 효과를 줍니다. 또한, 버프나 디버프를 주는 모든 음식 또한 사용가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_courtesy_visit">
+        <item>Courtesy Visit(의례적인 방문)</item>
+        <item>완료</item>
+        <item>- 사제, 어부, 의장의 집을 방문하기</item>
+        <item>20레벨</item>
+        <item>경험치 +10000\n예거 우호도 +0.03\n35000루블</item>
+        <item> </item>
+        <item>Nostalgia</item>
+        <item>해안선(Shoreline)의 늪지대 마을에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_nostalgia">
+        <item>Nostalgia(향수)</item>
+        <item>완료</item>
+        <item>- 예거가 머물렀던 만이 보이는 집을 찾기\n예거의 사진 앨범을 찾기\n예거에게 넘기기</item>
+        <item>28레벨</item>
+        <item>경험치 +10000\n예거 우호도 +0.03\n3만 루블\nDocuments case\nKey to HEP station storage</item>
+        <item> </item>
+        <item>x</item>
+        <item>편지는 해안선(Shoreline) 리조트 서관의 303호 서랍안에 있습니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_ambulance">
+        <item>Ambulance(구급차)</item>
+        <item>완료</item>
+        <item>- 레이드에서 portable defibrillator 찾기\n레이드에서 CMS surgery kis 2개 찾기</item>
+        <item>25레벨</item>
+        <item>경험치 +12000\n예거 우호도 +0.3\n35000루블\nGrizzly First Aid Kit 3개\nSurv12 field surgical kit 해금\nVitality 스킬 +1레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item>Portable defibrillator는 Medstation 2레벨에서 제작가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_secured_perimeter">
+        <item>Huntsman path - (사냥꾼의 길 - 경계 확보)</item>
+        <item> </item>
+        <item>- 공장(Factory)의 Office area에서 PMC 6명 사살하기</item>
+        <item> </item>
+        <item>경험치 +14000\n예거 우호도 +0.03\n35000루블\nPliers Elite 2개\nA set of tools\nNipers 2개\nCorrugated hose 2개</item>
+        <item> </item>
+        <item>Huntsman path - The trophy, Reserve, Huntsman path - Woods cleaning</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_1">
+        <item>\"The Tarkov Shooter\" - Part 1(타르코프 사격수 1)</item>
+        <item>제거</item>
+        <item>- 스코프없이 볼트 액션 소총으로 40m 이상 거리에서 SCAV 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 +18900\n예거 우호도 +0.05\n5만 루블\nPU 3.5x riflescope 2개\nPU 3.5x ring mount 2개\nKochetov Mount for Mosin rifle 2개</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_reserv">
+        <item>Reserv(저장고)</item>
+        <item>완료</item>
+        <item>- 음식 저장고를 찾기</item>
+        <item> </item>
+        <item>경험치 +9000\n예거 우호도 +0.03\n16000루블\nSilicone tube\nA pack of nails 3개\nA pack of screws 3개</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_woods_cleaning">
+        <item>Huntsman path - Woods cleaning(사냥꾼의 길 - 숲 청소하기)</item>
+        <item>완료</item>
+        <item>- 타르코프 안에서 SCAV 30명 사살하기</item>
+        <item> </item>
+        <item>경험치 +18000\n예거 우호도 +0.04\n5만 루블\nM700 2개</item>
+        <item> </item>
+        <item>Huntsman path - Controller, Huntsman path - Evil watchman, Fishing place</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_controller">
+        <item>Huntsman path - Controller(사냥꾼의 길 - 지배자)</item>
+        <item>완료</item>
+        <item>- 섬광에 맞은 PMC 2명 사살하기</item>
+        <item> </item>
+        <item>경험치 +21000\n예거 우호도 +0.04\n49999루블\nEOtech Vudu 1–6 riflescope</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_fishing_place">
+        <item>Huntsman path - Fishing place(사냥꾼의 길 - 실내 낚시터)</item>
+        <item>완료</item>
+        <item>- 레이드에서 TerraGroup Labs access keycards 2개 찾기\n예거에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +15000\n예거 우호도 +0.04\n75000루블\nHighcom Trooper TFO armor\nM700</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_evil_watchman">
+        <item>Huntsman path - Evil watchman(사냥꾼의 길 - 사악한 감시자)</item>
+        <item>완료</item>
+        <item>- 세관(Customs)의 기숙사에서 PMC 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 +20000\n예거 우호도 +0.04\n75000루블\nFolder with intelligence 2개\nSecure Flash drive 2개</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_the_trophy">
+        <item>Huntsman path - The trophy(사냥꾼의 길 - 트로피)</item>
+        <item>완료</item>
+        <item>- 르살라(Reshala)를 사살하기\n- 레이드에서 golden TT 찾기\n예거에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +20000\n예거 우호도 +0.05\n9만 루블\nSurv12 field surgical kit\nGunpowder \"Kite\" 4개\nPiece of plexiglas 5개</item>
+        <item> </item>
+        <item>Huntsman path - Justice, Huntsman path - Sell-out</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_justice">
+        <item>Huntsman path - Justice(사냥꾼의 길 - 정의)</item>
+        <item>완료</item>
+        <item>- 경찰 유니폼을 입은 SCAV 3명을 사살하기</item>
+        <item> </item>
+        <item>경험치 +20000\n예거 우호도 +0.05\n8만 루블\nExpeditionary fuel tank 5개</item>
+        <item> </item>
+        <item> </item>
+        <item>경찰 유니폼을 입은 SCAV는 르살라(Reshela)의 부하입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_sell_out">
+        <item>Huntsman path - Sell-out(사냥꾼의 길 - 매진)</item>
+        <item>제거</item>
+        <item>- 킬라(Killa)를 사살하기\n- 레이드에서 Killa's helmet을 찾기\n- 예거에게 넘기기</item>
+        <item> </item>
+        <item>경험치 +23000\n예거 우호도 +0.05\n15만 루블\nFolder with intelligence 3개\nKey to IDEA cash register\nKey to OLI cash register</item>
+        <item> </item>
+        <item>Huntsman path - Woods keeper</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_woods_keeper">
+        <item>Huntsman path - Woods keeper(사냥꾼의 길 - 숲 지킴이)</item>
+        <item>- 슈트르만(Shturman)을 사살하기\n- 레이드에서 Shturman's key를 찾기\n- 예거에게 넘기기</item>
+        <item>완료</item>
+        <item> </item>
+        <item>경험치 +25000\n예거 우호도 +0.05\n17000루블\nGunpowder \"Hawk\" 4개\nVPX Flash Storage Module\nTerraGroup Labs access keycard 3개</item>
+        <item> </item>
+        <item>Huntsman path - Eraser - Part 1, Hunting trip</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_eraser_part_1">
+        <item>Huntsman path - Eraser - Part 1(사냥꾼의 길 - 지우개 1)</item>
+        <item>완료</item>
+        <item>- 굴루하(Glukhar)를 사살하기</item>
+        <item> </item>
+        <item>경험치 +30000\n예거 우호도 +0.05\n199999루블\n5천 달러\nWeapon case</item>
+        <item> </item>
+        <item>Huntsman path - Eraser - Part 2</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_eraser_part_2">
+        <item>Huntsman path - Eraser - Part 2(사냥꾼의 길 - 지우개 2)</item>
+        <item>완료</item>
+        <item>- 레이더(SCAV Raider)를 6명 사살하기</item>
+        <item> </item>
+        <item>경험치 +17000\n예거 우호도 +0.04\n8만 루블\nTrijicon REAP-IR thermal riflescope</item>
+        <item> </item>
+        <item>x</item>
+        <item>레이더는 연구소(Labs)또는 군사기지(Reserve)에서 스폰합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_hunting_trip">
+        <item>Hunting trip(사냥 여행)</item>
+        <item>완료</item>
+        <item>– 슈트르만(Shturman)을 March Tactical 3-24x42 FFP scope를 장착한 M700을 사용해 사살하기</item>
+        <item> </item>
+        <item>경험치 +16000\n예거 우호도 +0.04\n6만 루블\nVPX Flash Storage Module\nMilitary thermal vision module Iridium\n예거 LL3에서 M700 ARCH, M700 AICS 해금\n예거 LL4에서 M700 PRO, M700 WRS 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_hunter">
+        <item>Hunter(사냥꾼)</item>
+        <item>제거</item>
+        <item>- 슈트르만(Shturman)을 25번 사살하기</item>
+        <item>예거 LL4 달성</item>
+        <item>10만 루블\nChain with Prokill medallion\n예거 LL4에서 Mk-18 .338 LM marksman rifle 해금\nWeapon case</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_huntsman_path_sadist">
+        <item>Huntsman path - Sadist(사냥꾼의 길 - 가학 성애자)</item>
+        <item>제거</item>
+        <item>- 세니타(Sanitar)를 사살하기</item>
+        <item> </item>
+        <item>- 경험치 +13800\n예거 우호도 +0.2\n테라피스트 우호도 -0.2\n115000루블\nFLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope\nAP-20 200발\nSurv12 field surgical kit 2개</item>
+        <item> </item>
+        <item>TerraGroup employee</item>
+        <item>테라피스트의 Colleague - Part 3를 깨면 자동으로 실패 처리됩니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_shady_business">
+        <item>Shady Business(음지의 일)</item>
+        <item>주워오기</item>
+        <item>- 레이드에서 flash drives 3개 찾기\n예거에게 넘기기</item>
+        <item>20레벨</item>
+        <item>경험치 +11000\n예거 우호도 +0.04\n5만 루블\nSSD drive</item>
+        <item> </item>
+        <item>x</item>
+        <item>flash drive는 Intelligence Center 2레벨에서 제작 가능합니다.</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_2">
+        <item>\"The tarkov shooter\" - Part 2(타르코프 사격수 2)</item>
+        <item>제거</item>
+        <item>- 40m 이상의 거리에서 볼트 액션 소총으로 다리에 3방 맞추기\n- 40m 이상의 거리에서 볼트 액션 소총으로 머리에 2방 맞추기</item>
+        <item> </item>
+        <item>경험치 +19200\n예거 우호도 +0.05\n65000루블\nAim Sports MNG rail for Mosin rifle\n예거 LL1에서 Aim Sports MNG rail fo Mosin rifle 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 3</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_3">
+        <item>\"The tarkov shooter\" - Part 3(타르코프 사격수 3)</item>
+        <item>제거</item>
+        <item>- 25m 이내에서 볼트 액션 소총으로 PMC 3명 사살하기</item>
+        <item> </item>
+        <item>경험치 +16200\n예거 우호도 +0.04\nKinda cowboy hat\nTacfire Tanker style muzzle brake for Mosin rifle\nRecoil pad from Aim Sports for Mosin rifle\n예거 LL2에서 Tacfire Tanker style muzzle brake for Mosin rifle과 Recoil pad from Aim Sports for Mosin rifle 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 4</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_4">
+        <item>\"The tarkov shooter\" - Part 4(타르코프 사격수 4)</item>
+        <item>제거</item>
+        <item>- Sniper 스킬 3레벨 달성하기</item>
+        <item> </item>
+        <item>경험치 +16400\n예거 우호도 +0.04\n57000루블\nAim Sports \"Tri-Rail\" rail for Mosin rifle\nTacfire pistol grip for Mosin rifle\n예거 LL2에서 Aim Sports \"Tri-Rail\" rail for Mosin rifle과 Tacfire pistol grip for Mosin rifle 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 5</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_5">
+        <item>\"The tarkov shooter\" - Part 5(타르코프 사격수 5)</item>
+        <item>제거</item>
+        <item>- 세관(Customs)에서 21:00에서 5:00 사이에 볼트 액션 소총으로 SCAV 8명 사살하기</item>
+        <item> </item>
+        <item>경험치 +20000\n예거 우호도 +0.04\n75000루블\nTexas Precision Products muzzle brake for Mosin rifle\n예거 LL3에서 Texas Precision Products muzzle brake for Mosin rifle 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 6</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_6">
+        <item>\"The tarkov shooter\" - Part 6(타르코프 사격수 6)</item>
+        <item>제거</item>
+        <item>- 볼트 액션 소총으로 SCAV sniper 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 +20300\n예거 우호도 +0.04\n5만 루블\nATI Monte Carlo Mosin rifle stock\n예거 LL3에서 ATI Monte Carlo Mosin rifle stock 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 7</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_7">
+        <item>\"The tarkov shooter\" - Part 7(타르코프 사격수 7)</item>
+        <item>제거</item>
+        <item>- 45m 이상에서 소음기가 달린 볼트 액션 소총으로 PMC 5명 사살하기</item>
+        <item> </item>
+        <item>경험치 +20700\n예거 우호도 +0.04\n85000루블\nWitt Machine muzzle brake for Mosin rifle\n예거 LL3에서 Witt Machine muzzle brake for Mosin rifle 해금</item>
+        <item> </item>
+        <item>\"The Tarkov shooter\" - Part 8</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_the_tarkov_shooter_part_8">
+        <item>\"The tarkov shooter\" - Part 8(타르코프 사격수 8)</item>
+        <item>제거</item>
+        <item>- 숲(Woods)에서 볼트 액션 소총으로 한 레이드에서 PMC 3명 사살하기</item>
+        <item> </item>
+        <item>경험치 +25200\n예거 우호도 +0.06\n20만 루블\nProMag Archangle OPFOR PRS Mosin rifle stock\n7.62x54r ProMag OPFOR for Archangel Mosin rifle kit, 10-round capacity\n예거 LL4에서 ProMag Archangle OPFOR PRS Mosin rifle stock과 7.62x54r ProMag OPFOR for Archangel Mosin rifle kit, 10-round capacity 해금</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+
 
 </resources>

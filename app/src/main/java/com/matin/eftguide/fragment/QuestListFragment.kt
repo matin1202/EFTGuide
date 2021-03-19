@@ -83,6 +83,11 @@ class QuestListFragment : Fragment() {
                     list.add(QLRecycler(context, mechanic[i]))
                 }
             }
+            "ragman" -> {
+                for(i in ragman.indices){
+                    list.add(QLRecycler(context, ragman[i]))
+                }
+            }
         }
 
         val adapter = QLAdapter(list)
@@ -118,7 +123,7 @@ class QuestListFragment : Fragment() {
                 }
 
                 view.onClick{
-                    item.context?.startActivity(Intent(item.context, QuestActivity::class.java).putExtra("quest", "q_${item.title.split("(")[0].replace("\"", "").replace("\'", "").replace("?", "").replace(" - ", "_").replace(" ", "_").toLowerCase(Locale.ROOT)}"))
+                    item.context?.startActivity(Intent(item.context, QuestActivity::class.java).putExtra("quest", "q_${item.title.split("(")[0].replace("\"", "").replace("\'", "").replace("?", "").replace(",", "").replace(" - ", "_").replace(" ", "_").replace("-", "_").toLowerCase(Locale.ROOT)}"))
                     return@onClick
                 }
             }
