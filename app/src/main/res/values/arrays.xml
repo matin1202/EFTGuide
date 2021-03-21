@@ -8681,8 +8681,8 @@
         <item> </item>
     </string-array>
 
-    <string-array name="q_the_survivalist_path_Unprotected_but_dangerous">
-        <item>The survivalist path - Unprotected, but dangerous(생존 주의자의 길 - 보호되지 않은,하지만 위험한)</item>
+    <string-array name="q_the_survivalist_path_unprotected_but_dangerous">
+        <item>The survivalist path - Unprotected, but dangerous(생존 주의자의 길 - 무방비의, 하지만 위험한)</item>
         <item>완료</item>
         <item>- 방탄복을 입지 않고 숲(Woods)에서 SCAV 5명 사살하기</item>
         <item> </item>
@@ -8760,7 +8760,7 @@
     </string-array>
 
     <string-array name="q_the_survivalist_path_combat_medic">
-        <item>The survivalist path - (생존 주의자의 길 - 의무병)</item>
+        <item>The survivalist path - Combat Medic(생존 주의자의 길 - 의무병)</item>
         <item>완료</item>
         <item>- Vitality 스킬 5레벨 달성하기</item>
         <item> </item>
@@ -8838,13 +8838,13 @@
     </string-array>
 
     <string-array name="q_huntsman_path_secured_perimeter">
-        <item>Huntsman path - (사냥꾼의 길 - 경계 확보)</item>
+        <item>Huntsman path - Secured Perimeter(사냥꾼의 길 - 경계 확보)</item>
         <item> </item>
         <item>- 공장(Factory)의 Office area에서 PMC 6명 사살하기</item>
         <item> </item>
         <item>경험치 +14000\n예거 우호도 +0.03\n35000루블\nPliers Elite 2개\nA set of tools\nNipers 2개\nCorrugated hose 2개</item>
         <item> </item>
-        <item>Huntsman path - The trophy, Reserve, Huntsman path - Woods cleaning</item>
+        <item>Huntsman path - The Trophy, Reserve, Huntsman path - Woods cleaning</item>
         <item> </item>
         <item>예</item>
         <item> </item>
@@ -8929,7 +8929,7 @@
     </string-array>
 
     <string-array name="q_huntsman_path_the_trophy">
-        <item>Huntsman path - The trophy(사냥꾼의 길 - 트로피)</item>
+        <item>Huntsman path - The Trophy(사냥꾼의 길 - 트로피)</item>
         <item>완료</item>
         <item>- 르살라(Reshala)를 사살하기\n- 레이드에서 golden TT 찾기\n예거에게 넘기기</item>
         <item> </item>
@@ -8957,7 +8957,7 @@
     <string-array name="q_huntsman_path_sell_out">
         <item>Huntsman path - Sell-out(사냥꾼의 길 - 매진)</item>
         <item>제거</item>
-        <item>- 킬라(Killa)를 사살하기\n- 레이드에서 Killa's helmet을 찾기\n- 예거에게 넘기기</item>
+        <item>- 킬라(Killa)를 사살하기\n- 레이드에서 Killa\'s helmet을 찾기\n- 예거에게 넘기기</item>
         <item> </item>
         <item>경험치 +23000\n예거 우호도 +0.05\n15만 루블\nFolder with intelligence 3개\nKey to IDEA cash register\nKey to OLI cash register</item>
         <item> </item>
@@ -8969,7 +8969,7 @@
 
     <string-array name="q_huntsman_path_woods_keeper">
         <item>Huntsman path - Woods keeper(사냥꾼의 길 - 숲 지킴이)</item>
-        <item>- 슈트르만(Shturman)을 사살하기\n- 레이드에서 Shturman's key를 찾기\n- 예거에게 넘기기</item>
+        <item>- 슈트르만(Shturman)을 사살하기\n- 레이드에서 Shturman\'s key를 찾기\n- 예거에게 넘기기</item>
         <item>완료</item>
         <item> </item>
         <item>경험치 +25000\n예거 우호도 +0.05\n17000루블\nGunpowder \"Hawk\" 4개\nVPX Flash Storage Module\nTerraGroup Labs access keycard 3개</item>

@@ -1,8 +1,11 @@
 package com.matin.eftguide
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Intent
 import android.content.pm.ActivityInfo
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
@@ -22,7 +25,10 @@ import com.google.android.play.core.install.InstallStateUpdatedListener
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.InstallStatus
 import com.google.android.play.core.install.model.UpdateAvailability
+import com.google.firebase.ktx.Firebase
 import com.google.firebase.messaging.FirebaseMessaging
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.ktx.storage
 import com.matin.eftguide.adapter.main.MainAdapter
 import com.matin.eftguide.adapter.main.RecyclerMain
 import com.matin.eftguide.base.BaseActivity
@@ -34,6 +40,11 @@ import org.jetbrains.anko.design.coordinatorLayout
 import org.jetbrains.anko.design.longSnackbar
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.toast
+import org.json.JSONArray
+import org.json.JSONObject
+import java.io.BufferedWriter
+import java.io.File
+import java.io.FileWriter
 
 @Suppress("DEPRECATION")
 class MainActivity : BaseActivity() {
@@ -45,21 +56,6 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val fakeAppUpdateManager = FakeAppUpdateManager(this)
-        fakeAppUpdateManager.let {
-            it.appUpdateInfo.addOnSuccessListener { appUpdateInfo ->
-                if(appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE){
-                    fakeAppUpdateManager.startUpdateFlow(
-                        appUpdateInfo,
-                        this,
-                        AppUpdateOptions.defaultOptions(AppUpdateType.FLEXIBLE)
-                    )
-                }
-
-            }
-        }
-
 
         /*val appUpdateManager = AppUpdateManagerFactory.create(this)
         appUpdateManager.let {
@@ -94,6 +90,52 @@ class MainActivity : BaseActivity() {
             }
         }
         appUpdateManager.registerListener(listener)*/
+
+        if(checkInternetConnection()){
+            var questData = ""
+            try{
+            this.openFileInput("quest_data").bufferedReader().readLines().forEach{
+                questData += "\n$it"
+            }
+            Log.d("MA", "Quest Data: $questData")
+            val json = JSONObject(questData)
+            val ref = FirebaseStorage.getInstance().getReferenceFromUrl("gs://eft-guide.appspot.com/data_version.txt")
+            ref.getBytes(1024*1024).addOnCompleteListener {
+                if(it.isSuccessful){
+                    val version = String(it.result)
+                    if(json.getString("version")!=version){
+                        AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Light_Dialog_NoActionBar)
+                            .setTitle("퀘스트 정보 데이터 다운로드")
+                            .setMessage("1MB이하의 데이터를 다운로드합니다.")
+                            .setNegativeButton("취소"){ _, _ ->
+                                toast("퀘스트 정보가 제공되지 않거나 오래된 정보일 수 있습니다.")
+                            }
+                            .setPositiveButton("확인"){ _, _ ->
+                                downloadQuestData()
+                            }
+                            .show()
+                    }
+                }
+                else{
+                    toast("버전을 불러오는 데 실패하였습니다. ${it.exception}")
+                }
+            }
+            }catch(e: Exception){
+                AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Light_Dialog_NoActionBar)
+                    .setTitle("퀘스트 정보 데이터 다운로드")
+                    .setMessage("1MB이하의 데이터를 다운로드합니다.")
+                    .setNegativeButton("취소"){ _, _ ->
+                        toast("퀘스트 정보가 제공되지 않거나 오래된 정보일 수 있습니다.")
+                    }
+                    .setPositiveButton("확인"){ _, _ ->
+                        downloadQuestData()
+                    }
+                    .show()
+            }
+        }
+        else{
+            toast("인터넷에 연결되있지 않습니다. 몇몇 기능들이 제한될 수 있습니다.")
+        }
 
         MobileAds.initialize(this, getString(R.string.test_ad_code))
 
@@ -257,5 +299,35 @@ class MainActivity : BaseActivity() {
         }
     }
 
-    
+    private fun checkInternetConnection(): Boolean{
+        val cm = getSystemService(CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
+
+        if(activeNetwork != null){
+            return true
+        }
+        return false
+    }
+
+    private fun downloadQuestData(){
+        try {
+            val ref = FirebaseStorage.getInstance()
+                .getReferenceFromUrl("gs://eft-guide.appspot.com/quest_data.json")
+            ref.getBytes(1024 * 1024).addOnCompleteListener {
+                if (it.isSuccessful) {
+                    val os = openFileOutput("quest_data", MODE_PRIVATE)
+                    os.write(it.result)
+                    os.close()
+                    toast("다운로드에 성공했습니다.")
+                    toast("다운로드 크기 : ${Math.floor(it.result.size.toDouble()/1024)}KB")
+                }
+                else{
+                    toast("다운로드에 실패하였습니다.")
+                }
+            }
+        }catch(e: Exception){
+            e.printStackTrace()
+        }
+    }
+
 }

@@ -1,0 +1,113 @@
+{
+  "version": "0.0.2",
+  "quest_info": {
+    "debut": [
+    ],
+    "search_mission": [
+      {
+        "id" : "위치 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Search_Mission_map.png/revision/latest?cb=20210115142328&format=original"
+      },
+      {
+        "id": "호송대 모습",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0c/Search_Mission_Convoy.png/revision/latest?cb=20201224212405&format=original"
+      },
+      {
+        "id": "USEC 캠프 모습",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/dd/Search_mission_camp.png/revision/latest?cb=20201224212552&format=original"
+      }
+    ],
+    "shootout_picnic": [
+    ],
+    "checking": [
+      {
+        "id" : "위치 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f2/Checking_Map.png/revision/latest?cb=20180516165900&format=original"
+      },
+      {
+        "id": "Mechinery key 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e4/Dorms.png/revision/latest?cb=20200104013529&format=original"
+      },
+      {
+        "id": "유조 트럭의 모습",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a2/Machinery_Key_Door.png/revision/latest?cb=20200104013412&format=original"
+      },
+      {
+        "id": "청동 시계 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/82/Machinery_key_inside.png/revision/latest?cb=20200902130116&format=original"
+      }
+    ],
+    "delivery_from_the_past": [
+      {
+        "id" : "빨간 창고 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/Delivery_from_the_past_Customs.png/revision/latest?cb=20180516174114&format=original"
+      },
+      {
+        "id": "Office의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/45/CustomsOffice.png/revision/latest?cb=20180703171221&format=original"
+      },
+      {
+        "id": "문서의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e2/Docs_0022-Delivery_From_the_Past.png/revision/latest?cb=20200220001533&format=original"
+      },
+      {
+        "id": "공장 전달 장소",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5c/Delivery_from_the_past_dropoff.png/revision/latest?cb=20180516171946&format=origina"
+      }
+    ],
+    "bp_depot": [
+      {
+        "id": "유조 탱크 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/BP_Depot_Marked_Map.jpg/revision/latest?cb=20210112151343&format=original"
+      }
+    ],
+    "the_bunker_part_1": [
+    ],
+    "the_bunker_part_2":[
+      {
+        "id": "문이 있는 건물의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/61/Bunker_pt2.png/revision/latest?cb=20200704024601&format=original"
+      }
+    ],
+    "bad_rep_evidence": [
+      {
+        "id": "문서기 있는 컨테이너의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/Bad_Rep_Evidence_Customs.png/revision/latest?cb=20190306221306&format=original"
+      },
+      {
+        "id": "문서 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/af/Docs_0031_location.png/revision/latest?cb=20190414230505&format=original"
+      }
+    ],
+    "ice_cream_cone": [
+
+    ],
+    "postman_pat_part_1": [
+      {
+        "id": "전달책 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b1/PostmanPat1_Factory.png/revision/latest?cb=20180516181246&format=original"
+      },
+      {
+        "id": "편지 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a6/Postman_Pat_Letter_Location.png/revision/latest?cb=20171106210007&format=original"
+      }
+    ],
+    "shacking_up_teller": [
+      {
+        "id": "목표가 있는 방의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8c/Shaking_up_teller_customs_map.png/revision/latest?cb=20180516201411&format=original"
+      },
+      {
+        "id": "목표물 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/91/Bank_case_location.png/revision/latest?cb=20171106235436&format=original"
+      }
+    ],
+    "the_punisher_part_1": [],
+    "the_punisher_part_2": [],
+    "the_punisher_part_3": [],
+    "the_punisher_part_4": [],
+    "the_punisher_part_5": [],
+    "the_punisher_part_6": [],
+    "no_offence": []
+  }
+}
