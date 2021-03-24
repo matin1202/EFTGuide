@@ -117,6 +117,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
             view.findViewById<TextView>(R.id.tv_dealer_level_iv).setOnClickListener(this)
         }catch (e: Exception){
             toast("에러가 발생하였습니다. $e")
+            e.printStackTrace()
         }
 
         return view

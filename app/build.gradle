@@ -13,8 +13,8 @@ android {
         applicationId "com.matin.eftguide"
         minSdkVersion 24
         targetSdkVersion 29
-        versionCode 26
-        versionName "0.0.26a"
+        versionCode 28
+        versionName "0.0.28a"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

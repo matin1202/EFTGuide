@@ -45,6 +45,7 @@ import org.json.JSONObject
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
+import kotlin.math.floor
 
 @Suppress("DEPRECATION")
 class MainActivity : BaseActivity() {
@@ -319,7 +320,7 @@ class MainActivity : BaseActivity() {
                     os.write(it.result)
                     os.close()
                     toast("다운로드에 성공했습니다.")
-                    toast("다운로드 크기 : ${Math.floor(it.result.size.toDouble()/1024)}KB")
+                    toast("다운로드 크기 : ${floor(it.result.size.toDouble()/1024*10) /10}KB")
                 }
                 else{
                     toast("다운로드에 실패하였습니다.")

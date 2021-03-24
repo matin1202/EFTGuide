@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "quest_info": {
     "debut": [
     ],
@@ -108,6 +108,176 @@
     "the_punisher_part_4": [],
     "the_punisher_part_5": [],
     "the_punisher_part_6": [],
-    "no_offence": []
+    "anesthesia": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6a/Shoreline_Anesthesia.png/revision/latest?cb=20200727161906&format=original"
+      },
+      {
+        "id": "위치 1(잠긴 별장 뒤)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/10/18-31.png/revision/latest?cb=20200727235109&format=original"
+      },
+      {
+        "id": "위치 2(항구)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/18-59.png/revision/latest?cb=20200727171403&format=original"
+      },
+      {
+        "id": "위치 3(리조트)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ee/19-03.png/revision/latest?cb=20200727171524&format=original"
+      }
+    ],
+    "grenadier": [],
+    "insomnia": [],
+    "test_drive_part_1": [],
+    "perfect_mediator": [],
+    "polikhim_hobo": [],
+    "regulated_materials": [],
+    "big_customer": [
+      {
+        "id": "창고 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ed/BigCustomerMap.jpg/revision/latest?cb=20180703175037&format=original"
+      },
+      {
+        "id": "차량 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/45/The_van_inside_the_depot-building.png/revision/latest?cb=20180314232222&format=original"
+      }
+    ],
+    "no_offence": [],
+    "shortage": [],
+    "operation_aquarius_part_1": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/92/OP_Aquarius1_Customs.png/revision/latest?cb=20180517194531&format=original"
+      },
+      {
+        "id": "206호 모습",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/de/Rom_206_door.png/revision/latest?cb=20171117215007&format=original"
+      }
+    ],
+    "operation_aquarius_part_2": [],
+    "sanitary_standards_part_1": [],
+    "sanitary_standards_part_2": [],
+    "painkiller": [],
+    "pharmacist": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ab/Pharmacist_Customs.png/revision/latest?cb=20180730003101&format=original"
+      },
+      {
+        "id": "정보의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7a/Carbon_Case_Location.png/revision/latest?cb=20210318161810&format=original"
+      }
+    ],
+    "car_repair": [],
+    "hippocratic_vow": [],
+    "supply_plans": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/cf/SupplyPlansMap.png/revision/latest?cb=20180730001753&format=original"
+      },
+      {
+        "id": "위에서 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/49/SecureDocs0052Iso.png/revision/latest?cb=20210119004246&format=original"
+      },
+      {
+        "id": "문서의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3f/Docs_0052_Location.png/revision/latest?cb=20171122160319&format=original"
+      }
+    ],
+    "health_care_privacy_part_1": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/56/HCPP1.png/revision/latest?cb=20180730005350&format=original"
+      },
+      {
+        "id": "첫번째 구급차",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/Ambulance1.png/revision/latest?cb=20180624224723&format=original"
+      },
+      {
+        "id": "두번째 구급차",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/23/Ambulance2.png/revision/latest?cb=20180624224725&format=original"
+      },
+      {
+        "id": "세번쨰 구급차",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/54/Ambulance3.png/revision/latest?cb=20180624224729&format=original"
+      }
+    ],
+    "health_care_privacy_part_2": [
+      {
+        "id": "정보의 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4b/HealthCarePrivacyPart2Docs.png/revision/latest?cb=20181227013308&format=original"
+      }
+    ],
+    "health_care_privacy_part_3": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/dc/WoodsVanLocation.png/revision/latest?cb=20210119141728&format=original"
+      },
+      {
+        "id": "위에서 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/77/BloodSampleISO.png/revision/latest?cb=20210119020152&format=original"
+      },
+      {
+        "id": "혈액 샘플 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/cd/The_blood_sample.png/revision/latest?cb=20180729171338&format=original"
+      }
+    ],
+    "an_apple_a_day_keeps_the_doctor_away": [],
+    "health_care_privacy_part_4": [],
+    "athlete": [],
+    "private_clinic": [],
+    "health_care_privacy_part_5": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/00/HCPP5.png/revision/latest?cb=20180730010835&format=original"
+      },
+      {
+        "id": "방의 모습",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a0/The_breach_room.png/revision/latest?cb=20190912214036&format=original"
+      }
+    ],
+    "decontamination_service": [],
+    "general_wares": [],
+    "colleagues_part_1": [
+      {
+        "id": "지도로 보기",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6a/Shoreline_Anesthesia.png/revision/latest?cb=20200727161906&format=original"
+      },
+      {
+        "id": "위치 1(잠긴 별장 뒤)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/10/18-31.png/revision/latest?cb=20200727235109&format=original"
+      },
+      {
+        "id": "위치 2(항구)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/18-59.png/revision/latest?cb=20200727171403&format=original"
+      },
+      {
+        "id": "위치 3(리조트)",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ee/19-03.png/revision/latest?cb=20200727171524&format=original"
+      }
+    ],
+    "colleagues_part_2": [
+      {
+        "id": "수술킷 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9b/Surgery_kit.png/revision/latest?cb=20201002192009&format=original"
+      },
+      {
+        "id": "검안기 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/Ophtalmoscope.png/revision/latest?cb=20201002192008&format=original"
+      }
+    ],
+    "colleagues_part_3": [],
+    "postman_pat_part_2": [],
+    "out_of_curiosity":[
+      {
+        "id": "창고 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ed/BigCustomerMap.jpg/revision/latest?cb=20180703175037&format=original"
+      },
+      {
+        "id": "차량 위치",
+        "link": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/45/The_van_inside_the_depot-building.png/revision/latest?cb=20180314232222&format=original"
+      }
+    ],
+    "trust_regain": []
   }
 }

@@ -52,6 +52,7 @@ class MenuQuestMapFragment : Fragment() {
                         textView {
                             this.text = titleList[i]
                             this.textColor = R.color.text_color
+                            this.setTextColor(resources.getColor(R.color.text_color))
                             this.textSize = 24.0f
                             this.gravity = Gravity.CENTER
                             this.padding = 16
