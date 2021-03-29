@@ -10,19 +10,31 @@ import android.widget.RadioButton
 import androidx.appcompat.app.AlertDialog
 import com.android.billingclient.api.*
 import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.OnUserEarnedRewardListener
+import com.google.android.gms.ads.rewarded.RewardItem
+import com.google.android.gms.ads.rewarded.RewardedAd
+import com.google.android.gms.ads.rewarded.RewardedAdCallback
+import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_set.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.jetbrains.anko.toast
 
-class SetActivity : BaseActivity(), PurchasesUpdatedListener {
+class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedRewardListener {
+    private var _RewardLoad = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_set)
-        val billingClient = BillingClient.newBuilder(this).enablePendingPurchases().setListener(this).build()
 
         sa_adView.loadAd(AdLoaderClass().adRequest)
+        MobileAds.initialize(this)
+
 
         tv_setting.setOnClickListener {
             selectThemeDialog()
@@ -31,10 +43,10 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener {
             selectAdDialog()
         }
         tv_donation.setOnClickListener {
-            toast("준비중입니다.")
+            loadRewardedAd()
         }
         tv_ten_thousands.setOnClickListener {
-            BillingClass(this, "test")
+            BillingClass(this, "donate1")
         }
         million.onClick {
             BillingClass(this@SetActivity, "crazy")
@@ -111,5 +123,36 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener {
 
     override fun onPurchasesUpdated(p0: BillingResult, p1: MutableList<Purchase>?) {
 
+    }
+
+    private fun loadRewardedAd(){
+        toast("광고를 로딩 중입니다.")
+        if(!_RewardLoad) {
+            _RewardLoad = true
+            RewardedInterstitialAd.load(
+                this,
+                "ca-app-pub-3429208671349104/2021930393",
+                AdRequest.Builder().build(),
+                object : RewardedInterstitialAdLoadCallback() {
+                    override fun onAdLoaded(p0: RewardedInterstitialAd) {
+                        _RewardLoad = false
+                        toast("광고를 게시합니다.")
+                        p0.show(this@SetActivity, this@SetActivity)
+                    }
+
+                    override fun onAdFailedToLoad(p0: LoadAdError) {
+                        toast("광고 게시에 실패하였습니다. ${p0.responseInfo}")
+                    }
+
+                }
+            )
+        }
+        else{
+            toast("광고가 이미 로딩 중입니다.")
+        }
+    }
+
+    override fun onUserEarnedReward(p0: RewardItem) {
+        toast("광고를 시청해주셔서 감사드립니다. :D")
     }
 }

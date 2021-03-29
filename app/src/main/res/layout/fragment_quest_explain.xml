@@ -4,13 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="50dp">
+    android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -179,7 +177,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/background"
-                    android:text=" - 1st Penalty\n - 2nd Penalty"
+                    android:text=" - 1st Penalty\n - 2nd Penalty\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
                     android:textColor="@color/text_color"
                     android:textSize="20sp" />
 
@@ -241,13 +239,25 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/tv_quest_need_for_kappa"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kappa 컨테이너에 필요 : O/X"
-                android:textColor="@color/text_color"
-                android:textSize="20sp" />
+                android:padding="1dp">
+
+                <TextView
+                    android:id="@+id/tv_quest_need_for_kappa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kappa 컨테이너에 필요 : O/X"
+                    android:textColor="@color/text_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:text="\n\n"
+                android:textSize="24sp"/>
 
         </TableLayout>
 
