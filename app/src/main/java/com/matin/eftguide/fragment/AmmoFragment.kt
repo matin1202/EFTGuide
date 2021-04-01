@@ -139,16 +139,16 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 context!!, R.raw.ammo_556,
                 "5.56x45",
-                arrayListOf("M995", "M855A1", "M856A1", "M855", "55 FMJ", "M856", "Mk 255 Mod 0", "55 HP", "Warmage"),
-                arrayListOf(R.drawable.m995_556, R.drawable.m855a1_556, R.drawable.m856a1_556, R.drawable.m855_556, R.drawable.fmj_556, R.drawable.m856_556, R.drawable.mk255_556, R.drawable.hp_556, R.drawable.warmage_556)
+                arrayListOf("SSA AP", "M995", "M855A1", "M856A1", "M855", "55 FMJ", "M856", "Mk 318 Mod 0", "Mk 255 Mod 0", "55 HP", "Warmage"),
+                arrayListOf(R.drawable.ssa_ap_556, R.drawable.m995_556, R.drawable.m855a1_556, R.drawable.m856a1_556, R.drawable.m855_556, R.drawable.fmj_556, R.drawable.m856_556, R.drawable.mk_318_556, R.drawable.mk255_556, R.drawable.hp_556, R.drawable.warmage_556)
                 )
         )
         list.add(
             AFRecycler(
                 context!!, R.raw.ammo_739,
                 "7.62x39",
-                arrayListOf("BP", "PS", "T-45M", "US", "HP"),
-                arrayListOf(R.drawable.bp_739, R.drawable.ps_739, R.drawable.t45m_739, R.drawable.us_739, R.drawable.hp_739)
+                arrayListOf("MAI AP", "BP", "PS", "T-45M", "US", "HP"),
+                arrayListOf(R.drawable.mai_ap_739, R.drawable.bp_739, R.drawable.ps_739, R.drawable.t45m_739, R.drawable.us_739, R.drawable.hp_739)
                 )
         )
         list.add(

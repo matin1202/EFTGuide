@@ -3,25 +3,21 @@ package com.matin.eftguide.fragment
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
-import android.media.Image
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
-import android.opengl.Visibility
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.matin.eftguide.PhotoActivity
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_dealer_explain.*
 import kotlinx.coroutines.*
-import org.jetbrains.anko.support.v4.act
-import org.jetbrains.anko.support.v4.browse
 import org.jetbrains.anko.support.v4.toast
 import org.jsoup.Jsoup
 import java.util.*
@@ -89,9 +85,9 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         val cm = context?.getSystemService(Context.CONNECTIVITY_SERVICE)  as ConnectivityManager
         val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
-        val isConnected: Boolean? = (activeNetwork != null&& activeNetwork.isConnectedOrConnecting)
+        val isConnected: Boolean = (activeNetwork != null&& activeNetwork.isConnectedOrConnecting)
         Log.d("DEF", "onClick: Is Internet connected? $isConnected}")
-        if(isConnected == null||!isConnected){
+        if(!isConnected){
             toast("인터넷에 연결해 주세요...")
             return
         }
@@ -125,17 +121,26 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
         val scope = CoroutineScope(Dispatchers.Main + job)
         scope.launch {
             val crawling = async(Dispatchers.IO) {
-                val doc = Jsoup.connect("$uri$dealer${lv}Stock.png").get()
-                val target = doc.select("#file").select("a").attr("href")
-                Log.d("DEF", target)
-                return@async target
+                try {
+                    val doc = Jsoup.connect("$uri$dealer${lv}Stock.png").timeout(20000).get()
+                    val target = doc.select("#file").select("a").attr("href")
+                    Log.d("DEF", target)
+                    return@async target
+                }catch (e: Exception){
+                    return@async null
+                }
             }
 
 
             val builder = AlertDialog.Builder(context, R.style.MyDialogTheme)
             val dialogView = layoutInflater.inflate(R.layout.image_dialog, null)
 
-            val url:String = crawling.await()
+            val url:String? = crawling.await()
+
+            if(url.isNullOrEmpty()){
+                toast("이미지를 불러오는 데 실패하였습니다.")
+                return@launch
+            }
 
             val dialogImage = dialogView.findViewById<ImageView>(R.id.iv_dialog)
             Glide.with(context!!)

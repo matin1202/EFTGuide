@@ -1211,6 +1211,40 @@
         <item>100000</item>
     </string-array>
 
+    <string-array name="a556x45_Mk_318_Mod_0">
+        <item>MK 318 Mod 0 (SOST)</item>
+        <item>65</item>
+        <item>21</item>
+        <item>35%</item>
+        <item>{B+5}</item>
+        <item> </item>
+        <item>15%</item>
+        <item>10%</item>
+        <item>+10%</item>
+        <item>+10%</item>
+        <item>902m/s</item>
+        <item> </item>
+        <item> </item>
+        <item>663000</item>
+    </string-array>
+
+    <string-array name="a556x45_SSA_AP">
+        <item>SSA AP</item>
+        <item>36</item>
+        <item>56</item>
+        <item>64%</item>
+        <item>{R-6}</item>
+        <item>{R+6}</item>
+        <item>20%</item>
+        <item>48%</item>
+        <item> </item>
+        <item> </item>
+        <item>1050m/s</item>
+        <item> </item>
+        <item> </item>
+        <item>666665</item>
+    </string-array>
+
     <!--                   .300 Blackout                            -->
 
     <string-array name="a300_BPZ">
@@ -1248,6 +1282,23 @@
     </string-array>
 
     <!--                   7.62x39mm                                -->
+
+    <string-array name="a762x39_MAI_AP">
+        <item>MAI AP</item>
+        <item>46</item>
+        <item>58</item>
+        <item>64%</item>
+        <item>{R-5}</item>
+        <item>{R+10}</item>
+        <item>5%</item>
+        <item>43.5%</item>
+        <item>+10%</item>
+        <item>+10%</item>
+        <item>875m/s</item>
+        <item> </item>
+        <item> </item>
+        <item>666665</item>
+    </string-array>
 
     <string-array name="a762x39_BP">
         <item>BP</item>
@@ -2544,7 +2595,7 @@
 
     <string-array name="h_salewa">
         <item>Salewa FIRST AID KIT</item>
-        <item> - 출혈[Bloodloss](45 소모), 과출혈[Heavy_Bloodloss](150 소모)</item>
+        <item> - 출혈[Bloodloss](45 소모), 과출혈[Heavy_Bloodloss](175 소모)</item>
         <item> - 갓 생긴 상처[Fresh_Wound], 체력 회복[Restore_HP]</item>
         <item>0</item>
         <item>0</item>
@@ -2556,7 +2607,7 @@
 
     <string-array name="h_ifak">
         <item>IFAK personal tactical first aid kit</item>
-        <item> - 출혈[Bloodloss](30 소모), 중독, 방사능 피폭</item>
+        <item> - 출혈[Bloodloss](30 소모), 과출혈[Heavy_Bloodloss](210 소모), 중독, 방사능 피폭</item>
         <item> - 갓 생긴 상처[Fresh_Wound], 체력 회복[Restore_HP]</item>
         <item>0</item>
         <item>0</item>
@@ -2564,6 +2615,18 @@
         <item> </item>
         <item>300</item>
         <item>50</item>
+    </string-array>
+
+    <string-array name="h_afak">
+        <item>AFAK personal tactical first aid kit</item>
+        <item> - 출혈[Bloodloss](30 소모), 과출혈[Heavy_Bloodloss](170 소모), 방사능 피폭</item>
+        <item> - 갓 생긴 상처[Fresh_Wound], 체력 회복[Restore_HP]</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3초</item>
+        <item> </item>
+        <item>400</item>
+        <item>60</item>
     </string-array>
 
     <string-array name="h_grizzly">
@@ -2670,6 +2733,18 @@
         <item>0</item>
         <item>3초</item>
         <item>3</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="h_hemostatic_tourniquet_cat">
+        <item>Hemostatic tourniquet CAT</item>
+        <item> - 과출혈[Heavy_Bloodloss]</item>
+        <item> </item>
+        <item>0</item>
+        <item>0</item>
+        <item>3초</item>
+        <item>1</item>
         <item>0</item>
         <item>0</item>
     </string-array>
@@ -2929,6 +3004,15 @@
         <item> </item>
     </string-array>
 
+    <string-array name="p_water_ration">
+        <item>Emergency water ration</item>
+        <item>{B+5}</item>
+        <item>{B+50}</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
     <string-array name="p_water_bottle">
         <item>0.6L water bottle</item>
         <item>0</item>
@@ -3016,6 +3100,15 @@
         <item>{B+30}</item>
         <item>교환품</item>
         <item>1초 후, 300초 동안\n - 면역(Immunity) {B1} 증가</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="p_kvass">
+        <item>Premium Kvass \"Norvinskiy Yadreniy\" 0.6L bottle</item>
+        <item>{B+15}</item>
+        <item>{B+65}</item>
+        <item> </item>
+        <item> </item>
         <item> </item>
     </string-array>
 
@@ -3964,6 +4057,24 @@
         <item> </item>
     </string-array>
 
+    <string-array name="w_stm_9">
+        <item>STM-9 Gen.2</item>
+        <item>58</item>
+        <item>280</item>
+        <item>50</item>
+        <item>500m</item>
+        <item>9x19mm Parabellum</item>
+        <item>800RPM</item>
+        <item>단발</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Sig SRD 9 9x19mm sound suppressor</item>
+        <item>AP 6.3</item>
+        <item>7N31</item>
+        <item> </item>
+    </string-array>
+
     <string-array name="w_pp_91_kedr">
         <item>PP-91 "Kedr"</item>
         <item>65</item>
@@ -4396,6 +4507,24 @@
         <item> </item>
     </string-array>
 
+    <string-array name="w_pl_15">
+        <item>PL-15</item>
+        <item>340</item>
+        <item>235</item>
+        <item>93</item>
+        <item>50m</item>
+        <item>9x19mm Parabellum</item>
+        <item>30RPM</item>
+        <item>단발</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Sig SRD 9 9x19mm sound suppressor</item>
+        <item>AP 6.3</item>
+        <item>7N31</item>
+        <item> </item>
+    </string-array>
+
     <string-array name="w_fn_5_7">
         <item>FN 5–7</item>
         <item>330</item>
@@ -4801,6 +4930,15 @@
         <item>37</item>
         <item>0.6m</item>
     </string-array>
+
+    <string-array name="w_uvsr_taiga_1">
+        <item>UVSR_Taiga-1</item>
+        <item>30</item>
+        <item>0.55m</item>
+        <item>50</item>
+        <item>0.65</item>
+    </string-array>
+
 
     <!--			Throwable Weapon				-->
 
@@ -6202,6 +6340,13 @@
         <item>-5dB</item>    <!--환경음 볼륨(Ambient volume)-->
     </string-array>
 
+    <string-array name="h_m32">
+        <item>Opsmen Earmor M32 headset</item>
+        <item>70%</item>
+        <item>170Hz 이하</item>
+        <item>-2dB</item>
+    </string-array>
+
     <string-array name="h_razor">
         <item>Walker\'s Razor Digital headset</item>
         <item>75%</item>
@@ -6477,7 +6622,7 @@
     <!--                        Prapor's Quests                     -->
 
     <!--  이름, 유형, 목표, 요구 조건, 보상, 실패 패널티, 연계 퀘스트, 팁, 카파퀘 필요 여부, 지도-->
-    <string-array name="q_">
+    <!-- <string-array name="q_">
         <item></item>
         <item></item>
         <item></item>
@@ -6488,7 +6633,7 @@
         <item></item>
         <item></item>
         <item> </item>
-    </string-array>
+    </string-array> -->
 
     <!-- Prapor's Quest  -->
 
@@ -7430,7 +7575,7 @@
         <item>겸험치 14100\n스키어 우호도 +0.1\n예거 우호도 -0.01\n37000루블\nHolosun HS401G5 3개</item>
         <item> </item>
         <item>\"Vitamins\" - Part 2</item>
-        <item>화학물질은 각각 해안선(Shoreline)의 리조트 서관의 112호 냉장고, 교차로(Interchange)의 Mantis, EMERCOM medical Unit에 있습니다.</item>
+        <item>화학물질은 각각 해안선(Shoreline)의 리조트 서관의 112호(Office 112 West wing key 열쇠 필요) 냉장고, 교차로(Interchange)의 Mantis, EMERCOM medical Unit(Key to EMERCOM medical unit 열쇠 필요)에 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7488,14 +7633,14 @@
     </string-array>
 
     <string-array name="q_lend_lease_part_1">
-        <item>Lend lease - Part 1(무기 대여 1)</item>
+        <item>Lend lease - Part 1(무기 대여법 1)</item>
         <item>주워오기</item>
         <item>- 모터 컨트롤러 3개 찾기\n- 자이로스코프 2개 찾기\n- 스키어에게 넘기기</item>
         <item>25레벨</item>
         <item>경험치 +20000\n스키어 우호도 +0.12\n3500달러</item>
         <item> </item>
         <item>Lend lease - Part 2</item>
-        <item>자이로 스코프와 모터 컨트롤러 하나씩은 숲(Woods)의 각각 검문소 차량과 제제소 차량에 있습니다.\n나머지는 해안선(Shoreline)의 Road to Custom 근처에 하나, 리조트 동관 306(308)호 베란다, 서관 216호 서랍에 있습니다.</item>
+        <item>자이로 스코프와 모터 컨트롤러 하나씩은 숲(Woods)의 각각 검문소 차량과 제제소 차량에 있습니다.\n나머지는 해안선(Shoreline)의 Road to Custom 근처에 하나, 리조트 동관 306(308)호 베란다(East wing room 306 또는 308 key 필요), 서관 216호 서랍(West wing room 216 key 필요)에 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7828,7 +7973,7 @@
     </string-array>
 
     <string-array name="q_lend_lease_part_2">
-        <item>Lend lease - Part 2(무기 대여 2)</item>
+        <item>Lend lease - Part 2(무기 대여법 2)</item>
         <item>주워오기</item>
         <item>- 레이드에서 Military COFPM wireless Signal Transmitter 찾기\n- 레이드에서 Virtex programmable processor 2개 찾기\n- 피스키퍼에게 넘기기</item>
         <item>30레벨</item>
@@ -9009,7 +9154,7 @@
     <string-array name="q_hunting_trip">
         <item>Hunting trip(사냥 여행)</item>
         <item>완료</item>
-        <item>– 슈트르만(Shturman)을 March Tactical 3-24x42 FFP scope를 장착한 M700을 사용해 사살하기</item>
+        <item>– 슈트르만(Shturman)을 March Tactical 3–24x42 FFP scope를 장착한 M700을 사용해 사살하기</item>
         <item> </item>
         <item>경험치 +16000\n예거 우호도 +0.04\n6만 루블\nVPX Flash Storage Module\nMilitary thermal vision module Iridium\n예거 LL3에서 M700 ARCH, M700 AICS 해금\n예거 LL4에서 M700 PRO, M700 WRS 해금</item>
         <item> </item>
@@ -9037,7 +9182,7 @@
         <item>제거</item>
         <item>- 세니타(Sanitar)를 사살하기</item>
         <item> </item>
-        <item>- 경험치 +13800\n예거 우호도 +0.2\n테라피스트 우호도 -0.2\n115000루블\nFLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope\nAP-20 200발\nSurv12 field surgical kit 2개</item>
+        <item>– 경험치 +13800\n예거 우호도 +0.2\n테라피스트 우호도 –0.2\n115000루블\nFLIR RS–32 2.25–9x 35mm 60Hz thermal riflescope\nAP-20 200발\nSurv12 field surgical kit 2개</item>
         <item> </item>
         <item>TerraGroup employee</item>
         <item>테라피스트의 Colleague - Part 3를 깨면 자동으로 실패 처리됩니다.</item>

@@ -25,8 +25,8 @@ class HealFragment : Fragment() {
             RecyclerAmmo(
                 R.drawable.healkit,
                 getString(R.string.healkit),
-                arrayListOf("Analgin painkillers", "Augmentin", "Morphine", "Ibuprofen", "Aseptic bandage", "Army bandage", "AI-2", "Car kit", "Salewa", "IFAK", "Grizzly", "splint", "splint (alu)", "Vaseline", "Golden Star Balm", "CMS kit", "Surv12 kit", "Esmarch tourniquet", "CALOK-B Hemostatic"),
-                arrayListOf(R.drawable.icon_painkillers, R.drawable.icon_augmentin, R.drawable.icon_morphine, R.drawable.icon_ibuprofen, R.drawable.icon_aseptic_bandage, R.drawable.icon_army_bandage, R.drawable.icon_ai2, R.drawable.icon_car_first_aid_kit, R.drawable.icon_salewa_first_aid_kit, R.drawable.icon_ifak, R.drawable.icon_grizzly, R.drawable.icon_splint, R.drawable.icon_alu_splint, R.drawable.icon_vaseline, R.drawable.icon_golden_star_balm, R.drawable.icon_cms, R.drawable.icon_surv12, R.drawable.icon_esmarch_tourniquet, R.drawable.icon_calok_b_hemostatic)
+                arrayListOf("Analgin painkillers", "Augmentin", "Morphine", "Ibuprofen", "Aseptic bandage", "Army bandage", "AI-2", "Car kit", "Salewa", "AFAK", "IFAK", "Grizzly", "splint", "splint (alu)", "Vaseline", "Golden Star Balm", "CMS kit", "Surv12 kit", "Esmarch tourniquet", "CALOK-B Hemostatic", "Hemostatic tourniquet CAT"),
+                arrayListOf(R.drawable.icon_painkillers, R.drawable.icon_augmentin, R.drawable.icon_morphine, R.drawable.icon_ibuprofen, R.drawable.icon_aseptic_bandage, R.drawable.icon_army_bandage, R.drawable.icon_ai2, R.drawable.icon_car_first_aid_kit, R.drawable.icon_salewa_first_aid_kit, R.drawable.icon_afak, R.drawable.icon_ifak, R.drawable.icon_grizzly, R.drawable.icon_splint, R.drawable.icon_alu_splint, R.drawable.icon_vaseline, R.drawable.icon_golden_star_balm, R.drawable.icon_cms, R.drawable.icon_surv12, R.drawable.icon_esmarch_tourniquet, R.drawable.icon_calok_b_hemostatic, R.drawable.icon_hemostatic_tourniquet_cat)
 
                 ,context!!, "heal")
         )

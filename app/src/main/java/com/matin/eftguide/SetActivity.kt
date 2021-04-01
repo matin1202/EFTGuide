@@ -1,11 +1,9 @@
 package com.matin.eftguide
 
 import android.content.Context
-import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Layout
 import android.view.LayoutInflater
+import android.view.View
 import android.widget.RadioButton
 import androidx.appcompat.app.AlertDialog
 import com.android.billingclient.api.*
@@ -14,9 +12,6 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.OnUserEarnedRewardListener
 import com.google.android.gms.ads.rewarded.RewardItem
-import com.google.android.gms.ads.rewarded.RewardedAd
-import com.google.android.gms.ads.rewarded.RewardedAdCallback
-import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback
 import com.matin.eftguide.base.BaseActivity
@@ -24,9 +19,10 @@ import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_set.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.jetbrains.anko.toast
+import java.lang.Math.floor
 
 class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedRewardListener {
-    private var _RewardLoad = false
+    private var _rewardLoad = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,7 +47,25 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedReward
         million.onClick {
             BillingClass(this@SetActivity, "crazy")
         }
+        remove_db.onClick {
+            removeDB()
+        }
+        using_cache.visibility = View.GONE//.onClick {
+            //toast("${floor(cacheDir.length()/1024*10.0)/10}KB")
+        //}
     }
+
+    private fun removeDB(){
+        val files = filesDir.listFiles()
+        if(!files.isNullOrEmpty()) {
+            for (i in files.indices) {
+                files[i].delete()
+            }
+        }
+        toast("임시 파일을 삭제했습니다.")
+    }
+
+
 
     private fun selectAdDialog(){
         val inflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
@@ -127,15 +141,15 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedReward
 
     private fun loadRewardedAd(){
         toast("광고를 로딩 중입니다.")
-        if(!_RewardLoad) {
-            _RewardLoad = true
+        if(!_rewardLoad) {
+            _rewardLoad = true
             RewardedInterstitialAd.load(
                 this,
                 "ca-app-pub-3429208671349104/2021930393",
                 AdRequest.Builder().build(),
                 object : RewardedInterstitialAdLoadCallback() {
                     override fun onAdLoaded(p0: RewardedInterstitialAd) {
-                        _RewardLoad = false
+                        _rewardLoad = false
                         toast("광고를 게시합니다.")
                         p0.show(this@SetActivity, this@SetActivity)
                     }

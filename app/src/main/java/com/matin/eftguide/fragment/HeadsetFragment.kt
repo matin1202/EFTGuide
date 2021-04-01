@@ -40,6 +40,14 @@ class HeadsetFragment() : Fragment() {
         list.add(
             HFRecycler(
                 context,
+                "M32",
+                R.drawable.m32
+            )
+        )
+
+        list.add(
+            HFRecycler(
+                context,
                 "Razor",
                 R.drawable.razor
             )
