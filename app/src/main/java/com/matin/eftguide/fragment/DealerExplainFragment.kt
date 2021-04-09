@@ -143,21 +143,26 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
             }
 
             val dialogImage = dialogView.findViewById<ImageView>(R.id.iv_dialog)
-            Glide.with(context!!)
-                .load(url)
-                .placeholder(R.drawable.loadingimage)
-                .fallback(R.drawable.loadingimage)
-                .thumbnail(0.5f)
-                .into(dialogImage)
-            dialogImage.setOnClickListener{
-                startActivity((Intent(context, PhotoActivity::class.java).putExtra("url", url).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)))
-            }
-            builder.setView(dialogView)
-                .setPositiveButton("닫기"){ _, _ ->
-
+            if(context != null) {
+                Glide.with(context!!)
+                    .load(url)
+                    .placeholder(R.drawable.loadingimage)
+                    .fallback(R.drawable.loadingimage)
+                    .thumbnail(0.5f)
+                    .into(dialogImage)
+                dialogImage.setOnClickListener {
+                    startActivity(
+                        (Intent(context, PhotoActivity::class.java).putExtra("url", url)
+                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+                    )
                 }
-                .setTitle("$dealer 우호도 $lv 레벨 상품 목록")
-                .show()
+                builder.setView(dialogView)
+                    .setPositiveButton("닫기") { _, _ ->
+
+                    }
+                    .setTitle("$dealer 우호도 $lv 레벨 상품 목록")
+                    .show()
+            }
         }
     }
 

@@ -3177,9 +3177,9 @@
 
     <string-array name="w_ak_101">
         <item>AK-101</item>
-        <item>150</item>
-        <item>405</item>
-        <item>50</item>
+        <item>135</item>
+        <item>392</item>
+        <item>35</item>
         <item>650m</item>
         <item>5.56x45mm NATO</item>
         <item>650RPM</item>
@@ -3195,8 +3195,8 @@
 
     <string-array name="w_ak_102">
         <item>AK-102</item>
-        <item>154</item>
-        <item>402</item>
+        <item>139</item>
+        <item>392</item>
         <item>43</item>
         <item>650m</item>
         <item>5.56x45mm NATO</item>
@@ -3215,7 +3215,7 @@
         <item>AK-103</item>
         <item>174</item>
         <item>422</item>
-        <item>50</item>
+        <item>35</item>
         <item>650m</item>
         <item>7.62x39mm</item>
         <item>600RPM</item>
@@ -3233,7 +3233,7 @@
         <item>AK-104</item>
         <item>186</item>
         <item>422</item>
-        <item>58</item>
+        <item>43</item>
         <item>650m</item>
         <item>7.62x39mm</item>
         <item>600RPM</item>
@@ -3248,10 +3248,10 @@
     </string-array>
 
     <string-array name="w_ak_105">
-        <item>ak-105</item>
-        <item>165</item>
-        <item>413</item>
-        <item>43</item>
+        <item>AK-105</item>
+        <item>150</item>
+        <item>400</item>
+        <item>45</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>600RPM</item>
@@ -3267,8 +3267,8 @@
 
     <string-array name="w_ak_74">
         <item>AK-74</item>
-        <item>158</item>
-        <item>413</item>
+        <item>145</item>
+        <item>398</item>
         <item>43</item>
         <item>650m</item>
         <item>5.45x39mm</item>
@@ -3285,9 +3285,9 @@
 
     <string-array name="w_ak_74m">
         <item>AK-74M</item>
-        <item>146</item>
-        <item>409</item>
-        <item>50</item>
+        <item>142</item>
+        <item>394</item>
+        <item>43</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3303,9 +3303,9 @@
 
     <string-array name="w_ak_74n">
         <item>AK-74N</item>
-        <item>157</item>
-        <item>412</item>
-        <item>43</item>
+        <item>144</item>
+        <item>397</item>
+        <item>31</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3321,9 +3321,9 @@
 
     <string-array name="w_aks_74">
         <item>AKS-74</item>
-        <item>146</item>
+        <item>145</item>
         <item>398</item>
-        <item>43</item>
+        <item>31</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3339,9 +3339,9 @@
 
     <string-array name="w_aks_74u">
         <item>AKS-74U</item>
-        <item>152</item>
-        <item>455</item>
-        <item>53</item>
+        <item>146</item>
+        <item>445</item>
+        <item>44</item>
         <item>300m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3357,9 +3357,9 @@
 
     <string-array name="w_aks_74un">
         <item>AKS-74UN</item>
-        <item>152</item>
-        <item>455</item>
-        <item>53</item>
+        <item>147</item>
+        <item>445</item>
+        <item>44</item>
         <item>300m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3375,9 +3375,9 @@
 
     <string-array name="w_aks_74ub">
         <item>AKS-74UB</item>
-        <item>152</item>
-        <item>455</item>
-        <item>53</item>
+        <item>146</item>
+        <item>445</item>
+        <item>44</item>
         <item>300m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -5761,8 +5761,9 @@
         <item>1</item>
         <item>정수리, 뒷목</item>
         <item>높음</item>
-        <item>없음</item>
         <item>인체공학 {R-1}</item>
+        <item>합성 재료(Combined Materials)</item>
+        <item>없음</item>
         <item>가능</item>
         <item> </item>
     </string-array>
@@ -5774,6 +5775,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>없음</item>
+        <item>아라미드(Aramid)</item>
         <item>적음</item>
         <item>불가능</item>
         <item> </item>
@@ -5786,6 +5788,7 @@
         <item>정수리</item>
         <item>낮음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-5}</item>
+        <item>아라미드(Aramid)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5798,6 +5801,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>낮음</item>
         <item>화면 전환 속도 {R-12%}, 인체공학 {R-10}</item>
+        <item>아라미드(Aramid)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5810,6 +5814,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>낮음</item>
         <item>화면 전환 속도 {R-13%}, 인체공학 {R-14}</item>
+        <item>아라미드(Aramid)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5822,6 +5827,7 @@
         <item>정수리, 뒷목, 귀, 눈, 턱</item>
         <item>없음</item>
         <item>이동 속도 {R-3%}, 화면 전환 속도 {R-5%}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight Polyenthylene)</item>
         <item>적음</item>
         <item>불가능</item>
         <item> </item>
@@ -5834,6 +5840,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-2}</item>
+        <item>아라미드(Aramid)</item>
         <item>적음</item>
         <item>가능</item>
         <item> </item>
@@ -5846,6 +5853,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-5%}, 인체공학 {R-2}</item>
+        <item>알루미늄(Aluminium)</item>
         <item>적음</item>
         <item>가능</item>
         <item> </item>
@@ -5858,6 +5866,7 @@
         <item>정수리, 뒷목</item>
         <item>중간</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7%}, 인체공학 {R-1}</item>
+        <item>아라미드(Aramid)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경을 장착할 수 있습니다.</item>
@@ -5870,6 +5879,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-13}</item>
+        <item>강철(Armor Steel)</item>
         <item>없음</item>
         <item>가능</item>
         <item> </item>
@@ -5882,6 +5892,7 @@
         <item>정수리, 뒷목</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-5%}, 인체공학 {R-1}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -5894,6 +5905,7 @@
         <item>정수리, 뒷목, 눈, 귀, 턱</item>
         <item>낮음</item>
         <item>이동속도 {R-5%}, 화면 전환 속도 {R-10%}, 인체공학 {R-5}</item>
+        <item>아라미드(Aramid)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5906,6 +5918,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>중간</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-3}</item>
+        <item>강철(Armor Steel)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5918,6 +5931,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>야간 투시경 장착 가능</item>
@@ -5930,6 +5944,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>야간 투시경 장착 가능</item>
@@ -5942,6 +5957,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-1}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -5954,6 +5970,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-7%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item> </item>
@@ -5966,6 +5983,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>높음</item>
         <item>불가능</item>
         <item> </item>
@@ -5978,6 +5996,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-4}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>적음</item>
         <item>가능</item>
         <item> </item>
@@ -5990,6 +6009,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>야간 투시경 장착 가능</item>
@@ -6002,6 +6022,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -6014,6 +6035,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>화면 전환 속도 {R-3%}, 인체공학 {R-3}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -6026,6 +6048,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-6%}, 인체공학 {R-4}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -6038,6 +6061,7 @@
         <item>정수리, 뒷목</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-1}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
         <item>가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -6050,6 +6074,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-15%}, 인체공학 {R-10}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져와 야간 투시경 장착 가능</item>
@@ -6062,6 +6087,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-6%}, 인체공학 {R-7}</item>
+        <item>강철(Armor Steel)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -6074,6 +6100,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-7%}, 화면 전환 속도 {R-17%}, 인체공학 {R-6}</item>
+        <item>강철(Armor Steel)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -6086,6 +6113,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-8%}, 인체공학 {R-4}</item>
+        <item>티타늄(Titan)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -6098,6 +6126,7 @@
         <item>정수리, 뒷목, 귀</item>
         <item>높음</item>
         <item>이동속도 {R-7%}, 화면 전환 속도 {R-33%}, 인체공학 {R-20}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -6150,7 +6179,7 @@
         <item>50</item>
         <item>111</item>
         <item>이동속도 {R-10%}, 화면 전환 속도 {R-4%}, 인체공학 {R-5}</item>
-        <item>울트라폴리(Ultrahighweight polyethylene)</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
     </string-array>
 
     <string-array name="h_6b23_1">
@@ -6180,7 +6209,7 @@
         <item>85</item>
         <item>155</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-2%}, 인체공학 {R-3}</item>
-        <item>울트라폴리(Ultrahighweight polyethylene)</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
     </string-array>
 
     <string-array name="h_6b13">
@@ -6230,7 +6259,7 @@
         <item>60</item>
         <item>133</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
-        <item>울트라폴리(Ultrahighweight polyethylene)</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
     </string-array>
 
     <string-array name="h_gen4high_mobility_kit">
@@ -6310,7 +6339,7 @@
         <item>50</item>
         <item>111</item>
         <item>이동속도 {R-8%}, 화면 전환 속도 {R-2%}, 인체공학 {R-1}</item>
-        <item>울트라폴리(Ultrahighweight polyethylene)</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
     </string-array>
 
     <string-array name="h_zhuk_6a">
@@ -6396,6 +6425,7 @@
         <item>20</item>
         <item>낮음</item>
         <item>없음</item>
+        <item>유리(Glass)</item>
         <item>없음</item>
     </string-array>
 
@@ -6406,6 +6436,7 @@
         <item>20</item>
         <item>낮음</item>
         <item>없음</item>
+        <item>유리(Glass)</item>
         <item>없음</item>
     </string-array>
 
@@ -6416,6 +6447,7 @@
         <item>30</item>
         <item>낮음</item>
         <item>없음</item>
+        <item>유리(Glass)</item>
         <item>없음</item>
     </string-array>
 
@@ -6426,6 +6458,7 @@
         <item>40</item>
         <item>중간</item>
         <item>화면 전환 속도{R-8%}, 인체 공학{R-8}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6436,6 +6469,7 @@
         <item>40</item>
         <item>높음</item>
         <item>인체 공학{R-7}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6446,6 +6480,7 @@
         <item>45</item>
         <item>높음</item>
         <item>화면 전환 속도{R-10%}, 인체 공학{R-9}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6456,6 +6491,7 @@
         <item>50</item>
         <item>중간</item>
         <item>화면 전환 속도{R-5%}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6466,6 +6502,7 @@
         <item>50</item>
         <item>높음</item>
         <item>화면 전환 속도{R-5%}, 인체 공학{R-5}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6476,6 +6513,7 @@
         <item>85</item>
         <item>높음</item>
         <item>화면 전환 속도{R-9%}, 인체 공학{R-10}</item>
+        <item>유리(Glass)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6486,6 +6524,7 @@
         <item>50</item>
         <item>높음</item>
         <item>화면 전환 속도{R-8%}, 인체 공학{R-7}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6496,6 +6535,7 @@
         <item>55</item>
         <item>높음</item>
         <item>화면 전환 속도{R-6%}, 인체 공학{R-7}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6506,6 +6546,7 @@
         <item>50</item>
         <item>중간</item>
         <item>인체 공학{R-19}</item>
+        <item>강철(Armor Steel)</item>
         <item>바이져 특유의 울리는 소리</item>
     </string-array>
 
@@ -6516,6 +6557,7 @@
         <item>20</item>
         <item>낮음</item>
         <item>인체 공학{R-6}</item>
+        <item>아라미드(Aramid)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6526,6 +6568,7 @@
         <item>20</item>
         <item>낮음</item>
         <item>인체 공학{R-5}</item>
+        <item>아라미드(Aramid)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6536,6 +6579,7 @@
         <item>45</item>
         <item>높음</item>
         <item>화면 전환 속도{R-2%}, 인체 공학{R-2}</item>
+        <item>아라미드(Aramid)</item>
         <item>없음</item>
     </string-array>
 
@@ -6546,6 +6590,7 @@
         <item>25</item>
         <item>높음</item>
         <item>없음</item>
+        <item>알루미늄(Aluminium)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6556,6 +6601,7 @@
         <item>27</item>
         <item>높음</item>
         <item>없음</item>
+        <item>알루미늄(Aluminium)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6566,6 +6612,7 @@
         <item>30</item>
         <item>높음</item>
         <item>없음</item>
+        <item>알루미늄(Aluminium)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6576,6 +6623,7 @@
         <item>30</item>
         <item>높음</item>
         <item>화면 전환 속도{R-1%}, 인체 공학{R-2}</item>
+        <item>알루미늄(Aluminium)</item>
         <item>낮음</item>
     </string-array>
 
@@ -6586,6 +6634,7 @@
         <item>40</item>
         <item>높음</item>
         <item>화면 전환 속도{R-6%}, 인체 공학{R-12}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>없음</item>
     </string-array>
 
@@ -6596,6 +6645,7 @@
         <item>30</item>
         <item>높음</item>
         <item>화면 전환 속도{R-8%}, 인체 공학{R-15}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>없음</item>
     </string-array>
 
@@ -6606,6 +6656,7 @@
         <item>35</item>
         <item>높음</item>
         <item>화면 전환 속도{R-15%}, 인체 공학{R-8}</item>
+        <item>합성 재료(Combined Materials)</item>
         <item>없음</item>
     </string-array>
 
@@ -6616,6 +6667,7 @@
         <item>40</item>
         <item>높음</item>
         <item>화면 전환 속도{R-6%}, 인체 공학{R-11}</item>
+        <item>세라믹(Ceramic)</item>
         <item>없음</item>
     </string-array>
 
@@ -7980,7 +8032,7 @@
         <item>경험치 +22000\n피스키퍼 우호도 +0.09\nHK 416A5\n5.56x45mm M995 300발\nMagpul PMAG D–60 5.56x45mm 60–round magazine 2개\n60–round MAG5–60 5.56x45m STANAG magazine 2개\n2천 달러</item>
         <item> </item>
         <item>Peacekeeping mission</item>
-        <item>둘 다 Intelligence Center 2레벨에 제작가능하며, 둘 다 연구소(Labs)에서만 스폰합니다.</item>
+        <item>둘 다 Intelligence Center 2레벨에 제작가능하며, Virtex는 연구소(Labs)에서만, COFPM는 군사기지(Reserve)와 연구소(Labs)에서 스폰합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>

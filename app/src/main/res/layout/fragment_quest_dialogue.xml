@@ -17,7 +17,7 @@
                 android:id="@+id/tv_quest_accept"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="퀘스트 수락"
+                android:text=""
                 android:textColor="@color/text_color"
                 android:textSize="20sp"
                 android:padding="8dp"/>

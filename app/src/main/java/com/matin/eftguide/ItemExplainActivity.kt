@@ -406,6 +406,7 @@ class ItemExplainActivity : BaseActivity() {
                         "방호 부위",
                         "도탄률",
                         "부작용",
+                        "재질",
                         "청력 감소",
                         "헤드셋 착용 가능 여부",
                         "추가 사항"
@@ -517,7 +518,7 @@ class ItemExplainActivity : BaseActivity() {
                     }
                 }
                 "helmet_attachment" -> {
-                    buffer = arrayListOf("이름", "방호력", "방호 부위", "내구도", "도탄률", "부작용", "소리 감소율")
+                    buffer = arrayListOf("이름", "방호력", "방호 부위", "내구도", "도탄률", "부작용", "재질", "소리 감소율")
                     for (i in buffer.indices) {
                         text += "${buffer[i]} : ${
                             stringArray[i]

@@ -17,12 +17,15 @@ import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoa
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_set.*
+import org.jetbrains.anko.browse
+import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.jetbrains.anko.toast
 import java.lang.Math.floor
 
 class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedRewardListener {
     private var _rewardLoad = false
+    private val context: Context by lazy { this }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,9 +53,11 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedReward
         remove_db.onClick {
             removeDB()
         }
-        using_cache.visibility = View.GONE//.onClick {
-            //toast("${floor(cacheDir.length()/1024*10.0)/10}KB")
-        //}
+        tv_open_chat.onClick {
+            it?.snackbar("이동하시겠습니까?", "이동"){
+                browse("https://open.kakao.com/me/matin")
+            }
+        }
     }
 
     private fun removeDB(){

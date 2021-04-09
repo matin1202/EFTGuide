@@ -84,7 +84,7 @@ class WeaponFragment : Fragment() {
             arrayListOf(R.drawable.apb, R.drawable.aps, R.drawable.pl_15, R.drawable.fn5_7, R.drawable.glock17, R.drawable.glock_18c, R.drawable.m1911a1, R.drawable.m45a1, R.drawable.m9a3, R.drawable.mp_443, R.drawable.p226r, R.drawable.pb, R.drawable.pm_t, R.drawable.pm, R.drawable.sr_1mp, R.drawable.tt, R.drawable.tt_gold),  "weapon"))
 
         list.add(WFRecycler(context,
-            R.drawable.machine_gun,
+            R.drawable.weapon,
             "고정식 무기",
             arrayListOf("NSV \"Utes\"", "AGS-30"),
             arrayListOf(R.drawable.nsv, R.drawable.ags_30),  "weapon"))

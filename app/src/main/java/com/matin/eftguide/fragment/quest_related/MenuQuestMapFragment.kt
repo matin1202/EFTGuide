@@ -31,51 +31,52 @@ class MenuQuestMapFragment : Fragment() {
 
     class QuestMapUI(private val quest: String?): AnkoComponent<MenuQuestMapFragment>{
         override fun createView(ui: AnkoContext<MenuQuestMapFragment>): View = with(ui) {
-            verticalLayout {
-                try {
-                    val mapsList = arrayListOf<String>()
-                    val titleList = arrayListOf<String>()
-                    var questData = ""
-                    context.openFileInput("quest_data").bufferedReader().readLines().forEach {
-                        questData += "\n$it"
-                    }
-                    Log.d("MQM", "Quest Data: $questData")
-                    val json = JSONObject(questData)
-                    val questInfo = json.getJSONObject("quest_info")
-                    val data = questInfo.getJSONArray(quest!!.replace("q_", ""))
-                    for (i in 0 until data.length()) {
-                        val iObject = data.getJSONObject(i)
-                        titleList.add(iObject.getString("id"))
-                        mapsList.add(iObject.getString("link"))
-                    }
-                    for (i in titleList.indices) {
-                        textView {
-                            this.text = titleList[i]
-                            this.textColor = R.color.text_color
-                            this.setTextColor(resources.getColor(R.color.text_color))
-                            this.textSize = 24.0f
-                            this.gravity = Gravity.CENTER
-                            this.padding = 16
-                            this.onClick {
-                                val cm =
-                                    context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-                                val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
-                                val isConnected: Boolean =
-                                    (activeNetwork != null && activeNetwork.isConnectedOrConnecting)
-                                if (!isConnected) {
-                                    toast("인터넷에 연결해주세요...")
-                                    return@onClick
-                                } else {
-                                    it?.snackbar("이동하시겠습니까?", "이동") {
-                                        browse(mapsList[i])
+            scrollView {
+                verticalLayout {
+                    try {
+                        val mapsList = arrayListOf<String>()
+                        val titleList = arrayListOf<String>()
+                        var questData = ""
+                        context.openFileInput("quest_data").bufferedReader().readLines().forEach {
+                            questData += "\n$it"
+                        }
+                        val json = JSONObject(questData)
+                        val questInfo = json.getJSONObject("quest_info")
+                        val data = questInfo.getJSONArray(quest!!.replace("q_", ""))
+                        for (i in 0 until data.length()) {
+                            val iObject = data.getJSONObject(i)
+                            titleList.add(iObject.getString("id"))
+                            mapsList.add(iObject.getString("link"))
+                        }
+                        for (i in titleList.indices) {
+                            textView {
+                                this.text = titleList[i]
+                                this.textColor = R.color.text_color
+                                this.setTextColor(resources.getColor(R.color.text_color))
+                                this.textSize = 24.0f
+                                this.gravity = Gravity.CENTER
+                                this.padding = 16
+                                this.onClick {
+                                    val cm =
+                                        context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+                                    val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
+                                    val isConnected: Boolean =
+                                        (activeNetwork != null && activeNetwork.isConnectedOrConnecting)
+                                    if (!isConnected) {
+                                        toast("인터넷에 연결해주세요...")
+                                        return@onClick
+                                    } else {
+                                        it?.snackbar("이동하시겠습니까?", "이동") {
+                                            browse(mapsList[i])
+                                        }
                                     }
                                 }
                             }
                         }
+                    } catch (e: Exception) {
+                        toast("파일이 다운로드 되지 않았거나 아직 준비중입니다.")
+                        e.printStackTrace()
                     }
-                }catch(e: Exception){
-                    toast("파일이 다운로드 되지 않았거나 아직 준비중입니다.")
-                    e.printStackTrace()
                 }
             }
         }

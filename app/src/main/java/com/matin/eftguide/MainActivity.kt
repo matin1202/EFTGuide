@@ -96,7 +96,7 @@ class MainActivity : BaseActivity() {
                                     android.R.style.Theme_DeviceDefault_Light_Dialog_NoActionBar
                                 )
                                     .setTitle("퀘스트 정보 데이터 업데이트")
-                                    .setMessage("${floor(meta.sizeBytes / 10.0) / 100}KB의 데이터를 업데이트합니다.")
+                                    .setMessage("${floor(meta.sizeBytes / 1024 * 0.01) * 100}KB의 데이터를 업데이트합니다.")
                                     .setNegativeButton("취소") { _, _ ->
                                         toast("퀘스트 정보가 제공되지 않거나 오래된 정보일 수 있습니다.")
                                     }
@@ -313,8 +313,6 @@ class MainActivity : BaseActivity() {
                         val os = openFileOutput("quest_data", MODE_PRIVATE)
                         os.write(it.result)
                         os.close()
-                        toast("다운로드에 성공했습니다.")
-                        toast("다운로드 크기 : ${floor(it.result.size.toDouble() / 1024 * 10) / 10}KB")
                     } else {
                         toast("다운로드에 실패하였습니다.")
                     }
