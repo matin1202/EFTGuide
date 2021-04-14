@@ -401,9 +401,9 @@ class ItemExplainActivity : BaseActivity() {
                 "helmet" -> {
                     buffer = arrayListOf(
                         "이름",
-                        "내구도",
                         "방호력",
                         "방호 부위",
+                        "내구도",
                         "도탄률",
                         "부작용",
                         "재질",

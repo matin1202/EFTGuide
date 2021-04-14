@@ -123,6 +123,16 @@ class MenuActivity : BaseActivity() {
                     })
                     .commit()
             }
+            "mechanism" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, MechanismFragment())
+                    .commit()
+            }
+            "penetrate chance" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, BulletPenetrateFragment())
+                    .commit()
+            }
             else -> {
                 Toast.makeText(applicationContext, "준비 중입니다.", Toast.LENGTH_SHORT).show()
             }

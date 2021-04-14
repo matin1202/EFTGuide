@@ -5757,9 +5757,9 @@
 
     <string-array name="h_tac_kek_fast_mt">
         <item>Tac-Kek Fast MT Helmet(non-ballistic helmet)</item>
-        <item>40</item>
         <item>1</item>
         <item>정수리, 뒷목</item>
+        <item>40</item>
         <item>높음</item>
         <item>인체공학 {R-1}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5770,9 +5770,9 @@
 
     <string-array name="h_tank_crew">
         <item>Soft Tank Crew Helmet</item>
-        <item>100</item>
         <item>1</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>100</item>
         <item>높음</item>
         <item>없음</item>
         <item>아라미드(Aramid)</item>
@@ -5783,9 +5783,9 @@
 
     <string-array name="h_kolpak_1s">
         <item>Kolpak-1S riot Helmet</item>
-        <item>25</item>
         <item>1</item>
         <item>정수리</item>
+        <item>25</item>
         <item>낮음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-5}</item>
         <item>아라미드(Aramid)</item>
@@ -5796,9 +5796,9 @@
 
     <string-array name="h_shpm_firefighter">
         <item>SHPM Firefighter\'s Helmet</item>
-        <item>40</item>
         <item>2</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>40</item>
         <item>낮음</item>
         <item>화면 전환 속도 {R-12%}, 인체공학 {R-10}</item>
         <item>아라미드(Aramid)</item>
@@ -5809,9 +5809,9 @@
 
     <string-array name="h_psh_97_djeta">
         <item>PSH-97 \"Djeta\" Helmet</item>
-        <item>65</item>
         <item>2</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>65</item>
         <item>낮음</item>
         <item>화면 전환 속도 {R-13%}, 인체공학 {R-14}</item>
         <item>아라미드(Aramid)</item>
@@ -5822,9 +5822,9 @@
 
     <string-array name="h_jack_o_lantern">
         <item>Jack-o-Lantern tactical pumpkin Helmet</item>
-        <item>40</item>
         <item>2</item>
         <item>정수리, 뒷목, 귀, 눈, 턱</item>
+        <item>40</item>
         <item>없음</item>
         <item>이동 속도 {R-3%}, 화면 전환 속도 {R-5%}</item>
         <item>울트라폴리에틸렌(Ultrahighweight Polyenthylene)</item>
@@ -5835,9 +5835,9 @@
 
     <string-array name="h_untar">
         <item>UNTAR Helmet</item>
-        <item>25</item>
         <item>3</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>25</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-2}</item>
         <item>아라미드(Aramid)</item>
@@ -5848,9 +5848,9 @@
 
     <string-array name="h_6b47">
         <item>6B47 Ratnik-BSH Helmet</item>
-        <item>25</item>
         <item>3</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>25</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-5%}, 인체공학 {R-2}</item>
         <item>알루미늄(Aluminium)</item>
@@ -5861,9 +5861,9 @@
 
     <string-array name="h_lzsh">
         <item>LZSh light Helmet</item>
-        <item>30</item>
         <item>3</item>
         <item>정수리, 뒷목</item>
+        <item>30</item>
         <item>중간</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7%}, 인체공학 {R-1}</item>
         <item>아라미드(Aramid)</item>
@@ -5874,9 +5874,9 @@
 
     <string-array name="h_ssh_68">
         <item>SSh-68 Helmet(1968 steel helmet)</item>
-        <item>30</item>
         <item>3</item>
         <item>정수리, 뒷목</item>
+        <item>30</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-13}</item>
         <item>강철(Armor Steel)</item>
@@ -5887,9 +5887,9 @@
 
     <string-array name="h_kiver_m">
         <item>Kiver-M Helmet</item>
-        <item>35</item>
         <item>3</item>
         <item>정수리, 뒷목</item>
+        <item>35</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-5%}, 인체공학 {R-1}</item>
         <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
@@ -5900,9 +5900,9 @@
 
     <string-array name="h_devtac_ronin">
         <item>DEVTAC Ronin ballistic Helmet</item>
-        <item>60</item>
         <item>3</item>
         <item>정수리, 뒷목, 눈, 귀, 턱</item>
+        <item>60</item>
         <item>낮음</item>
         <item>이동속도 {R-5%}, 화면 전환 속도 {R-10%}, 인체공학 {R-5}</item>
         <item>아라미드(Aramid)</item>
@@ -5913,9 +5913,9 @@
 
     <string-array name="h_sssh_95">
         <item>SSSh-95 Sfera-S</item>
-        <item>100</item>
         <item>3</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>100</item>
         <item>중간</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-3}</item>
         <item>강철(Armor Steel)</item>
@@ -5926,9 +5926,9 @@
 
     <string-array name="h_tc_2001">
         <item>MSA ACH-TC-2001 MICH Series Helmet</item>
-        <item>25</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>25</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5939,9 +5939,9 @@
 
     <string-array name="h_tc_2002">
         <item>MSA ACH TC-2002 MICH Series Helmet</item>
-        <item>27</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>27</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5952,9 +5952,9 @@
 
     <string-array name="h_tc_800">
         <item>MSA Gallet TC 800 High Cut combat Helmet</item>
-        <item>30</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>30</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-1}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5965,9 +5965,9 @@
 
     <string-array name="h_achhc">
         <item>Highcom Striker ACHHC IIIA Helmet</item>
-        <item>30</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>30</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-7%}, 인체공학 {R-2}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5978,9 +5978,9 @@
 
     <string-array name="h_zsh_1_2m">
         <item>ZSh–1–2M Helmet</item>
-        <item>30</item>
         <item>4</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>30</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-8%}, 인체공학 {R-2}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -5991,9 +5991,9 @@
 
     <string-array name="h_ulach">
         <item>Highcom Striker ULACH IIIA Helmet</item>
-        <item>38</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>38</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-4}</item>
         <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
@@ -6004,9 +6004,9 @@
 
     <string-array name="h_bastion">
         <item>Diamond Age Bastion Helmet</item>
-        <item>40</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>40</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7%}, 인체공학 {R-2}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6017,9 +6017,9 @@
 
     <string-array name="h_ops_core_fast_mt">
         <item>Ops-Core Fast MT SUPER HIGH CUT Helmet</item>
-        <item>40</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>40</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-7}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6030,9 +6030,9 @@
 
     <string-array name="h_airframe_tan">
         <item>Crye Precision Airframe Tan</item>
-        <item>40</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>40</item>
         <item>높음</item>
         <item>화면 전환 속도 {R-3%}, 인체공학 {R-3}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6043,9 +6043,9 @@
 
     <string-array name="h_team_wendy_exfil">
         <item>Team Wendy Exfil Helmet</item>
-        <item>45</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>45</item>
         <item>높음</item>
         <item>이동속도 {R-1%}, 화면 전환 속도 {R-6%}, 인체공학 {R-4}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6056,9 +6056,9 @@
 
     <string-array name="h_galvion_caiman">
         <item>Galvion Caiman Ballistic Helmet</item>
-        <item>50</item>
         <item>4</item>
         <item>정수리, 뒷목</item>
+        <item>50</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-8%}, 인체공학 {R-1}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6069,9 +6069,9 @@
 
     <string-array name="h_lshz_2dtm">
         <item>BNTI LSHZ-2DTM Helmet</item>
-        <item>55</item>
         <item>3</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>55</item>
         <item>높음</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-15%}, 인체공학 {R-10}</item>
         <item>합성 재료(Combined Materials)</item>
@@ -6082,9 +6082,9 @@
 
     <string-array name="h_maska">
         <item>Maska 1Sch Helmet</item>
-        <item>60</item>
         <item>4</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>60</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-6%}, 인체공학 {R-7}</item>
         <item>강철(Armor Steel)</item>
@@ -6095,9 +6095,9 @@
 
     <string-array name="h_altyn">
         <item>Altyn Helmet</item>
-        <item>45</item>
         <item>5</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>45</item>
         <item>높음</item>
         <item>이동속도 {R-7%}, 화면 전환 속도 {R-17%}, 인체공학 {R-6}</item>
         <item>강철(Armor Steel)</item>
@@ -6108,9 +6108,9 @@
 
     <string-array name="h_rys_t">
         <item>Rys-T Helmet</item>
-        <item>50</item>
         <item>5</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>50</item>
         <item>높음</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-8%}, 인체공학 {R-4}</item>
         <item>티타늄(Titan)</item>
@@ -6121,9 +6121,9 @@
 
     <string-array name="h_vulkan_5">
         <item>Vulkan-5 (LShZ-5) heavy Helmet</item>
-        <item>55</item>
         <item>6</item>
         <item>정수리, 뒷목, 귀</item>
+        <item>55</item>
         <item>높음</item>
         <item>이동속도 {R-7%}, 화면 전환 속도 {R-33%}, 인체공학 {R-20}</item>
         <item>합성 재료(Combined Materials)</item>

@@ -10,6 +10,8 @@
     <color name="text_color">#000000</color>
     <color name="background">#ffffff</color>
     <color name="black_overlay">#66000000</color>
+
+
     <color name="pointless">#B32425</color>
     <color name="possible_but">#DD3333</color>
     <color name="magdump_only">#EB6C0D</color>

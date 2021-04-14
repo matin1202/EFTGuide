@@ -203,15 +203,15 @@ class MainActivity : BaseActivity() {
                 "map"
             )
         )
-        /*list.add(
+        list.add(
             RecyclerMain(
-                R.drawable.mekanism,
+                R.drawable.mechanism,
                 getString(R.string.system),
                 applicationContext,
                 MenuActivity::class.java,
-                "system"
+                "mechanism"
             )
-        ) */
+        )
         list.add(
             RecyclerMain(
                 R.drawable.dealer,
