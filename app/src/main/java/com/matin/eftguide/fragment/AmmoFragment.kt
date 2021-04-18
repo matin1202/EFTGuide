@@ -83,7 +83,7 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 context!!, R.raw.ammo_45,
                 ".45 ACP",
-                arrayListOf(".45 ACP AP",".45 ACP FMJ", ".45 ACP Lasermatch FMJ", ".45 ACP HydraShock", ".45 RIP"),
+                arrayListOf("AP","FMJ", "Lasermatch FMJ", "HydraShock", "RIP"),
                 arrayListOf(R.drawable.ap_45 ,R.drawable.fmj_45, R.drawable.lasermatch_45, R.drawable.hydrashok_45, R.drawable.rip_45)
                 )
         )
@@ -163,7 +163,7 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 context!!, R.raw.ammo_751,
                 "7.62x51",
-                arrayListOf("M933", "M61", "M62", "M80", "TPZ SP", "BPZ FMJ", "Ultra Nosler"),
+                arrayListOf("M993", "M61", "M62", "M80", "TPZ SP", "BPZ FMJ", "Ultra Nosler"),
                 arrayListOf(R.drawable.m933_751 ,R.drawable.m61_751, R.drawable.m62_751, R.drawable.m80_751, R.drawable.bpz_fmj_751, R.drawable.tpz_sp_751, R.drawable.ultra_nosier_751)
                 )
         )

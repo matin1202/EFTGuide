@@ -573,7 +573,7 @@
 
     <!--                    .45 ACP                             -->
 
-    <string-array name="a45_ACP_45_ACP_FMJ">
+    <string-array name="a45_ACP_FMJ">
         <item>.45 ACP FMJ</item>
         <item>72</item>
         <item>19</item>
@@ -590,7 +590,7 @@
         <item>651000</item>
     </string-array>
 
-    <string-array name="a45_ACP_45_ACP_AP">
+    <string-array name="a45_ACP_AP">
         <item>.45 ACP AP</item>
         <item>70</item>
         <item>36</item>
@@ -607,7 +607,7 @@
         <item>666532</item>
     </string-array>
 
-    <string-array name="a45_ACP_45_ACP_HydraShock">
+    <string-array name="a45_ACP_HydraShock">
         <item>.45 Hydra-Shok</item>
         <item>95</item>
         <item>13</item>
@@ -625,7 +625,7 @@
     </string-array>
 
 
-    <string-array name="a45_ACP_45_ACP_Lasermatch_FMJ">
+    <string-array name="a45_ACP_Lasermatch_FMJ">
         <item>.45 Lasermatch FMJ</item>
         <item>74</item>
         <item>18</item>
@@ -642,7 +642,7 @@
         <item>651000</item>
     </string-array>
 
-    <string-array name="a45_ACP_45_RIP">
+    <string-array name="a45_ACP_RIP">
         <item>.45 RIP</item>
         <item>127</item>
         <item>3</item>
@@ -4124,9 +4124,9 @@
         <item> </item>
         <item> </item>
         <item>X</item>
-        <item>TT Pst gzh</item>
-        <item>TT Pst gzh</item>
-        <item> </item>
+        <item>TT LRNPC</item>
+        <item>TT LRNPC</item>
+        <item>TT LRNPC의 높은 데미지를 활용해 다리를 갈아버리는 편이 좋습니다.</item>
     </string-array>
 
     <string-array name="w_saiga_9">
