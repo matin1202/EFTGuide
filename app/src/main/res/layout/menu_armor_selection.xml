@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     app:layout_constraintHorizontal_weight="5"
     tools:ignore="HardcodedText">
 
@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/tv_menu_armor_class"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:padding="8dp"
         android:text="4"
@@ -40,7 +40,7 @@
     <TextView
         android:id="@+id/tv_menu_armor_durability"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="110"
         android:textSize="20sp"
         android:textColor="@color/text_color"

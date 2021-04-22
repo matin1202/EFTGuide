@@ -49,6 +49,10 @@ class BulletPenetrateFragment : Fragment() {
     private lateinit var curArmor: Array<String>
     var maxDur: Int = 0
     var curDur: Int = 0
+    private var ammoList = arrayListOf<PenetrateAmmoList>()
+    private var armorList = arrayListOf<PenetrateArmorList>()
+    private lateinit var ammoAdapter: PenetrateAmmoAdapter
+    private lateinit var armorAdapter: PenetrateArmorAdapter
 
     private var rootView: View? = null
 
@@ -95,6 +99,7 @@ class BulletPenetrateFragment : Fragment() {
                     val dialog = builder!!.create()
                     val linearLayout =
                         inflater.findViewById<LinearLayout>(R.id.ll_dialog_selector)
+                    val recyclerView = inflater.findViewById<RecyclerView>(R.id.rl_dialog_selector)
                     val searchView = inflater.findViewById<SearchView>(R.id.sv_dialog_selector)
                     searchView.queryHint = "총알 검색하기"
 
@@ -250,6 +255,7 @@ class BulletPenetrateFragment : Fragment() {
                                 p0
                             }
                             linearLayout.removeAllViews()
+                            ammoList.clear()
                             filteredList = mutableListOf()
                             for (i in names.indices) {
                                 if (names[i].toLowerCase(Locale.ROOT)
@@ -260,117 +266,22 @@ class BulletPenetrateFragment : Fragment() {
                             }
                             Log.d("BPF", "Job is completed")
                             for (i in filteredList.indices) {
-                                val layoutInflater = LayoutInflater.from(context)
-                                    .inflate(R.layout.menu_armor_selection, null)
-                                val thisAmmo = resources.getStringArray(
-                                    resources.getIdentifier(
-                                        "a${
-                                            filteredList[i].replace(
-                                                ".",
-                                                ""
-                                            ).replace("-", "_").replace(" ", "_")
-                                                .replace("\"", "").replace("/", "")
-                                                .replace("`mm", "``")
-                                                .replace("mm", "").replace("``", "mm")
-                                        }", "array", context?.packageName
-                                    )
-                                )
-                                layoutInflater.tv_menu_armor_name.text =
-                                    filteredList[i].replace("`", "")
-                                layoutInflater.tv_menu_armor_class.text = thisAmmo[2]
-                                layoutInflater.tv_menu_armor_durability.text = thisAmmo[1]
-                                layoutInflater.onClick {
-                                    currentAmmo = filteredList[i]
-                                    curAmmo = resources.getStringArray(
-                                        resources.getIdentifier(
-                                            "a${
-                                                filteredList[i].replace(
-                                                    ".",
-                                                    ""
-                                                ).replace("-", "_").replace(" ", "_")
-                                                    .replace("\"", "").replace("/", "")
-                                                    .replace("`mm", "``")
-                                                    .replace("mm", "").replace("``", "mm")
-                                            }", "array", context?.packageName
-                                        )
-                                    )
-                                    refreshImages()
-                                    calculateChance(curArmor, curAmmo, curDur, maxDur)
-                                    val lossDur = durabilityLoss(
-                                        curAmmo[2].toInt(),
-                                        curAmmo[3].replace("%", "").toInt(),
-                                        curArmor[6],
-                                        curArmor[1].toInt()
-                                    )
-                                    rootView!!.tv_bp_durability_loss.text =
-                                        "-${floor(lossDur * 10) / 10}"
-                                    setChart(curArmor, lossDur, curAmmo[2].toInt())
-                                    dialog.dismiss()
-
-                                }
-                                linearLayout.addView(layoutInflater)
+                                ammoList.add(PenetrateAmmoList(filteredList[i], dialog))
                             }
+                            ammoAdapter.notifyDataSetChanged()
                             return false
                         }
                     })
+                    Log.d("BPF", "Job is completed")
+                    ammoList.clear()
                     for (i in filteredList.indices) {
-                        val layoutInflater = LayoutInflater.from(context)
-                            .inflate(R.layout.menu_armor_selection, null)
-                        Log.d(
-                            "BPF", "a${
-                                filteredList[i].replace(
-                                    ".",
-                                    ""
-                                ).replace("-", "_").replace(" ", "_")
-                                    .replace("\"", "").replace("/", "").replace("`mm", "``")
-                                    .replace("mm", "").replace("``", "mm")
-                            }"
-                        )
-                        val thisAmmo = resources.getStringArray(
-                            resources.getIdentifier(
-                                "a${
-                                    filteredList[i].replace(
-                                        ".",
-                                        ""
-                                    ).replace("-", "_").replace(" ", "_")
-                                        .replace("\"", "").replace("/", "").replace("`mm", "``")
-                                        .replace("mm", "").replace("``", "mm")
-                                }", "array", context?.packageName
-                            )
-                        )
-                        layoutInflater.tv_menu_armor_name.text = filteredList[i].replace("`", "")
-                        layoutInflater.tv_menu_armor_class.text = thisAmmo[2]
-                        layoutInflater.tv_menu_armor_durability.text = thisAmmo[1]
-                        layoutInflater.onClick {
-                            currentAmmo = filteredList[i]
-                            curAmmo = resources.getStringArray(
-                                resources.getIdentifier(
-                                    "a${
-                                        filteredList[i].replace(
-                                            ".",
-                                            ""
-                                        ).replace("-", "_").replace(" ", "_")
-                                            .replace("\"", "").replace("/", "").replace("`mm", "``")
-                                            .replace("mm", "").replace("``", "mm")
-                                    }", "array", context?.packageName
-                                )
-                            )
-                            refreshImages()
-                            calculateChance(curArmor, curAmmo, curDur, maxDur)
-                            val lossDur = durabilityLoss(
-                                curAmmo[2].toInt(),
-                                curAmmo[3].replace("%", "").toInt(),
-                                curArmor[6],
-                                curArmor[1].toInt()
-                            )
-                            rootView!!.tv_bp_durability_loss.text =
-                                "-${floor(lossDur * 10) / 10}"
-                            setChart(curArmor, lossDur, curAmmo[2].toInt())
-                            dialog.dismiss()
-
-                        }
-                        linearLayout.addView(layoutInflater)
+                        Log.d("BPF", filteredList[i])
+                        ammoList.add(PenetrateAmmoList(filteredList[i], dialog))
                     }
+                    Log.d("BPF", "${ammoList.size}")
+                    ammoAdapter = PenetrateAmmoAdapter(ammoList)
+                    recyclerView.setHasFixedSize(true)
+                    recyclerView.adapter = ammoAdapter
                     dialog.show()
                 }
                 rootView!!.cl_bp_armor.onClick {
@@ -382,6 +293,7 @@ class BulletPenetrateFragment : Fragment() {
                     val dialog = builder.create()
                     val linearLayout =
                         inflater.findViewById<LinearLayout>(R.id.ll_dialog_selector)
+                    val recyclerView = inflater.findViewById<RecyclerView>(R.id.rl_dialog_selector)
                     val searchView = inflater.findViewById<SearchView>(R.id.sv_dialog_selector)
                     searchView.queryHint = "방탄복 검색하기"
                     val names = mutableListOf(
@@ -461,7 +373,6 @@ class BulletPenetrateFragment : Fragment() {
                         "LSHZ-2DTM Aventail",
                         "Additional Armor Bastion"
                     )
-                    var filteredList = names
                     searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                         override fun onQueryTextChange(p0: String?): Boolean {
                             val target = if (p0.isNullOrEmpty()) {
@@ -470,67 +381,15 @@ class BulletPenetrateFragment : Fragment() {
                                 p0
                             }
                             linearLayout.removeAllViews()
-                            filteredList = ArrayList()
+                            armorList.clear()
                             for (i in names.indices) {
                                 if (names[i].toLowerCase(Locale.ROOT)
                                         .contains(target.toLowerCase(Locale.ROOT))
                                 ) {
-                                    filteredList.add(names[i])
+                                    armorList.add(PenetrateArmorList(names[i], dialog))
                                 }
                             }
-                            for (i in filteredList.indices) {
-                                val layoutInflater = LayoutInflater.from(context)
-                                    .inflate(R.layout.menu_armor_selection, null)
-                                val thisArmor = resources.getStringArray(
-                                    resources.getIdentifier(
-                                        "h_${
-                                            filteredList[i].replace(
-                                                "-",
-                                                "_"
-                                            ).replace(" ", "_").replace("(", "")
-                                                .replace(")", "").replace("\"", "")
-                                                .replace("\'", "").toLowerCase(Locale.ROOT)
-                                        }", "array", context?.packageName
-                                    )
-                                )
-                                layoutInflater.tv_menu_armor_name.text = thisArmor[0]
-                                layoutInflater.tv_menu_armor_class.text = thisArmor[1]
-                                layoutInflater.tv_menu_armor_durability.text = thisArmor[3]
-                                layoutInflater.onClick {
-                                    currentArmor = filteredList[i]
-                                    curArmor = resources.getStringArray(
-                                        resources.getIdentifier(
-                                            "h_${
-                                                currentArmor.replace(
-                                                    "-",
-                                                    "_"
-                                                ).replace(" ", "_").replace("(", "")
-                                                    .replace(")", "").replace("\"", "")
-                                                    .replace("\"", "").replace("\'", "")
-                                                    .toLowerCase(Locale.ROOT)
-                                            }", "array", context?.packageName
-                                        )
-                                    )
-                                    rootView!!.sb_durability.max = curArmor[3].toInt()
-                                    rootView!!.sb_durability.progress = curArmor[3].toInt()
-                                    maxDur = rootView!!.sb_durability.max
-                                    refreshImages()
-                                    calculateChance(curArmor, curAmmo, curDur, maxDur)
-                                    val lossDur = durabilityLoss(
-                                        curAmmo[2].toInt(),
-                                        curAmmo[3].replace("%", "").toInt(),
-                                        curArmor[6],
-                                        curArmor[1].toInt()
-                                    )
-                                    rootView!!.tv_bp_durability_loss.text =
-                                        "-${floor(lossDur * 10) / 10}"
-                                    setChart(curArmor, lossDur, curAmmo[2].toInt())
-                                    dialog.dismiss()
-
-                                }
-                                linearLayout.addView(layoutInflater)
-                            }
-
+                            armorAdapter.notifyDataSetChanged()
                             return false
                         }
 
@@ -538,58 +397,13 @@ class BulletPenetrateFragment : Fragment() {
                             return false
                         }
                     })
-                    for (i in filteredList.indices) {
-                        val layoutInflater =
-                            LayoutInflater.from(context)
-                                .inflate(R.layout.menu_armor_selection, null)
-                        val thisArmor = resources.getStringArray(
-                            resources.getIdentifier(
-                                "h_${
-                                    filteredList[i].replace(
-                                        "-",
-                                        "_"
-                                    ).replace(" ", "_").replace("(", "").replace(")", "")
-                                        .replace("\"", "").replace("\'", "")
-                                        .toLowerCase(Locale.ROOT)
-                                }", "array", context?.packageName
-                            )
-                        )
-                        layoutInflater.tv_menu_armor_name.text = thisArmor[0]
-                        layoutInflater.tv_menu_armor_class.text = thisArmor[1]
-                        layoutInflater.tv_menu_armor_durability.text = thisArmor[3]
-                        layoutInflater.onClick {
-                            currentArmor = filteredList[i]
-                            curArmor = resources.getStringArray(
-                                resources.getIdentifier(
-                                    "h_${
-                                        currentArmor.replace(
-                                            "-",
-                                            "_"
-                                        ).replace(" ", "_").replace("(", "").replace(")", "")
-                                            .replace("\"", "").replace("\'", "")
-                                            .toLowerCase(Locale.ROOT)
-                                    }", "array", context?.packageName
-                                )
-                            )
-                            rootView!!.sb_durability.max = curArmor[3].toInt()
-                            rootView!!.sb_durability.progress = curArmor[3].toInt()
-                            maxDur = rootView!!.sb_durability.max
-                            refreshImages()
-                            calculateChance(curArmor, curAmmo, curDur, maxDur)
-                            val lossDur = durabilityLoss(
-                                curAmmo[2].toInt(),
-                                curAmmo[3].replace("%", "").toInt(),
-                                curArmor[6],
-                                curArmor[1].toInt()
-                            )
-                            rootView!!.tv_bp_durability_loss.text =
-                                "-${floor(lossDur * 10) / 10}"
-                            setChart(curArmor, lossDur, curAmmo[2].toInt())
-                            dialog.dismiss()
-
-                        }
-                        linearLayout.addView(layoutInflater)
+                    armorList.clear()
+                    for (i in names.indices) {
+                        armorList.add(PenetrateArmorList(names[i], dialog))
                     }
+                    armorAdapter = PenetrateArmorAdapter(armorList)
+                    recyclerView.setHasFixedSize(true)
+                    recyclerView.adapter = armorAdapter
                     dialog.show()
                 }
             } catch (e: Exception) {
@@ -1283,7 +1097,7 @@ class BulletPenetrateFragment : Fragment() {
         when (material) {
             "아라미드(Aramid)" -> return 0.25
             "합성 재료(Combined Materials)" -> return 0.5
-            "울트라폴리에틸렌(Ultrahighweight Polyethylene)" -> return 0.45
+            "울트라폴리에틸렌(Ultrahighweight polyethylene)" -> return 0.45
             "알루미늄(Aluminium)" -> return 0.6
             "강철(Armor Steel)" -> return 0.7
             "유리(Glass)" -> return 0.8
@@ -1293,7 +1107,80 @@ class BulletPenetrateFragment : Fragment() {
         return 1.0
     }
 
-    inner class PenetrateAmmoList(val name: String){}
+    inner class PenetrateArmorList(val name: String, val dialog: AlertDialog)
+
+    inner class PenetrateArmorAdapter(private val items:ArrayList<PenetrateArmorList>): RecyclerView.Adapter<PenetrateArmorAdapter.ViewHolder>() {
+        override fun getItemCount() = items.size
+
+        override fun onBindViewHolder(holder: PenetrateArmorAdapter.ViewHolder, position: Int) {
+            val item = items[position]
+            val listener = View.OnClickListener {
+                currentArmor = item.name
+                curArmor = resources.getStringArray(
+                    resources.getIdentifier(
+                        "h_${
+                            item.name.replace(
+                                "-",
+                                "_"
+                            ).replace(" ", "_").replace("(", "")
+                                .replace(")", "").replace("\"", "")
+                                .replace("\'", "").toLowerCase(Locale.ROOT)
+                        }", "array", context?.packageName
+                    )
+                )
+                rootView!!.sb_durability.max = curArmor[3].toInt()
+                rootView!!.sb_durability.progress = curArmor[3].toInt()
+                maxDur = rootView!!.sb_durability.max
+                refreshImages()
+                calculateChance(curArmor, curAmmo, curDur, maxDur)
+                val lossDur = durabilityLoss(
+                    curAmmo[2].toInt(),
+                    curAmmo[3].replace("%", "").toInt(),
+                    curArmor[6],
+                    curArmor[1].toInt()
+                )
+                rootView!!.tv_bp_durability_loss.text =
+                    "-${floor(lossDur * 10) / 10}"
+                setChart(curArmor, lossDur, curAmmo[2].toInt())
+                item.dialog.dismiss()
+            }
+            holder.apply{
+                val data = resources.getStringArray(
+                    resources.getIdentifier(
+                        "h_${
+                            item.name.replace(
+                                "-",
+                                "_"
+                            ).replace(" ", "_").replace("(", "")
+                                .replace(")", "").replace("\"", "")
+                                .replace("\'", "").toLowerCase(Locale.ROOT)
+                        }", "array", context?.packageName
+                    )
+                )
+                bind(listener, data)
+            }
+        }
+
+        override fun onCreateViewHolder(
+            parent: ViewGroup,
+            viewType: Int
+        ): PenetrateArmorAdapter.ViewHolder {
+            val inflatedView = LayoutInflater.from(parent.context).inflate(R.layout.menu_armor_selection, parent, false)
+            return ViewHolder(inflatedView)
+        }
+
+        inner class ViewHolder(v: View): RecyclerView.ViewHolder(v){
+            private var view = v
+            fun bind(listener: View.OnClickListener, data: Array<String>){
+                view.setOnClickListener(listener)
+                view.tv_menu_armor_name.text = data[0]
+                view.tv_menu_armor_class.text = data[1]
+                view.tv_menu_armor_durability.text = data[3]
+            }
+        }
+    }
+
+    inner class PenetrateAmmoList(val name: String, val dialog: AlertDialog)
 
     inner class PenetrateAmmoAdapter(private val items: ArrayList<PenetrateAmmoList>) :
         RecyclerView.Adapter<PenetrateAmmoAdapter.ViewHolder>() {
@@ -1328,9 +1215,23 @@ class BulletPenetrateFragment : Fragment() {
                 rootView!!.tv_bp_durability_loss.text =
                     "-${floor(lossDur * 10) / 10}"
                 setChart(curArmor, lossDur, curAmmo[2].toInt())
+                item.dialog.dismiss()
             }
-            holder.apply {
-                bind(item, listener)
+            holder.apply{
+            val data = resources.getStringArray(
+                resources.getIdentifier(
+                    "a${
+                        item.name.replace(
+                            ".",
+                            ""
+                        ).replace("-", "_").replace(" ", "_")
+                            .replace("\"", "").replace("/", "")
+                            .replace("`mm", "``")
+                            .replace("mm", "").replace("``", "mm")
+                    }", "array", context?.packageName
+                )
+            )
+                bind(item, listener, data)
             }
         }
 
@@ -1342,8 +1243,7 @@ class BulletPenetrateFragment : Fragment() {
 
         inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
             private var view: View = v
-            fun bind(item: PenetrateAmmoList, listener: View.OnClickListener) {
-                val data = curAmmo
+            fun bind(item: PenetrateAmmoList, listener: View.OnClickListener, data: Array<String>) {
                 view.tv_menu_armor_name.text = data[0]
                 view.tv_menu_armor_durability.text = data[1]
                 view.tv_menu_armor_class.text = data[2]

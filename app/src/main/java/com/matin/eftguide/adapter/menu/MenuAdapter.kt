@@ -10,7 +10,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.matin.eftguide.ItemExplainActivity
 import com.matin.eftguide.R
+import com.matin.eftguide.base.loadWithWebp
+import kotlinx.android.synthetic.main.main_list.view.*
 import kotlinx.android.synthetic.main.menu_list.view.*
+import kotlinx.android.synthetic.main.menu_list.view.main_imageView
+import kotlinx.android.synthetic.main.menu_list.view.main_textView
 
 class MenuAdapter(private val items: ArrayList<RecyclerMenu>): RecyclerView.Adapter<MenuAdapter.ViewHolder>() {
 
@@ -45,10 +49,7 @@ class MenuAdapter(private val items: ArrayList<RecyclerMenu>): RecyclerView.Adap
         private var view = v
         fun bind(item: RecyclerMenu){
             Log.d("MA", "Load on MenuAdapter")
-            Glide.with(item.context)
-                .load(item.image)
-                .placeholder(R.drawable.loadingimage)
-                .into(view.main_imageView)
+            loadWithWebp(item.context, view.main_imageView, item.image)
 
             view.main_textView.text = item.title
             view.setOnClickListener {

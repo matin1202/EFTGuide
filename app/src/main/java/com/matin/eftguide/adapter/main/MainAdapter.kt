@@ -12,11 +12,12 @@ import android.view.ViewGroup
 import android.view.animation.AlphaAnimation
 import androidx.core.widget.TextViewCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.matin.eftguide.ExplainActivity
 import com.matin.eftguide.ItemExplainActivity
 import com.matin.eftguide.MapActivity
 import com.matin.eftguide.R
+import com.matin.eftguide.base.BaseActivity
+import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.main_list.view.*
 import java.util.*
 
@@ -57,40 +58,12 @@ class MainAdapter(private val items: ArrayList<RecyclerMain>) :
             view.main_textView.text = item.title
             if(item.target != MapActivity::class.java) {
                 if (item.target == ExplainActivity::class.java) {
-                    Glide.with(item.context)
-                        .load(item.image)
-                        .into(view.main_imageView)
+                    loadWithWebp(item.context, view.main_imageView, item.image)
                     view.main_textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18.0F)
                 }
                 if (item.target == ItemExplainActivity::class.java) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        val temp = item.extra.split("||")[1]
-                        if(temp == "heal" || temp == "provision" || temp == "stimulator"){
-                            Glide.with(item.context)
-                                .load(item.image)
-                                .into(view.main_imageView)
-                        }
-                        else if(temp != "armor_vest" && temp !="helmet") {
-                            Glide.with(item.context)
-                                .asGif()
-                                .load(item.image)
-                                .into(view.main_imageView)
-                        }
-                        else{
-                            if(item.extra.split("||")[2] == "raw"){
-                                Log.d("MA", "Load Raw helmet")
-                                Glide.with(item.context)
-                                    .asGif()
-                                    .load(item.image)
-                                    .into(view.main_imageView)
-                            }
-                            else {
-                                Log.d("MA", "Load Drawable helmet")
-                                Glide.with(item.context)
-                                    .load(item.image)
-                                    .into(view.main_imageView)
-                            }
-                        }
+                        loadWithWebp(item.context, view.main_imageView, item.image)
                         view.main_textView.setAutoSizeTextTypeUniformWithConfiguration(
                             8,
                             18,
@@ -99,7 +72,7 @@ class MainAdapter(private val items: ArrayList<RecyclerMain>) :
                         )
                     }
                 } else {
-                    view.main_imageView.setImageResource(item.image)
+                    loadWithWebp(item.context, view.main_imageView, item.image)
                 }
             }
             else{

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.matin.eftguide.ExplainActivity
 import com.matin.eftguide.R
+import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.ammo_list.view.*
 import kotlinx.android.synthetic.main.main_list.view.*
 import org.jetbrains.anko.imageResource
@@ -235,10 +236,7 @@ class AFAdapter(private val items: ArrayList<AFRecycler>):
             view.ammo_textView.text = item.title
             view.ammo_expansion.imageResource = R.drawable.ic_baseline_expand_more_24
 
-            Glide.with(item.context)
-                .asGif()
-                .load(item.ammo)
-                .into(view.ammo_imageView)
+            loadWithWebp(item.context, view.ammo_imageView, item.ammo)
 
             view.setOnClickListener { v->
                 if(v.ammo_menu.visibility == View.GONE){

@@ -8,8 +8,10 @@ import android.util.Log
 import android.view.MenuItem
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.matin.eftguide.base.BaseActivity
+import com.matin.eftguide.base.loadWithWebp
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_item_explain.*
+import kotlinx.android.synthetic.main.ammo_list.view.*
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 import java.lang.Exception
@@ -37,7 +39,7 @@ class ItemExplainActivity : BaseActivity() {
             val items = intent.getStringExtra("type")!!.replace(" ", "_").replace("\"", "")
                 .replace("\'", "").replace(".", "").replace("-", "_").replace("/", "")
                 .replace("(", "").replace(")", "").split("||")
-            val extra: String? = items[1]
+            val extra: String = items[1]
             val item = items[0].toLowerCase(Locale.ROOT)
             Log.d("IEA", item)
             val mBundle = Bundle()
@@ -446,7 +448,7 @@ class ItemExplainActivity : BaseActivity() {
                     }
                 }
                 "armor_vest" -> {
-                    buffer = arrayListOf("이름", "방호력", "방호 부위", "내구도", "실제 내구도", "부작용", "재질")
+                    buffer = arrayListOf("이름", "방호력", "방호 부위", "내구도", "실제 내구도", "부작용", "재질", "무게")
                     for (i in buffer.indices) {
                         text += "${buffer[i]} : ${
                             stringArray[i]
@@ -579,7 +581,7 @@ class ItemExplainActivity : BaseActivity() {
 
             supportActionBar?.title = stringArray[0]
             val imageResId = intent.getIntExtra("image", 0)
-            iv_item_explain.setImageResource(imageResId)
+            loadWithWebp(this, iv_item_explain, imageResId)
             iv_item_explain.setOnClickListener {
                 startActivity<PhotoActivity>(
                     "id" to imageResId

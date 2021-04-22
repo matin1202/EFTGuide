@@ -6140,6 +6140,7 @@
         <item>160</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-3%}, 인체공학 {R-1}</item>
         <item>아라미드(Aramid)</item>
+        <item>8kg</item>
     </string-array>
 
     <string-array name="h_paca">
@@ -6150,6 +6151,7 @@
         <item>200</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-1%}, 인체공학 {R-1}</item>
         <item>아라미드(Aramid)</item>
+        <item>7kg</item>
     </string-array>
 
     <string-array name="h_6b2">
@@ -6160,6 +6162,7 @@
         <item>145</item>
         <item>이동속도 {R-6%}, 화면 전환 속도 {R-3%}, 인체공학 {R-7}</item>
         <item>티타늄(Titan)</item>
+        <item>4.5kg</item>
     </string-array>
 
     <string-array name="h_mf_untar">
@@ -6170,6 +6173,7 @@
         <item>75</item>
         <item>이동속도 {R-18%}, 화면 전환 속도 {R-6%}, 인체공학 {R-8}</item>
         <item>알루미늄(Aluminium)</item>
+        <item>11kg</item>
     </string-array>
 
     <string-array name="h_zhuk_3">
@@ -6180,6 +6184,7 @@
         <item>111</item>
         <item>이동속도 {R-10%}, 화면 전환 속도 {R-4%}, 인체공학 {R-5}</item>
         <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>5.2kg</item>
     </string-array>
 
     <string-array name="h_6b23_1">
@@ -6190,6 +6195,7 @@
         <item>85</item>
         <item>이동속도 {R-11%}, 화면 전환 속도 {R-5%}, 인체공학 {R-9}</item>
         <item>강철(Armor Steel)</item>
+        <item>7.9kg</item>
     </string-array>
 
     <string-array name="h_kirasa_n">
@@ -6200,6 +6206,7 @@
         <item>107</item>
         <item>이동속도 {R-8%}, 화면 전환 속도 {R-5%}, 인체공학 {R-6}</item>
         <item>합성 재료(Combined Materials)</item>
+        <item>4.1kg</item>
     </string-array>
 
     <string-array name="h_trooper_tfo">
@@ -6210,6 +6217,7 @@
         <item>155</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-2%}, 인체공학 {R-3}</item>
         <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>5kg</item>
     </string-array>
 
     <string-array name="h_6b13">
@@ -6220,6 +6228,7 @@
         <item>58</item>
         <item>이동속도 {R-12%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
         <item>세라믹(Ceramic)</item>
+        <item>10.5kg</item>
     </string-array>
 
     <string-array name="h_6b23_2">
@@ -6230,6 +6239,7 @@
         <item>68</item>
         <item>이동속도 {R-11%}, 화면 전환 속도 {R-3%}, 인체공학 {R-9}</item>
         <item>세라믹(Ceramic)</item>
+        <item>7.2kg</item>
     </string-array>
 
     <string-array name="h_korund_vm">
@@ -6240,6 +6250,7 @@
         <item>64</item>
         <item>이동속도 {R-18%}, 화면 전환 속도 {R-9%}, 인체공학 {R-10}</item>
         <item>강철(Armor Steel)</item>
+        <item>9.8kg</item>
     </string-array>
 
     <string-array name="h_fort_redut_m">
@@ -6250,6 +6261,7 @@
         <item>87</item>
         <item>이동속도 {R-13%}, 화면 전환 속도 {R-12%}, 인체공학 {R-11}</item>
         <item>합성 재료(Combined Materials)</item>
+        <item>13.5kg</item>
     </string-array>
 
     <string-array name="h_6b13_m">
@@ -6260,6 +6272,7 @@
         <item>133</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
         <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>7.5kg</item>
     </string-array>
 
     <string-array name="h_gen4high_mobility_kit">
@@ -6270,6 +6283,7 @@
         <item>112</item>
         <item>이동속도 {R-11%}, 화면 전환 속도 {R-17%}, 인체공학 {R-12}</item>
         <item>티타늄(Titan)</item>
+        <item>13kg</item>
     </string-array>
 
     <string-array name="h_gzhel_k">
@@ -6280,6 +6294,7 @@
         <item>81</item>
         <item>이동속도 {R-10%}, 화면 전환 속도 {R-3%}, 인체공학 {R-4}</item>
         <item>세라믹(Ceramic)</item>
+        <item>8.9kg</item>
     </string-array>
 
     <string-array name="h_fort_defender_2">
@@ -6290,6 +6305,7 @@
         <item>100</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-12%}, 인체공학 {R-7}</item>
         <item>강철(Armor Steel)</item>
+        <item>11.5kg</item>
     </string-array>
 
     <string-array name="h_gen4assault_kit">
@@ -6300,6 +6316,7 @@
         <item>123</item>
         <item>이동속도 {R-20%}, 화면 전환 속도 {R-14%}, 인체공학 {R-14}</item>
         <item>티타늄(Titan)</item>
+        <item>15kg</item>
     </string-array>
 
     <string-array name="h_gen4full_protection">
@@ -6310,6 +6327,7 @@
         <item>145</item>
         <item>이동속도 {R-33%}, 화면 전환 속도 {R-19%}, 인체공학 {R-22}</item>
         <item>티타늄(Titan)</item>
+        <item>17kg</item>
     </string-array>
 
     <string-array name="h_fort_redut_t5">
@@ -6320,6 +6338,7 @@
         <item>146</item>
         <item>이동속도 {R-37%}, 화면 전환 속도 {R-15%}, 인체공학 {R-14}</item>
         <item>합성 재료(Combined Materials)</item>
+        <item>16.5kg</item>
     </string-array>
 
     <string-array name="h_slick">
@@ -6330,6 +6349,7 @@
         <item>114</item>
         <item>이동속도 {R-10%}, 화면 전환 속도 {R-2%}, 인체공학 {R-1}</item>
         <item>강철(Armor Steel)</item>
+        <item>8.6kg</item>
     </string-array>
 
     <string-array name="h_hexgrid">
@@ -6340,6 +6360,7 @@
         <item>111</item>
         <item>이동속도 {R-8%}, 화면 전환 속도 {R-2%}, 인체공학 {R-1}</item>
         <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>6.2kg</item>
     </string-array>
 
     <string-array name="h_zhuk_6a">
@@ -6350,6 +6371,7 @@
         <item>81</item>
         <item>이동속도 {R-13%}, 화면 전환 속도 {R-5%}, 인체공학 {R-6}</item>
         <item>세라믹(Ceramic)</item>
+        <item>9kg</item>
     </string-array>
 
     <string-array name="h_6b43">
@@ -6360,7 +6382,47 @@
         <item>115</item>
         <item>이동속도 {R-42%}, 화면 전환 속도 {R-21%}, 인체공학 {R-27}</item>
         <item>합성 재료(Combined Materials)</item>
+        <item>20kg</item>
     </string-array>
+
+    <string-array name="h_example">
+        <item></item><!--이름-->
+        <item></item><!--클래스-->
+        <item></item><!--부위-->
+        <item></item><!--표기 내구도-->
+        <item></item><!--실제 내구도-->
+        <item></item><!--패널티-->
+        <item></item><!--재질-->
+        <item></item><!--칸 수 대비 용량-->
+        <item></item><!--무게-->
+    </string-array>
+
+    <string-array name="h_uley">
+        <item>6B5-16 Zh-86 \"Uley\" armored rig</item>
+        <item>3</item>
+        <item>가슴, 복부</item>
+        <item>80</item>
+        <item>145</item>
+        <item>이동속도 {R-9%}</item>
+        <item>Titan(티타늄)</item>
+        <item>차지하는 칸당 0.833칸</item>
+        <item>kg</item>
+    </string-array>
+
+    <string-array name="h_">
+        <item></item>
+        <item></item>
+        <item>가슴, 복부</item>
+        <item></item>
+        <item></item>
+        <item>이동속도 {R-%}, 화면 전환 속도 {R-%}, 인체공학 {R-}</item>
+        <item></item>
+        <item></item>
+        <item>kg</item>
+    </string-array>
+
+
+    
 
     <string-array name="h_comtac_2">
         <item>Peltor ComTac 2 headset</item>  <!--이름-->

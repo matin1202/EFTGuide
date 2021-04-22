@@ -16,7 +16,9 @@ import com.matin.eftguide.adapter.main.MainAdapter
 import com.matin.eftguide.adapter.main.RecyclerMain
 import com.matin.eftguide.adapter.menu.MenuAdapter
 import com.matin.eftguide.adapter.menu.RecyclerMenu
+import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.ammo_list.view.*
+import kotlinx.android.synthetic.main.main_list.view.*
 
 class AmmoAdapter(private val items: ArrayList<RecyclerAmmo>):
     RecyclerView.Adapter<AmmoAdapter.ViewHolder>() {
@@ -52,9 +54,7 @@ class AmmoAdapter(private val items: ArrayList<RecyclerAmmo>):
             
             view.ammo_textView?.text = item.title
             view.ammo_expansion.setImageResource(R.drawable.ic_baseline_expand_more_24)
-            Glide.with(item.context)
-                    .load(item.image)
-                    .into(view.ammo_imageView)
+            loadWithWebp(item.context, view.ammo_imageView, item.image)
             if(view.ammo_menu.visibility == View.VISIBLE){
                 Glide.with(item.context)
                     .load(R.drawable.ic_baseline_expand_less_24)
