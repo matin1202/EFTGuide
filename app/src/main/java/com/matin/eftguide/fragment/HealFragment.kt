@@ -35,7 +35,7 @@ class HealFragment : Fragment() {
             RecyclerAmmo(
                 R.drawable.stimulator,
                 getString(R.string.stimulator),
-                arrayListOf("SJ1 TGLabs", "eTG-change", "SJ6 TGLabs", "Propital", "Zagustin", "Adrenaline", "Meldonin", "AHF1-M", "3-(b-TG)", "L1 (Norepinephrine)", "P22", "Cocktail \"Obdolbos\"", "M.U.L.E. stimulator", "Antidote xTG-12"),
+                arrayListOf("SJ1 TGLabs", "eTG-change", "SJ6 TGLabs", "Propital", "Zagustin", "Adrenaline", "Meldonin", "AHF1-M", "3-(b-TG)", "L1 (Norepinephrine)", "P22", "Cocktail \"Obdolbos\"", "M.U.L.E. stimulator", "Antidote xTG-12", "SJ9 TGLabs"),
                 arrayListOf(R.drawable.icon_combat_stimulant_sj1, R.drawable.icon_etg_change, R.drawable.icon_combat_stimulant_sj6, R.drawable.icon_propital, R.drawable.icon_hemostatic_drug_zagustin, R.drawable.icon_adrenaline, R.drawable.icon_meldonin, R.drawable.icon_ahf1_m, R.drawable.icon_3_b_tg, R.drawable.icon_l1_norepinephrine, R.drawable.icon_p22, R.drawable.icon_cocktail_obdolbos, R.drawable.icon_mule_stimulator, R.drawable.icon_xtg_12),
                 context!!, "stimulator")
         )

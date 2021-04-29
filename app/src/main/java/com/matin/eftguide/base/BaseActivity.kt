@@ -45,14 +45,14 @@ open class BaseActivity : AppCompatActivity() {
             }
         }
 
-        MobileAds.initialize(this, getString(R.string.test_ad_code))
+        MobileAds.initialize(this)
 
     }
 
 
 }
 
-public fun loadWithWebp(ctx: Context, imageView: ImageView, resId: Int) {
+fun loadWithWebp(ctx: Context, imageView: ImageView, resId: Int) {
     Glide.with(ctx)
         .asDrawable()
         .load(resId)

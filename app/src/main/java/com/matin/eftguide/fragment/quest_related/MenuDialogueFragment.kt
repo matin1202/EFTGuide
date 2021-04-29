@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_quest_dialogue.view.*
+import kotlinx.coroutines.*
 import org.json.JSONObject
 import java.lang.reflect.InvocationTargetException
 
@@ -24,9 +25,11 @@ class MenuDialogueFragment : Fragment() {
         val rootView = inflater.inflate(R.layout.fragment_quest_dialogue, container, false)
 
         var questData = ""
+
         context!!.openFileInput("quest_data").bufferedReader().readLines().forEach {
             questData += "\n$it"
         }
+
         try {
             val json = JSONObject(questData)
             val questInfo = json.getJSONObject("dialogue")

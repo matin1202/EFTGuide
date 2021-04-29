@@ -19,6 +19,8 @@ class MenuActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+
+
         if(prefs.getBoolean("adLoad", true)) {
             menu_adView.loadAd(AdLoaderClass().adRequest)
         }
@@ -98,6 +100,11 @@ class MenuActivity : BaseActivity() {
                     .replace(R.id.fl_menu, ArmorVestFragment())
                     .commit()
             }
+            "armored rig" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, ArmoredRigFragment())
+                    .commit()
+            }
             "helmet attachment" -> {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fl_menu, HelmetAttachmentFragment())
@@ -131,6 +138,11 @@ class MenuActivity : BaseActivity() {
             "penetrate chance" -> {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fl_menu, BulletPenetrateFragment())
+                    .commit()
+            }
+            "rig" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, ChestRigFragment())
                     .commit()
             }
             else -> {

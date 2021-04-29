@@ -17,11 +17,14 @@ import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoa
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_set.*
+import kotlinx.coroutines.delay
 import org.jetbrains.anko.browse
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.sdk27.coroutines.onClick
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 import java.lang.Math.floor
+import kotlin.system.exitProcess
 
 class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedRewardListener {
     private var _rewardLoad = false
@@ -123,6 +126,7 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedReward
         val dialog = AlertDialog.Builder(this, R.style.MyDialogTheme)
             .setTitle("테마")
             .setPositiveButton("저장"){ _, _ ->
+                toast("테마 적용을 위해 앱을 재시작합니다.")
                 if(darkMode.isChecked){
                     prefs.edit().putString("theme", "dark").apply()
                 }
@@ -132,6 +136,9 @@ class SetActivity : BaseActivity(), PurchasesUpdatedListener, OnUserEarnedReward
                 if(defaultMode.isChecked){
                     prefs.edit().putString("theme", "default").apply()
                 }
+                System.runFinalization()
+                startActivity<MainActivity>()
+                finishAffinity()
             }
             .setNegativeButton("취소", null)
             .create()

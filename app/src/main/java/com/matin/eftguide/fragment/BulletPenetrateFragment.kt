@@ -22,6 +22,7 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.matin.eftguide.R
+import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.fragment_bullet_penetrate.view.*
 import kotlinx.android.synthetic.main.menu_armor_selection.view.*
 import kotlinx.coroutines.*
@@ -320,6 +321,7 @@ class BulletPenetrateFragment : Fragment() {
                         "Slick",
                         "Zhuk-6a",
                         "6B43",
+                        "6B5-16", "6B3TM", "6B5-15", "M2", "M1", "AVS", "A18", "TV-110", "Tactec", "AACPC",
                         "Tac-Kek Fast MT",
                         "Tank crew",
                         "Kolpak-1s",
@@ -749,6 +751,7 @@ class BulletPenetrateFragment : Fragment() {
             R.raw.a_slick,
             R.drawable.zhuk_6a,
             R.drawable.zabralo,
+            R.drawable.a_6b5_16, R.drawable.a_6b3tm, R.drawable.a_6b5_15, R.drawable.m2, R.drawable.m1, R.drawable.avs, R.drawable.a18, R.drawable.tv_110, R.drawable.tactec, R.drawable.aacpc,
             R.drawable.tk_fast_mt,
             R.drawable.tank_crew,
             R.drawable.kolpak_1s,
@@ -826,6 +829,7 @@ class BulletPenetrateFragment : Fragment() {
             "Slick",
             "Zhuk-6a",
             "6B43",
+            "6B5-16", "6B3TM", "6B5-15", "M2", "M1", "AVS", "A18", "TV-110", "Tactec", "AACPC",
             "Tac-Kek Fast MT",
             "Tank crew",
             "Kolpak-1s",
@@ -887,14 +891,14 @@ class BulletPenetrateFragment : Fragment() {
             for (i in names.indices) {
                 if (names[i] == currentArmor) {
                     runOnUiThread {
-                        rootView!!.iv_bp_armor.imageResource = armors[i]
+                        loadWithWebp(context!!, rootView!!.iv_bp_armor, armors[i])
                     }
                 }
             }
             for (i in namesAmmo.indices) {
                 if (namesAmmo[i] == currentAmmo) {
                     runOnUiThread {
-                        rootView!!.iv_bp_ammo.imageResource = ammos[i]
+                        loadWithWebp(context!!, rootView!!.iv_bp_ammo, ammos[i])
                     }
                 }
             }
@@ -1090,7 +1094,11 @@ class BulletPenetrateFragment : Fragment() {
         val armorFragility = armFragile(armorMaterial)
         val loss = bulletPen * bulletArmorDmg * armorFragility * durMod
 
-        return if(loss<=1.0){ 1.0 }else{bulletPen * bulletArmorDmg * armorFragility * durMod}
+        return if (loss <= 1.0) {
+            1.0
+        } else {
+            bulletPen * bulletArmorDmg * armorFragility * durMod
+        }
     }
 
     private fun armFragile(material: String): Double {
@@ -1109,7 +1117,8 @@ class BulletPenetrateFragment : Fragment() {
 
     inner class PenetrateArmorList(val name: String, val dialog: AlertDialog)
 
-    inner class PenetrateArmorAdapter(private val items:ArrayList<PenetrateArmorList>): RecyclerView.Adapter<PenetrateArmorAdapter.ViewHolder>() {
+    inner class PenetrateArmorAdapter(private val items: ArrayList<PenetrateArmorList>) :
+        RecyclerView.Adapter<PenetrateArmorAdapter.ViewHolder>() {
         override fun getItemCount() = items.size
 
         override fun onBindViewHolder(holder: PenetrateArmorAdapter.ViewHolder, position: Int) {
@@ -1144,7 +1153,7 @@ class BulletPenetrateFragment : Fragment() {
                 setChart(curArmor, lossDur, curAmmo[2].toInt())
                 item.dialog.dismiss()
             }
-            holder.apply{
+            holder.apply {
                 val data = resources.getStringArray(
                     resources.getIdentifier(
                         "h_${
@@ -1165,13 +1174,14 @@ class BulletPenetrateFragment : Fragment() {
             parent: ViewGroup,
             viewType: Int
         ): PenetrateArmorAdapter.ViewHolder {
-            val inflatedView = LayoutInflater.from(parent.context).inflate(R.layout.menu_armor_selection, parent, false)
+            val inflatedView = LayoutInflater.from(parent.context)
+                .inflate(R.layout.menu_armor_selection, parent, false)
             return ViewHolder(inflatedView)
         }
 
-        inner class ViewHolder(v: View): RecyclerView.ViewHolder(v){
+        inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
             private var view = v
-            fun bind(listener: View.OnClickListener, data: Array<String>){
+            fun bind(listener: View.OnClickListener, data: Array<String>) {
                 view.setOnClickListener(listener)
                 view.tv_menu_armor_name.text = data[0]
                 view.tv_menu_armor_class.text = data[1]
@@ -1217,20 +1227,20 @@ class BulletPenetrateFragment : Fragment() {
                 setChart(curArmor, lossDur, curAmmo[2].toInt())
                 item.dialog.dismiss()
             }
-            holder.apply{
-            val data = resources.getStringArray(
-                resources.getIdentifier(
-                    "a${
-                        item.name.replace(
-                            ".",
-                            ""
-                        ).replace("-", "_").replace(" ", "_")
-                            .replace("\"", "").replace("/", "")
-                            .replace("`mm", "``")
-                            .replace("mm", "").replace("``", "mm")
-                    }", "array", context?.packageName
+            holder.apply {
+                val data = resources.getStringArray(
+                    resources.getIdentifier(
+                        "a${
+                            item.name.replace(
+                                ".",
+                                ""
+                            ).replace("-", "_").replace(" ", "_")
+                                .replace("\"", "").replace("/", "")
+                                .replace("`mm", "``")
+                                .replace("mm", "").replace("``", "mm")
+                        }", "array", context?.packageName
+                    )
                 )
-            )
                 bind(item, listener, data)
             }
         }

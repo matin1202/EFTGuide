@@ -12,11 +12,8 @@ import android.view.ViewGroup
 import android.view.animation.AlphaAnimation
 import androidx.core.widget.TextViewCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.matin.eftguide.ExplainActivity
-import com.matin.eftguide.ItemExplainActivity
-import com.matin.eftguide.MapActivity
-import com.matin.eftguide.R
-import com.matin.eftguide.base.BaseActivity
+import com.matin.eftguide.*
+import org.jetbrains.anko.startActivity
 import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.main_list.view.*
 import java.util.*
@@ -52,7 +49,7 @@ class MainAdapter(private val items: ArrayList<RecyclerMain>) :
 
     }
 
-    class ViewHolder(v: View) : RecyclerView.ViewHolder(v){
+    inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v){
         private var view: View = v
         fun bind(item: RecyclerMain){
             view.main_textView.text = item.title
@@ -105,6 +102,14 @@ class MainAdapter(private val items: ArrayList<RecyclerMain>) :
                     val intent = Intent(item.context, item.target)
                     intent.putExtra("maps", item.extra)
                     intent.putExtra("image", item.image)
+                    intent.addFlags(FLAG_ACTIVITY_NEW_TASK)
+                    item.context.startActivity(intent)
+                    return@setOnClickListener
+                }
+                if(item.target == RigActivity::class.java){
+                    val intent = Intent (item.context, item.target)
+                    intent.putExtra("image", item.image)
+                    intent.putExtra("type", item.extra)
                     intent.addFlags(FLAG_ACTIVITY_NEW_TASK)
                     item.context.startActivity(intent)
                     return@setOnClickListener

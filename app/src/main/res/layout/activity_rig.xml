@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RigActivity"
+    tools:ignore="hardcodedText">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="16dp"
+
+            app:layout_constraintDimensionRatio="W, 1:2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_rig_rig"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:contentDescription="rig_image"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/a18" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/bt_rig_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내부 보기"
+            android:textColor="@color/text_color"
+            android:background="@color/transparent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_margin="4sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_min="50dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/rig_adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_rig_switch">
+
+        <TextView
+            android:id="@+id/tv_rig_explain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="여기에 글자를 입력해주세요."
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:contentDescription="@string/adView"
+        android:id="@+id/rig_adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3429208671349104/6889900967"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

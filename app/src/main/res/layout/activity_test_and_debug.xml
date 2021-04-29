@@ -47,7 +47,7 @@
         android:id="@+id/bt_make_crash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비정상 종류 만들기"
+        android:text="비정상 종료 만들기"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_test_and_debug2" />

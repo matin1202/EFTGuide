@@ -17,7 +17,7 @@ import org.jetbrains.anko.toast
 import java.lang.Exception
 import java.util.*
 import java.util.regex.Pattern
-import android.text.util.Linkify as Linkify1
+import android.text.util.Linkify
 
 class ItemExplainActivity : BaseActivity() {
     @SuppressLint("SetTextI18n")
@@ -564,11 +564,11 @@ class ItemExplainActivity : BaseActivity() {
                     Pattern.compile("${getString(R.string.max_ergo)} 바로가기"),
                     Pattern.compile("${getString(R.string.budget_modding)} 바로가기")
                 )
-                val transform = Linkify1.TransformFilter { _, _ ->
+                val transform = Linkify.TransformFilter { _, _ ->
                     ""
                 }
                 for (i in mods.indices) {
-                    Linkify1.addLinks(
+                    Linkify.addLinks(
                         tv_item_explain,
                         patterns[i],
                         "https://tarkov-gunsmith.com/loadout/${mods[i]}",

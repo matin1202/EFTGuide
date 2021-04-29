@@ -6395,34 +6395,424 @@
         <item></item><!--재질-->
         <item></item><!--칸 수 대비 용량-->
         <item></item><!--무게-->
+        <item></item><!--레이아웃-->
     </string-array>
 
-    <string-array name="h_uley">
-        <item>6B5-16 Zh-86 \"Uley\" armored rig</item>
+    <string-array name="h_6b5_16">
+        <item>6B5–16 Zh-86 \"Uley\" armored rig</item>
         <item>3</item>
         <item>가슴, 복부</item>
         <item>80</item>
         <item>145</item>
-        <item>이동속도 {R-9%}</item>
-        <item>Titan(티타늄)</item>
-        <item>차지하는 칸당 0.833칸</item>
-        <item>kg</item>
+        <item>이동속도 {R-9%}, 화면 전환 속도{R-5%}, 인체공학 {R-12}</item>
+        <item>티타늄(Titan)</item>
+        <item>차지하는 칸당 약 0.833칸</item>
+        <item>7.1kg</item>
+        <item>layout_2222_11</item>
     </string-array>
 
-    <string-array name="h_">
-        <item></item>
-        <item></item>
+    <string-array name="h_6b3tm">
+        <item>6B3TM-01M armored rig</item>
+        <item>4</item>
         <item>가슴, 복부</item>
-        <item></item>
-        <item></item>
-        <item>이동속도 {R-%}, 화면 전환 속도 {R-%}, 인체공학 {R-}</item>
-        <item></item>
-        <item></item>
-        <item>kg</item>
+        <item>40</item>
+        <item>73</item>
+        <item>이동속도 {R-10%}, 화면 전환 속도 {R-5%}, 인체공학 {R-15}</item>
+        <item>티타늄(Titan)</item>
+        <item>차지하는 칸당 1칸</item>
+        <item>9.2kg</item>
+        <item>layout_2222_1111</item>
     </string-array>
 
+    <string-array name="h_6b5_15">
+        <item>6B5–15 Zh-86 \"Uley\" armored rig</item>
+        <item>4</item>
+        <item>가슴, 복부</item>
+        <item>50</item>
+        <item>63</item>
+        <item>이동속도 {R-14%}, 화면 전환 속도 {R-7%}, 인체공학 {R-12}</item>
+        <item>세라믹(Ceramic)</item>
+        <item>차지하는 칸당 약 0.833칸</item>
+        <item>12.2kg</item>
+        <item>layout_2222_11</item>
+    </string-array>
 
-    
+    <string-array name="h_m2">
+        <item>ANA Tactical M2 armored rig</item>
+        <item>4</item>
+        <item>가슴, 복부</item>
+        <item>60</item>
+        <item>109</item>
+        <item>이동속도 {R-8%}, 화면 전환 속도 {R-5%}, 인체공학 {R-2}</item>
+        <item>티타늄(Titan)</item>
+        <item>차지하는 칸당 1.125칸</item>
+        <item>7kg</item>
+        <item>layout_2222_2222_2_</item>
+    </string-array>
+
+    <string-array name="h_m1">
+        <item>ANA Tacticle M1 armored rig</item>
+        <item>4</item>
+        <item>가슴, 복부</item>
+        <item>65</item>
+        <item>93</item>
+        <item>이동속도 {R-10%}, 화면 전환 속도 {R-5%}, 인체공학 {R-5}</item>
+        <item>강철(Armor Steel)</item>
+        <item>차지하는 칸당 1.25칸</item>
+        <item>8.3kg</item>
+        <item>layout_2222_44_1111</item>
+    </string-array>
+
+    <string-array name="h_avs">
+        <item>Crye Precision AVS platecarrier</item>
+        <item>4</item>
+        <item>가슴, 복부</item>
+        <item>70</item>
+        <item>140</item>
+        <item>이동속도 {R-10%}, 화면 전환 속도 {R-2%}, 인체공학 {R-2}</item>
+        <item>합성 재료(Combined Materials)</item>
+        <item>차지하는 칸당 약 1.917칸</item>
+        <item>8.7kg</item>
+        <item>layout_22222_11111_44</item>
+    </string-array>
+
+    <string-array name="h_a18">
+        <item>Ars Arma A18 Skanda plate carrier</item>
+        <item>4</item>
+        <item>가슴</item>
+        <item>80</item>
+        <item>160</item>
+        <item>이동속도 {R-7%}, 화면 전환 속도 {R-4%}, 인체공학 {R-6}</item>
+        <item>합성 재료(Combined Materials)</item>
+        <item>차지하는 칸당 약 2.083칸</item>
+        <item>8.2kg</item>
+        <item>layout_22222_22222_11111</item>
+    </string-array>
+
+    <string-array name="h_tv_110">
+        <item>Wartech TV-110 plate carrier</item>
+        <item>4</item>
+        <item>가슴</item>
+        <item>85</item>
+        <item>121</item>
+        <item>이동속도 {R-8%}, 화면 전환 속도 {R-4%}, 인체공학 {R-5}</item>
+        <item>강철(Armor Steel)</item>
+        <item>차지하는 칸당 약 1.917칸</item>
+        <item>10.3kg</item>
+        <item>layout_13331_2___2_44</item>
+    </string-array>
+
+    <string-array name="h_tactec">
+        <item>5.11 Tactec plate carrier</item>
+        <item>5</item>
+        <item>가슴</item>
+        <item>50</item>
+        <item>111</item>
+        <item>이동속도 {R-7%}, 화면 전환 속도 {R-3%}, 인체공학 {R-3}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>차지하는 칸당 1.125칸</item>
+        <item>9.5kg</item>
+        <item>layout_2222_1111_2112</item>
+    </string-array>
+
+    <string-array name="h_aacpc">
+        <item>Ars Arma CPC MOD.2 plate carrier</item>
+        <item>5</item>
+        <item>가슴</item>
+        <item>60</item>
+        <item>133</item>
+        <item>이동속도 {R-6%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
+        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>차지하는 칸당 약 1.917칸</item>
+        <item>8.5kg</item>
+        <item>layout_22233_111_422</item>
+    </string-array>
+
+    <string-array name="h_scav_vest">
+        <item>scav vest</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 1칸</item>
+        <item>0.4kg</item>
+        <item>layout_1221</item>
+    </string-array>
+
+    <string-array name="h_security_vest">
+        <item>Security vest</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 1칸</item>
+        <item>0.51kg</item>
+        <item>layout_1221</item>
+    </string-array>
+
+    <string-array name="h_idea_chest_rig">
+        <item>DIY IDEA chest rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.334칸</item>
+        <item>0.22kg</item>
+        <item>layout_2222</item>
+    </string-array>
+
+    <string-array name="h_bank_robber">
+        <item>Spiritus Systems Bank Robber Chest Rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.334칸</item>
+        <item>0.7kg</item>
+        <item>layout_2222</item>
+    </string-array>
+
+    <string-array name="h_micro_rig">
+        <item>SOE Micro Rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.334 칸</item>
+        <item>0.8kg</item>
+        <item>layout_422</item>
+    </string-array>
+
+    <string-array name="h_wartech_gear_rig">
+        <item>Wartech gear rig(TV-10, TV-106)</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.111칸</item>
+        <item>1.8kg</item>
+        <item>layout_4221_1</item>
+    </string-array>
+
+    <string-array name="h_csa_chest_rig">
+        <item>CSA chest rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.667칸</item>
+        <item>0.75kg</item>
+        <item>layout_3223</item>
+    </string-array>
+
+    <string-array name="h_6sh112">
+        <item>UMTBS 6sh112 Scout-Sniper</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 1칸</item>
+        <item>1.7kg</item>
+        <item>layout_2222_1111</item>
+    </string-array>
+
+    <string-array name="h_tarzan">
+        <item>Splav Tarzan M22 Rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.167칸</item>
+        <item>1.45kg</item>
+        <item>layout_2222_1111_1_1</item>
+    </string-array>
+
+    <string-array name="h_d3crx">
+        <item>Haley Strategic D3CRX Chest Harness</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.778칸</item>
+        <item>0.9kg</item>
+        <item>layout_2222_2112_11</item>
+    </string-array>
+
+    <string-array name="h_triton">
+        <item>Triton M43-A Chest Harness</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.334칸</item>
+        <item>1.3kg</item>
+        <item>layout_2222_2222</item>
+    </string-array>
+
+    <string-array name="h_commando">
+        <item>Blackhawk! Commando Chest Harness</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.334칸</item>
+        <item>1.35kg</item>
+        <item>layout_2222_2222</item>
+    </string-array>
+
+    <string-array name="h_thunderbolt">
+        <item>Direct Action Thunderbolt compact chest rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.778칸</item>
+        <item>0.62kg</item>
+        <item>layout_2222_2212_1</item>
+    </string-array>
+
+    <string-array name="h_bss_mk1">
+        <item>Gear Craft GC-BSS-MK1 rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.778칸</item>
+        <item>0.62kg</item>
+        <item>layout_2222_2112_11</item>
+    </string-array>
+
+    <string-array name="h_umka">
+        <item>Umka M33-SET1 hunter\'s vest</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.333칸</item>
+        <item>1.2kg</item>
+        <item>layout_2222_114_11</item>
+    </string-array>
+
+    <string-array name="h_lbt_1961a">
+        <item>LBT-1961A Load Bearing Chest Vest</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 2칸</item>
+        <item>1.36kg</item>
+        <item>layout_44_2222_11</item>
+    </string-array>
+
+    <string-array name="h_blackrock">
+        <item>BlackRock chest rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.667칸</item>
+        <item>1.8kg</item>
+        <item>layout_2222_1111_422</item>
+    </string-array>
+
+    <string-array name="h_mk3">
+        <item>Wartech MK3 chest rig (TV-104)</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.667칸</item>
+        <item>1.65kg</item>
+        <item>layout_2222_2222_112_</item>
+    </string-array>
+
+    <string-array name="h_alpha">
+        <item>ANA Tactical Alpha chest rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 1.25칸</item>
+        <item>1.7kg</item>
+        <item>layout_3333_242</item>
+    </string-array>
+
+    <string-array name="h_azimut">
+        <item>Azimut SS Jhuk Chest Harness</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.667칸</item>
+        <item>1.6kg</item>
+        <item>layout_22222_22222</item>
+    </string-array>
+
+    <string-array name="h_mppv">
+        <item>Velocity Systems Multi-Purpose Patrol Vest</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 2칸</item>
+        <item>1.6kg</item>
+        <item>layout_2222_2222_2112_11</item>
+    </string-array>
+
+    <string-array name="h_belt">
+        <item>Belt-A + Belt-B gear rig</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>차지하는 칸당 약 1.563칸</item>
+        <item>1.7kg</item>
+        <item>layout_12221_1_1_12221_1_1_11111</item>
+    </string-array>
 
     <string-array name="h_comtac_2">
         <item>Peltor ComTac 2 headset</item>  <!--이름-->
@@ -8590,7 +8980,7 @@
     <string-array name="q_make_ultra_great_again">
         <item>Make ULTRA Great Again(ULTRA몰을 다시 위대하게)</item>
         <item>완료</item>
-        <item>- 교차로(Interchange)에서 SCAV 15명 사살하기</item>
+        <item>- 교차로(Interchange)에서 SCAV 25명 사살하기</item>
         <item> </item>
         <item>경험치 +9800\n래그맨 우호도 +0.09\n5만 루블</item>
         <item> </item>

@@ -21,7 +21,10 @@ import com.matin.eftguide.classes.AdLoaderClass
 import com.matin.eftguide.classes.BackPressCloserHandler
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.download_dialog.view.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import org.jetbrains.anko.toast
 import org.json.JSONObject
 import java.util.*
@@ -72,6 +75,7 @@ class MainActivity : BaseActivity() {
             }
         }
         appUpdateManager.registerListener(listener)*/
+
 
         if (checkInternetConnection()) {
             var questData = ""
@@ -131,7 +135,7 @@ class MainActivity : BaseActivity() {
             toast("인터넷에 연결되있지 않습니다. 몇몇 기능들이 제한될 수 있습니다.")
         }
 
-        MobileAds.initialize(this, getString(R.string.test_ad_code))
+        MobileAds.initialize(this)
 
         if (prefs.getBoolean("adLoad", true)) {
             ma_adView.loadAd(AdLoaderClass().adRequest)

@@ -8,10 +8,6 @@ import com.android.billingclient.api.*
 import com.google.android.gms.ads.AdRequest
 import com.matin.eftguide.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_test_and_debug.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.jetbrains.anko.toast
 

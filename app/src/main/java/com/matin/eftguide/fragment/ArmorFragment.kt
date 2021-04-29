@@ -3,6 +3,7 @@ package com.matin.eftguide.fragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -34,6 +35,26 @@ class ArmorFragment : Fragment() {
                 context!!,
                 MenuActivity::class.java,
                 "armor vest"
+            )
+        )
+
+        list.add(
+            RecyclerMain(
+                R.drawable.gear,
+                "방탄 조끼",
+                context!!,
+                MenuActivity::class.java,
+                "armored rig"
+            )
+        )
+
+        list.add(
+            RecyclerMain(
+                R.drawable.gear,
+                "조끼",
+                context!!,
+                MenuActivity::class.java,
+                "rig"
             )
         )
 
