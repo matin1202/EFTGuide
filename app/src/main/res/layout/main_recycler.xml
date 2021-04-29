@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/background">
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list1" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list2" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list3" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list4" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list5" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list6" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/list7" />
 
-    <com.matin.eftguide.main_list
+    <com.matin.eftguide.MainList
         android:id="@+id/list9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
