@@ -94,6 +94,10 @@ class ItemExplainActivity : BaseActivity() {
                                     "[Heavy_Bloodloss]",
                                     "  <img src=\"[Heavy_Bloodloss]\" alt='Bloodloss'>"
                                 )
+                                .replace(
+                                    "[Toxin]",
+                                    "  <img src=\"[Toxin]\" alt='Toxin'>"
+                                )
                                 .replace("{R", "<font color='red'>")
                                 .replace("{B", "<font color='blue'>")
                                 .replace("}", "</font>") + "<br/>"
@@ -138,6 +142,10 @@ class ItemExplainActivity : BaseActivity() {
                                 .replace(
                                     "[Heavy_Bloodloss]",
                                     "  <img src=\"[Heavy_Bloodloss]\" alt='Bloodloss'>"
+                                )
+                                .replace(
+                                    "[Toxin]",
+                                    "  <img src=\"[Toxin]\" alt='Toxin'>"
                                 )
                                 .replace("{R", "<font color='red'>")
                                 .replace("{B", "<font color='blue'>")
@@ -624,6 +632,9 @@ class ItemExplainActivity : BaseActivity() {
             }
             if(source == "[Stun]"){
                 resID = R.drawable.stun
+            }
+            if(source == "[Toxin]"){
+                resID = R.drawable.toxin
             }
             Log.d("IEA", "$resID")
             val drawable = resID?.let { this@ItemExplainActivity.resources.getDrawable(it, null) }

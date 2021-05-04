@@ -63,7 +63,7 @@
             android:layout_margin="16dp"
             android:text="여기에 글자를 입력해주세요."
             android:textColor="@color/text_color"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
     </ScrollView>
 

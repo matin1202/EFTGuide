@@ -2511,7 +2511,7 @@
 
     <string-array name="h_augmentin">
         <item>Augmentin antibiotic pills</item>
-        <item> - 고통[Pain], 중독</item>
+        <item> - 고통[Pain], 중독[Toxin]</item>
         <item> - 150초 동안 진통 효과[onPainkiller]</item>
         <item>0</item>
         <item>0</item>
@@ -2583,7 +2583,7 @@
 
     <string-array name="h_car_kit">
         <item>Car first aid kit</item>
-        <item> - 출혈[Bloodloss](50 소모), 중독, 방사능 피폭</item>
+        <item> - 출혈[Bloodloss](50 소모), 방사능 피폭</item>
         <item> - 갓 생긴 상처[Fresh_Wound], 체력 회복[Restore_HP]</item>
         <item>0</item>
         <item>0</item>
@@ -2607,7 +2607,7 @@
 
     <string-array name="h_ifak">
         <item>IFAK personal tactical first aid kit</item>
-        <item> - 출혈[Bloodloss](30 소모), 과출혈[Heavy_Bloodloss](210 소모), 중독, 방사능 피폭</item>
+        <item> - 출혈[Bloodloss](30 소모), 과출혈[Heavy_Bloodloss](210 소모), 방사능 피폭</item>
         <item> - 갓 생긴 상처[Fresh_Wound], 체력 회복[Restore_HP]</item>
         <item>0</item>
         <item>0</item>
@@ -2679,7 +2679,7 @@
 
     <string-array name="h_golden_star_balm">
         <item>Golden Star Balm</item>
-        <item> - 고통[Pain], 타박상[Contusion], 600초 동안\n - 중독 해제, 600초 동안\n - 방사능 피폭 해제</item>
+        <item> - 고통[Pain], 타박상[Contusion], 600초 동안\n - 600초 동안\n - 방사능 피폭 해제</item>
         <item> - 400초 동안\n진통 효과[onPainkiller]</item>
         <item>{B+5}</item>
         <item>{B+4}</item>
@@ -2758,6 +2758,12 @@
         <item>2초</item>
     </string-array>
 
+    <string-array name="h_sj9_tglabs">
+        <item>Combat stimulant injector SJ9 TGLabs</item>
+        <item>6초 후, 300초 동안\n - 체온 {B-7°C} 하강</item>
+        <item>6초 후, 300초 동안\n - 신진대사(Metabolism) {R-20} 감소 || 300초 후, 120초 동안\n - 고통[Pain] 발생</item>
+    </string-array>
+
     <string-array name="h_etg_change">
         <item>Regenerative stimulant injector eTG-change</item>
         <item>타박상[Contusion] 제거 || 1초 후, 90초 동안\n - 신진대사(Metabolism) {B20} 증가\n - 면역 {B20} 증가 || 1초 후, 60초 동안\n - 체력 재생력 {B6.5} 증가\n - 에너지 재생 {B0.5} 증가</item>
@@ -2775,7 +2781,7 @@
 
     <string-array name="h_propital">
         <item>Propital</item>
-        <item>고통[Pain], 타박상[Contusion], 중독 제거 || 240초 동안 진통 효과[onPainkiller] || 1초 후, 300초 동안\n - 신진대사(Metabolism) {B20} 증가\n - 건강(Health) {B20} 증가\n - 활력(Vitality) {B20} 증가\n - 체력 재생력 {B1} 증가</item>
+        <item>고통[Pain], 타박상[Contusion]|| 240초 동안 진통 효과[onPainkiller] || 1초 후, 300초 동안\n - 신진대사(Metabolism) {B20} 증가\n - 건강(Health) {B20} 증가\n - 활력(Vitality) {B20} 증가\n - 체력 재생력 {B1} 증가</item>
         <item>270초 후, 30초 동안\n - 손 떨림 발생\n - 터널 효과 발생</item>
         <item>2초</item>
     </string-array>
@@ -2845,7 +2851,7 @@
 
     <string-array name="h_antidote_xtg_12">
         <item>Antidote xTG-12</item>
-        <item>6초 후\n해독제</item>
+        <item>6초 후\n 중독[Toxin] 제거</item>
         <item>6초 후, 60초 동안\n건강(Health) {R5} 감소</item>
         <item>2초</item>
     </string-array>
@@ -3027,7 +3033,7 @@
         <item>{B+20}</item>
         <item>{R+350}</item>
         <item>교환품, 제작품</item>
-        <item>\n - 중독 제거</item>
+        <item></item>
         <item> </item>
     </string-array>
 
@@ -3153,7 +3159,7 @@
         <item>{B+20}</item>
         <item>{R-10}</item>
         <item>교환품, 제작품</item>
-        <item> - 중독 제거, 방사능 피폭 제거, 고통 제거[pain]\n1초 후, 500초 동안\n - 스트레스 저항성(Stress Resistance) {B3} 증가</item>
+        <item> - 방사능 피폭 제거, 고통 제거[pain]\n1초 후, 500초 동안\n - 스트레스 저항성(Stress Resistance) {B3} 증가</item>
         <item>1초 후, 500초 동안\n - 건강(Health) {R1} 감소\n - 기억(Memory) {R5} 감소\n510초 후, 150초 동안\n - 손 떨림(hand tremor) 발생</item>
     </string-array>
 
