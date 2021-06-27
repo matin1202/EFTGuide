@@ -53,7 +53,7 @@ class AmmoFragment : Fragment() {
                 context!!, R.raw.ammo_23,
                 "23/75",
                 arrayListOf("Shrapnel-25", "Shrapnel-10", "\"Barricade\"", "\"Star\""),
-                arrayListOf(R.drawable.shrapnel_25_2375, R.drawable.shrapnel_25_2375, R.drawable.barricade_23, R.drawable.star_2375)
+                arrayListOf(R.drawable.shrapnel_25_2375, R.drawable.shrapnel_10_2375, R.drawable.barricade_23, R.drawable.star_2375)
                 )
         )
         list.add(
@@ -295,7 +295,7 @@ class AFAdapter(private val items: ArrayList<AFRecycler>):
                 view.main_textView.textSize = 18.0f
 
                 view.setOnClickListener{ _ ->
-                    item.context.startActivity(Intent(item.context, ExplainActivity::class.java).putExtra("type", "a${item.type}_${item.title}").addFlags(FLAG_ACTIVITY_NEW_TASK))
+                    item.context.startActivity(Intent(item.context, ExplainActivity::class.java).putExtra("image", item.image).putExtra("type", "a${item.type}_${item.title}").addFlags(FLAG_ACTIVITY_NEW_TASK))
                     return@setOnClickListener
                 }
             }

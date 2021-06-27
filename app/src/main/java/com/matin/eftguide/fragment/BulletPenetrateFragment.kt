@@ -2,7 +2,7 @@ package com.matin.eftguide.fragment
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
-import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.SearchView
 import android.widget.SeekBar
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.github.mikephil.charting.components.Legend
@@ -25,26 +25,25 @@ import com.matin.eftguide.R
 import com.matin.eftguide.base.loadWithWebp
 import kotlinx.android.synthetic.main.fragment_bullet_penetrate.view.*
 import kotlinx.android.synthetic.main.menu_armor_selection.view.*
-import kotlinx.coroutines.*
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
-import org.jetbrains.anko.*
+import kotlinx.coroutines.launch
+import org.jetbrains.anko.backgroundColor
 import org.jetbrains.anko.sdk27.coroutines.onClick
-import org.jetbrains.anko.sdk27.coroutines.onSeekBarChangeListener
 import org.jetbrains.anko.support.v4.runOnUiThread
-import org.jetbrains.anko.support.v4.toast
+import org.jetbrains.anko.textColor
 import java.util.*
-import kotlin.collections.ArrayList
 import kotlin.math.floor
 import kotlin.math.pow
 import kotlin.math.round
 
-@Suppress("NAME_SHADOWING")
+@Suppress("NAME_SHADOWING", "UNNECESSARY_NOT_NULL_ASSERTION")
 @SuppressLint("SetTextI18n", "InflateParams")
 class BulletPenetrateFragment : Fragment() {
 
-    public var currentArmor = "Zhuk-6a"
-    public var currentAmmo = "5.45x39mm BT"
+    lateinit var currentArmor: String
+    lateinit var currentAmmo: String
     private var thread: Thread? = null
     private lateinit var curAmmo: Array<String>
     private lateinit var curArmor: Array<String>
@@ -63,6 +62,9 @@ class BulletPenetrateFragment : Fragment() {
     ): View? {
         rootView = inflater.inflate(R.layout.fragment_bullet_penetrate, container, false)
 
+        val preferences = context!!.getSharedPreferences("apps", MODE_PRIVATE)
+        currentAmmo = preferences.getString("currentAmmo", "5.45x39mm BT")!!
+        currentArmor = preferences.getString("currentArmor", "Zhuk-6a")!!
         curAmmo = resources.getStringArray(
             resources.getIdentifier(
                 "a${
@@ -93,13 +95,12 @@ class BulletPenetrateFragment : Fragment() {
                     val builder = AlertDialog.Builder(context)
                     val inflater =
                         LayoutInflater.from(context).inflate(R.layout.dialog_selection, null)
-                    builder!!.setView(inflater)
+                    builder.setView(inflater)
                         .setNegativeButton("닫기") { _, _ ->
 
                         }
                     val dialog = builder!!.create()
-                    val linearLayout =
-                        inflater.findViewById<LinearLayout>(R.id.ll_dialog_selector)
+                    val linearLayout = inflater.findViewById<LinearLayout>(R.id.ll_dialog_selector)
                     val recyclerView = inflater.findViewById<RecyclerView>(R.id.rl_dialog_selector)
                     val searchView = inflater.findViewById<SearchView>(R.id.sv_dialog_selector)
                     searchView.queryHint = "총알 검색하기"
@@ -321,7 +322,16 @@ class BulletPenetrateFragment : Fragment() {
                         "Slick",
                         "Zhuk-6a",
                         "6B43",
-                        "6B5-16", "6B3TM", "6B5-15", "M2", "M1", "AVS", "A18", "TV-110", "Tactec", "AACPC",
+                        "6B5-16",
+                        "6B3TM",
+                        "6B5-15",
+                        "M2",
+                        "M1",
+                        "AVS",
+                        "A18",
+                        "TV-110",
+                        "Tactec",
+                        "AACPC",
                         "Tac-Kek Fast MT",
                         "Tank crew",
                         "Kolpak-1s",
@@ -475,7 +485,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.buck_56_20,
             R.drawable.devastator_20,
             R.drawable.shrapnel_25_2375,
-            R.drawable.shrapnel_25_2375,
+            R.drawable.shrapnel_10_2375,
             R.drawable.barricade_23,
             R.drawable.pmb_18,
             R.drawable.pmm_18,
@@ -751,7 +761,16 @@ class BulletPenetrateFragment : Fragment() {
             R.raw.a_slick,
             R.drawable.zhuk_6a,
             R.drawable.zabralo,
-            R.drawable.a_6b5_16, R.drawable.a_6b3tm, R.drawable.a_6b5_15, R.drawable.m2, R.drawable.m1, R.drawable.avs, R.drawable.a18, R.drawable.tv_110, R.drawable.tactec, R.drawable.aacpc,
+            R.drawable.a_6b5_16,
+            R.drawable.a_6b3tm,
+            R.drawable.a_6b5_15,
+            R.drawable.m2,
+            R.drawable.m1,
+            R.drawable.avs,
+            R.drawable.a18,
+            R.drawable.tv_110,
+            R.drawable.tactec,
+            R.drawable.aacpc,
             R.drawable.tk_fast_mt,
             R.drawable.tank_crew,
             R.drawable.kolpak_1s,
@@ -1241,7 +1260,7 @@ class BulletPenetrateFragment : Fragment() {
                         }", "array", context?.packageName
                     )
                 )
-                bind(item, listener, data)
+                bind(listener, data)
             }
         }
 
@@ -1253,7 +1272,7 @@ class BulletPenetrateFragment : Fragment() {
 
         inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
             private var view: View = v
-            fun bind(item: PenetrateAmmoList, listener: View.OnClickListener, data: Array<String>) {
+            fun bind(listener: View.OnClickListener, data: Array<String>) {
                 view.tv_menu_armor_name.text = data[0]
                 view.tv_menu_armor_durability.text = data[1]
                 view.tv_menu_armor_class.text = data[2]

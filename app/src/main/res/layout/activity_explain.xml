@@ -5,35 +5,495 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ExplainActivity"
+    android:padding="16dp"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/background">
+    android:background="@color/background"
+    tools:ignore="HardcodedText">
 
-    <HorizontalScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_main_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/iv_ammo_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:background="#FFFFFF"
+            android:contentDescription="쿠키 이미지"
+            android:padding="4dp"
+            android:src="@drawable/bt_545"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="W, 1:1"
+            app:layout_constraintEnd_toStartOf="@id/tv_ammo_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.3" />
+
+
+        <TextView
+            android:id="@+id/tv_ammo_name"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="BT"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toEndOf="@+id/iv_ammo_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_ammo_caliber"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="5.45x39mm"
+            android:textColor="@color/text_color"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView_damage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_ammo_image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_name"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <TextView
+            android:id="@+id/textView_damage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="데미지"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView_speed"
+            app:layout_constraintEnd_toStartOf="@+id/tv_ammo_damage"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/iv_ammo_image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_caliber"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+
+        <TextView
+            android:id="@+id/tv_ammo_damage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="44"
+            android:textColor="@color/text_color"
+            app:layout_constraintBottom_toTopOf="@+id/tv_ammo_speed"
+            app:layout_constraintEnd_toStartOf="@+id/textView_penetration"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/textView_damage"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_caliber" />
+
+        <TextView
+            android:id="@+id/textView_penetration"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="관통력"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView_table"
+            app:layout_constraintEnd_toStartOf="@+id/tv_ammo_penetration"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/tv_ammo_damage"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_caliber" />
+
+        <TextView
+            android:id="@+id/tv_ammo_penetration"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="37"
+            android:textColor="@color/text_color"
+            app:layout_constraintBottom_toTopOf="@+id/tv_ammo_table"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/textView_penetration"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_caliber" />
+
+        <TextView
+            android:id="@+id/textView_speed"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="탄속"
+            android:textColor="@color/text_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_ammo_speed"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/iv_ammo_image"
+            app:layout_constraintTop_toBottomOf="@+id/textView_damage" />
+
+        <TextView
+            android:id="@+id/tv_ammo_speed"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="880m/s"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView_table"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/textView_speed"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_damage" />
+
+        <TextView
+            android:id="@+id/textView_table"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="관통력표"
+            android:textColor="@color/text_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_ammo_table"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/tv_ammo_speed"
+            app:layout_constraintTop_toBottomOf="@+id/textView_penetration" />
+
+        <TextView
+            android:id="@+id/tv_ammo_table"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="666531"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/textView_table"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ammo_penetration" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_main_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ea_adView"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cl_main_1">
+
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:orientation="horizontal">
+            android:id="@+id/LinearLayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.05">
 
             <TextView
-                android:id="@+id/tv_explain_test"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/textView_armor_dmg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
                 android:background="@color/background"
-                android:text=""
-                android:textColor="@color/text_color"
-                android:textSize="14sp" />
+                android:text="방탄복에\n입히는 피해"
+                android:gravity="center"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_ammo_armor_dmg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:text="49%"
+                android:background="@color/background"/>
+
+
+            <TextView
+                android:id="@+id/textView_special"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="부가 효과"/>
+
+
+            <TextView
+                android:id="@+id/tv_ammo_special"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="예광탄"/>
 
         </LinearLayout>
 
-    </HorizontalScrollView>
+        <LinearLayout
+            android:id="@+id/LinearLayout_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/LinearLayout_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.05">
+
+            <TextView
+                android:id="@+id/textView_accuracy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="정확도"
+                app:layout_constraintEnd_toStartOf="@id/tv_ammo_accuracy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_armor_dmg"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.05"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_accuracy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="0"
+                app:layout_constraintEnd_toStartOf="@id/textView_recoil"
+                app:layout_constraintStart_toEndOf="@id/textView_accuracy"
+                app:layout_constraintTop_toBottomOf="@id/textView_armor_dmg"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.05"/>
+
+            <TextView
+                android:id="@+id/textView_recoil"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="반동"
+                app:layout_constraintEnd_toStartOf="@id/tv_ammo_recoil"
+                app:layout_constraintStart_toEndOf="@id/tv_ammo_accuracy"
+                app:layout_constraintTop_toBottomOf="@id/textView_armor_dmg"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.05"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_recoil"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="+5"
+                android:textColor="@color/possible_but"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/textView_recoil"
+                app:layout_constraintTop_toBottomOf="@id/textView_armor_dmg"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.05"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/LinearLayout_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.05">
+
+            <TextView
+                android:id="@+id/textView_fragmentation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="파편화 확률"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_fragmentation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="16%"/>
+
+            <TextView
+                android:id="@+id/textView_ricochet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="도탄될 확률"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_ricochet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="37%"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/LinearLayout_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.05">
+
+            <TextView
+                android:id="@+id/textView_bleeding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="출혈 확률 증가"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_bleeding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/textView_heavy_bleeding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:textSize="11sp"
+                android:text="과다 출혈 확률 증가"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_ammo_heavy_bleeding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/background"
+                android:text="0"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/LinearLayout_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/textView_sold_by"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="판매 상인"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_sold_by"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="Prapor LL3(The Punisher Part 4 이후)\nPeacekeeper LL1\nMechanic LL2"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
 
     <com.google.android.gms.ads.AdView
         android:contentDescription="@string/adView"

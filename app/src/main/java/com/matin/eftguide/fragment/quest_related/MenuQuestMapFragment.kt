@@ -16,6 +16,7 @@ import org.jetbrains.anko.*
 import org.jetbrains.anko.design.snackbar
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.json.JSONObject
+import java.io.FileNotFoundException
 
 class MenuQuestMapFragment : Fragment() {
     private val maps: String? by lazy { requireArguments().getString("quest") }
@@ -37,8 +38,13 @@ class MenuQuestMapFragment : Fragment() {
                         val mapsList = arrayListOf<String>()
                         val titleList = arrayListOf<String>()
                         var questData = ""
-                        context.openFileInput("quest_data").bufferedReader().readLines().forEach {
-                            questData += "\n$it"
+                        try {
+                            context.openFileInput("quest_data").bufferedReader().readLines()
+                                .forEach {
+                                    questData += "\n$it"
+                                }
+                        }catch(e: FileNotFoundException){
+                            toast("파일이 다운로드 되지 않았습니다.")
                         }
                         val json = JSONObject(questData)
                         val questInfo = json.getJSONObject("quest_info")

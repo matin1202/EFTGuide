@@ -11,7 +11,9 @@ import android.widget.TextView
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_quest_dialogue.view.*
 import kotlinx.coroutines.*
+import org.jetbrains.anko.support.v4.toast
 import org.json.JSONObject
+import java.io.FileNotFoundException
 import java.lang.reflect.InvocationTargetException
 
 class MenuDialogueFragment : Fragment() {
@@ -26,8 +28,12 @@ class MenuDialogueFragment : Fragment() {
 
         var questData = ""
 
-        context!!.openFileInput("quest_data").bufferedReader().readLines().forEach {
-            questData += "\n$it"
+        try {
+            context!!.openFileInput("quest_data").bufferedReader().readLines().forEach {
+                questData += "\n$it"
+            }
+        }catch(e: FileNotFoundException){
+            toast("추가파일이 다운로드 되어있지 않습니다.")
         }
 
         try {

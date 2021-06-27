@@ -14,6 +14,10 @@
             @color/colorAccent
         </item>
 
+        <item name="android:fontFamily">@font/na_num_square_round_b</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+
         <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
         <item name="android:buttonStyle">@style/customButtonFontStyle</item>
         <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
@@ -23,6 +27,7 @@
 
         <item name = "windowNoTitle">true</item>
     </style>
+
 
     <style name="ExpandingToolbar.TitleText" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
         <item name="android:textSize">20sp</item>

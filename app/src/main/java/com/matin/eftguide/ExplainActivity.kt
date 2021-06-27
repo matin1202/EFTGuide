@@ -1,5 +1,6 @@
 package com.matin.eftguide
 
+import android.annotation.SuppressLint
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.text.Html
@@ -7,6 +8,8 @@ import android.util.Log
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_explain.*
+import org.jetbrains.anko.imageResource
+import org.jetbrains.anko.textColor
 import org.jetbrains.anko.toast
 import java.lang.Exception
 
@@ -21,6 +24,7 @@ class ExplainActivity : BaseActivity() {
                 ea_adView.loadAd(AdLoaderClass().adRequest)
             }
 
+            iv_ammo_image.imageResource = intent.getIntExtra("image", 0)
             val ammo = intent.getStringExtra("type")!!.split(" ").joinToString("_").split("\"")
                 .joinToString("").split(".").joinToString("").split("-").joinToString("_")
                 .split("/").joinToString("")
@@ -28,22 +32,33 @@ class ExplainActivity : BaseActivity() {
             val resId = resources.getIdentifier(ammo, "array", packageName)
             val stringArray = resources.getStringArray(resId)
             val buffer = arrayListOf(
-                getString(R.string.name),
-                getString(R.string.damage),
-                getString(R.string.penetration_power),
-                getString(R.string.armor_damage),
-                getString(R.string.accruracy),
-                getString(R.string.recoil),
-                getString(R.string.fragmentation_chance),
-                getString(R.string.ricochet_chance),
-                "과다출혈 확률 증가",
-                "출혈 확률 증가",
-                getString(R.string.speed),
-                getString(R.string.special_effect),
-                getString(R.string.sold_by),
-                getString(R.string.penetrationTable)
+                tv_ammo_name,
+                tv_ammo_damage,
+                tv_ammo_penetration,
+                tv_ammo_armor_dmg,
+                tv_ammo_accuracy,
+                tv_ammo_recoil,
+                tv_ammo_fragmentation,
+                tv_ammo_ricochet,
+                tv_ammo_heavy_bleeding,
+                tv_ammo_bleeding,
+                tv_ammo_speed,
+                tv_ammo_special,
+                tv_ammo_sold_by,
+                tv_ammo_table
             )
-            val buffer2 = arrayListOf(
+
+            stringArray[5] = stringArray[5].replace("{R", "<font color='red'>").replace("{B", "<font color='blue'>").replace("}", "</font>")
+            stringArray[4] = stringArray[4].replace("{R", "<font color='red'>").replace("{B", "<font color='blue'>").replace("}", "</font>")
+
+
+            for(i in buffer.indices){
+                val html = Html.fromHtml(stringArray[i], 0, ImageGetter(), null)
+                buffer[i].text = html
+            }
+
+
+            /*val buffer2 = arrayListOf(
                 "",
                 "  <img src=\"damage\" alt='Damage'>",
                 "  <img src=\"penetration\" alt='Penetration'>",
@@ -68,7 +83,8 @@ class ExplainActivity : BaseActivity() {
                 }<br>"
             }
             val html = Html.fromHtml(text, 0, ImageGetter(), null)
-            tv_explain_test?.text = html
+            Too Old to Use   */
+
 
         }catch (e: Exception){
             Log.e("EA", "${e.message}")
@@ -78,6 +94,7 @@ class ExplainActivity : BaseActivity() {
     }
 
     inner class ImageGetter: Html.ImageGetter {
+        @SuppressLint("UseCompatLoadingForDrawables")
         override fun getDrawable(source: String?): Drawable {
             Log.d("IAE", "$source")
             val resID = resources.getIdentifier(source, "drawable", packageName)

@@ -11,7 +11,9 @@
     <color name="background">#eeeeee</color>
     <color name="black_overlay">#66000000</color>
     <color name="transparent">#00000000</color>
-
+    <color name="text_blue">#1100BB</color>
+    <color name="text_red">#FF0000</color>
+    <color name="text_green">#00FF00</color>
 
     <color name="pointless">#B32425</color>
     <color name="possible_but">#DD3333</color>

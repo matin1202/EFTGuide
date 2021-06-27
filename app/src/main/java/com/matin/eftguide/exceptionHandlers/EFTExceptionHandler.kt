@@ -32,12 +32,6 @@ class EFTExceptionHandler(application: Application, private val defaultException
                     }
                     activityCount++
                     lastActivity.add(activity)
-                    val fragmentManager = (activity as FragmentActivity).supportFragmentManager
-                    for(fragment in fragmentManager.fragments){
-                        if(fragment.isVisible){
-                            lastActivityFragment = fragment
-                        }
-                    }
                 }
 
                 override fun onActivityStopped(activity: Activity){
