@@ -257,7 +257,7 @@
         <item> </item>
         <item>560m/s</item>
         <item> </item>
-        <item>Prapor LL4</item>
+        <item>0.12.11 기준 패치됨</item>
         <item>666543</item>
     </string-array>
 
@@ -291,7 +291,7 @@
         <item> </item>
         <item>392m/s</item>
         <item> </item>
-        <item>Peacekeeper LL3</item>
+        <item>0.12.11 기준 패치됨</item>
         <item>666310</item>
     </string-array>
 
@@ -503,8 +503,8 @@
 
     <!--                    9x21mm Gyurza                       -->
 
-    <string-array name="a9x21_SP10">
-        <item>SP10</item>
+    <string-array name="a9x21_PS">
+        <item>PS</item>
         <item>49</item>
         <item>35</item>
         <item>46%</item>
@@ -520,8 +520,8 @@
         <item>666411</item>
     </string-array>
 
-    <string-array name="a9x21_SP11">
-        <item>SP11</item>
+    <string-array name="a9x21_P">
+        <item>P</item>
         <item>65</item>
         <item>18</item>
         <item>44%</item>
@@ -537,8 +537,8 @@
         <item>630000</item>
     </string-array>
 
-    <string-array name="a9x21_SP12">
-        <item>SP12</item>
+    <string-array name="a9x21_PE">
+        <item>PE</item>
         <item>80</item>
         <item>15</item>
         <item>63%</item>
@@ -554,8 +554,8 @@
         <item>620000</item>
     </string-array>
 
-    <string-array name="a9x21_SP13">
-        <item>SP13</item>
+    <string-array name="a9x21_BT">
+        <item>BT</item>
         <item>63</item>
         <item>39</item>
         <item>47%</item>
@@ -691,7 +691,7 @@
         <item> </item>
         <item>680m/s</item>
         <item> </item>
-        <item>Mechanic LL4</item>
+        <item>0.12.11 기준 패치됨</item>
         <item>666665</item>
     </string-array>
 
@@ -852,8 +852,8 @@
 
     <!--                    5.45x39mm                           -->
 
-    <string-array name="a545x39_7N39_Igolnik">
-        <item>7N39 Igolnik</item>
+    <string-array name="a545x39_PPBS_Igolnik">
+        <item>PPBS Igolnik</item>
         <item>37</item>
         <item>62</item>
         <item>60%</item>
@@ -899,7 +899,7 @@
         <item> </item>
         <item>830m/s</item>
         <item> </item>
-        <item>Prapor LL4</item>
+        <item>Prapor LL4(교환)</item>
         <item>666665</item>
     </string-array>
 
@@ -1173,7 +1173,7 @@
         <item> </item>
         <item>1013m/s</item>
         <item> </item>
-        <item>Peacekeeper LL4</item>
+        <item>0.12.11 기준 패치됨</item>
         <item>666665</item>
     </string-array>
 
@@ -1194,8 +1194,8 @@
         <item>641000</item>
     </string-array>
 
-    <string-array name="a556x45_Warmage">
-        <item>Warmage</item>
+    <string-array name="a556x45_Warmageddon">
+        <item>Warmageddon</item>
         <item>85</item>
         <item>3</item>
         <item>14%</item>
@@ -1247,8 +1247,8 @@
 
     <!--                   .300 Blackout                            -->
 
-    <string-array name="a300_BPZ">
-        <item>BPZ</item>
+    <string-array name="a300_BCP">
+        <item>BCP</item>
         <item>60</item>
         <item>28</item>
         <item>36%</item>
@@ -1387,8 +1387,8 @@
 
     <!--                    7.62x51mm NATO                          -->
 
-    <string-array name="a762x51_BPZ_FMJ">
-        <item>BPZ FMJ</item>
+    <string-array name="a762x51_FMJ">
+        <item>FMJ</item>
         <item>88</item>
         <item>31</item>
         <item>33%</item>
@@ -1472,8 +1472,8 @@
         <item>666654</item>
     </string-array>
 
-    <string-array name="a762x51_TPZ_SP">
-        <item>TPZ SP</item>
+    <string-array name="a762x51_SP">
+        <item>SP</item>
         <item>60</item>
         <item>36</item>
         <item>40%</item>
@@ -1578,8 +1578,8 @@
 
     <!--                    7.62x54mmR                              -->
 
-    <string-array name="a762x54_7BT1">
-        <item>7BT1</item>
+    <string-array name="a762x54_BT">
+        <item>BT</item>
         <item>78</item>
         <item>59</item>
         <item>87%</item>
@@ -1595,8 +1595,8 @@
         <item>666666</item>
     </string-array>
 
-    <string-array name="a762x54_7N1">
-        <item>7N1 Sniper cartridge</item>
+    <string-array name="a762x54_PS">
+        <item>PS</item>
         <item>86</item>
         <item>45</item>
         <item>84%</item>
@@ -1612,8 +1612,8 @@
         <item>666654</item>
     </string-array>
 
-    <string-array name="a762x54_7N37">
-        <item>7N37</item>
+    <string-array name="a762x54_BS">
+        <item>BS</item>
         <item>72</item>
         <item>70</item>
         <item>88%</item>
@@ -1733,8 +1733,8 @@
         <item>630000</item>
     </string-array>
 
-    <string-array name="a366_AP">
-        <item>AP</item>
+    <string-array name="a366_AP_M">
+        <item>AP-M</item>
         <item>90</item>
         <item>42</item>
         <item>60%</item>
@@ -2357,8 +2357,8 @@
         <item>643333</item>
     </string-array>
 
-    <string-array name="a2375_Star">
-        <item>23x75mm "Star"</item>
+    <string-array name="a2375_Zvezda">
+        <item>23x75mm "Zvezda" flashbang round</item>
         <item>0</item>
         <item>0</item>
         <item>0%</item>
@@ -2374,8 +2374,8 @@
         <item>000000</item>
     </string-array>
 
-    <string-array name="a2375_Barricade">
-        <item>23x75mm "Barricade"</item>
+    <string-array name="a2375_Barrikada">
+        <item>23x75mm "Barrikada"</item>
         <item>192</item>
         <item>39</item>
         <item>75%</item>
@@ -2423,7 +2423,7 @@
         <item> </item>
         <item>76m/s</item>
         <item>@string/subsonic</item>
-        <item>Peacekeeper LL4</item>
+        <item>0.12.11 기준 패치됨</item>
         <item> </item>
     </string-array>
 
@@ -3230,8 +3230,8 @@
         <item>392</item>
         <item> </item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3248,8 +3248,8 @@
         <item>390</item>
         <item> </item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3428,8 +3428,8 @@
         <item>553</item>
         <item>452</item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3446,8 +3446,8 @@
         <item>553</item>
         <item>452</item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3464,8 +3464,8 @@
         <item>388</item>
         <item> </item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3482,9 +3482,27 @@
         <item>388</item>
         <item> </item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
+    </string-array>
+
+    <string-array name="w_mk47">
+        <item>Mk47 Mutant</item>
+        <item>164</item>
+        <item>421</item>
+        <item>47</item>
+        <item>500m</item>
+        <item>7.62x39mm</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>PBS-1 7.62x39mm silencer</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_hk416a5">
@@ -3554,7 +3572,7 @@
         <item> </item>
         <item> </item>
         <item> </item>
-        <item>.300 BPZ AAC Blackout</item>
+        <item>.300 AAC Blackout BCP</item>
         <item>.300 AAC Blackout AP</item>
         <item> </item>
     </string-array>
@@ -3698,8 +3716,8 @@
         <item>385</item>
         <item> </item>
         <item>PBS-1 7.62x39 silencer</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3770,8 +3788,8 @@
         <item>383</item>
         <item>456</item>
         <item>Hexagon SKS 7.62x39 sound suppressor</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -3788,8 +3806,8 @@
         <item>383</item>
         <item>456</item>
         <item>Hexagon SKS 7.62x39 sound suppressor</item>
-        <item>PS</item>
-        <item>BP</item>
+        <item>PS, T45M</item>
+        <item>BP, MAI AP</item>
         <item> </item>
     </string-array>
 
@@ -4200,6 +4218,24 @@
         <item>단발</item>
         <item>412</item>
         <item>413</item>
+        <item> </item>
+        <item>SilencerCo Salvo 12 + SilencerCo choke adapter</item>
+        <item>8.5mm "Magnum" Buckshot</item>
+        <item>Flechette</item>
+        <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+    </string-array>
+
+    <string-array name="w_mp_155">
+        <item>MP-155</item>
+        <item>445</item>
+        <item>565</item>
+        <item>48</item>
+        <item>70m</item>
+        <item>12/70</item>
+        <item>40RPM</item>
+        <item>단발</item>
+        <item> </item>
+        <item> </item>
         <item> </item>
         <item>SilencerCo Salvo 12 + SilencerCo choke adapter</item>
         <item>8.5mm "Magnum" Buckshot</item>
@@ -5010,7 +5046,7 @@
         <item>팩토리</item>
         <item>낮 : 20분 | 밤 : 25분</item>
         <item>낮 : 4~5 플레이어 | 밤 : 4~6 플레이어</item>
-        <item>SCAV</item>
+        <item>SCAV, 타길라</item>
     </string-array>
 
     <string-array name="customs">
@@ -5057,7 +5093,7 @@
 
 
     <string-array name="exit_factory">
-        <item>camera_bunker_door, cellars, gate_0, gate_3, office_window</item>
+        <item>camera_bunker_door, cellars, gate_0, gate_3, office_window, med_tent_gates</item>
     </string-array>
 
     <string-array name="camera_bunker_door">
@@ -5098,6 +5134,14 @@
         <item>확정 탈출구</item>
         <item>다회용 탈출구</item>
         <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="med_tent_gates">
+        <item>Med Tent Gates</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>Factory Exit Key 필요</item>
     </string-array>
 
     <string-array name="exit_customs">
@@ -5714,7 +5758,7 @@
     </string-array>
 
     <string-array name="key_customs">
-        <item>Factory Exit key(나무 상자, 서랍, 잡템, 탈출구, 퀘스트)||Dorm Guard Desk key(6x3 나무 상자, 무기 거치대, 나무 탄약 상자)||Dorm room 104 key(공구 상자, 옷)||Dorm room 105 key(금고, 잡템)||Dorm room 110 key(금고, 잡템)||Dorm room 114 key(의료 상자, 금고, 컴퓨터, 잡템, 퀘스트)||Dorm room 206 key(퀘스트)||Dorm room 103 key(잡템)||Dorm room 108 key(컴퓨터, 서랍)||Dorm room 118 key(옷, 잡템)||Dorm room 203 key(가방, 퀘스트)||Dorm room 204 key(무기 거치대, 금고, 잡템)||Dorm room 214 key(금고, 잡템, 퀘스트)||Dorm room 218 key(잡템)||Dorm room 220 key(잡템, 금품, 퀘스트)||Dorm room 303 key(나무 상자, 잡템, 퀘스트)||Dorm room 306 key(금품)||Dorm room 308 key(금품)||Dorm room 315 key(금품)||Marked key(잡템, 귀중품, 퀘스트)||Machinery key(퀘스트)||Car key||Military Base Checkpoint key(나무 탄약 상자, 무기 거치대, 나무 상자)||Customs Office key(가방, 컴퓨터, 금고, 옷, 잡템, 퀘스트)||Portable Cabin key(잡템)||Portable Cabin key of Customs Factory zone(잡템)||Trailer park Cabin key(옷, 퀘스트)||Cabinet key(금고, 잡템)||The key to The Gas Station Storage room(의료 상자)||Unknown key(퀘스트)||USEC Stash on Customs key(5x2 무기 상자, 4x4 무기 상자, 나무 상자)</item>
+        <item>Factory Exit key(나무 상자, 서랍, 잡템, 탈출구, 퀘스트)||Dorm Guard Desk key(6x3 나무 상자, 무기 거치대, 나무 탄약 상자)||Dorm room 104 key(공구 상자, 옷)||Dorm room 105 key(금고, 잡템)||Dorm room 110 key(금고, 잡템)||Dorm room 114 key(의료 상자, 금고, 컴퓨터, 잡템, 퀘스트)||Dorm room 206 key(퀘스트)||Dorm room 103 key(잡템)||Dorm room 108 key(컴퓨터, 서랍)||Dorm room 118 key(옷, 잡템)||Dorm room 203 key(가방, 퀘스트)||Dorm room 204 key(무기 거치대, 금고, 잡템)||Dorm room 214 key(금고, 잡템, 퀘스트)||Dorm room 218 key(잡템)||Dorm room 220 key(잡템, 금품, 퀘스트)||Dorm room 303 key(나무 상자, 잡템, 퀘스트)||Dorm room 306 key(금품)||Dorm room 308 key(금품)||Dorm room 315 key(금품)||Marked key(잡템, 귀중품, 퀘스트)||Machinery key(퀘스트)||Car key||Military Base Checkpoint key(나무 탄약 상자, 무기 거치대, 나무 상자)||Tarkone Director\'s office key(가방, 컴퓨터, 금고, 옷, 잡템, 퀘스트)||Portable Cabin key(잡템)||Portable Cabin key of Customs Factory zone(잡템)||Trailer park Cabin key(옷, 퀘스트)||Cabinet key(금고, 잡템)||The key to The Gas Station Storage room(의료 상자)||Unknown key(퀘스트)||USEC Stash on Customs key(5x2 무기 상자, 4x4 무기 상자, 나무 상자)</item>
     </string-array>
 
     <string-array name="key_woods">
@@ -6125,6 +6169,19 @@
         <item>바이져 장착 가능</item>
     </string-array>
 
+    <string-array name="h_tagilla_mask">
+        <item>Tagilla\'s welding mask ("UBEY", "Gorilla")</item>
+        <item>5</item>
+        <item>정수리, 귀, 눈, 턱</item>
+        <item>40</item>
+        <item>낮음</item>
+        <item>이동속도 {R-5%}, 화면 전환 속도 {R-10%}, 인체공학 {R-10}</item>
+        <item>강철(Armor Steel)</item>
+        <item>없음</item>
+        <item>가능</item>
+        <item>다른 헬멧을 사용할 수 있습니다.</item>
+    </string-array>
+
     <string-array name="h_vulkan_5">
         <item>Vulkan-5 (LShZ-5) heavy Helmet</item>
         <item>6</item>
@@ -6150,7 +6207,18 @@
     </string-array>
 
     <string-array name="h_paca">
-        <item>PACA soft Armor</item>
+        <item>PACA Soft Armor</item>
+        <item>2</item>
+        <item>가슴, 복부</item>
+        <item>50</item>
+        <item>200</item>
+        <item>이동속도 {R-3%}, 화면 전환 속도 {R-1%}, 인체공학 {R-1}</item>
+        <item>아라미드(Aramid)</item>
+        <item>7kg</item>
+    </string-array>
+
+    <string-array name="h_paca_rivals">
+        <item>PACA Soft Armor(Rivals Edition)</item>
         <item>2</item>
         <item>가슴, 복부</item>
         <item>50</item>
@@ -6224,6 +6292,17 @@
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-2%}, 인체공학 {R-3}</item>
         <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>5kg</item>
+    </string-array>
+
+    <string-array name="h_thor_concealable">
+        <item>NFM THOR Concealable Vest body armor</item>
+        <item>4</item>
+        <item>가슴, 복부</item>
+        <item>35</item>
+        <item>70</item>
+        <item>이동속도 {R-4%}, 화면 전환 속도 {R-4%}, 인체공학 {R-3}</item>
+        <item>합성재료(Combined materials)</item>
+        <item>9kg</item>
     </string-array>
 
     <string-array name="h_6b13">
@@ -6369,6 +6448,17 @@
         <item>6.2kg</item>
     </string-array>
 
+    <string-array name="h_thor_integrated">
+        <item>NFM THOR Integrated Carrier body armor</item>
+        <item>6</item>
+        <item>가슴, 복부, 팔</item>
+        <item>55</item>
+        <item>110</item>
+        <item>이동속도 {R-36%}, 화면 전환 속도 {R-16%}, 인체공학{R-20}</item>
+        <item>합성재료(Combined Materials)</item>
+        <item>18kg</item>
+    </string-array>
+
     <string-array name="h_zhuk_6a">
         <item>Zhuk-6a heavy armor</item>
         <item>6</item>
@@ -6456,6 +6546,19 @@
         <item>layout_2222_2222_2_</item>
     </string-array>
 
+    <string-array name="h_mk4a_assault">
+        <item>CQC Osprey MK4A plate carrier (Assualt, MTP)</item>
+        <item>4</item>
+        <item>가슴, 왼팔, 오른팔</item>
+        <item>60</item>
+        <item>100</item>
+        <item>이동속도 {R-11%}, 화면 전환 속도 {R-11%}, 인체공학 {R-7}</item>
+        <item>알루미늄(Aluminium)</item>
+        <item>차지하는 칸당 2.083칸</item>
+        <item>10.7kg</item>
+        <item>layout_11111_22222_2242</item>
+    </string-array>
+
     <string-array name="h_m1">
         <item>ANA Tacticle M1 armored rig</item>
         <item>4</item>
@@ -6521,6 +6624,19 @@
         <item>layout_2222_1111_2112</item>
     </string-array>
 
+    <string-array name="h_mk4a_protection">
+        <item>CQC Osprey MK4A plate carrier(Protection, MTP)</item>
+        <item>5</item>
+        <item>가슴, 왼팔, 오른팔</item>
+        <item>55</item>
+        <item>110</item>
+        <item>이동속도 {R-16}, 화면 전환 속도 {R-11%}, 인체공학{R-11}</item>
+        <item>합성재료(Combined materials)</item>
+        <item>차지하는 칸당 2칸</item>
+        <item>12.5kg</item>
+        <item>layout_222_32223_141</item>
+    </string-array>
+
     <string-array name="h_aacpc">
         <item>Ars Arma CPC MOD.2 plate carrier</item>
         <item>5</item>
@@ -6532,6 +6648,19 @@
         <item>차지하는 칸당 약 1.917칸</item>
         <item>8.5kg</item>
         <item>layout_22233_111_422</item>
+    </string-array>
+
+    <string-array name="h_mbav_tagilla_edition">
+        <item>Crye Precision AVS MBAV (Tagilla Edition)</item>
+        <item>6</item>
+        <item>가슴</item>
+        <item>60</item>
+        <item>109</item>
+        <item>이동속도 {R-6%}, 화면 전환 속도 {R-5%}, 인체공학 {R-8}</item>
+        <item>티타늄(Titan)</item>
+        <item>차지하는 칸당 약 1.334칸</item>
+        <item>7.8kg</item>
+        <item>layout_222_222</item>
     </string-array>
 
     <string-array name="h_scav_vest">
@@ -7207,7 +7336,7 @@
         <item>경험치 4100\n프라퍼 우호도 +0.11\n12000루블\nSaiga 12ga\nSb.5 5-round 12/76 magazine for SOK-12and compatible weapons 3개\n프라퍼 LL1에서 5.45mm PS 해금</item>
         <item> </item>
         <item>BP depot</item>
-        <item>빨간 창고 2층을 Custom Office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다\n전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
+        <item>빨간 창고 2층을 Tarkone Director\'s office key로 열어 안쪽방에서 목표물을 획득한 후 탈출하고, 팩토리 오피스의 2층에 전달해야 합니다\n전달하다가 죽으면 목표물을 다시 찾아와야합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -7234,7 +7363,7 @@
         <item> </item>
         <item>The bunker - Part 2</item>
         <item> </item>
-        <item>아니오</item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
@@ -7245,9 +7374,35 @@
         <item> </item>
         <item>경험치 6600\n프라퍼 우호도 +0.08\n25000루블\nAKS-74UB\n5.45x39mm BS 120발</item>
         <item> </item>
-        <item>x</item>
+        <item>No place for renegades</item>
         <item>한 레이드에 모두 찾아야합니다.</item>
-        <item>아니오</item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_no_place_for_renegades">
+        <item>No Place for Renegades(배신자를 위한 자리는 없다.)</item>
+        <item>제거</item>
+        <item> - 군사기지(Reserve)의 지하 벙커 속에서 레이더 5명 사살하기</item>
+        <item>12레벨</item>
+        <item>경험치 8500\n프라퍼 우호도 +0.03\n4만 루블\nAK-103\n30-round 7.62x39 magazine for AK-103 and compatible weapons 3개\n7.62x39mm PS 150발</item>
+        <item> </item>
+        <item>Documents</item>
+        <item> </item>
+        <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_documents">
+        <item>Documents(문서)</item>
+        <item>들고오기</item>
+        <item> - 군사기지(Reserve)에서 군용 문서 3개를 가져오기\n- 프라퍼에게 넘기기</item>
+        <item></item>
+        <item>경험치 7800\n프라퍼 우호도 +0.04\n47340루블\nNSPU-M night Scope\nZenit 2P Klesch flashligh + laser designator\nPBS-1 7.62x39 silencer</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>예</item>
         <item> </item>
     </string-array>
 
@@ -7498,6 +7653,19 @@
         <item> </item>
     </string-array>
 
+    <string-array name="q_the_bosses_gathering">
+        <item>The Bosses gathering(보스 모임)</item>
+        <item>탐험</item>
+        <item> - 보스들의 미팅을 보고 군사기지(Reserve)에서 탈출하기</item>
+        <item> </item>
+        <item>카리스마(Charisma) 1레벨\n스트레스 저항성(Stress Resistence) 1레벨</item>
+        <item> </item>
+        <item>x</item>
+        <item>초기화 직전 이벤트성으로 추가된 퀘스트입니다. 현재는 없는 퀘스트입니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
     <!-- Therapist's Quests -->
 
     <string-array name="q_shortage">
@@ -7588,6 +7756,19 @@
         <item>General wares, Health Care Privacy - Part 1, Car repair, Supply plans, Kind of sabotage</item>
         <item>세관(Customs)의 기숙사 2층 건물의 114호에 가방이 있습니다.</item>
         <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_disease_history">
+        <item>Disease History(질병사)</item>
+        <item>주워오기</item>
+        <item> - 의학 저널 1, 2를 군사기지(Reserve)에서 찾기\n - 테라피스트에게 넘기기</item>
+        <item>15레벨</item>
+        <item>경험치 7200\n테라피스트 + 0.03\nGrizzly 1개\nIbuprofen 1개\nCALOK-B Hemostatic 5개\n3만 루블</item>
+        <item> </item>
+        <item>x</item>
+        <item>RB-KSM, RB-SMP 키가 필요합니다. 두 방 모두 군사기지(Reserve)의 흰 비숍 건물 2층에 있습니다.</item>
+        <item>알수없음</item>
         <item> </item>
     </string-array>
 
@@ -7843,7 +8024,7 @@
     <string-array name="q_collector">
         <item>Collector(수집가)</item>
         <item>주워오기</item>
-        <item>- 레이드에서 Old firesteel 찾기\n- 레이드에서 Antique axe 찾기\n- 레이드에서 Battered antique Book 찾기\n- 레이드에서 FireKlean gun lube 찾기\n- 레이드에서 Golden rooster 찾기\n- 레이드에서 Silver Badge 찾기\n- 레이드에서 Deadlyslob\'s beard oil 찾기\n- 레이드에서 Golden 1GPhone 찾기\n- 레이드에서 Jar of DevilDog mayo 찾기\n- 레이드에서 Can of sprats 찾기\n- 레이드에서 Fast mustache 찾기\n- 레이드에서 Kotton beanie 찾기\n- 레이드에서 Can of Dr. Lupo\'s coffe beans 찾기\n- 레이드에서 Pestily plague mask 찾기\n- 레이드에서 Raven figurine 찾기\n- 레이드에서 Shroud half-mask 찾기\n- 레이드에서 Veritas guitar pick 찾기\n- 레이드에서 42nd Signature Blend English Tea 찾기</item>
+        <item>- 레이드에서 Old firesteel 찾기\n- 레이드에서 Antique axe 찾기\n- 레이드에서 Battered antique Book 찾기\n- 레이드에서 FireKlean gun lube 찾기\n- 레이드에서 Golden rooster 찾기\n- 레이드에서 Silver Badge 찾기\n- 레이드에서 Deadlyslob\'s beard oil 찾기\n- 레이드에서 Golden 1GPhone 찾기\n- 레이드에서 Jar of DevilDog mayo 찾기\n- 레이드에서 Can of sprats 찾기\n- 레이드에서 Fast mustache 찾기\n- 레이드에서 Kotton beanie 찾기\n- 레이드에서 Can of Dr. Lupo\'s coffe beans 찾기\n- 레이드에서 Pestily plague mask 찾기\n- 레이드에서 Raven figurine 찾기\n- 레이드에서 Shroud half-mask 찾기\n- 레이드에서 Veritas guitar pick 찾기\n- 레이드에서 42nd Signature Blend English Tea 찾기\n- 레이드에서 Evasion armband 찾기\n- 레이드에서 Can of RatCola 찾기\n- 레이드에서 Loot Lod plushie 찾기\n- 레이드에서 WZ Wallet 찾기\n-레이드에서 LVNDMARK\'s rat poison 찾기\n- 71레벨을 달성하기</item>
         <item>일부 퀘스트를 제외한 모든 퀘스트를 완료</item>
         <item>Secure Container Kappa(3*4)</item>
         <item> </item>
@@ -8155,7 +8336,7 @@
         <item> </item>
     </string-array>
 
-    <!-- Peacekeeper Quests  -->
+    <!-- Peacekeeper's Quests  -->
 
     <string-array name="q_fishing_gear">
         <item>Fishing Gear(낚시 용품)</item>
@@ -8219,6 +8400,32 @@
         <item>The Cult - Part 1, Spa Tour - Part 1</item>
         <item>화물은 각각 CCP Temp 탈출구와 리조트에 위치해 있습니다.\nMRE는 플리마켓에서 사도 됩니다.\n퀘스트를 수주하면 UN 유니폼을 받습니다.</item>
         <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_revision">
+        <item>Revision(개정)</item>
+        <item>업데이트 예정</item>
+        <item>- 군사기지(Reserve)에서 BMP-2 4개 찾기\n- 군사기지(Reserve)에서 IFV LAV III 2개 찾기</item>
+        <item> </item>
+        <item>업데이트 예정</item>
+        <item> </item>
+        <item>업데이트 예정</item>
+        <item> </item>
+        <item>업데이트 예정</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_experience_exchange">
+        <item>Experience Exchange(경험과 맞바꾸다)</item>
+        <item>주워오기</item>
+        <item>- package with T-90M Commander control panel을 군사기지(Reserve)에서 주워오기\n- 프라퍼에게 넘기기</item>
+        <item> </item>
+        <item>경험치 7200\n피스키퍼 우호도 +0.02\n5.7x28mm R37.F 200발\n800달러</item>
+        <item> </item>
+        <item>업데이트 예정</item>
+        <item>군사기지(Reserve)의 D-2 탈출구 앞 전등방의 파이프 사이에 있습니다.</item>
+        <item>업데이트 예정</item>
         <item> </item>
     </string-array>
 
@@ -8535,7 +8742,7 @@
         <item> </item>
     </string-array>
 
-    <!--  Mechanic Quest  -->
+    <!--  Mechanic's Quest  -->
 
     <string-array name="q_introduction">
         <item>Introduction(소개)</item>
@@ -8772,6 +8979,32 @@
         <item> </item>
     </string-array>
 
+    <string-array name="q_surplus_goods">
+        <item>Surplus Goods(여분의 물품)</item>
+        <item>탐험</item>
+        <item>- MBT Navigation complex를 군사기지(Reserve)에서 찾기\n- 메카닉에게 넘기기</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Back door</item>
+        <item>RB-ST방 안쪽의 상자에 들어있습니다.</item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_back_door">
+        <item>Back door(뒷문)</item>
+        <item>발견</item>
+        <item>- 군사기지(Reserve)의 전원이 들어오지 않은 비밀 탈출구를 찾기</item>
+        <item> </item>
+        <item>경험치 8200\n메카닉 우호도 +0.02\n1052유로\nSV-98</item>
+        <item> </item>
+        <item>x</item>
+        <item>D-2 탈출구로 탈출하면 됩니다.</item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
     <string-array name="q_farming_part_1">
         <item>Farming - Part 1(채굴 1)</item>
         <item>완료</item>
@@ -8819,7 +9052,7 @@
         <item>경험치 +8100\n메카닉 우호도 +0.03\n2만 루블\n비트코인</item>
         <item> </item>
         <item>Farming - Part 4, A Shooter Born in Heaven</item>
-        <item>세관(Customs)의 빨간 창고의 2층에 Customs office key를 사용해 들어가 안쪽 방에 서랍 아래 물건이 있습니다.</item>
+        <item>세관(Customs)의 빨간 창고의 2층에 Tarkone Director\'s office key를 사용해 들어가 안쪽 방에 서랍 아래 물건이 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8980,6 +9213,32 @@
         <item>Make ULTRA Great Again, Big sale</item>
         <item>래그맨 LL2는 레벨과 판매량만 올리면 됩니다.</item>
         <item>예</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_fuel_matter">
+        <item>Fuel Matter(연료 문제)</item>
+        <item>완료</item>
+        <item> - 군사기지(Reserve)에서 연료 탱크 그룹에 신호기를 설치하기\n군사기지(Reserve)를 탈출하기</item>
+        <item> </item>
+        <item>경험치 8200\n래그맨 우호도 +0.03\n5L Propane Tank 2개\n3만 루블</item>
+        <item> </item>
+        <item>Inventory check</item>
+        <item>탱크들은 각각 맨홀 탈출구 옆과 기차역 옆에 있습니다.</item>
+        <item>알수없음</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_inventory_check">
+        <item>Inventory Check(주머니 뒤지기)</item>
+        <item>완료</item>
+        <item> - 서쪽 병영에서 무기고 두개와 의무실 찾기\n - 북쪽 병영에서 무기고와 의무실 찾기</item>
+        <item> </item>
+        <item>경험치 10000\n래그맨 우호도 +0.03\nZSh-1-2M helmet(Green)\n3만 루블</item>
+        <item> </item>
+        <item>x</item>
+        <item>서쪽 병영은 검은색 폰으로 각각 4층, 3층, 2층(RB-ORB3)의 검은 비숍쪽 방향에 있습니다.\n북쪽 병영은 흰색 폰으로 각각 4층, 2층(RB-ORB2)의 검은색 폰 방향에 있습니다.</item>
+        <item>알수없음</item>
         <item> </item>
     </string-array>
 

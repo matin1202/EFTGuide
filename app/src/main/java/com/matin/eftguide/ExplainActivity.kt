@@ -5,6 +5,7 @@ import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.text.Html
 import android.util.Log
+import androidx.core.widget.TextViewCompat
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_explain.*
@@ -55,6 +56,7 @@ class ExplainActivity : BaseActivity() {
             for(i in buffer.indices){
                 val html = Html.fromHtml(stringArray[i], 0, ImageGetter(), null)
                 buffer[i].text = html
+                TextViewCompat.setAutoSizeTextTypeWithDefaults(buffer[i], TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
             }
 
 

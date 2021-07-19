@@ -67,7 +67,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
             val requirements = mutableListOf<String>(
                 "15레벨, 0.20, 750,000루블||22레벨, 0.35, 1,500,000루블||33레벨, 0.50, 2,300,000루블",
                 "13레벨, 0.15, 400,000루블||20레벨, 0.30, 700,000루블||32레벨, 0.60, 900,000루블",
-                "우호도 없음",
+                "1레벨, 6.00 0루블||유저 스캐브 플레이시|| 다른 스캐브 사살 -0.02|||| 보스 사살 -0.22||PMC 사살 +0.1||배신한 스캐브(스캐브 쏜 유캐브) 사살 +0.1||보스나 스캐브가 적 죽이는 거 도울 시 오름||택시 탈출구로 탈출시 +0.25(런쓰루시 +0.125)",
                 "15레벨, 0.20, 800,000루블||28레벨, 0.48, 1,600,000루블||35레벨, 0.75, 2,600,000루블",
                 "10레벨, 0.00, 11,000달러||18레벨, 0.30, 25,000달러||29레벨, 0.60, 32,000달러",
                 "20레벨, 0.15, 750,000루블||30레벨, 0.30, 1,600,000루블||40레벨, 0.60, 2,500,000루블",
@@ -79,8 +79,8 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                 val requirement = view.findViewById<TextView>(R.id.tv_dealer_requirement)
                 view.findViewById<ImageView>(R.id.iv_dealer_profile)
                     .setImageResource(R.drawable.fence)
-                requirement.text = "우호도 없음"
-                requirement.textSize = 15.0f
+                requirement.text = requirements[2].replace("||", "\n")
+                requirement.textSize = 11.0f
                 view.findViewById<TextView>(R.id.tv_dealer_explain).setOnClickListener(this)
                 view.findViewById<TextView>(R.id.tv_dealer_level_i).visibility = View.GONE
                 view.findViewById<TextView>(R.id.tv_dealer_level_ii).visibility = View.GONE

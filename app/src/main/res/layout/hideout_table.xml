@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="hardcodedText"
+    android:background="@color/text_color"
+    android:stretchColumns="*"
+    >
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_hideout_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tv_hideout_requirements"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:padding="4dp"
+            android:text="2000루블\nToilet paper" />
+
+        <TextView
+            android:id="@+id/tv_hideout_function"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:padding="4dp"
+            android:text="Air filter for mask\n Army Bandage" />
+
+        <TextView
+            android:id="@+id/tv_hideout_construction_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@color/background"
+            android:padding="4dp"
+            android:text="즉시 건설"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+</TableLayout>

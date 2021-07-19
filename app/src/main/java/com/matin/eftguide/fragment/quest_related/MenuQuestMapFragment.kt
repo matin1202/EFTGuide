@@ -1,6 +1,7 @@
 package com.matin.eftguide.fragment.quest_related
 
 import android.content.Context
+import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import android.os.Bundle
@@ -10,6 +11,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.matin.eftguide.PhotoActivity
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_quest_maps.view.*
 import org.jetbrains.anko.*
@@ -27,7 +29,7 @@ class MenuQuestMapFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         resID = resources.getIdentifier(maps, "array", context?.packageName)
-        return QuestMapUI(maps).createView(AnkoContext.create(context!!, this))
+        return QuestMapUI(maps).createView(AnkoContext.create(requireContext(), this))
     }
 
     class QuestMapUI(private val quest: String?): AnkoComponent<MenuQuestMapFragment>{
@@ -63,6 +65,12 @@ class MenuQuestMapFragment : Fragment() {
                                 this.gravity = Gravity.CENTER
                                 this.padding = 16
                                 this.onClick {
+                                    if(!mapsList[i].startsWith("http")){
+                                        context?.startActivity(
+                                            Intent(context, PhotoActivity::class.java).putExtra("id", resources.getIdentifier(mapsList[i], "image", context?.packageName)).addFlags(
+                                                Intent.FLAG_ACTIVITY_NEW_TASK))
+                                        return@onClick
+                                    }
                                     val cm =
                                         context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
                                     val activeNetwork: NetworkInfo? = cm.activeNetworkInfo

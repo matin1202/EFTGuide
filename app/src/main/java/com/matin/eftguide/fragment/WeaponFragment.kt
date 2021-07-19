@@ -30,7 +30,7 @@ class WeaponFragment : Fragment() {
         list.add(WFRecycler(context,
             R.drawable.assault,
             "돌격 소총",
-            arrayListOf("AK-101", "AK-102", "AK-103", "AK-104", "AK-105", "AK-74", "AK-74M", "AK-74N", "AKS-74", "AKS-74U", "AKS-74UN", "AKS-74UB", "AKS-74N", "AKM", "AKMN", "AKMS", "AKMSN", "HK416A5", "M4A1", "MCX", "RFB", "DT MDR 5.56x45", "DT MDR .308", "ADAR 2-15", "SA-58", "TX-15", "ASH-12", "Vepr AKM/VPO-209", "Vepr AKM/VPO-136"), arrayListOf(R.drawable.ak_101, R.drawable.ak_102, R.drawable.ak_103, R.drawable.ak_104, R.drawable.ak_105, R.drawable.ak_74, R.drawable.ak_74m, R.drawable.ak_74n, R.drawable.aks_74, R.drawable.aks_74u, R.drawable.aks_74un, R.drawable.aks_74ub, R.drawable.aks_74n, R.drawable.akm, R.drawable.akmn, R.drawable.akms, R.drawable.akmsn, R.drawable.hk416a1, R.drawable.m4a1, R.drawable.mcx, R.drawable.rfb, R.drawable.dt_mdr_5, R.drawable.dt_mdr_308, R.drawable.adar2_15, R.drawable.sa_58, R.drawable.tx_15, R.drawable.ash_12, R.drawable.vpo_209, R.drawable.vpo_136),  "weapon"))
+            arrayListOf("AK-101", "AK-102", "AK-103", "AK-104", "AK-105", "AK-74", "AK-74M", "AK-74N", "AKS-74", "AKS-74U", "AKS-74UN", "AKS-74UB", "AKS-74N", "AKM", "AKMN", "AKMS", "AKMSN", "MK47", "HK416A5", "M4A1", "MCX", "RFB", "DT MDR 5.56x45", "DT MDR .308", "ADAR 2-15", "SA-58", "TX-15", "ASH-12", "Vepr AKM/VPO-209", "Vepr AKM/VPO-136"), arrayListOf(R.drawable.ak_101, R.drawable.ak_102, R.drawable.ak_103, R.drawable.ak_104, R.drawable.ak_105, R.drawable.ak_74, R.drawable.ak_74m, R.drawable.ak_74n, R.drawable.aks_74, R.drawable.aks_74u, R.drawable.aks_74un, R.drawable.aks_74ub, R.drawable.aks_74n, R.drawable.akm, R.drawable.akmn, R.drawable.akms, R.drawable.akmsn, R.drawable.mk47, R.drawable.hk416a1, R.drawable.m4a1, R.drawable.mcx, R.drawable.rfb, R.drawable.dt_mdr_5, R.drawable.dt_mdr_308, R.drawable.adar2_15, R.drawable.sa_58, R.drawable.tx_15, R.drawable.ash_12, R.drawable.vpo_209, R.drawable.vpo_136),  "weapon"))
 
         list.add(WFRecycler(context,
             R.drawable.assault,
@@ -54,8 +54,8 @@ class WeaponFragment : Fragment() {
         list.add(WFRecycler(context,
             R.drawable.shotgun,
             "산탄총",
-            arrayListOf("M870", "MP-133", "MP-153", "KS-23M", "Saiga-12", "Toz-106"),
-            arrayListOf(R.drawable.m870, R.drawable.mp_133, R.drawable.mp153, R.drawable.ks_23m, R.drawable.saiga_12, R.drawable.toz_106),  "weapon"))
+            arrayListOf("M870", "MP-133", "MP-153", "MP-155", "KS-23M", "Saiga-12", "Toz-106"),
+            arrayListOf(R.drawable.m870, R.drawable.mp_133, R.drawable.mp153, R.drawable.mp155, R.drawable.ks_23m, R.drawable.saiga_12, R.drawable.toz_106),  "weapon"))
 
         list.add(WFRecycler(context,
             R.drawable.sniper,

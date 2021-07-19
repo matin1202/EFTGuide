@@ -41,13 +41,14 @@
         android:id="@+id/tv_menu_ammo_caliber"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        app:layout_constraintHorizontal_weight="2"
         android:gravity="center"
         android:padding="8dp"
         android:text="7.62x39mm"
         android:textColor="@color/text_color"
         android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_menu_ammo_penetrate"
+        app:layout_constraintHorizontal_weight="2"
         app:layout_constraintStart_toEndOf="@+id/tv_menu_armor_class"
         app:layout_constraintTop_toTopOf="parent" />
 
