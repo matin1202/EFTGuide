@@ -1,0 +1,8 @@
+\n- (Secure Flash drive 3개 + Printer paper) -> 1개 31시간 40분 - Folder with intelligence
+\n- (UHF RFID Reader + TerraGroup Labs access keycard 12개 + Lab. Yellow keycard 3개 + Folder with intelligence 7개 + Magnet 3개) -> 1개 132시간 13분 - Lab. Violet keycard
+- (UHF RFID Reader + Secure Flash drive 3개 + VPX Flash Storage Module + Object 21WS keycard) -> 1개 65시간 32분 - Object 11SR keycard
+\n- (Printed circuit board 8개 + PC CPU 8개 + CPU Fan 2개 + VPX Flash Storage Module 2개 + Ratchet wrench 1개) -> 1개 96시간 57분 - Graphics Card
+\n- (TerraGroup Labs access keycard + Signal Jammer 2개) -> 1개 53시간 20분 - UHF RFID Reader
+\n- (Broken GPhone X + Powerbank + Military circuit board) -> 1개 38시간 53분 - Military COFDM
+\n- (Military circuit board 2개 + PC CPU 2개 + Capacitors 5개) -> 1개 37시간 37분 - Virtex
+\n- (Broken GPhone + Broken GPhone X + SSD drive) -> 3개 34시간 13분 - Secure Flash drive

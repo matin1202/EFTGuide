@@ -93,6 +93,16 @@ class MapFragment : Fragment() {
             )
         )
 
+        list.add(
+            RecyclerMain(
+                R.drawable.lighthouse,
+                "Lighthouse(등대)",
+                context!!,
+                MapActivity::class.java,
+                "map_lighthouse"
+            )
+        )
+
         val adapter = MainAdapter(list)
 
         val recyclerView: RecyclerView = view.findViewById(R.id.rl_map_menu)

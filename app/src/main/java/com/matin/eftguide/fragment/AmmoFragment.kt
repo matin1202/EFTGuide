@@ -68,7 +68,7 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 requireContext(), R.raw.ammo_919,
                 "9x19",
-                arrayListOf("7N31","AP 6.3", "Pst gzh", "Green Tracer", "Luger CCI", "PSO gzh", "QuakeMaker", "RIP"),
+                arrayListOf("PBP","AP 6.3", "Pst gzh", "Green Tracer", "Luger CCI", "PSO gzh", "QuakeMaker", "RIP"),
                 arrayListOf(R.drawable.n7n31_19, R.drawable.ap_19, R.drawable.pst_19, R.drawable.gt_19, R.drawable.luger_19, R.drawable.pso_19, R.drawable.quakemaker_19, R.drawable.rip_19)
                 )
         )
@@ -92,7 +92,7 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 requireContext(), R.raw.ammo_921,
                 "9x21",
-                arrayListOf("SP13", "SP10", "SP11", "SP12"),
+                arrayListOf("BT", "PS", "P", "PE"),
                 arrayListOf(R.drawable.sp13_21, R.drawable.sp10_21, R.drawable.sp11_21, R.drawable.sp12_21)
                 )
         )
@@ -116,8 +116,8 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 requireContext(), R.raw.ammo_939,
                 "9x39",
-                arrayListOf("7N12 BP", "7N9 SPP", "SP-6", "SP-5"),
-                arrayListOf(R.drawable.bp_939, R.drawable.spp_939, R.drawable.sp6_939, R.drawable.sp5_939)
+                arrayListOf("7N12 BP", "7N9 SPP", "PAB-9", "SP-6", "SP-5"),
+                arrayListOf(R.drawable.bp_939, R.drawable.spp_939, R.drawable.pab9_939, R.drawable.sp6_939, R.drawable.sp5_939)
                 )
         )
         list.add(
@@ -156,8 +156,8 @@ class AmmoFragment : Fragment() {
             AFRecycler(
                 requireContext(), R.raw.ammo_300,
                 ".300",
-                arrayListOf("BCP", "AP"),
-                arrayListOf(R.drawable.bpz_300, R.drawable.ap_300)
+                arrayListOf("Whisper", "V-Max","BCP", "M62", "AP"),
+                arrayListOf(R.drawable.whisper_300, R.drawable.vmax_300 ,R.drawable.bpz_300, R.drawable.m62_300, R.drawable.ap_300)
             )
         )
         list.add(

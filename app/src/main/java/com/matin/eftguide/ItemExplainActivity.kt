@@ -222,7 +222,8 @@ class ItemExplainActivity : BaseActivity() {
                         getString(R.string.best_suppr),
                         getString(R.string.budget_ammo),
                         getString(R.string.best_ammo),
-                        getString(R.string.note)
+                        getString(R.string.note),
+                        "아이템 설명"
                     )
                     for (i in buffer.indices) {
                         if (i == 8 || i == 9 || i == 10) {
@@ -232,6 +233,8 @@ class ItemExplainActivity : BaseActivity() {
                             mods.add(stringArray[i])
                             continue
                         }
+                        if(i == 15) continue
+
                         text += "${buffer[i]} : ${
                             stringArray[i].replace("{R", "<font color='red'>")
                                 .replace("{B", "<font color='blue'>")

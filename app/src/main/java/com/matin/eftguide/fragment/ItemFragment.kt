@@ -43,7 +43,7 @@ class ItemFragment : Fragment() {
             )
         )
 
-        list.add(
+        /*list.add(
             RecyclerMain(
                 R.drawable.secure_container,
                 getString(R.string.secure_container),
@@ -51,7 +51,7 @@ class ItemFragment : Fragment() {
                 MenuActivity::class.java,
                 "container"
             )
-        )
+        )*/
 
         val adapter = MainAdapter(list)
         val recyclerView: RecyclerView = view.findViewById(R.id.rl_item_menu)

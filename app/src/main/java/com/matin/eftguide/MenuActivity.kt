@@ -145,6 +145,11 @@ class MenuActivity : BaseActivity() {
                     .replace(R.id.fl_menu, ChestRigFragment())
                     .commit()
             }
+            "hideout" -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fl_menu, HideoutFragment())
+                    .commit()
+            }
             else -> {
                 Toast.makeText(applicationContext, "준비 중입니다.", Toast.LENGTH_SHORT).show()
             }

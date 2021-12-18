@@ -36,7 +36,7 @@ class MenuMapFragment : Fragment() {
         val textView = view.findViewById<TextView>(R.id.tv_menu_map)
         var text = ""
         val buffer = arrayListOf(getString(R.string.name), getString(R.string.playtime), getString(R.string.players), getString(R.string.enermy))
-        for(i in explainArray.indices){
+        for(i in buffer.indices){
             text += "${buffer[i]} : ${explainArray[i]}\n"
         }
         textView.text = text

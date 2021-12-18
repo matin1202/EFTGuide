@@ -1,5 +1,6 @@
 package com.matin.eftguide.fragment.quest_related
 
+import android.content.res.Resources
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -48,6 +49,9 @@ class MenuQuestExplainFragment : Fragment() {
             view.tv_quest_tip.text = quest[7]
             view.tv_quest_need_for_kappa.text = "Kappa 컨테이너를 위한 필수 퀘스트 : ${quest[8]}"
 
+        }catch (e:Resources.NotFoundException){
+            toast("현재 데이터가 없습니다.")
+            toast("곧 업데이트 예정이니 기다려주세요.")
         }catch (e: Exception){
             toast("에러가 발생하였습니다. $e")
         }

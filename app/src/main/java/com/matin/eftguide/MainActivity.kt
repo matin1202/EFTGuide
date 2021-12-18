@@ -234,7 +234,7 @@ class MainActivity : BaseActivity() {
                 "quest"
             )
         )
-        /*list.add(
+        list.add(
             RecyclerMain(
                 R.drawable.hideout,
                 getString(R.string.hideout),
@@ -242,7 +242,7 @@ class MainActivity : BaseActivity() {
                 MenuActivity::class.java,
                 "hideout"
             )
-        ) */
+        )
         list.add(
             RecyclerMain(
                 R.drawable.abg,

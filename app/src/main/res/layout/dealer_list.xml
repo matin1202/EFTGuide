@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:id="@+id/hideList1"
+        android:layout_margin="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintDimensionRatio="1:1.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/hideList2">
+
+        <ImageView
+            android:id="@+id/hideout_icon1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/hide_icon"
+            android:scaleType="centerInside"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/hideout_name1hideout_list.xml"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="test"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hideList2"
+        android:layout_margin="4dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintDimensionRatio="1:1.5"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/hideList1"
+        app:layout_constraintEnd_toStartOf="@id/hideList3">
+
+        <ImageView
+            android:id="@+id/hideout_icon2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/hide_icon"
+            android:scaleType="centerInside"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/hideout_name2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="test"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hideList3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintDimensionRatio="1:1.5"
+        android:layout_margin="4dp"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/hideList2"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/hideout_icon3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/hide_icon"
+            android:scaleType="centerInside"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/hideout_name3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:gravity="center"
+            android:text="test"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@ class MenuUsableKeysFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_menu_usable_keys, container, false)
-        val buffer = resources.getStringArray(resources.getIdentifier("key_$maps", "array", context!!.packageName))[0].split("||")
+        val buffer = resources.getStringArray(resources.getIdentifier("key_${maps!!.replace("map_", "")}", "array", context!!.packageName))[0].split("||")
         val viewInflater = activity!!.layoutInflater
         val linearLayout = rootView.findViewById<LinearLayout>(R.id.ll_menu_explain)
         for(i in buffer.indices){

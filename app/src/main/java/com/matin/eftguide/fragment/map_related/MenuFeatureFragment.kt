@@ -20,7 +20,7 @@ class MenuFeatureFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_menu_feature, container, false)
         val tv = view.findViewById<TextView>(R.id.tv_menu_feature)
-        val str = resources.getString(resources.getIdentifier("feature_$maps", "string", context!!.packageName))
+        val str = resources.getString(resources.getIdentifier("feature_${maps!!.replace("map_", "")}", "string", context!!.packageName))
         tv.text = str
         Log.d("MFF", str)
         return view

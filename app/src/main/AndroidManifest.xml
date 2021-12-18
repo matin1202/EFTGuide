@@ -8,13 +8,20 @@
 
     <application
         android:name=".exceptionHandlers.EFTApplication"
-        android:allowBackup=""
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HideoutActivity"
+        <activity
+            android:name=".fragment.hideout_related.HideoutAlmostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmmoTierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HideoutActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
 
@@ -67,11 +74,11 @@
         <activity
             android:name=".ExplainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MenuActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"

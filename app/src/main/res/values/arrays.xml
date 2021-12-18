@@ -18,6 +18,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
         <item>651000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_9_P_gzh">
@@ -35,6 +36,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
         <item>200000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PBM">
@@ -52,6 +54,7 @@
         <item> </item>
         <item>Prapor LL2</item>
         <item>665100</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PMM">
@@ -69,6 +72,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>664000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PPe_gzh">
@@ -86,6 +90,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
         <item>400000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PPT_gzh">
@@ -103,6 +108,7 @@
         <item>@string/tracerNsubsonic</item>
         <item>Prapor LL1</item>
         <item>510000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PRS_gs">
@@ -120,6 +126,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
         <item>300000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PS_gs_PPO">
@@ -137,6 +144,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
         <item>300000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PSO_gzh">
@@ -154,6 +162,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
         <item>200000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_Pst_gzh">
@@ -171,6 +180,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1</item>
         <item>610000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_PSV">
@@ -188,6 +198,7 @@
         <item>@string/subsonic</item>
         <item>Jaeger LL2</item>
         <item>000000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_RG028_gzh">
@@ -205,6 +216,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
         <item>620000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_SP7_gzh">
@@ -222,6 +234,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>000000</item>
+        <item>9x18mm</item>
     </string-array>
 
     <string-array name="a9x18_PM_SP8_gzh">
@@ -239,13 +252,14 @@
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
         <item>000000</item>
+        <item>9x18mm</item>
     </string-array>
 
 
     <!--                    9x19mm                             -->
 
-    <string-array name="a9x19_7N31">
-        <item>7N31</item>
+    <string-array name="a9x19_PBP">
+        <item>PBP</item>
         <item>52</item>
         <item>39</item>
         <item>53%</item>
@@ -257,8 +271,9 @@
         <item> </item>
         <item>560m/s</item>
         <item> </item>
-        <item>0.12.11 기준 패치됨</item>
+        <item></item>
         <item>666543</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_QuakeMaker">
@@ -276,6 +291,7 @@
         <item>@string/subsonic</item>
         <item>Peacekeeper LL2</item>
         <item>610000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_AP_63">
@@ -291,8 +307,9 @@
         <item> </item>
         <item>392m/s</item>
         <item> </item>
-        <item>0.12.11 기준 패치됨</item>
+        <item></item>
         <item>666310</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_Green_Tracer">
@@ -310,6 +327,7 @@
         <item>@string/tracer</item>
         <item>Mechanic LL3</item>
         <item>631000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_Luger_CCI">
@@ -327,6 +345,7 @@
         <item> </item>
         <item>Skier LL4</item>
         <item>620000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_PSO_gzh">
@@ -344,6 +363,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL1, Jaeger LL1</item>
         <item>610000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_Pst_gzh">
@@ -361,6 +381,7 @@
         <item> </item>
         <item>Prapor LL2\nMechanic LL1\nPeacekeeper LL2</item>
         <item>662000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <string-array name="a9x19_RIP">
@@ -378,6 +399,7 @@
         <item> </item>
         <item>Skier LL4(교환품) 퀘스트 Setup 이후</item>
         <item>000000</item>
+        <item>9x19mm</item>
     </string-array>
 
     <!--                    7.62x25mm                          -->
@@ -397,6 +419,7 @@
         <item> </item>
         <item>Prapor LL1</item>
         <item>510000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_FMJ43">
@@ -414,6 +437,7 @@
         <item> </item>
         <item>Prapor LL1</item>
         <item>500000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_LRN">
@@ -431,6 +455,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>300000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_LRNPC">
@@ -448,6 +473,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>300000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_P_gl">
@@ -465,6 +491,7 @@
         <item> </item>
         <item>Prapor LL2</item>
         <item>610000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_Pst_gzh">
@@ -482,6 +509,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>663100</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <string-array name="a762x25_TT_PT_gzh">
@@ -499,6 +527,7 @@
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
         <item>610000</item>
+        <item>7.62x25mm</item>
     </string-array>
 
     <!--                    9x21mm Gyurza                       -->
@@ -518,6 +547,7 @@
         <item> </item>
         <item>Prapor LL4</item>
         <item>666411</item>
+        <item>9x21mm</item>
     </string-array>
 
     <string-array name="a9x21_P">
@@ -535,6 +565,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>630000</item>
+        <item>9x21mm</item>
     </string-array>
 
     <string-array name="a9x21_PE">
@@ -552,6 +583,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>620000</item>
+        <item>9x21mm</item>
     </string-array>
 
     <string-array name="a9x21_BT">
@@ -569,14 +601,15 @@
         <item>@string/tracer</item>
         <item>Prapor LL4</item>
         <item>666521</item>
+        <item>9x21mm</item>
     </string-array>
 
     <!--                    .45 ACP                             -->
 
     <string-array name="a45_ACP_FMJ">
-        <item>.45 ACP FMJ</item>
-        <item>72</item>
-        <item>19</item>
+        <item>.45 ACP Match FMJ</item>
+        <item>76</item>
+        <item>25</item>
         <item>36%</item>
         <item> </item>
         <item> </item>
@@ -584,17 +617,18 @@
         <item>6.5%</item>
         <item> </item>
         <item> </item>
-        <item>285m/s</item>
+        <item>340m/s</item>
         <item>@string/subsonic</item>
         <item>Peacekeeper LL2</item>
         <item>651000</item>
+        <item>.45 ACP</item>
     </string-array>
 
     <string-array name="a45_ACP_AP">
         <item>.45 ACP AP</item>
         <item>70</item>
-        <item>36</item>
-        <item>43%</item>
+        <item>38</item>
+        <item>48%</item>
         <item>{R-5}</item>
         <item>{R+20}</item>
         <item>1%</item>
@@ -605,11 +639,12 @@
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
         <item>666532</item>
+        <item>.45 ACP</item>
     </string-array>
 
     <string-array name="a45_ACP_HydraShock">
         <item>.45 Hydra-Shok</item>
-        <item>95</item>
+        <item>105</item>
         <item>13</item>
         <item>30%</item>
         <item> </item>
@@ -622,13 +657,14 @@
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
         <item>630000</item>
+        <item>.45 ACP</item>
     </string-array>
 
 
     <string-array name="a45_ACP_Lasermatch_FMJ">
         <item>.45 Lasermatch FMJ</item>
-        <item>74</item>
-        <item>18</item>
+        <item>80</item>
+        <item>19</item>
         <item>37%</item>
         <item> </item>
         <item> </item>
@@ -640,11 +676,12 @@
         <item>@string/tracerNsubsonic</item>
         <item>Peacekeeper LL2</item>
         <item>651000</item>
+        <item>.45 ACP</item>
     </string-array>
 
     <string-array name="a45_ACP_RIP">
         <item>.45 RIP</item>
-        <item>127</item>
+        <item>137</item>
         <item>3</item>
         <item>12%</item>
         <item> </item>
@@ -657,6 +694,7 @@
         <item>@string/subsonic</item>
         <item>Mechanic LL4</item>
         <item>100000</item>
+        <item>.45 ACP</item>
     </string-array>
 
     <!--                    4.6x30mm                           -->
@@ -676,6 +714,7 @@
         <item> </item>
         <item>Mechanic LL1\nPeacekeeper LL3</item>
         <item>621000</item>
+        <item>4.6x30mm</item>
     </string-array>
 
     <string-array name="a46x30_AP_SX">
@@ -691,8 +730,9 @@
         <item> </item>
         <item>680m/s</item>
         <item> </item>
-        <item>0.12.11 기준 패치됨</item>
+        <item></item>
         <item>666665</item>
+        <item>4.6x30mm</item>
     </string-array>
 
     <string-array name="a46x30_FMJ_SX">
@@ -710,6 +750,7 @@
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>666543</item>
+        <item>4.6x30mm</item>
     </string-array>
 
     <string-array name="a46x30_Subsonic_SX">
@@ -727,6 +768,7 @@
         <item>@string/subsonic</item>
         <item>Mechanic LL3</item>
         <item>666532</item>
+        <item>4.6x30mm</item>
     </string-array>
 
     <!--                    5.7x28mm                           -->
@@ -746,6 +788,7 @@
         <item>@string/tracer</item>
         <item>Peacekeeper LL3</item>
         <item>666322</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_R37F">
@@ -763,6 +806,7 @@
         <item> </item>
         <item>Mechanic LL4</item>
         <item>400000</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_R37X">
@@ -780,6 +824,7 @@
         <item> </item>
         <item>Mechanic LL4</item>
         <item>610000</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_SB193">
@@ -793,10 +838,11 @@
         <item>30%</item>
         <item> </item>
         <item> </item>
-        <item>305m/s</item>
-        <item>@string/subsonic</item>
+        <item>922m/s</item>
+        <item> </item>
         <item>Peacekeeper LL4</item>
         <item>666432</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_SS190">
@@ -814,6 +860,7 @@
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>666543</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_SS197SR">
@@ -827,10 +874,11 @@
         <item>20%</item>
         <item> </item>
         <item> </item>
-        <item>594m/s</item>
+        <item>922m/s</item>
         <item> </item>
         <item>Peacekeeper LL2</item>
         <item>662000</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <string-array name="a57x28_SS198LF">
@@ -848,6 +896,7 @@
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>610000</item>
+        <item>5.7x28mm</item>
     </string-array>
 
     <!--                    5.45x39mm                           -->
@@ -867,6 +916,7 @@
         <item> </item>
         <item>@string/cant_make</item>
         <item>666666</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_BP">
@@ -884,6 +934,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>666420</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_BS">
@@ -901,6 +952,7 @@
         <item> </item>
         <item>Prapor LL4(교환)</item>
         <item>666665</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_BT">
@@ -918,6 +970,7 @@
         <item>@string/tracer</item>
         <item>Prapor LL3 퀘스트 The Punisher Part 4 이후</item>
         <item>666531</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_FMJ">
@@ -935,6 +988,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>651000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_HP">
@@ -952,6 +1006,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>610000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_PP">
@@ -969,6 +1024,7 @@
         <item> </item>
         <item>Prapor LL2</item>
         <item>666310</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_PRS">
@@ -986,6 +1042,7 @@
         <item> </item>
         <item>Prapor LL1</item>
         <item>620000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_PS">
@@ -1003,6 +1060,7 @@
         <item> </item>
         <item>Prapor LL1 퀘스트 Delivery from the past 이후</item>
         <item>664100</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_SP">
@@ -1020,6 +1078,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>610000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_T">
@@ -1037,6 +1096,7 @@
         <item>@string/tracer</item>
         <item>Prapor LL1</item>
         <item>661000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <string-array name="a545x39_US">
@@ -1054,6 +1114,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
         <item>630000</item>
+        <item>5.45x39mm</item>
     </string-array>
 
     <!--                    5.56x45mm                           -->
@@ -1073,6 +1134,7 @@
         <item> </item>
         <item>Skier LL1\nJaeger LL1</item>
         <item>664100</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_55_HP">
@@ -1090,6 +1152,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>500000</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_M855">
@@ -1107,6 +1170,7 @@
         <item> </item>
         <item>Peacekeeper LL1</item>
         <item>666320</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_M855A1">
@@ -1124,6 +1188,7 @@
         <item> </item>
         <item>Peacekeeper LL3\nSkier LL4</item>
         <item>666653</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_M856">
@@ -1141,6 +1206,7 @@
         <item>@string/tracer</item>
         <item>Peacekeeper LL2</item>
         <item>663100</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_M856A1">
@@ -1158,6 +1224,7 @@
         <item>@string/tracer</item>
         <item>Peacekeeper LL2 퀘스트 The Cult - Part 1 이후</item>
         <item>666542</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_M995">
@@ -1173,8 +1240,9 @@
         <item> </item>
         <item>1013m/s</item>
         <item> </item>
-        <item>0.12.11 기준 패치됨</item>
+        <item></item>
         <item>666665</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_Mk_255_Mod_0">
@@ -1192,6 +1260,7 @@
         <item> </item>
         <item>Peacekeeper LL2</item>
         <item>641000</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_Warmageddon">
@@ -1209,6 +1278,7 @@
         <item> </item>
         <item>Peacekeeper LL3(교환품)</item>
         <item>100000</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_Mk_318_Mod_0">
@@ -1226,6 +1296,7 @@
         <item> </item>
         <item> </item>
         <item>663000</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <string-array name="a556x45_SSA_AP">
@@ -1243,6 +1314,7 @@
         <item> </item>
         <item> </item>
         <item>666665</item>
+        <item>5.56x45mm</item>
     </string-array>
 
     <!--                   .300 Blackout                            -->
@@ -1262,23 +1334,79 @@
         <item> </item>
         <item>Skier LL3</item>
         <item>665320</item>
+        <item>.300 Blackout</item>
+    </string-array>
+
+    <string-array name="a300_M62">
+        <item>M62</item>
+        <item>54</item>
+        <item>34</item>
+        <item>40%</item>
+        <item> </item>
+        <item>{R+5}</item>
+        <item>20%</item>
+        <item>37%</item>
+        <item> </item>
+        <item> </item>
+        <item>442m/s</item>
+        <item>@string/tracer</item>
+        <item> </item>
+        <item>666542</item>
+        <item>.300 Blackout</item>
+    </string-array>
+
+    <string-array name="a300_V_Max">
+        <item>V-Max</item>
+        <item>72</item>
+        <item>20</item>
+        <item>25%</item>
+        <item>{B+30}</item>
+        <item>{B-10}</item>
+        <item>25%</item>
+        <item>10%</item>
+        <item>22%</item>
+        <item> </item>
+        <item>723m/s</item>
+        <item> </item>
+        <item> </item>
+        <item>664310</item>
+        <item>.300 Blackout</item>
+    </string-array>
+
+    <string-array name="a300_Whisper">
+        <item>Whisper</item>
+        <item>90</item>
+        <item>14</item>
+        <item>18%</item>
+        <item>{B+5}</item>
+        <item>{B-5}</item>
+        <item>35%</item>
+        <item>10%</item>
+        <item> </item>
+        <item>20%</item>
+        <item>853m/s</item>
+        <item> </item>
+        <item> </item>
+        <item>642100</item>
+        <item>.300 Blackout</item>
     </string-array>
 
     <string-array name="a300_AP">
         <item>AP</item>
-        <item>55</item>
+        <item>51</item>
         <item>44</item>
         <item>60%</item>
-        <item>{B+5}</item>
-        <item>{R+5}</item>
+        <item> </item>
+        <item>{R+10}</item>
         <item>30%</item>
         <item>10%</item>
         <item>15%</item>
         <item>15%</item>
-        <item>720m/s</item>
+        <item>605m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>666654</item>
+        <item>.300 Blackout</item>
     </string-array>
 
     <!--                   7.62x39mm                                -->
@@ -1298,6 +1426,7 @@
         <item> </item>
         <item> </item>
         <item>666665</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <string-array name="a762x39_BP">
@@ -1315,6 +1444,7 @@
         <item> </item>
         <item>Prapor LL3 퀘스트 The Punisher - Part 5 이후</item>
         <item>666654</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <string-array name="a762x39_HP">
@@ -1332,6 +1462,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>641000</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <string-array name="a762x39_PS">
@@ -1349,6 +1480,7 @@
         <item> </item>
         <item>Prapor LL1</item>
         <item>666431</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <string-array name="a762x39_T_45M">
@@ -1366,6 +1498,7 @@
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
         <item>666310</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <string-array name="a762x39_US">
@@ -1383,12 +1516,13 @@
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
         <item>665310</item>
+        <item>7.62x39mm</item>
     </string-array>
 
     <!--                    7.62x51mm NATO                          -->
 
     <string-array name="a762x51_FMJ">
-        <item>FMJ</item>
+        <item>BCP FMJ</item>
         <item>88</item>
         <item>31</item>
         <item>33%</item>
@@ -1402,6 +1536,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>666200</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_M61">
@@ -1419,6 +1554,7 @@
         <item> </item>
         <item>Peacekeeper LL4 퀘스트 Wet Job - Part 6 이후</item>
         <item>666666</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_M62">
@@ -1436,6 +1572,7 @@
         <item>@string/tracer</item>
         <item>Peacekeeper LL3 퀘스트 Spa Tour - Part 6 이후</item>
         <item>666655</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_M993">
@@ -1453,6 +1590,7 @@
         <item> </item>
         <item>@string/cant_make</item>
         <item>666666</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_M80">
@@ -1470,10 +1608,11 @@
         <item> </item>
         <item>Peacekeeper LL2</item>
         <item>666654</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_SP">
-        <item>SP</item>
+        <item>TCW SP</item>
         <item>60</item>
         <item>36</item>
         <item>40%</item>
@@ -1487,6 +1626,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>666520</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <string-array name="a762x51_Ultra_Nosler">
@@ -1504,9 +1644,28 @@
         <item> </item>
         <item>Jaeger LL4</item>
         <item>640000</item>
+        <item>7.62x51mm</item>
     </string-array>
 
     <!--                    9x39mm                                  -->
+
+    <string-array name="a9x39_PAB_9">
+        <item>PAB-9</item>
+        <item>62</item>
+        <item>48</item>
+        <item>72%</item>
+        <item>{R-15}</item>
+        <item>{R+10}</item>
+        <item>10%</item>
+        <item>48%</item>
+        <item> </item>
+        <item> </item>
+        <item>320m/s</item>
+        <item>@string/subsonic</item>
+        <item> </item>
+        <item>666665</item>
+        <item>9x39mm</item>
+    </string-array>
 
     <string-array name="a9x39_7N9_SPP">
         <item>7N9 SPP</item>
@@ -1517,12 +1676,13 @@
         <item>{R+20}</item>
         <item>20%</item>
         <item>40%</item>
-        <item> </item>
-        <item> </item>
+        <item>10%</item>
+        <item>20%</item>
         <item>310m/s</item>
         <item>@string/subsonic</item>
-        <item>Prapor LL3(교환품)\nPrapor LL4</item>
+        <item>Prapor LL3(교환품)</item>
         <item>666665</item>
+        <item>9x39mm</item>
     </string-array>
 
     <string-array name="a9x39_7N12_BP">
@@ -1540,6 +1700,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL4(교환품) 퀘스트 Grenadier 이후</item>
         <item>666665</item>
+        <item>9x39mm</item>
     </string-array>
 
     <string-array name="a9x39_SP_5">
@@ -1557,6 +1718,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
         <item>666543</item>
+        <item>9x39mm</item>
     </string-array>
 
     <string-array name="a9x39_SP_6">
@@ -1574,6 +1736,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL3</item>
         <item>666654</item>
+        <item>9x39mm</item>
     </string-array>
 
     <!--                    7.62x54mmR                              -->
@@ -1589,10 +1752,11 @@
         <item>26.5%</item>
         <item> </item>
         <item> </item>
-        <item>820m/s</item>
+        <item>875m/s</item>
         <item>@string/tracer</item>
         <item>Prapor LL4</item>
         <item>666666</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <string-array name="a762x54_PS">
@@ -1610,6 +1774,7 @@
         <item> </item>
         <item>Prapor LL3</item>
         <item>666654</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <string-array name="a762x54_BS">
@@ -1627,6 +1792,7 @@
         <item> </item>
         <item>Prapor LL4</item>
         <item>666666</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <string-array name="a762x54_LPS_Gzh">
@@ -1644,6 +1810,7 @@
         <item> </item>
         <item>Prapor LL1</item>
         <item>666643</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <string-array name="a762x54_SNB">
@@ -1661,6 +1828,7 @@
         <item> </item>
         <item>Prapor LL4</item>
         <item>666666</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <string-array name="a762x54_T_46M">
@@ -1678,6 +1846,7 @@
         <item>@string/tracer</item>
         <item>Prapor LL2</item>
         <item>666643</item>
+        <item>7.62x54mmR</item>
     </string-array>
 
     <!--                    .366 TKM                                -->
@@ -1697,6 +1866,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>666310</item>
+        <item>.366TKM</item>
     </string-array>
 
     <string-array name="a366_FMJ">
@@ -1714,6 +1884,7 @@
         <item> </item>
         <item>Skier LL1\nJaeger LL1</item>
         <item>664100</item>
+        <item>.366TKM</item>
     </string-array>
 
     <string-array name="a366_Geksa">
@@ -1731,6 +1902,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>630000</item>
+        <item>.366TKM</item>
     </string-array>
 
     <string-array name="a366_AP_M">
@@ -1748,6 +1920,7 @@
         <item> </item>
         <item>Mechanic LL3</item>
         <item>666654</item>
+        <item>.366TKM</item>
     </string-array>
 
     <!--                    12.7x55mm ST-s130                       -->
@@ -1767,6 +1940,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
         <item>665210</item>
+        <item>12.7x55mm</item>
     </string-array>
 
     <string-array name="a127x55_PS12A">
@@ -1784,6 +1958,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
         <item>600000</item>
+        <item>12.7x55mm</item>
     </string-array>
 
     <string-array name="a127x55_PS12B">
@@ -1801,6 +1976,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL4</item>
         <item>666654</item>
+        <item>12.7x55mm</item>
     </string-array>
 
     <!--                    .338 Lapua magnum                       -->
@@ -1820,6 +1996,7 @@
         <item> </item>
         <item>Peacekeeper LL4</item>
         <item>666654</item>
+        <item>.338 Lapua</item>
     </string-array>
 
     <string-array name="a338_AP">
@@ -1837,6 +2014,7 @@
         <item> </item>
         <item>@string/cant_make</item>
         <item>666666</item>
+        <item>.338 Lapua</item>
     </string-array>
 
     <string-array name="a338_Tac_X">
@@ -1854,6 +2032,7 @@
         <item> </item>
         <item>Mechanic LL4</item>
         <item>653100</item>
+        <item>.338 Lapua</item>
     </string-array>
 
     <string-array name="a338_UPZ">
@@ -1871,6 +2050,7 @@
         <item> </item>
         <item>Jaeger LL4</item>
         <item>665432</item>
+        <item>.338 Lapua</item>
     </string-array>
 
     <!--                    12.7x108mm                              -->
@@ -1890,6 +2070,7 @@
         <item> </item>
         <item> </item>
         <item>666666</item>
+        <item>12.7x108mm</item>
     </string-array>
 
     <string-array name="a127x108_BZT_44M">
@@ -1907,6 +2088,7 @@
         <item>@string/explosive</item>
         <item> </item>
         <item>666666</item>
+        <item>12.7x108mm</item>
     </string-array>
 
     <!--                    12/70mm                                 -->
@@ -1926,6 +2108,7 @@
         <item>@string/subsonic</item>
         <item>Jaeger LL1</item>
         <item>333333</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_65mm_Express_Buckshot">
@@ -1943,6 +2126,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>333333</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_7mm_Buckshot">
@@ -1960,6 +2144,7 @@
         <item> </item>
         <item>Jaeger LL1, Prapor LL1, Skier LL1</item>
         <item>333333</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_85mm_Magnum_Buckshot">
@@ -1977,6 +2162,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>333333</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_AP_20_Slug">
@@ -1994,6 +2180,7 @@
         <item> </item>
         <item>Jaeger LL4</item>
         <item>666531</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Dual_Sabot_Slug">
@@ -2011,6 +2198,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>652000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Flechette">
@@ -2028,6 +2216,7 @@
         <item>@string/subsonic</item>
         <item>Jaeger LL3</item>
         <item>666555</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_FTX_Custom_Llte_Slug">
@@ -2045,6 +2234,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>651000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Grizzly_40_Slug">
@@ -2062,6 +2252,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>620000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_HP_Slug_Copper_Sabot_Premier">
@@ -2079,6 +2270,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>620000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_HP_Slug_SuperFormance">
@@ -2096,6 +2288,7 @@
         <item> </item>
         <item>Jaeger LL4</item>
         <item>000000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Led_Slug">
@@ -2113,6 +2306,7 @@
         <item> </item>
         <item>Skier LL1, Prapor LL1, Peacekeeper LL1, Jaeger LL1</item>
         <item>641000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Poleva_3_Slug">
@@ -2130,6 +2324,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>651000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_Poleva_6a_Slug">
@@ -2147,6 +2342,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>662000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_RIP">
@@ -2164,6 +2360,7 @@
         <item> </item>
         <item>Skier LL3 (교환품) 퀘스트 Bullshit 이후</item>
         <item>000000</item>
+        <item>12/70</item>
     </string-array>
 
     <string-array name="a1270_shell_with_50_BMG_bullet">
@@ -2181,6 +2378,7 @@
         <item>@string/tracer</item>
         <item>Jaeger LL4</item>
         <item>663100</item>
+        <item>12/70</item>
     </string-array>
 
     <!--                    20/70mm                                 -->
@@ -2200,6 +2398,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>333333</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_62mm_Buckshot">
@@ -2217,6 +2416,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>333333</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_73mm_Buckshot">
@@ -2234,6 +2434,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>333333</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_75mm_Buckshot">
@@ -2251,6 +2452,7 @@
         <item> </item>
         <item>Skier LL1, Jaeger LL1</item>
         <item>333333</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_Devastator_Slug">
@@ -2268,6 +2470,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>100000</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_Slug_Poleva_3">
@@ -2285,6 +2488,7 @@
         <item> </item>
         <item>Jaeger LL1</item>
         <item>620000</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_Slug_Poleva_6u">
@@ -2302,6 +2506,7 @@
         <item> </item>
         <item>Jaeger LL2</item>
         <item>651000</item>
+        <item>20/70</item>
     </string-array>
 
     <string-array name="a2070_Star_Slug">
@@ -2319,6 +2524,7 @@
         <item> </item>
         <item>Jaeger LL3</item>
         <item>651000</item>
+        <item>20/70</item>
     </string-array>
 
     <!--                    23x75mm                         -->
@@ -2335,9 +2541,10 @@
         <item> </item>
         <item> </item>
         <item>375m/s</item>
-        <item>643333</item>
-        <item>Prapor LL3</item>
         <item> </item>
+        <item>Prapor LL3</item>
+        <item>643333</item>
+        <item>23x75mm</item>
     </string-array>
 
     <string-array name="a2375_Shrapnel_10">
@@ -2355,6 +2562,7 @@
         <item>@string/subsonic</item>
         <item>Prapor LL2</item>
         <item>643333</item>
+        <item>23x75mm</item>
     </string-array>
 
     <string-array name="a2375_Zvezda">
@@ -2372,6 +2580,7 @@
         <item>섬광 효과</item>
         <item>Prapor LL3</item>
         <item>000000</item>
+        <item>23x75mm</item>
     </string-array>
 
     <string-array name="a2375_Barrikada">
@@ -2389,6 +2598,7 @@
         <item> </item>
         <item>Prapor LL4</item>
         <item>666644</item>
+        <item>23x75mm</item>
     </string-array>
 
     <!--                    40x46mm                         -->
@@ -2408,6 +2618,7 @@
         <item>@string/subsonic</item>
         <item>Peacekeeper LL3</item>
         <item> </item>
+        <item>40x46mm</item>
     </string-array>
 
     <string-array name="a40x46_M386">
@@ -2423,8 +2634,9 @@
         <item> </item>
         <item>76m/s</item>
         <item>@string/subsonic</item>
-        <item>0.12.11 기준 패치됨</item>
+        <item></item>
         <item> </item>
+        <item>40x46mm</item>
     </string-array>
 
     <string-array name="a40x46_M406">
@@ -2442,6 +2654,7 @@
         <item>@string/subsonic</item>
         <item> </item>
         <item> </item>
+        <item>40x46mm</item>
     </string-array>
 
     <string-array name="a40x46_M433">
@@ -2459,6 +2672,7 @@
         <item>@string/subsonic</item>
         <item> </item>
         <item> </item>
+        <item>40x46mm</item>
     </string-array>
 
     <string-array name="a40x46_M441">
@@ -2476,6 +2690,7 @@
         <item>@string/subsonic</item>
         <item> </item>
         <item> </item>
+        <item>40x46mm</item>
     </string-array>
 
     <string-array name="a40x46_M576">
@@ -2493,6 +2708,7 @@
         <item>@string/subsonic</item>
         <item> </item>
         <item>333333</item>
+        <item>40x46mm</item>
     </string-array>
 
     <!--                    Heal Kit                        -->
@@ -2762,6 +2978,7 @@
         <item>Combat stimulant injector SJ9 TGLabs</item>
         <item>6초 후, 300초 동안\n - 체온 {B-7°C} 하강</item>
         <item>6초 후, 300초 동안\n - 신진대사(Metabolism) {R-20} 감소 || 300초 후, 120초 동안\n - 고통[Pain] 발생</item>
+        <item>2초</item>
     </string-array>
 
     <string-array name="h_etg_change">
@@ -3183,8 +3400,8 @@
 
     <string-array name="w_ak_101">
         <item>AK-101</item>
-        <item>135</item>
-        <item>392</item>
+        <item>132</item>
+        <item>395</item>
         <item>35</item>
         <item>650m</item>
         <item>5.56x45mm NATO</item>
@@ -3197,11 +3414,12 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item>칼라시니코프의 5.56mm 돌격 소총의 수출용 버전은 측면 접이식 개머리판과 광학 및 야간 스코프를 위한 사이드 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_102">
         <item>AK-102</item>
-        <item>139</item>
+        <item>136</item>
         <item>392</item>
         <item>43</item>
         <item>650m</item>
@@ -3215,6 +3433,7 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item>칼라시니코프의 5.56mm 돌격 소총의 짧은 수출용 버전은 측면 접이식 개머리판과 광학 및 야간 스코프를 위한 사이드 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_103">
@@ -3233,6 +3452,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item>칼라시니코프의 7.62mm 돌격 소총은 측면 접이식 개머리판과 광학 및 야간 스코프를 위한 사이드 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_104">
@@ -3251,12 +3471,13 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item>칼라시니코프의 짧은 7.62mm 돌격 소총은 측면 접이식 개머리판과 광학 및 야간 스코프를 위한 사이드 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_105">
         <item>AK-105</item>
-        <item>150</item>
-        <item>400</item>
+        <item>160</item>
+        <item>413</item>
         <item>45</item>
         <item>650m</item>
         <item>5.45x39mm</item>
@@ -3269,13 +3490,14 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>칼라시니코프의 5.45 mm 현대화된 짧은 돌격 소총은 측면 접이식 개머리판과 광학 및 야간 스코프를 위한 사이드 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_74">
         <item>AK-74</item>
-        <item>145</item>
+        <item>141</item>
         <item>398</item>
-        <item>43</item>
+        <item>30</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3287,13 +3509,14 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>1970년 M. T. 칼라시니코프가 개발한 칼라시니코프 5.45 mm 돌격 소총은 군의 새로운 5.45x39mm 탄종 선택 때문에 한단계 진화한 AKM이 되었습니다.</item>
     </string-array>
 
     <string-array name="w_ak_74m">
         <item>AK-74M</item>
-        <item>142</item>
+        <item>138</item>
         <item>394</item>
-        <item>43</item>
+        <item>33</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3304,12 +3527,13 @@
         <item>PBS-4 5.45x39 Silencer</item>
         <item>BT</item>
         <item>BS</item>
-        <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다. Budget Modding is based on Mechanic LL3</item>
+        <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>칼라시니코프 현대화된 5.45mm 돌격 소총은 측면 접이식 개머리판과 광학 및 야간용 스코프를 위한 사이드 마운트를 가지고 있습니다.</item>
     </string-array>
 
     <string-array name="w_ak_74n">
         <item>AK-74N</item>
-        <item>144</item>
+        <item>140</item>
         <item>397</item>
         <item>31</item>
         <item>650m</item>
@@ -3323,11 +3547,12 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>1970년 M. T. 칼라시니코프가 개발한 칼라시니코프 5.45 mm 돌격 소총은 군의 새로운 5.45x39mm 탄종 선택 때문에 한단계 진화한 AKM이 되었습니다. 기본형 AK-74와 중요한 차이점은 광학 및 야간용 스코프를 위한 사이드 마운트가 장착됐다는 것입니다.</item>
     </string-array>
 
     <string-array name="w_aks_74">
         <item>AKS-74</item>
-        <item>145</item>
+        <item>141</item>
         <item>398</item>
         <item>31</item>
         <item>650m</item>
@@ -3341,11 +3566,12 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>칼라시니코프 5.45mm 돌격 소총은 측면 접이식 철제 개머리판을 장착했습니다. 공습 보병을 위해 디자인 되었습니다.</item>
     </string-array>
 
     <string-array name="w_aks_74u">
         <item>AKS-74U</item>
-        <item>146</item>
+        <item>141</item>
         <item>445</item>
         <item>44</item>
         <item>300m</item>
@@ -3359,11 +3585,12 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_aks_74un">
         <item>AKS-74UN</item>
-        <item>147</item>
+        <item>140</item>
         <item>445</item>
         <item>44</item>
         <item>300m</item>
@@ -3377,11 +3604,12 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>AKS-74 돌격 소총의 단축 버전은 80년대 초 전투 차량 승무원과 공수부대 용으로 개발됐으며, 작은 크기 덕분에 사법기관과 특수부대에서 큰 인기를 끌었습니다.</item>
     </string-array>
 
     <string-array name="w_aks_74ub">
         <item>AKS-74UB</item>
-        <item>146</item>
+        <item>140</item>
         <item>445</item>
         <item>44</item>
         <item>300m</item>
@@ -3395,13 +3623,14 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>AKS-74U의 특별 버전인 개조 B(저소음)은 기본적으로 더브테일 스코프 마운트와 소음기, 그리고 아음속탄 발사를 위해 설계된 특수 조준경을 탑재했습니다.</item>
     </string-array>
 
     <string-array name="w_aks_74n">
         <item>AKS-74N</item>
-        <item>145</item>
+        <item>140</item>
         <item>397</item>
-        <item>43</item>
+        <item>32</item>
         <item>650m</item>
         <item>5.45x39mm</item>
         <item>650RPM</item>
@@ -3413,6 +3642,7 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item>AKS-74 돌격 소총의 단축 버전은 80년대 초 전투 차량 승무원과 공수부대 용으로 개발됐으며, 작은 크기 덕분에 사법기관과 특수부대에서 큰 인기를 끌었습니다. 모드.N(밤)은 야간 스코프를 위한 더브테일 마운트가 장착돼있습니다.</item>
     </string-array>
 
     <string-array name="w_akm">
@@ -3431,6 +3661,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item>소련 육군의 표준 총기로써 AK를 대체하기 위해 1959년에 채택된 현대화된 7.62mm 칼라시니코프 소총입니다. AK와 비교하여 주된 차이점은 향상된 정확도 범위, 가벼운 무게, 새로운 개머리판, 트리거와 헤머 레이터, 컴펜세이터 및 소총의 효율 향상을 위한 디자인 변화가 있습니다.</item>
     </string-array>
 
     <string-array name="w_akmn">
@@ -3449,6 +3680,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item>AKMN (NSPUM-AKMN2 스코프 포함)은 NSP-2/3A, NSPU, NSPUM 야간 스코프 설치를 위해 더브테일 마운드가 장착된 수정된 AKM으로 구성된 소형 무기입니다.</item>
     </string-array>
 
     <string-array name="w_akms">
@@ -3467,6 +3699,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_akmsn">
@@ -3485,12 +3718,13 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item>AKMS (GRAU 색인 - 6P4)는 접이식 어깨 부품(개머리판)이 있는 AKM의 변형버전입니다. 핸드 가드 아래에서 앞, 아래로 접습니다, 공수부대를 위해서 특별히 디자인되었습니다.</item>
     </string-array>
 
     <string-array name="w_mk47">
         <item>Mk47 Mutant</item>
-        <item>164</item>
-        <item>421</item>
+        <item>188</item>
+        <item>440</item>
         <item>47</item>
         <item>500m</item>
         <item>7.62x39mm</item>
@@ -3502,6 +3736,7 @@
         <item>PBS-1 7.62x39mm silencer</item>
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
+        <item> </item>
         <item></item>
     </string-array>
 
@@ -3521,6 +3756,7 @@
         <item>M855A1</item>
         <item>M995</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_rfb">
@@ -3538,13 +3774,14 @@
         <item>Daniel Defence Wave QD Suppressor + DD Wave Muzzle Brake 7.62x51mm</item>
         <item>M80</item>
         <item>M61</item>
-        <item>M62과 M993도 M61만큼 좋습니다.</item>
+        <item>M993도 M61만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m4a1">
         <item>M4A1</item>
         <item>147</item>
-        <item>510</item>
+        <item>405</item>
         <item>48</item>
         <item>500m</item>
         <item>5.56x45mm NATO</item>
@@ -3557,6 +3794,45 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="w_mk_16">
+        <item>FN SCAR-L</item>
+        <item>88</item>
+        <item>256</item>
+        <item>47.5</item>
+        <item>500m</item>
+        <item>5.56x45mm NATO</item>
+        <item>650RPM</item>
+        <item>단발, 연사</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Surefire SOCOM556-RC2 5.56x45 silencer + Surefire SF3P 5.56x45 Flash hider for AR-15</item>
+        <item>M856A1</item>
+        <item>M995</item>
+        <item>M855A1탄 또한 좋습니다</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="w_mk_17">
+        <item>FN SCAR-H</item>
+        <item>262</item>
+        <item>605</item>
+        <item>45</item>
+        <item> </item>
+        <item>7.62x51mm NATO</item>
+        <item>600RPM</item>
+        <item>단발, 연사</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>M80</item>
+        <item>M61</item>
+        <item>M62탄 또한 좋습니다.</item>
+        <item> </item>
     </string-array>
 
     <string-array name="w_mcx">
@@ -3575,6 +3851,7 @@
         <item>.300 AAC Blackout BCP</item>
         <item>.300 AAC Blackout AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_dt_mdr_556x45">
@@ -3593,6 +3870,7 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_dt_mdr_308">
@@ -3611,6 +3889,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_adar_2_15">
@@ -3629,6 +3908,8 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item>러시아 민간용 카빈인 ADAR 2–15은 AR-15의 디자인을 기반으로 합니다.\n이 카빈은 샹트페테르부르크에서 이스라엘 부품과 \"Molot Oruzhie\"사의 크롬 배럴을 사용해 생산됩니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_sa_58">
@@ -3647,6 +3928,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_tx_15">
@@ -3665,6 +3947,7 @@
         <item>M856A1</item>
         <item>M995</item>
         <item>M855A1탄 또한 M995탄 만큼 좋습니다</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_ash_12">
@@ -3683,6 +3966,7 @@
         <item>PS12</item>
         <item>PS12B</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vepr_akmvpo_209">
@@ -3701,6 +3985,7 @@
         <item>EKO</item>
         <item>AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vepr_akmvpo_136">
@@ -3719,6 +4004,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_fn_gl40">
@@ -3737,6 +4023,7 @@
         <item> </item>
         <item>M386</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_rpk_16">
@@ -3755,13 +4042,14 @@
         <item>BT</item>
         <item>BS</item>
         <item>Igolnik탄이 관통력이 더 좋지만, 데미지가 너무 약합니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_as_val">
         <item>AS VAL</item>
-        <item>110</item>
-        <item>95</item>
-        <item>43</item>
+        <item>140</item>
+        <item>300</item>
+        <item>46</item>
         <item>200m</item>
         <item>9x39mm</item>
         <item>900RPM</item>
@@ -3773,6 +4061,7 @@
         <item>SP-6</item>
         <item>7N12 BP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_op_sks">
@@ -3791,6 +4080,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_sks">
@@ -3809,6 +4099,7 @@
         <item>PS, T45M</item>
         <item>BP, MAI AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mk_18">
@@ -3826,13 +4117,14 @@
         <item> </item>
         <item>.338 FMJ</item>
         <item>.338 AP</item>
-        <item>이 총은 무조건 AP탄 쓰시는 거 좋습니다.</item>
+        <item>이 총은 무조건 AP탄 쓰시는 게 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vepr_huntervpo_101">
         <item>Vepr Hunter/Vpo-101</item>
-        <item>300</item>
-        <item>540</item>
+        <item>400</item>
+        <item>650</item>
         <item>29</item>
         <item>400m</item>
         <item>7.62x51mm NATO</item>
@@ -3845,6 +4137,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp5">
@@ -3861,8 +4154,9 @@
         <item> </item>
         <item>MP5 SD</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp5k">
@@ -3879,8 +4173,9 @@
         <item> </item>
         <item>X</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp7a1">
@@ -3899,6 +4194,7 @@
         <item>Subsonic</item>
         <item>AP SX</item>
         <item>FMJ SX탄도 AP SX탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp7a2">
@@ -3917,6 +4213,7 @@
         <item>Subsonic</item>
         <item>AP SX</item>
         <item>FMJ SX탄도 AP SX탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp9">
@@ -3933,8 +4230,9 @@
         <item> </item>
         <item>B&amp;T MP9 9x19mm sound suppressor + B&amp;T adapter for MP9</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp9_n">
@@ -3951,8 +4249,9 @@
         <item> </item>
         <item>B&amp;T MP9 9x19mm sound suppressor + B&amp;T adapter for MP9</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
-        <item>RIP탄 또는 Lugar CII탄은 레그메타에 좋습니다.</item>
+        <item>PBP</item>
+        <item>RIP탄 또는 QuakeMaker탄은 레그메타에 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mpx">
@@ -3969,8 +4268,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vector_9x19">
@@ -3987,8 +4287,9 @@
         <item> </item>
         <item> </item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vector_45">
@@ -4007,6 +4308,7 @@
         <item>FMJ</item>
         <item>AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_ump_45">
@@ -4025,6 +4327,7 @@
         <item>FMJ</item>
         <item>AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_p90">
@@ -4043,6 +4346,7 @@
         <item>L191</item>
         <item>SS190</item>
         <item>SB193탄도  SS190탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pp_19_01_vityaz_sn">
@@ -4059,8 +4363,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pp_9_klin">
@@ -4079,6 +4384,7 @@
         <item>SP7</item>
         <item>PMM</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_stm_9">
@@ -4095,8 +4401,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pp_91_kedr">
@@ -4115,6 +4422,7 @@
         <item>SP7</item>
         <item>PBM</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pp_91_01_kedr_b">
@@ -4133,6 +4441,7 @@
         <item>SP7</item>
         <item>PBM</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_ppsh_41">
@@ -4148,9 +4457,10 @@
         <item> </item>
         <item> </item>
         <item>X</item>
+        <item>TT LRN</item>
         <item>TT LRNPC</item>
-        <item>TT LRNPC</item>
-        <item>TT LRNPC의 높은 데미지를 활용해 다리를 갈아버리는 편이 좋습니다.</item>
+        <item>높은 데미지를 활용해 다리를 갈아버리는 편이 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_saiga_9">
@@ -4167,14 +4477,15 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m870">
         <item>M870</item>
         <item>520</item>
-        <item>600</item>
+        <item>650</item>
         <item>45</item>
         <item>70m</item>
         <item>12/70</item>
@@ -4187,6 +4498,7 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp_133">
@@ -4205,6 +4517,7 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp_153">
@@ -4223,6 +4536,7 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp_155">
@@ -4241,6 +4555,45 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="w_mp_43_1c">
+        <item>MP-43-1C</item>
+        <item>307</item>
+        <item>428</item>
+        <item>39</item>
+        <item>70m</item>
+        <item>12/70</item>
+        <item>900RPM</item>
+        <item>단발, 더블탭</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>8.5mm "Magnum" Buckshot</item>
+        <item>Flechette</item>
+        <item>AP-20탄 또한 좋습니다</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="w_mts_255">
+        <item>MTs-255-12</item>
+        <item>520</item>
+        <item>650</item>
+        <item>50</item>
+        <item>70m</item>
+        <item>12/70</item>
+        <item>30RPM</item>
+        <item>단발, 더블액션</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>8.5mm "Magnum" Buckshot</item>
+        <item>Flechette</item>
+        <item>AP-20탄 또한 좋습니다.</item>
+        <item> </item>
     </string-array>
 
     <string-array name="w_ks_23m">
@@ -4259,6 +4612,7 @@
         <item>Sherpnel-25</item>
         <item>Barricade</item>
         <item>Star 섬광탄과의 조합으로 눈을 멀게 한 뒤 쏘는 것도 좋습니다</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_saiga_12">
@@ -4277,6 +4631,7 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20탄도 Flechette탄 만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_toz_106">
@@ -4295,12 +4650,13 @@
         <item>7.5mm Buckshot</item>
         <item>Slug "Poleva-6u"</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m1a">
         <item>M1A</item>
-        <item>286</item>
-        <item>514</item>
+        <item>296</item>
+        <item>530</item>
         <item>31</item>
         <item>700m</item>
         <item>7.62x51mm NATO</item>
@@ -4313,12 +4669,13 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_rsass">
         <item>RS ASS</item>
-        <item>270</item>
-        <item>590</item>
+        <item>245</item>
+        <item>525</item>
         <item>40</item>
         <item>700m</item>
         <item>7.62x51mm NATO</item>
@@ -4331,12 +4688,13 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_sr_25">
         <item>SR-25</item>
-        <item>290</item>
-        <item>625</item>
+        <item>265</item>
+        <item>590</item>
         <item>37</item>
         <item>900m</item>
         <item>7.62x51mm NATO</item>
@@ -4349,6 +4707,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_svds">
@@ -4367,12 +4726,13 @@
         <item>LPS gzh</item>
         <item>SNB</item>
         <item>7N1탄도 SNB만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vss">
         <item>VSS Vintorez</item>
-        <item>111</item>
-        <item>195</item>
+        <item>140</item>
+        <item>300</item>
         <item>43</item>
         <item>400m</item>
         <item>9x39mm</item>
@@ -4385,6 +4745,7 @@
         <item>SP-6</item>
         <item>7N12 BP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_dvl_10">
@@ -4403,6 +4764,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m700">
@@ -4421,6 +4783,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mosin">
@@ -4439,6 +4802,7 @@
         <item>LPS Gzh</item>
         <item>7N1</item>
         <item>SNB탄이 7N1탄 보다 관통력이 더 높지만, 데미지가 85(가슴 체력) 이하입니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mosin_inf">
@@ -4457,6 +4821,7 @@
         <item>LPS Gzh</item>
         <item>7N1</item>
         <item>SNB탄이 7N1탄 보다 관통력이 더 높지만, 데미지가 85(가슴 체력) 이하입니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_sv_98">
@@ -4475,6 +4840,7 @@
         <item>LPS Gzh</item>
         <item>7N1</item>
         <item>SNB탄이 7N1탄 보다 관통력이 더 높지만, 데미지가 85(가슴 체력) 이하입니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_t_5000">
@@ -4493,6 +4859,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_vpo_215">
@@ -4511,6 +4878,7 @@
         <item>EKO</item>
         <item>AP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_apb">
@@ -4529,6 +4897,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_aps">
@@ -4547,6 +4916,7 @@
         <item>SP7</item>
         <item>PBM</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pl_15">
@@ -4563,8 +4933,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_fn_5_7">
@@ -4583,6 +4954,7 @@
         <item>L191</item>
         <item>SS190</item>
         <item>SB193탄도 SS190만큼 좋습니다.</item>
+        <item></item>
     </string-array>
 
     <string-array name="w_glock_17">
@@ -4599,8 +4971,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_glock_18c">
@@ -4617,8 +4990,9 @@
         <item> </item>
         <item>X</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m45a1">
@@ -4637,6 +5011,7 @@
         <item>AP</item>
         <item>FMJ</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m1911a1">
@@ -4655,6 +5030,7 @@
         <item>AP</item>
         <item>FMJ</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_m9a3">
@@ -4671,8 +5047,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>AP 6.3</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_mp_443_grach">
@@ -4689,8 +5066,9 @@
         <item> </item>
         <item>X</item>
         <item>PSO gzh</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_p226r">
@@ -4707,8 +5085,9 @@
         <item> </item>
         <item>Sig SRD 9 9x19mm sound suppressor</item>
         <item>PSO gzh</item>
-        <item>7N31</item>
+        <item>PBP</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pb_pistol">
@@ -4727,6 +5106,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pm_t_pistol">
@@ -4745,6 +5125,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_pm_pistol">
@@ -4763,6 +5144,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_sr_1mp_gyurza">
@@ -4781,6 +5163,7 @@
         <item>SP13</item>
         <item>SP13</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_tt_pistol">
@@ -4799,6 +5182,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_tt_pistol_gold">
@@ -4817,6 +5201,7 @@
         <item>PBM</item>
         <item>SP7</item>
         <item> </item>
+        <item></item>
     </string-array>
 
     <string-array name="w_nsv_utes">
@@ -5051,7 +5436,7 @@
 
     <string-array name="customs">
         <item>커스텀즈</item>
-        <item>45분</item>
+        <item>35분</item>
         <item>8~13 플레이어</item>
         <item>SCAV, 르살라, 컬티스트(야간)</item>
     </string-array>
@@ -5068,6 +5453,7 @@
         <item>50분</item>
         <item>10~13 플레이어</item>
         <item>SCAV, 세니타, 컬티스트(야간)</item>
+        <item></item>
     </string-array>
 
     <string-array name="interchange">
@@ -5086,9 +5472,16 @@
 
     <string-array name="reserve">
         <item>리저브</item>
-        <item>50분</item>
+        <item>40분</item>
         <item>9~12 플레이어</item>
         <item>SCAV, 레이더, 글루하</item>
+    </string-array>
+
+    <string-array name="map_lighthouse">
+        <item>등대</item>
+        <item>45분</item>
+        <item>9~12 플레이어</item>
+        <item>SCAV, USEC 로그</item>
     </string-array>
 
 
@@ -5403,9 +5796,9 @@
     <string-array name="ruaf_roadblock_wood">
         <item>RUAF Roadblock</item>
         <item>모두</item>
-        <item>확률 탈출구</item>
+        <item>확정 탈출구</item>
         <item>다회용 탈출구</item>
-        <item>녹색 연기가 피어오를 때 탈출 가능</item>
+        <item>항상 탈출 가능</item>
     </string-array>
 
     <string-array name="scav_bridge">
@@ -5458,7 +5851,7 @@
 
 
     <string-array name="exit_shoreline">
-        <item>adm_basement, ccp_temporary, lighthouse, pier_boat, road_to_customs, rock_passage, ruined_house_fence, ruined_road, rwing_gym_entrance, south_fence_passage, svetliy_dead_end, tunnel</item>
+        <item>adm_basement, ccp_temporary, lighthouse, path_to_lighthouse, pier_boat, road_to_customs, road_at_railbridge, ruined_house_fence, ruined_road, rwing_gym_entrance, south_fence_passage, svetliy_dead_end, tunnel</item>
     </string-array>
 
     <string-array name="adm_basement">
@@ -5493,6 +5886,14 @@
         <item>랜덤하게 탈출 가능</item>
     </string-array>
 
+    <string-array name="path_to_lighthouse">
+        <item>Path to Lighthouse</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
     <string-array name="road_to_customs">
         <item>Road To Customs</item>
         <item>모두</item>
@@ -5507,6 +5908,14 @@
         <item>확률 탈출구</item>
         <item>다회용 탈출구</item>
         <item>녹색 연기가 피어오를 때 탈출 가능</item>
+    </string-array>
+
+    <string-array name="road_at_railbridge">
+        <item>Road at Railbridge</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
     </string-array>
 
     <string-array name="ruined_house_fence">
@@ -5753,6 +6162,98 @@
         <item>항상 탈출 가능</item>
     </string-array>
 
+    <string-array name="exit_lighthouse">
+        <item>road_to_military_base_v_ex, side_tunnel, mountain_pass, path_to_shoreline, northern_checkpoint, southern_road, armored_train, hideout_under_the_landing_stage, scav_hideout_at_the_grotto, industrial_zone_gate, south_road_landslide</item>
+    </string-array>
+
+    <string-array name="road_to_military_base_v_ex">
+        <item>Road to Military Base V-ex</item>
+        <item>PMC</item>
+        <item>확률 탈출구</item>
+        <item>일회용 탈출구</item>
+        <item>플레이어당 5000루블이 필요</item>
+    </string-array>
+
+    <string-array name="side_tunnel">
+        <item>Side Tunnel</item>
+        <item>모두</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>PMC와 유저 스캐브가 같이 있을때 탈출 가능</item>
+    </string-array>
+
+    <string-array name="mountain_pass">
+        <item>Mountain Pass</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>파라코드와 RR이 있고 방탄복을 입고 있지 않을때 탈출 가능</item>
+    </string-array>
+
+    <string-array name="path_to_shoreline">
+        <item>Path to Shoreline</item>
+        <item>모두</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="northern_checkpoint">
+        <item>Northern Checkpoint</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="industrial_zone_gate">
+        <item>Industrial Zone Gate</item>
+        <item>SCAV</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="southern_road">
+        <item>Southern Road</item>
+        <item>PMC</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="hideout_under_the_landing_stage">
+        <item>Hideout under the Landing Stage</item>
+        <item>SCAV</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>해변 부두의 나무 아래 부분, 항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="scav_hideout_at_the_grotto">
+        <item>SCAV Hideout at the Grotto</item>
+        <item>SCAV</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="industrial_zone_gates">
+        <item>Industrial Zone Gates</item>
+        <item>SCAV</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
+    <string-array name="south_road_landslide">
+        <item>South Road Landslide</item>
+        <item>SCAV</item>
+        <item>확정 탈출구</item>
+        <item>다회용 탈출구</item>
+        <item>항상 탈출 가능</item>
+    </string-array>
+
     <string-array name="key_factory">
         <item>Factory Exit Key\n(자켓, 잡템, 탈출구, 퀘스트)||Door Key(잡템)</item>
     </string-array>
@@ -5779,6 +6280,10 @@
 
     <string-array name="key_reserve">
         <item>RB-AK key(컴퓨터, 잡템, 가방)||RB-AM key(공구 상자, 잡템, 나무 상자, 옷)||RB-AO key(무기 거치대)||RB-BK key(귀중품)||RB-GN key(공구 상자)||RB-KORL key(서랍)||RB-KPRL key(금고, 무기 거치대, 5x2 나무 상자)||RB-KSM key(잡템, 의료 상자)||RB-MP11 key(공구 상자, 옷)||RB-MP12 key(나무 상자, 옷, 잡템)||RB-MP13 key(서랍, 잡템)||RB-MP21 key(서랍, 무기 거치대, 잡템, 공구 상자, 4x4 무기 상자)||RB-MP22 key(무기 거치대, 나무 탄약 상자, 공구 상자, 잡템)||RB-OB key(서랍)||RB-OP key(서랍)||RB-ORB1 key(무기 거치대, 서랍, 잡템)||RB-ORB2 key(4x4 무기 상자, 서랍, 잡템)||RB-ORB3 key(무기 거치대, 서랍, 잡템)||RB-RKPM key(귀중품)||RB-PP key||RB-PS81 key(나무 상자)||RB-PS82 key(나무 상자)||RB-PSP1 key(나무 상자, 공구 상자, 잡템)||RB-PSP2 key(나무 상자)||RB-RH key(서랍)||RB-RLSSA key(서랍, 잡템)||RB-RS key(공구 상자, 잡템)||RB-SMP key(잡템)||RB-ST key(5x5 무기 상자, 5x2 무기 상자, 6x3 무기 상자, 수류탄 상자, 잡템)||RB-TB key(무기 거치대, 잡템)||RB-VO key(귀중품)</item>
+    </string-array>
+
+    <string-array name="key_lighthouse">
+        <item>Rogue USEC stash key(5x2 무기상자, 4x4 무기상자, 5x5 무기상자, 잡템)||Rogue USEC workshop key(옷, 공구 상자, 잡템)||USEC Second Safe key(금고, 귀중품)</item>
     </string-array>
 
     <string-array name="h_nvg_mask">
@@ -8015,7 +8520,7 @@
         <item> </item>
         <item>x</item>
         <item>플리마켓에서 해당 열쇠들을 구매하여 전달하면 됩니다.</item>
-        <item>아니오</item>
+        <item>아니오</item>                     Log.d("DEF", doc.toString())
         <item> </item>
     </string-array>
 
@@ -8024,7 +8529,7 @@
     <string-array name="q_collector">
         <item>Collector(수집가)</item>
         <item>주워오기</item>
-        <item>- 레이드에서 Old firesteel 찾기\n- 레이드에서 Antique axe 찾기\n- 레이드에서 Battered antique Book 찾기\n- 레이드에서 FireKlean gun lube 찾기\n- 레이드에서 Golden rooster 찾기\n- 레이드에서 Silver Badge 찾기\n- 레이드에서 Deadlyslob\'s beard oil 찾기\n- 레이드에서 Golden 1GPhone 찾기\n- 레이드에서 Jar of DevilDog mayo 찾기\n- 레이드에서 Can of sprats 찾기\n- 레이드에서 Fast mustache 찾기\n- 레이드에서 Kotton beanie 찾기\n- 레이드에서 Can of Dr. Lupo\'s coffe beans 찾기\n- 레이드에서 Pestily plague mask 찾기\n- 레이드에서 Raven figurine 찾기\n- 레이드에서 Shroud half-mask 찾기\n- 레이드에서 Veritas guitar pick 찾기\n- 레이드에서 42nd Signature Blend English Tea 찾기\n- 레이드에서 Evasion armband 찾기\n- 레이드에서 Can of RatCola 찾기\n- 레이드에서 Loot Lod plushie 찾기\n- 레이드에서 WZ Wallet 찾기\n-레이드에서 LVNDMARK\'s rat poison 찾기\n- 71레벨을 달성하기</item>
+        <item>- 레이드에서 Old firesteel 찾기\n- 레이드에서 Antique axe 찾기\n- 레이드에서 Battered antique Book 찾기\n- 레이드에서 FireKlean gun lube 찾기\n- 레이드에서 Golden rooster 찾기\n- 레이드에서 Silver Badge 찾기\n- 레이드에서 Deadlyslob\'s beard oil 찾기\n- 레이드에서 Golden 1GPhone 찾기\n- 레이드에서 Jar of DevilDog mayo 찾기\n- 레이드에서 Can of sprats 찾기\n- 레이드에서 Fast mustache 찾기\n- 레이드에서 Kotton beanie 찾기\n- 레이드에서 Can of Dr. Lupo\'s coffe beans 찾기\n- 레이드에서 Pestily plague mask 찾기\n- 레이드에서 Raven figurine 찾기\n- 레이드에서 Shroud half-mask 찾기\n- 레이드에서 Veritas guitar pick 찾기\n- 레이드에서 42nd Signature Blend English Tea 찾기\n- 레이드에서 Evasion armband 찾기\n- 레이드에서 Can of RatCola 찾기\n- 레이드에서 Loot Lod plushie 찾기\n- 레이드에서 WZ Wallet 찾기\n-레이드에서 LVNDMARK\'s rat poison 찾기\n- 71레벨을 달성하기Log.d("DEF", doc.toString())</item>
         <item>일부 퀘스트를 제외한 모든 퀘스트를 완료</item>
         <item>Secure Container Kappa(3*4)</item>
         <item> </item>
@@ -9234,7 +9739,7 @@
         <item>완료</item>
         <item> - 서쪽 병영에서 무기고 두개와 의무실 찾기\n - 북쪽 병영에서 무기고와 의무실 찾기</item>
         <item> </item>
-        <item>경험치 10000\n래그맨 우호도 +0.03\nZSh-1-2M helmet(Green)\n3만 루블</item>
+        <item>경험치 10000\n래그맨 우호도 +0.03\nZSh–1–2M helmet(Green)\n3만 루블</item>
         <item> </item>
         <item>x</item>
         <item>서쪽 병영은 검은색 폰으로 각각 4층, 3층, 2층(RB-ORB3)의 검은 비숍쪽 방향에 있습니다.\n북쪽 병영은 흰색 폰으로 각각 4층, 2층(RB-ORB2)의 검은색 폰 방향에 있습니다.</item>
@@ -10063,6 +10568,249 @@
         <item> </item>
     </string-array>
 
+    <string-array name="h_air_filtering_unit">
+        <item>공기 청정 시설</item>
+        <item>- Air filter for gas mask 5개\n- 2만 5천 달러\n- Military power filter 4개\n- Skier LL3\n- 발전기 3레벨\n- 환기구 3레벨</item>
+        <item>신체류 스킬의 경험치 부스트 +40%</item>
+        <item>48시간</item>
+    </string-array>
 
+    <string-array name="h_booze_generator">
+        <item>술 제작소(Booze Generator)</item>
+        <item>- Pressure gauge 2개\n- Silicone tube 4개\n- Analog thermometer 2개\n- Corrugated hose 5개\n- 물 수집기(Water Collector) 3레벨\n- 조리대(Nutrition unit) 3레벨</item>
+        <item>\"Fierce Hatchling" moonshine 생산\n- (Sugar 2개 + Purified water) -> 1개 3시간 3분</item>
+        <item>48시간</item>
+    </string-array>
 
+    <string-array name="h_generator">
+        <item>발전기(Generator)</item>
+        <item>- Spark plug 1개\n- 10만 루블\n- 보안(Security) 1레벨</item>
+        <item>연료 슬롯 2개</item>
+        <item>즉시</item>
+        <item>- Phase control relay 5개\n- Electric motor 1개\n- Wires 15개\n- 보안(Securtiy) 2레벨\n- 환기구(Vents_ 2레벨</item>
+        <item>연료 슬롯 4개</item>
+        <item>5시간</item>
+        <item>- Power supply unit 5개\n- Phase control relay 6개\n- Electric motor 3개\n- Spark plug 10개\n- 메카닉 LL3\n- 보안(Security) 3레벨\n- 환기구(Vents) 3레벨</item>
+        <item>연료 슬롯 6개</item>
+        <item>16시간</item>
+    </string-array>
+
+    <string-array name="h_heating">
+        <item>난방 시설</item>
+        <item>- 2만 5천루블\n- Classic matches 2개</item>
+        <item>에너지 회복 속도 +3 EP/시간</item>
+        <item>즉시</item>
+        <item>- 5만 루블\n- Dry fuel 3개\n- Hunting matches 2개\n- 지구력 1레벨\n- 환기구(Vents) 1레벨</item>
+        <item>에너지 회복 속도 +5 EP/시간</item>
+        <item>2시간</item>
+        <item>- Radiator helix 8개\n- Wires 8개\n- Phase control relay 4개\n- 래그맨 LL2\n- 발전기(Generator) 2레벨\n- 작업대(Workbench) 2레벨</item>
+        <item>에너지 회복 속도 +7 EP/시간\n부정적 효과 제거 확률 +50%</item>
+        <item>8시간</item>
+    </string-array>
+
+    <string-array name="h_illumination">
+        <item>조명(Illumination)</item>
+        <item>- 1만 루블</item>
+        <item>양초를 통해 은신처를 밝힐 수 있음.</item>
+        <item>즉시</item>
+        <item>- Light bulb 14개\n- Wires 5개\n- 발전기(Generator) 1레벨</item>
+        <item>기본적인 전구를 통해 은신처를 밝힐 수 있음.</item>
+        <item>즉시</item>
+        <item>- 5만루블\n- Capacitors 7개\n- Energy-saving lamp 12개\n- Wires 6개\n- 메카닉 LL2\n- 발전기(Generator) 2레벨\n- 작업대(Workbench) 1레벨</item>
+        <item>형광등을 통해 은신처를 밝힐 수 있음.</item>
+        <item>6시간</item>
+    </string-array>
+
+    <string-array name="h_intelligence_center">
+        <item>정보 시설(Intelligence Center)</item>
+        <item>- Folder with intelligence\n- 보안 2레벨\n- 환기구 2레벨</item>
+        <item>스캐브 쿨타임 -15%\n퀘스트 루블 보상 +5%</item>
+        <item>즉시</item>
+        <item>- Folder with intelligence 3개\n- Secure Flash drive 3개\n- Powercord 4개\n- Damaged hard drive 4개\n- 메카닉 LL2\n- 집중 3레벨\n- 보안(Security) 3레벨\n- 치료소(Medstation) 3레벨\n- 조리대(Nutrition unit) 3레벨</item>
+        <item>Secure Flash drive 생산\nVirtex programmable processor 생산\nMilitary COFDM wireless Signal Transmitter 생산\nVPX Flash Storage Module 생산\n- (RAM 3개 + SSD drive 2개 + Broken GPhone 3개) -> 2개 65시간 30분\nGraphics card 생산\nUHF RFID Reader 생산\nObject 11SR keycard 생산\n\n퀘스트 루블 보상 +15%\n보험 회수 시간 -20%</item>
+        <item>6시간</item>
+        <item>- Military COFDM wireless Signal Transmitter 2개\n- VPX Flash Storage Module 2개\n- Gas analyzer 3개\n- Military cable 4개\n- 프라퍼 LL3\n- 작업대(Workbench) 3레벨\n- 발전기(Generator) 3레벨</item>
+        <item>Folder with intelligence 생산\nLab. Violet keycard 생산\n스캐브 쿨타임 -35%\n플리마켓 수수료 -30%</item>
+        <item>24시간</item>
+    </string-array>
+
+    <string-array name="h_lavatory">
+        <item>화장실(Lavatory)</item>
+        <item>- 2천 루블\n- Toliet paper\n- Toothpaste\n- Soap</item>
+        <item>Air filter for gas mask 생산\nArmy Bandage 생산\nToliet paper 생산\nAseptic bandage 생산\nRipstop cloth 생산\nPolyamide fabric Cordura 생산\nScav Backpack 생산\nPACA Soft Armor 생산\nImmobilizing splint (alu) 생산\nLZSh light helmet 생산</item>
+        <item>즉시</item>
+        <item>- Corrugated hose 3개\n- A pack of screws 5개\n- Electric drill\n- KEKTAPE duct tape\n- 물 수집기(Water Collector) 1레벨\n- 환기구(Vents) 1레벨</item>
+        <item>Schaman shampoo 생산\nOX bleach 생산\nClin wiper 생산\nExpeditionary fuel tank 생산\nSplav Tarzan M22 Rig 생산\nModule-3M bodyarmor 생산\n60-round 6L31 5.45x39 magazine for AK-74 and compatibles 생산\n WD-40 100ml. 생산\nCoruugated hose 생산\nMagazine case 생산\nGrenade case 생산\nLucky Scav Junkbox 생산\nKEKTAPE duct tape 생산\nWater filter 생산\nParacord 생산\nPilgrim tourist backpack 생산</item>
+        <item>3시간</item>
+        <item>- Xenomorph sealing foam 3개\n- Corrugated hos 6개\n- Pressure gauge 2개\n- A set of tools\n- 환기구(Vents) 2레벨\n- 물 수집기(Water Collector) 2레벨</item>
+        <item>FP-100 filter absorber 생산\n6SH118 raid backpack 생산\nVelocity Systems Multi-Purpose Patrol Vest 생산</item>
+        <item>7시간</item>
+    </string-array>
+
+    <string-array name="h_library">
+        <item>도서관(Library)</item>
+        <item>- Chainlet 2개\n- Horse figurine\n- 40만 루블\n- 기억력(Memory) 8레벨\n- 휴식 공간(Rest Space) 3레벨</item>
+        <item>레이드 추가 경험치 +15%\n실행적인 스킬 레벨링 속도 +30%</item>
+        <item>38시간</item>
+    </string-array>
+
+    <string-array name="h_medstation">
+        <item>치료소(Medstation)</item>
+        <item>- 5만 루블\n- Disposable syringe\n- Pile of Meds</item>
+        <item>AI-2 medikit 생산\nSalewa FIRST AID KIT 생산\nCALOK-B Hemostatic 생산\n체력 재생 속도 +27 HP/시간</item>
+        <item>즉시</item>
+        <item>- Saline solution 3개\n- Medical bloodset 2개\n- Esmarch tourniquet 5개\n- 15만 루블\n- 테라피스트 LL2\n- 건강(Health) 2레벨\n- 발전기(Generator) 1레벨</item>
+        <item>Medical bloodset 생산\nPile of Meds 생산\nSJ1 TGLabs combat stimulant injector 생산\nIFAK personal tactical first aid kit 생산\nMorphine 생산\nPortable defibrillator 생산\nM.U.L.E. stimulant injector 생산\n체력 재생 속도 +82HP/시간</item>
+        <item>3시간</item>
+        <item>- Ophthalmoscope\n- 50만 루블\n- Saline solution 4개\n- LEDX Skin Transiluminator\n- 테라피스트 LL3\n- 스키어 LL2\n- 활력(Vitality) 3레벨\n- 발전기(Generator) 2레벨\n- 화장실(Lavatory) 2레벨</item>
+        <item>Vaseline 생산\nGrizzly First Aid Kit 생산\nSurv12 field surgical kit 생산\nPropital regenerative stimulant injector 생산\nSJ6 TGLabs combat stimulant injector 생산\nLEDX Skin Transiluminator</item>
+        <item>12시간</item>
+    </string-array>
+
+    <string-array name="h_nutrition_unit">
+        <item>조리대(Nutrition Unit)</item>
+        <item>- Phase control relay 2개\n- 25000루블\n- 발전기(Generator) 1레벨</item>
+        <item>Iskra lunch box 생산\nCan of beef stew 생산\nMax energy 생산\nPremium Kvass \"Norvinskiy Yadreniy\" 0.6L bottle\n에너지 재생 속도 +6EP/시간</item>
+        <item>즉시</item>
+        <item>- Wrench 4개\n- Corrugated hose 2개\n- Heat-exchange alkali surface washer 2개\n- Phase control relay\n- 화장실(Lavatory) 2레벨</item>
+        <item>Slickers bar 생산\nCondensed milk 생산\nPack of Sugar 생산\nWilston cigarettes 생산\n에너지 재생 속도 +12EP/시간\n체력 재생 속도 +32HP/시간</item>
+        <item>4시간</item>
+        <item>- 12만 5천루블\n- Majaica Coffee 3개\n- Sodium bicarbonate 3개\n- Smoked Chimney drain cleaner 2개\n- 신진대사(Metabolism) 3레벨\n- 발전기(Generator) 2레벨\n- 화장실(Lavatory) 3레벨\n- 창고(Stash) 2레벨</item>
+        <item>Bottle of vodka Tarkovskaya 생산\nWater bottle with a filter Aquamari 생산\nHot Rod 생산\nBottle of Dan Jackiel Whiskey 생산\n에너지 재생 속도 +36EP/시간\n수분 재생 속도 12 WP/시간</item>
+        <item>14시간</item>
+    </string-array>
+
+    <string-array name="hideout_list">
+        <item>공기 청정 설비(Air Filter Unit)</item>
+        <item>난방(Heating)</item>
+        <item>도서관(Library)</item>
+        <item>물 수집기(Water Collector)</item>
+        <item>밀주 제작대(Booze Generator)</item>
+        <item>발전기(Generator)</item>
+        <item>보안(Security)</item>
+        <item>비트코인 채굴장(Bitcoin Farm)</item>
+        <item>사격장(Shooting Range)</item>
+        <item>스캐브 교환소(SCAV Case)</item>
+        <item>작업대(Workbench)</item>
+        <item>주방(Nutrition Unit)</item>
+        <item>조명(Illumination)</item>
+        <item>지식 센터(Intelligence Center)</item>
+        <item>창고(Stash)</item>
+        <item>치료소(Medstation)</item>
+        <item>크리스마스 트리(Christmas Tree)</item>
+        <item>태양광(Solar Power)</item>
+        <item>휴식 공간(Rest Space)</item>
+        <item>환기구(Vents)</item>
+        <item>화장실(Lavatory)</item>
+    </string-array>
+
+    <string-array name="h_rest_space">
+        <item>휴식 공간(Rest Space)</item>
+        <item>- 1만 루블\n- Duct tape\n- 환기구(Vents) 1레벨</item>
+        <item>부정적인 효과 제거 시간 -10%</item>
+        <item>즉시</item>
+        <item>- 3만 5천루블\n- Energy-saving lamp 3개\n- DVD drive\n- Magnet\n- 레그맨 LL2\n- 발전기(Generator) 2레벨\n- 난방 시설(Heating)</item>
+        <item>에너지 재생 속도 +3EP/시간\n체력 재생 속도 +23HP/시간</item>
+        <item>2시간</item>
+        <item>- GreenBat lithium battery 5개\n- Powercord 4개\n- Capacitors 5개\n- Wires 7개\n- 스키어 LL3\n- 발전기(Generator) 3레벨\n- 난방 시설(Heating) 3레벨</item>
+        <item>체력 재생 속도 +46HP/시간\n에너지 최대 보유양 +10</item>
+        <item>10시간</item>
+    </string-array>
+
+    <string-array name="h_scav_case">
+        <item>스캐브 교환소(Scav Case)</item>
+        <item>- \"Fierce Hatchling\" Moonshine 3개\n- Roler submariner 4개\n- Golden neck chain 8개\n- Gold skull ring 6개\n- Bronze lion 4개\n- 정보 시설(Intelligence Center) 2레벨</item>
+        <item>스캐브에게 아이템을 주고 무작위 인레이드 아이템을 획득할 수 있습니다.\n- 1000루블 (41분) : 1~3개 아이템\n- 7000루블 (2시간 8분) : 2~4개 아이템\n- 8만 5천루블 (2시간 15분) : 2~5개 아이템\n- \"Fierce Hatchling\" Moonshine (4시간 40분) : 4~6개 아이템\n- Folder with Intelligence (5시간 20분) : 4~7개 아이템</item>
+        <item>80시간</item>
+    </string-array>
+
+    <string-array name="h_security">
+        <item>보안(Security)</item>
+        <item>- 2만 루블\n- Construction Measuring tape</item>
+        <item> X </item>
+        <item>즉시</item>
+        <item>- 4만 5천 루블\n- Pliers Elite\n- WD-40 100ml.\n- 지구력(Endurance) 2레벨\n- 조명(Illumination) 1레벨</item>
+        <item> X </item>
+        <item>3시간</item>
+        <item>- NIXXOR lens 8개\n- Working LCD 2개\n- Wires 4개\n- SSD drive\n- Mechanic LL2\n- 조명(Illumination) 3레벨</item>
+        <item> X </item>
+        <item>17시간</item>
+    </string-array>
+
+    <string-array name="h_shooting_range">
+        <item>사격장(Shooting Range)</item>
+        <item>- Duct tape 3개\n- Bolts 5개\n- Screw nut 5개\n- A pack of nails 4개\n- 조명(Illumination) 2레벨</item>
+        <item>총기 시험 가능</item>
+        <item>1시간</item>
+    </string-array>
+
+    <string-array name="h_solar_power">
+        <item>태양광(Solar Power)</item>
+        <item>- Phased array element 4개\n- 75000 유로\n- Military Cable 10개\n- Military power filter 10개\n- Peacekeeper LL4\n- 발전기(Generator) 3레벨\n- 작업대(Workbench) 3레벨</item>
+        <item>연료 소모율 -50%</item>
+        <item>72시간</item>
+    </string-array>
+
+    <string-array name="h_stash">
+        <item>창고(Stash)</item>
+        <item>- Escape From Tarkov Standard 에디션 구매</item>
+        <item>창고 크기 10x28(280칸)</item>
+        <item>N/A</item>
+        <item>- Escape From Tarkov Left Behind 에디션 구매\n\n또는\n\n- WD-40 100ml. 4개\n- Hand drill\n- A pack of nails 5개\n- A pack of screws 10개\n- 350만 루블\n- 환기구(Vents) 1레벨</item>
+        <item>창고 크기 10x38(380칸)</item>
+        <item>24시간</item>
+        <item>- Escape From Tarkov Prepare for Escape 에디션 구매\n\n또는\n\n- Electric drill 2개\n- A pack of screws 15개\n- 850만 루블\n- 프라러 LL3\n- 레그맨 LL3\n- 환기구(Vents) 2레벨\n- 난방 시설(Heating) 2레벨</item>
+        <item>창고 크기 10x48(480칸)</item>
+        <item>48시간</item>
+        <item>- Escape From Tarkov Edge of Darkness 에디션 구매\n\n또는\n\n- 20만 유로\n- Screw nut 10개\n- Bolts 10개\n- Shustrilo sealing foam 5개\n- Ratchet wrench 2개\n- 피스키퍼 LL4\n- 레그맨 LL4\n- 발전기(Generator) 3레벨\n- 작업대(Workbench) 3레벨\n- 난방 시설(Heating) 3레벨\n- 정보 시설(Intelligence Center) 2레벨</item>
+        <item>창고 크기 10x68(680칸)</item>
+        <item>96시간</item>
+    </string-array>
+
+    <string-array name="h_vents">
+        <item>환기구(Vents)</item>
+        <item>- 25000루블</item>
+        <item> X </item>
+        <item>즉시</item>
+        <item>- Car battery\n- Electric motor\n- CPU Fan 3개</item>
+        <item> X </item>
+        <item>3시간</item>
+        <item>- Printed circuit board 5개\n- Electric motor 4개\n- Wires 14개\n- Car battery 4개\n- 힘(Strength) 2레벨\n- 발전기(Generator) 2레벨</item>
+        <item> X </item>
+        <item>10시간</item>
+    </string-array>
+
+    <string-array name="h_water_collector">
+        <item>물 수집기(Water Collector)</item>
+        <item>- Duct tape 3개\n- Screw nut 5개\n- Bolts 5개\n- Corrugated hose 4개\n- 보안(Security) 1레벨</item>
+        <item>수분 회복률 +6 WP/시간</item>
+        <item>2시간</item>
+        <item>- A set of tools 2개\n- Corrugated hose 6개\n- Electric Motor 2개\n- KEKTAPE duct tape\n- Jaeger LL2\n- 집중(Attention) 3레벨\n- 작업대(Workbench) 2레벨</item>
+        <item>수분 회복률 +12 WP/시간</item>
+        <item>8시간</item>
+        <item>- Ratchet wrench\n- 2만 루블\n- Pliers Elite 2개\n- Shustrilo sealing foam 5개\n- Jeager LL3\n- 발전기(Generator) 3레벨\n- 난방(Heating) 3레벨</item>
+        <item>- Purified water 생산\n- 수분 회복률 +19 WP/시간</item>
+        <item>16시간</item>
+    </string-array>
+
+    <string-array name="h_workbench">
+        <item>작업대(Workbench)</item>
+        <item>- Screw nut 2개\n- Bolts 2개\n- Leatherman Multitool</item>
+        <item>Broken LCD 생산\nPrinted circuit board 생산\nGunpowder \"Hawk\" 생산\nPower cord 생산\nVOG-25 Khattabka grenade 생산\nWeapon parts 생산\nGunpowder \"Kite\" 생산\n12/70 8.5mm \"Magnum\" Buckshot 생산\n9x18mm PM RG028 gzh 생산\nWires 생산\nCapacitors 생산\nMagnet 생산\nAK-74N 5.45x39 assault rifle 생산\nT-Shaped Plug 생산\nBroken GPhone 생산\n무기 프리셋 사용가능</item>
+        <item>즉시</item>
+        <item>- A set of tools 3개\n- Electric drill 2개\n- Bolts 6개\n- Weapon parts 3개\n- Mechanic LL2\n-조명(Illumination) 2레벨</item>
+        <item>Rechargeable battery 생산\nZarya stun grenade 생산\nElectric motor 생산\nAK–74M 5.45x39 assault rifle 생산\nGeiger–Muller counter 생산\nGunpowder \"Eagle\" 생산\n.366 TKM AP–M 생산\nGunpowder \"Hawk\" 생산\n7.62x54R SNB 생산\n12/70 Flechette 생산\n12/70 HP Slug \"SuperFormance\" 생산\n9x18mm PM PBM gzh 생산\n9x19mm AP 6.3 생산\nMilitary circuit board 생산\nCar battery 생산\nFLIR RS–32 2.25–9x 35mm 60Hz thermal riflescope 생산\n5.45x39mm PP gs 생산\n9x39 mm SP6 gs 생산\n5.56x45mm M856A1 생산\nSpark plug 생산</item>
+        <item>3시간</item>
+        <item>- 39만 5천 루블\n- Pliers Elite 2개\n- FireKlean gun lube\n- Can of thermite 2개\n- 메카닉 LL3\n- 발전기(Generator) 2레벨\n- 창고(Stash) 2레벨</item>
+        <item>RGD-5 hand grenade 생산\n9x19mm RIP 생산\n12/70 AP-20 Slug 생산\n5.56x45mm M995 생산\n7.62x39mm BP gzh 생산\n5.56x45mm Warmageddon 생산\n9x39mm BP gs 생산\n5.45x39mm PPBS gs \"Igolnik\" 생산\n7.62x51mm M61 생산\n9x19mm PBP gzh 생산\nOFZ 30x160mm shell 생산</item>
+        <item>11시간</item>
+    </string-array>
+
+    <string-array name="h_christmas_tree">
+        <item>크리스마스 트리(Christmas Tree)</item>
+        <item>- 1만 루블\n- Christmas tree decoration ball (red)\n- Christmas tree decoration ball (silver)\n- Christmas tree decoration ball (violet)\n- 발전기(Generator) 1레벨</item>
+        <item>VSS Vintorez 생산\nVector .45 ACP 생산\nM.U.L.E. stimulant injector 생산\nOakley Mechanism heavy duty backpack (black) 생산\nCar first aid kit 생산\nUMP 45 생산\nWeapon case 생산\nLEDX Skin Transilluminator 생산\nGraphics card 생산\n크리스마스 조명 옵션 추가</item>
+        <item>즉시</item>
+    </string-array>
+    
 </resources>

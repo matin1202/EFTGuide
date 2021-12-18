@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
+import android.os.AsyncTask
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -18,6 +19,8 @@ import com.matin.eftguide.PhotoActivity
 import com.matin.eftguide.R
 import kotlinx.android.synthetic.main.fragment_dealer_explain.*
 import kotlinx.coroutines.*
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.support.v4.runOnUiThread
 import org.jetbrains.anko.support.v4.toast
 import org.jsoup.Jsoup
 import java.util.*
@@ -26,7 +29,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
 
     private lateinit var dealer: String
     private val job: Job = Job()
-    private val uri = "https://escapefromtarkov.gamepedia.com/File:"
+    private val uri = "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2d/"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -67,7 +70,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
             val requirements = mutableListOf<String>(
                 "15레벨, 0.20, 750,000루블||22레벨, 0.35, 1,500,000루블||33레벨, 0.50, 2,300,000루블",
                 "13레벨, 0.15, 400,000루블||20레벨, 0.30, 700,000루블||32레벨, 0.60, 900,000루블",
-                "1레벨, 6.00 0루블||유저 스캐브 플레이시|| 다른 스캐브 사살 -0.02|||| 보스 사살 -0.22||PMC 사살 +0.1||배신한 스캐브(스캐브 쏜 유캐브) 사살 +0.1||보스나 스캐브가 적 죽이는 거 도울 시 오름||택시 탈출구로 탈출시 +0.25(런쓰루시 +0.125)",
+                "1레벨, 6.00 0루블",
                 "15레벨, 0.20, 800,000루블||28레벨, 0.48, 1,600,000루블||35레벨, 0.75, 2,600,000루블",
                 "10레벨, 0.00, 11,000달러||18레벨, 0.30, 25,000달러||29레벨, 0.60, 32,000달러",
                 "20레벨, 0.15, 750,000루블||30레벨, 0.30, 1,600,000루블||40레벨, 0.60, 2,500,000루블",
@@ -125,7 +128,7 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                 val activeNetwork: NetworkInfo? = cm.activeNetworkInfo
                 val isConnected: Boolean =
                     (activeNetwork != null && activeNetwork.isConnectedOrConnecting)
-                Log.d("DEF", "onClick: Is Internet connected? $isConnected}")
+                Log.d("DEF", "onClick: Is Internet connected? $isConnected")
                 if (!isConnected) {
                     toast("인터넷에 연결해 주세요...")
                     return
@@ -159,10 +162,12 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                 }
             }catch(e: Exception) {
                  toast("알 수 없는 에러가 발생했습니다.")
+                Log.e("DEF", e.toString())
             }
         }
 
         private fun getImage(lv: Int) {
+
             try {
                 toast("이미지를 불러옵니다...")
                 val scope = CoroutineScope(Dispatchers.Main + job)
@@ -170,16 +175,16 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                     val crawling = async(Dispatchers.IO) {
                         try {
                             val doc =
-                                Jsoup.connect("$uri$dealer${lv}Stock.png").timeout(20000).get()
-                            val target = doc.select("#file").select("a").attr("href")
+                                Jsoup.connect("https://escapefromtarkov.fandom.com/wiki/${dealer}").userAgent("Mozilla/5.0 (Windows BT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0").timeout(20000).get()
+                            val target = doc.select(".wds-tab__content")[lv-1].select("a").attr("href")
                             Log.d("DEF", target)
+                            //val target = doc.select("#file").select("a").attr("href")
                             return@async target
                         } catch (e: Exception) {
                             return@async null
                         }
                     }
-
-
+                    //https://escapefromtarkov.fandom.com/wiki/Prapor#LL3
                     val builder = AlertDialog.Builder(context, R.style.MyDialogTheme)
                     val dialogView = layoutInflater.inflate(R.layout.image_dialog, null)
 
@@ -214,6 +219,9 @@ class DealerExplainFragment : Fragment(), View.OnClickListener {
                 }
             }catch (e: Exception){
                 toast("알 수 없는 에러가 발생했습니다.")
+                runOnUiThread {
+                    Log.e("DEF", e.message!!)
+                }
             }
         }
     }

@@ -490,7 +490,36 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/LinearLayout_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/LinearLayout_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
+            <TextView
+                android:id="@+id/textView_explain"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text="설명"/>
+
+            <TextView
+                android:id="@+id/tv_ammo_explain"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_margin="1dp"
+                android:background="@color/background"
+                android:text=""
+                android:padding="4dp" />
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     

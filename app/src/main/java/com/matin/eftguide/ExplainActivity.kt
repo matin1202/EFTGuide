@@ -10,9 +10,7 @@ import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
 import kotlinx.android.synthetic.main.activity_explain.*
 import org.jetbrains.anko.imageResource
-import org.jetbrains.anko.textColor
 import org.jetbrains.anko.toast
-import java.lang.Exception
 
 class ExplainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,6 +57,8 @@ class ExplainActivity : BaseActivity() {
                 TextViewCompat.setAutoSizeTextTypeWithDefaults(buffer[i], TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
             }
 
+            tv_ammo_caliber.text = stringArray[14]
+            TextViewCompat.setAutoSizeTextTypeWithDefaults(tv_ammo_caliber, TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
 
             /*val buffer2 = arrayListOf(
                 "",
