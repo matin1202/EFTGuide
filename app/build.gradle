@@ -6,15 +6,15 @@ apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'com.google.firebase.firebase-perf'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
 
     defaultConfig {
         applicationId "com.matin.eftguide"
         minSdkVersion 24
-        targetSdkVersion 29
-        versionCode 41
-        versionName "0.0.41a"
+        targetSdkVersion 30
+        versionCode 43
+        versionName "0.0.43a"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

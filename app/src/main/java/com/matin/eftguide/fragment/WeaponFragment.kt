@@ -183,6 +183,7 @@ class WeaponFragment : Fragment() {
                     "MP-133",
                     "MP-153",
                     "MP-155",
+                    "950A1",
                     "MTs-255",
                     "MP-43-1C",
                     "KS-23M",
@@ -194,6 +195,7 @@ class WeaponFragment : Fragment() {
                     R.drawable.mp_133,
                     R.drawable.mp153,
                     R.drawable.mp155,
+                    R.drawable.m590a1,
                     R.drawable.mts_255,
                     R.drawable.mp_43_1c,
                     R.drawable.ks_23m,
@@ -304,7 +306,6 @@ class WeaponFragment : Fragment() {
                 arrayListOf(R.drawable.nsv, R.drawable.ags_30), "weapon"
             )
         )
-
         list.add(
             WFRecycler(
                 context,
@@ -352,16 +353,32 @@ class WeaponFragment : Fragment() {
                 context,
                 R.drawable.grenade,
                 "투척 무기",
-                arrayListOf("F-1", "M67", "RGD-5", "VOG-17", "VOG-25", "RDG-2B", "Zarya"),
+                arrayListOf(
+                    "F-1",
+                    "M67",
+                    "RGN",
+                    "RGO",
+                    "RGD-5",
+                    "VOG-17",
+                    "VOG-25",
+                    "RDG-2B",
+                    "Model 7290",
+                    "Zarya",
+                    "M18"
+                ),
                 arrayListOf(
                     R.drawable.f_1,
                     R.drawable.m67,
+                    R.drawable.rgn,
+                    R.drawable.rgo,
                     R.drawable.rgd_5,
                     R.drawable.vog_17,
                     R.drawable.vog_25,
                     R.drawable.rdg_2b,
-                    R.drawable.zarya
-                ), "weapon"
+                    R.drawable.model_7290,
+                    R.drawable.zarya,
+                    R.drawable.m18
+                ), "throwable_weapon"
             )
         )
 

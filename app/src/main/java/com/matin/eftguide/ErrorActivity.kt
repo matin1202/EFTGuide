@@ -44,7 +44,7 @@ class ErrorActivity : AppCompatActivity() {
             job = null
         }
         errorIntent?.let {
-            lastActivityIntent.putExtra("where", it)
+            lastActivityIntent?.putExtra("where", it)
         }
         startActivity<MainActivity>()
         startActivity(lastActivityIntent)

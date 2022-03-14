@@ -283,7 +283,7 @@ class ItemExplainActivity : BaseActivity() {
                         }<br/>"
                     }
                 }
-                "throwableweapon" -> {
+                "throwable_weapon" -> {
                     buffer = arrayListOf(
                         getString(R.string.name),
                         getString(R.string.explode_time),

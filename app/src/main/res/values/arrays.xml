@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="Typos">
 
     <!--                    9x18mm                             -->
 
@@ -832,14 +833,14 @@
         <item>54</item>
         <item>35</item>
         <item>37%</item>
-        <item> </item>
-        <item>{B-20}</item>
+        <item>{B+5}</item>
+        <item>{B-24}</item>
         <item>20%</item>
         <item>30%</item>
         <item> </item>
         <item> </item>
-        <item>922m/s</item>
-        <item> </item>
+        <item>299m/s</item>
+        <item>@string/subsonic</item>
         <item>Peacekeeper LL4</item>
         <item>666432</item>
         <item>5.7x28mm</item>
@@ -856,7 +857,7 @@
         <item>60%</item>
         <item> </item>
         <item> </item>
-        <item>716m/s</item>
+        <item>715m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>666543</item>
@@ -874,7 +875,7 @@
         <item>20%</item>
         <item> </item>
         <item> </item>
-        <item>922m/s</item>
+        <item>594m/s</item>
         <item> </item>
         <item>Peacekeeper LL2</item>
         <item>662000</item>
@@ -1020,7 +1021,7 @@
         <item>38%</item>
         <item> </item>
         <item> </item>
-        <item>890m/s</item>
+        <item>886m/s</item>
         <item> </item>
         <item>Prapor LL2</item>
         <item>666310</item>
@@ -1038,7 +1039,7 @@
         <item>40%</item>
         <item> </item>
         <item> </item>
-        <item>890m/s</item>
+        <item>866m/s</item>
         <item> </item>
         <item>Prapor LL1</item>
         <item>620000</item>
@@ -1402,7 +1403,7 @@
         <item>10%</item>
         <item>15%</item>
         <item>15%</item>
-        <item>605m/s</item>
+        <item>635m/s</item>
         <item> </item>
         <item>Peacekeeper LL3</item>
         <item>666654</item>
@@ -3914,8 +3915,8 @@
 
     <string-array name="w_sa_58">
         <item>SA-58</item>
-        <item>406</item>
-        <item>507</item>
+        <item>325</item>
+        <item>540</item>
         <item>31</item>
         <item>900m</item>
         <item>7.62x51mm NATO</item>
@@ -4482,6 +4483,25 @@
         <item></item>
     </string-array>
 
+    <string-array name="w_590a1">
+        <item>590A1</item>
+        <item>520</item>
+        <item>650</item>
+        <item>48</item>
+        <item>70m</item>
+        <item>12/70</item>
+        <item>30RPM</item>
+        <item>단발</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>SilencerCo Salvo 12 + SilencerCo choke adapter</item>
+        <item>8.5mm "Magnum" Buckshot</item>
+        <item>Flechette</item>
+        <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
+        <item> </item>
+    </string-array>
+
     <string-array name="w_m870">
         <item>M870</item>
         <item>520</item>
@@ -4498,7 +4518,7 @@
         <item>8.5mm "Magnum" Buckshot</item>
         <item>Flechette</item>
         <item>AP-20 Slug탄도 Flechette탄 만큼 좋습니다.</item>
-        <item></item>
+        <item> </item>
     </string-array>
 
     <string-array name="w_mp_133">
@@ -4653,6 +4673,25 @@
         <item></item>
     </string-array>
 
+    <string-array name="w_g28">
+        <item>G28</item>
+        <item>240</item>
+        <item>600</item>
+        <item>48</item>
+        <item>700m</item>
+        <item>7.62x51mm NATO</item>
+        <item>700RPM</item>
+        <item>단발</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Daniel Defence Wave QD Suppressor + DD Wave Muzzle Brake 7.62x51</item>
+        <item>M80</item>
+        <item>M62</item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
     <string-array name="w_m1a">
         <item>M1A</item>
         <item>296</item>
@@ -4669,7 +4708,7 @@
         <item>M80</item>
         <item>M61</item>
         <item> </item>
-        <item></item>
+        <item> </item>
     </string-array>
 
     <string-array name="w_rsass">
@@ -4865,8 +4904,8 @@
     <string-array name="w_vpo_215">
         <item>VPO-215</item>
         <item>245</item>
-        <item>585</item>
-        <item>26</item>
+        <item>540</item>
+        <item>41</item>
         <item>1000m</item>
         <item>.366 TKM</item>
         <item>30RPM</item>
@@ -5371,57 +5410,89 @@
 
     <string-array name="w_f_1">
         <item>F-1 Hand grenade</item>
-        <item>3.5s</item>
+        <item>3.5초</item>
         <item>3–7m</item>
         <item>90개의 파편</item>
-        <item>40 x 90</item>
+        <item>80 x 90</item>
     </string-array>
 
     <string-array name="w_m67">
         <item>M67 Hand grenade</item>
-        <item>5s</item>
+        <item>5초</item>
         <item>3–8m</item>
         <item>75개의 파편</item>
-        <item>45 x 75</item>
+        <item>110 x 75</item>
     </string-array>
 
     <string-array name="w_rgd_5">
         <item>RGD-5 Hand grenade</item>
-        <item>3.5s</item>
+        <item>3.5초</item>
         <item>3–7m</item>
         <item>70개의 파편</item>
-        <item>55 x 70</item>
+        <item>100 x 70</item>
+    </string-array>
+
+    <string-array name="w_rgn">
+        <item>RGN</item>
+        <item>벽에 부딪히면 폭발</item>
+        <item>2-5m</item>
+        <item>75개의 파편</item>
+        <item>125 x 75</item>
+    </string-array>
+
+    <string-array name="w_rgo">
+        <item>RGO</item>
+        <item>벽에 부딪히면 폭발</item>
+        <item>2-7m</item>
+        <item>85개의 파편</item>
+        <item>85 x 85</item>
     </string-array>
 
     <string-array name="w_vog_17">
         <item>VOG-17 Khattabka grenade</item>
-        <item>3s</item>
+        <item>3초</item>
         <item>2–6m</item>
         <item>100개의 파편</item>
-        <item>55 x 100</item>
+        <item>120 x 100</item>
     </string-array>
 
     <string-array name="w_vog_25">
         <item>VOG-25 Khattabka grenade</item>
-        <item>2s</item>
+        <item>2초</item>
         <item>2–7m</item>
         <item>35개의 파편</item>
-        <item>40 x 35</item>
+        <item>65 x 35</item>
     </string-array>
 
     <string-array name="w_rdg_2b">
         <item>RGD-2B Smoke grenade</item>
-        <item>3.5s</item>
-        <item>120s</item>
+        <item>3.5초</item>
+        <item>120초</item>
+        <item>smoke</item>
+        <item>smoke</item>
+    </string-array>
+
+    <string-array name="w_m18">
+        <item>M18 smoke grenade</item>
+        <item>1초</item>
+        <item>90초</item>
         <item>smoke</item>
         <item>smoke</item>
     </string-array>
 
     <string-array name="w_zarya">
         <item>Zarya Stun grenade</item>
-        <item>2s</item>
+        <item>2초</item>
         <item>10m</item>
         <item>40초 동안 스턴[Stun], 20초 동안 타박상[Contusion], 시야를 가리는 흰색 점 130초 동안 지속</item>
+        <item>stun</item>
+    </string-array>
+
+    <string-array name="w_model_7290">
+        <item>Model 7290 Flash Bang Grenade</item>
+        <item>1.5초</item>
+        <item>정보 없음</item>
+        <item>정보 없음</item>
         <item>stun</item>
     </string-array>
 
@@ -5431,7 +5502,8 @@
         <item>팩토리</item>
         <item>낮 : 20분 | 밤 : 25분</item>
         <item>낮 : 4~5 플레이어 | 밤 : 4~6 플레이어</item>
-        <item>SCAV, 타길라</item>
+        <item>SCAV, 타길라, 컬티스트(야간)</item>
+        <item>16번 화학공장의 산업용지와 시설들은 TerraGroup 회사에 불법적으로 임대됐습니다.\nContract Wars 기간동안, 이 공장은 타르코프 산업 지구 전체를 통제하기 위한 USEC과 BEAR 요원들의 많은 교전의 온상이 되었습니다.\n시간이 흐르며 공장 부지는 지역민간인과 SCAV 그리고 가끔은 USEC과 BEAR 요원의 쉼터로 바뀌었습니다.</item>
     </string-array>
 
     <string-array name="customs">
@@ -5439,6 +5511,7 @@
         <item>35분</item>
         <item>8~13 플레이어</item>
         <item>SCAV, 르살라, 컬티스트(야간)</item>
+        <item>공장과 가까운 넓은 산업부지로서, 이 지역에는 세관 터미널, 연료 저장 시설, 사무실, 기숙사 뿐 아니라 다양한 기반 시설들이 위치하고 있습니다.</item>
     </string-array>
 
     <string-array name="woods">
@@ -5446,6 +5519,7 @@
         <item>40분</item>
         <item>8~14 플레이어</item>
         <item>SCAV, 슈트르만, 컬티스트(야간)</item>
+        <item>Priozersky 자연 보호 구역은 최근에 북서 연방관구의 주 보호 야생동물 보호구역의 일부가 되었습니다.</item>
     </string-array>
 
     <string-array name="shoreline">
@@ -5453,7 +5527,7 @@
         <item>50분</item>
         <item>10~13 플레이어</item>
         <item>SCAV, 세니타, 컬티스트(야간)</item>
-        <item></item>
+        <item>해안선은 도시 항구 옆 타르코프의 해안 변두리에 위치한 넓은 지역입니다.\n이 지역의 지형은 울퉁불퉁한 산림 지대, 넓은 들판, 들쭉날쭉한 절벽, 습지, 길게 뻗은 해안선을 특징으로 합니다.\n관심을 가지만한 인조 건물들은 버려진 마을, 현대 주택, 보트 시설, 주유소, 기상대, 셀룰러 통신타워와 지도의 초점인 Azure Coast Health Resort를 포함합니다.\n이 고급 복합 건물은 3개의 다층 건물로 구성되어있으며, 한때 TerraGroup의 관련 부서원들이 타르코프 항구의 대피를 준비하면서 임시 숙소로 사용하기도 했습니다.\n가동될때엔, 인근의 수력 발전소에서 전력을 공급받았습니다.</item>
     </string-array>
 
     <string-array name="interchange">
@@ -5461,6 +5535,7 @@
         <item>45분</item>
         <item>10~14 플레이어</item>
         <item>SCAV, 킬라</item>
+        <item>남쪽의 나들목은 도시 교통의 핵심지입니다. 이 전략적 지역은 항구와 타르코프의 산업 지구 외곽을 연결합니다. 나들목의 중앙에는 EMERCOME 소개의 주요 기지로써 사용되던 거대한 ULTRA 쇼핑몰이 있습니다.</item>
     </string-array>
 
     <string-array name="the_lab">
@@ -5468,6 +5543,7 @@
         <item>40분</item>
         <item>6~10 플레이어</item>
         <item>레이더</item>
+        <item>지하 실험 단지 TerraGroup Labs는 타르코프의 중심 바로 아래에 있는 비밀 지역입니다.\n공식적으로, 이 연구소는 존재하지 않으며,데이터 스크랩을 기반으로 화학, 물리, 생물학, 첨단 분야에서 연구 개발, 시험 및 시뮬레이션 프로젝트를 진행하고 있습니다.</item>
     </string-array>
 
     <string-array name="reserve">
@@ -5475,6 +5551,7 @@
         <item>40분</item>
         <item>9~12 플레이어</item>
         <item>SCAV, 레이더, 글루하</item>
+        <item>도시 전설에 의하면, 연방 준비 제도 이사회(FRB)의  비밀 기지에는 식량과 의약품 그리고 핵전쟁에서도 수년간 살아남을 수 있을만큼의 충분한 자원을 보유하고 있습니다.</item>
     </string-array>
 
     <string-array name="map_lighthouse">
@@ -5482,6 +5559,7 @@
         <item>45분</item>
         <item>9~12 플레이어</item>
         <item>SCAV, USEC 로그</item>
+        <item>Dalniy 곶에 있는 등대는 타르코프시로 가는 길의 중요한 전략적 요충지입니다.\nContract Wars 동안, USEC 부대의 주요 진입지였으며 작전 기지 역할을 했습니다.\n전쟁 이후, 타르코프 시에 남기로한 SCAV들은 이곳으로 와서 옛 주인이 돌아오기 전까지, 그들만의 질서를 확립했습니다.</item>
     </string-array>
 
 
@@ -5851,7 +5929,7 @@
 
 
     <string-array name="exit_shoreline">
-        <item>adm_basement, ccp_temporary, lighthouse, path_to_lighthouse, pier_boat, road_to_customs, road_at_railbridge, ruined_house_fence, ruined_road, rwing_gym_entrance, south_fence_passage, svetliy_dead_end, tunnel</item>
+        <item>adm_basement, ccp_temporary, lighthouse, path_to_lighthouse, pier_boat, road_to_customs, road_at_railbridge, ruined_house_fence, ruined_road, rwing_gym_entrance, north_fence_passage, svetliy_dead_end, tunnel</item>
     </string-array>
 
     <string-array name="adm_basement">
@@ -5942,8 +6020,8 @@
         <item>항상 탈출 가능</item>
     </string-array>
 
-    <string-array name="south_fence_passage">
-        <item>South Fence Passage</item>
+    <string-array name="north_fence_passage">
+        <item>North Fence Passage</item>
         <item>SCAV</item>
         <item>확정 탈출구</item>
         <item>다회용 탈출구</item>
@@ -6382,7 +6460,7 @@
         <item>40</item>
         <item>없음</item>
         <item>이동 속도 {R-3%}, 화면 전환 속도 {R-5%}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight Polyenthylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight Polyenthylene)</item>
         <item>적음</item>
         <item>불가능</item>
         <item> </item>
@@ -6447,7 +6525,7 @@
         <item>35</item>
         <item>중간</item>
         <item>이동속도 {R-3%}, 화면 전환 속도 {R-5%}, 인체공학 {R-1}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>높음</item>
         <item>불가능</item>
         <item>바이져 장착 가능</item>
@@ -6551,7 +6629,7 @@
         <item>38</item>
         <item>높음</item>
         <item>이동속도 {R-2%}, 화면 전환 속도 {R-10%}, 인체공학 {R-4}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>적음</item>
         <item>가능</item>
         <item> </item>
@@ -6762,7 +6840,7 @@
         <item>50</item>
         <item>111</item>
         <item>이동속도 {R-10%}, 화면 전환 속도 {R-4%}, 인체공학 {R-5}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>5.2kg</item>
     </string-array>
 
@@ -6795,7 +6873,7 @@
         <item>85</item>
         <item>155</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-2%}, 인체공학 {R-3}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>5kg</item>
     </string-array>
 
@@ -6861,7 +6939,7 @@
         <item>60</item>
         <item>133</item>
         <item>이동속도 {R-9%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>7.5kg</item>
     </string-array>
 
@@ -6949,7 +7027,7 @@
         <item>50</item>
         <item>111</item>
         <item>이동속도 {R-8%}, 화면 전환 속도 {R-2%}, 인체공학 {R-1}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>6.2kg</item>
     </string-array>
 
@@ -7010,6 +7088,19 @@
         <item>차지하는 칸당 약 0.833칸</item>
         <item>7.1kg</item>
         <item>layout_2222_11</item>
+    </string-array>
+
+    <string-array name="h_mmac">
+        <item>\"MMAC\"</item><!--이름-->
+        <item>4</item><!--클래스-->
+        <item>가슴</item><!--부위-->
+        <item>40</item><!--표기 내구도-->
+        <item>89</item><!--실제 내구도-->
+        <item>이동속도 {R-7%}, 화면 전환 속도 {R-5%}, 인체공학 {-7%}</item><!--패널티-->
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item><!--재질-->
+        <item>약 1.555</item><!--칸 수 대비 용량-->
+        <item>7.2kg</item><!--무게-->
+        <item>layout_12221_222</item><!--레이아웃-->
     </string-array>
 
     <string-array name="h_6b3tm">
@@ -7116,6 +7207,19 @@
         <item>layout_13331_2___2_44</item>
     </string-array>
 
+    <string-array name="h_strandhogg">
+        <item>\"StrandHogg\"</item><!--이름-->
+        <item>4</item><!--클래스-->
+        <item>가슴, 복부</item><!--부위-->
+        <item>45</item><!--표기 내구도-->
+        <item>75</item><!--실제 내구도-->
+        <item>이동속도 {R-6%}, 화면 전환 속도 {R-4%}, 인체공학 {R-3}</item><!--패널티-->
+        <item>알루미늄(Aluminium)</item><!--재질-->
+        <item>약 1.42칸</item><!--칸 수 대비 용량-->
+        <item>6.5kg</item><!--무게-->
+        <item>layout_13331_1_1_4</item><!--레이아웃-->
+    </string-array>
+
     <string-array name="h_tactec">
         <item>5.11 Tactec plate carrier</item>
         <item>5</item>
@@ -7123,7 +7227,7 @@
         <item>50</item>
         <item>111</item>
         <item>이동속도 {R-7%}, 화면 전환 속도 {R-3%}, 인체공학 {R-3}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>차지하는 칸당 1.125칸</item>
         <item>9.5kg</item>
         <item>layout_2222_1111_2112</item>
@@ -7149,7 +7253,7 @@
         <item>60</item>
         <item>133</item>
         <item>이동속도 {R-6%}, 화면 전환 속도 {R-3%}, 인체공학 {R-5}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight polyethylene)</item>
         <item>차지하는 칸당 약 1.917칸</item>
         <item>8.5kg</item>
         <item>layout_22233_111_422</item>
@@ -7726,7 +7830,7 @@
         <item>40</item>
         <item>높음</item>
         <item>화면 전환 속도{R-6%}, 인체 공학{R-12}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>없음</item>
     </string-array>
 
@@ -7737,7 +7841,7 @@
         <item>30</item>
         <item>높음</item>
         <item>화면 전환 속도{R-8%}, 인체 공학{R-15}</item>
-        <item>울트라폴리에틸렌(Ultrahighweight Polyethylene)</item>
+        <item>초고질량폴리에틸렌(Ultrahighweight Polyethylene)</item>
         <item>없음</item>
     </string-array>
 
@@ -7888,7 +7992,7 @@
     <string-array name="q_no_place_for_renegades">
         <item>No Place for Renegades(배신자를 위한 자리는 없다.)</item>
         <item>제거</item>
-        <item> - 군사기지(Reserve)의 지하 벙커 속에서 레이더 5명 사살하기</item>
+        <item> - 리저브(Reserve)의 지하 벙커 속에서 레이더 5명 사살하기</item>
         <item>12레벨</item>
         <item>경험치 8500\n프라퍼 우호도 +0.03\n4만 루블\nAK-103\n30-round 7.62x39 magazine for AK-103 and compatible weapons 3개\n7.62x39mm PS 150발</item>
         <item> </item>
@@ -7901,7 +8005,7 @@
     <string-array name="q_documents">
         <item>Documents(문서)</item>
         <item>들고오기</item>
-        <item> - 군사기지(Reserve)에서 군용 문서 3개를 가져오기\n- 프라퍼에게 넘기기</item>
+        <item> - 리저브(Reserve)에서 군용 문서 3개를 가져오기\n- 프라퍼에게 넘기기</item>
         <item></item>
         <item>경험치 7800\n프라퍼 우호도 +0.04\n47340루블\nNSPU-M night Scope\nZenit 2P Klesch flashligh + laser designator\nPBS-1 7.62x39 silencer</item>
         <item> </item>
@@ -8127,7 +8231,7 @@
         <item>15만루블\n프라퍼 LL4에서 ASh-12 해금</item>
         <item> </item>
         <item>x</item>
-        <item>군사기지(Reserve)에서 해당 아이템들이 뜹니다.</item>
+        <item>리저브(Reserve)에서 해당 아이템들이 뜹니다.</item>
         <item>아니오</item>
         <item> </item>
     </string-array>
@@ -8158,10 +8262,36 @@
         <item> </item>
     </string-array>
 
+    <string-array name="q_capturing_outposts">
+        <item>Capturing Outposts(전초기지 점령)</item>
+        <item>제거</item>
+        <item> - 세관(Customs)의 스캐브 기지에서 15명의 PMC 사살하기\n- 숲(Woods)의 스캐브 기지에서 15명의 PMC 사살하기\n- 해안선(Shoreline)의 부둣가에서 15명의 PMC 사살하기</item>
+        <item>45레벨</item>
+        <item>경험치 84000\n투척물 스킬(Throwables Skill) +1.5레벨\nAsh-12 한정</item>
+        <item> </item>
+        <item>x</item>
+        <item>세관에서는 신골조, 숲에서는 전초기지, 해안선은 부두 지역을 말합니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_escort">
+        <item>Escort(에스코트)</item>
+        <item>제거</item>
+        <item> - 죽거나 MIA, 또한 도주가 뜨지 않기\n- 낮 시간 공장(Factory)에서 PMC 4명 사살하기\n- 세관(Customs)에서 PMC 4명 사살하기\n- 해안선(Shoreline)에서 PMC 4명 사살하기\n- 리저브(Reserve)에서 PMC 4명 사살하기\n- 숲(Woods)에서 PMC 4명 사살하기\n- 나들목(Interchange)에서 PMC 4명 사살하기\n- 연구소(The Labs)에서 PMC 4명 사살하기</item>
+        <item>60레벨</item>
+        <item>경험치 177,000\n근접 무기(Melee) 스킬 +2레벨\n권총(Pistol) 스킬 +1레벨\n힘(Strength) 스킬 +1레벨\n6B43 Zabralo-Sh 6A</item>
+        <item> </item>
+        <item>x</item>
+        <item>죽거나 MIA시 초기화 도주가 뜰경우 그 판의 킬은 무효가 됩니다.</item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
     <string-array name="q_the_bosses_gathering">
         <item>The Bosses gathering(보스 모임)</item>
         <item>탐험</item>
-        <item> - 보스들의 미팅을 보고 군사기지(Reserve)에서 탈출하기</item>
+        <item> - 보스들의 미팅을 보고 리저브(Reserve)에서 탈출하기</item>
         <item> </item>
         <item>카리스마(Charisma) 1레벨\n스트레스 저항성(Stress Resistence) 1레벨</item>
         <item> </item>
@@ -8267,12 +8397,12 @@
     <string-array name="q_disease_history">
         <item>Disease History(질병사)</item>
         <item>주워오기</item>
-        <item> - 의학 저널 1, 2를 군사기지(Reserve)에서 찾기\n - 테라피스트에게 넘기기</item>
+        <item> - 의학 저널 1, 2를 리저브(Reserve)에서 찾기\n - 테라피스트에게 넘기기</item>
         <item>15레벨</item>
         <item>경험치 7200\n테라피스트 + 0.03\nGrizzly 1개\nIbuprofen 1개\nCALOK-B Hemostatic 5개\n3만 루블</item>
         <item> </item>
         <item>x</item>
-        <item>RB-KSM, RB-SMP 키가 필요합니다. 두 방 모두 군사기지(Reserve)의 흰 비숍 건물 2층에 있습니다.</item>
+        <item>RB-KSM, RB-SMP 키가 필요합니다. 두 방 모두 리저브(Reserve)의 흰 비숍 건물 2층에 있습니다.</item>
         <item>알수없음</item>
         <item> </item>
     </string-array>
@@ -8384,7 +8514,7 @@
     <string-array name="q_decontamination_service">
         <item>Decontamination Service(제염 작업)</item>
         <item>제거</item>
-        <item> - 교차로(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
+        <item> - 나들목(Interchange)에서 60m 안에서 특정 무장을 입고 SCAV 40마리 사살하기</item>
         <item>Health Care Privacy - Part 5와 Private Clinic 완료</item>
         <item>경험치 21600\n30만루블\n테라피스트 우호도 +0.11\nMorphine 3개\nIFAK 3개</item>
         <item> </item>
@@ -8524,6 +8654,32 @@
         <item> </item>
     </string-array>
 
+    <string-array name="q_crisis">
+        <item>Crisis(분쟁)</item>
+        <item>주워오기</item>
+        <item>- Portable defibrillator(재세동기)를 레이드에서 5개 찾기\n- Ophthalmoscope(검안기)를 레이드에서 5개 찾기\n- LEDX를 레이드에서 5개 찾기\n- Piles of meds(약)을 레이드에서 20개 찾기</item>
+        <item>55레벨</item>
+        <item>경험치 137,000\n면역(Immunity) 스킬 +1레벨\n활력(Vitality) 스킬 +1레벨\nAFAK 5개\nSJ6 TGLabs combat stimulant injector 5개\nMedicine Case</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item>아니오</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="q_seaside_vacation">
+        <item>Seaside Vacation(해변 휴가)</item>
+        <item>완료</item>
+        <item>등대(Lighthouse)에서 정보책의 브리핑케이스 찾기</item>
+        <item> </item>
+        <item>경험치 8,000\n테라피스트 우호도 +0.02\n5만 루블\nAlu Splint(알루미늄 부목) 판매 잠금 해제</item>
+        <item> </item>
+        <item>x</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
     <!-- Fence Quest -->
 
     <string-array name="q_collector">
@@ -8640,7 +8796,7 @@
         <item>경험치 15900\n스키어 우호도 +0.1\n45000루블\nFab Defense UAS for AK 2개</item>
         <item> </item>
         <item>Chumming</item>
-        <item>숲(Woods)의 제제소의 항구, 세관(Customs)의 Sniper Block, 교차로(Interchange)의 Brutal 상점에 카메라를 설치하면 됩니다.</item>
+        <item>숲(Woods)의 제제소의 항구, 세관(Customs)의 Sniper Block, 나들목(Interchange)의 Brutal 상점에 카메라를 설치하면 됩니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8648,7 +8804,7 @@
     <string-array name="q_chumming">
         <item>Chumming(밑밥뿌리기)</item>
         <item>완료</item>
-        <item>- Gold chain 3개를 BTR-80A 옆의 메트리스 아래에 숨기기\n- Gold chain 3개를 기숙사 3층의 전자레인지에 숨기기\n- Gold chain 3개를 제제소의 숙박시설 중간에 숨기기\n- 교차로(Interchange)에서 22시에서 10시 사이에 PMC 5명 사살하기</item>
+        <item>- Gold chain 3개를 BTR-80A 옆의 메트리스 아래에 숨기기\n- Gold chain 3개를 기숙사 3층의 전자레인지에 숨기기\n- Gold chain 3개를 제제소의 숙박시설 중간에 숨기기\n- 나들목(Interchange)에서 22시에서 10시 사이에 PMC 5명 사살하기</item>
         <item>27레벨</item>
         <item>경험치 22000\n스키어 우호도 +0.12\n65000루블\nRoler submariner gold wrist watch</item>
         <item> </item>
@@ -8771,7 +8927,7 @@
         <item>겸험치 14100\n스키어 우호도 +0.1\n예거 우호도 -0.01\n37000루블\nHolosun HS401G5 3개</item>
         <item> </item>
         <item>\"Vitamins\" - Part 2</item>
-        <item>화학물질은 각각 해안선(Shoreline)의 리조트 서관의 112호(Office 112 West wing key 열쇠 필요) 냉장고, 교차로(Interchange)의 Mantis, EMERCOM medical Unit(Key to EMERCOM medical unit 열쇠 필요)에 있습니다.</item>
+        <item>화학물질은 각각 해안선(Shoreline)의 리조트 서관의 112호(Office 112 West wing key 열쇠 필요) 냉장고, 나들목(Interchange)의 Mantis, EMERCOM medical Unit(Key to EMERCOM medical unit 열쇠 필요)에 있습니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -8911,7 +9067,7 @@
     <string-array name="q_revision">
         <item>Revision(개정)</item>
         <item>업데이트 예정</item>
-        <item>- 군사기지(Reserve)에서 BMP-2 4개 찾기\n- 군사기지(Reserve)에서 IFV LAV III 2개 찾기</item>
+        <item>- 리저브(Reserve)에서 BMP-2 4개 찾기\n- 리저브(Reserve)에서 IFV LAV III 2개 찾기</item>
         <item> </item>
         <item>업데이트 예정</item>
         <item> </item>
@@ -8924,12 +9080,12 @@
     <string-array name="q_experience_exchange">
         <item>Experience Exchange(경험과 맞바꾸다)</item>
         <item>주워오기</item>
-        <item>- package with T-90M Commander control panel을 군사기지(Reserve)에서 주워오기\n- 프라퍼에게 넘기기</item>
+        <item>- package with T-90M Commander control panel을 리저브(Reserve)에서 주워오기\n- 프라퍼에게 넘기기</item>
         <item> </item>
         <item>경험치 7200\n피스키퍼 우호도 +0.02\n5.7x28mm R37.F 200발\n800달러</item>
         <item> </item>
         <item>업데이트 예정</item>
-        <item>군사기지(Reserve)의 D-2 탈출구 앞 전등방의 파이프 사이에 있습니다.</item>
+        <item>리저브(Reserve)의 D-2 탈출구 앞 전등방의 파이프 사이에 있습니다.</item>
         <item>업데이트 예정</item>
         <item> </item>
     </string-array>
@@ -9119,7 +9275,7 @@
     <string-array name="q_the_guide">
         <item>The guide(가이드)</item>
         <item>탐험</item>
-        <item>- 교차로(Interchange)에서 탈출하기\n- 해안선(Shoreline)에서 탈출하기\n- 공장(Factory)에서 탈출하기\n- 연구소(Labs)에서 탈출하기\n- 숲(Woods)에서 탈출하기\n- 세관(Customs)에서 탈출하기\n- 군사기지(Reserve)에서 탈출하기</item>
+        <item>- 나들목(Interchange)에서 탈출하기\n- 해안선(Shoreline)에서 탈출하기\n- 공장(Factory)에서 탈출하기\n- 연구소(Labs)에서 탈출하기\n- 숲(Woods)에서 탈출하기\n- 세관(Customs)에서 탈출하기\n- 리저브(Reserve)에서 탈출하기</item>
         <item>40레벨</item>
         <item>경험치 +35100\n피스키퍼 우호도 +0.12\n25000달러\nEotech HHS-1 sight Tan\nSLAAP armor Plate (Tan)\nAresnal CWP 30-round 5.56x45 magazine for SLR-106 and compatible weapons 3개\n피스키퍼 LL4에서 Eotect HHS-1 sight Tan과 SLAAP armor Plate (Tan) 해금\n피스키퍼 LL2에서 Arsenal CWP 30-round 5.56x45 magazine for SLR-106 and compatible weapons 해금</item>
         <item> </item>
@@ -9202,7 +9358,7 @@
         <item>경험치 +22000\n피스키퍼 우호도 +0.09\nHK 416A5\n5.56x45mm M995 300발\nMagpul PMAG D–60 5.56x45mm 60–round magazine 2개\n60–round MAG5–60 5.56x45m STANAG magazine 2개\n2천 달러</item>
         <item> </item>
         <item>Peacekeeping mission</item>
-        <item>둘 다 Intelligence Center 2레벨에 제작가능하며, Virtex는 연구소(Labs)에서만, COFPM는 군사기지(Reserve)와 연구소(Labs)에서 스폰합니다.</item>
+        <item>둘 다 Intelligence Center 2레벨에 제작가능하며, Virtex는 연구소(Labs)에서만, COFPM는 리저브(Reserve)와 연구소(Labs)에서 스폰합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -9210,7 +9366,7 @@
     <string-array name="q_peacekeeping_mission">
         <item>Peacekeeping Mission(평화 유지 임무)</item>
         <item>제거</item>
-        <item>- UN 유니폼을 입고 세관(Customs)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 교차로(Interchange)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 해안선(Shoreline)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 숲(Woods)에서 SCAV 12명 사살하기
+        <item>- UN 유니폼을 입고 세관(Customs)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 나들목(Interchange)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 해안선(Shoreline)에서 SCAV 12명 사살하기\n- UN 유니폼을 입고 숲(Woods)에서 SCAV 12명 사살하기
         </item>
         <item> </item>
         <item>경험치 +32400\n피스키퍼 우호도 +0.12\n7.62x51mm M61 150발\nGPNVG-18 Night Vision 2개\nM700</item>
@@ -9487,7 +9643,7 @@
     <string-array name="q_surplus_goods">
         <item>Surplus Goods(여분의 물품)</item>
         <item>탐험</item>
-        <item>- MBT Navigation complex를 군사기지(Reserve)에서 찾기\n- 메카닉에게 넘기기</item>
+        <item>- MBT Navigation complex를 리저브(Reserve)에서 찾기\n- 메카닉에게 넘기기</item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -9500,7 +9656,7 @@
     <string-array name="q_back_door">
         <item>Back door(뒷문)</item>
         <item>발견</item>
-        <item>- 군사기지(Reserve)의 전원이 들어오지 않은 비밀 탈출구를 찾기</item>
+        <item>- 리저브(Reserve)의 전원이 들어오지 않은 비밀 탈출구를 찾기</item>
         <item> </item>
         <item>경험치 8200\n메카닉 우호도 +0.02\n1052유로\nSV-98</item>
         <item> </item>
@@ -9565,7 +9721,7 @@
     <string-array name="q_a_shooter_born_in_heaven">
         <item>A Shooter Born in Heaven(천국에서 태어난 사격수)</item>
         <item>제거</item>
-        <item>- 숲(Woods), 군사기지(Reserve), 해안선(Shoreline), 세관(Customs)에서 각각 100m이상 거리에서 3명의 PMC를 머리를 맞춰 사살하기</item>
+        <item>- 숲(Woods), 리저브(Reserve), 해안선(Shoreline), 세관(Customs)에서 각각 100m이상 거리에서 3명의 PMC를 머리를 맞춰 사살하기</item>
         <item> </item>
         <item>경험치 +39500\n10만 루블\n7.62x54r ProMag OPROF for Archangel Mosin rifle kit, 10-round capacity 4개\n7.62x54R SNB 100발\nMosin sniper rifle\n메카닉 우호도 +0.06\n메카닉 LL3에서 Magazine case 해금\nSniper Rifles 스킬 +1레벨</item>
         <item> </item>
@@ -9724,7 +9880,7 @@
     <string-array name="q_fuel_matter">
         <item>Fuel Matter(연료 문제)</item>
         <item>완료</item>
-        <item> - 군사기지(Reserve)에서 연료 탱크 그룹에 신호기를 설치하기\n군사기지(Reserve)를 탈출하기</item>
+        <item> - 리저브(Reserve)에서 연료 탱크 그룹에 신호기를 설치하기\n리저브(Reserve)를 탈출하기</item>
         <item> </item>
         <item>경험치 8200\n래그맨 우호도 +0.03\n5L Propane Tank 2개\n3만 루블</item>
         <item> </item>
@@ -9750,7 +9906,7 @@
     <string-array name="q_make_ultra_great_again">
         <item>Make ULTRA Great Again(ULTRA몰을 다시 위대하게)</item>
         <item>완료</item>
-        <item>- 교차로(Interchange)에서 SCAV 25명 사살하기</item>
+        <item>- 나들목(Interchange)에서 SCAV 25명 사살하기</item>
         <item> </item>
         <item>경험치 +9800\n래그맨 우호도 +0.09\n5만 루블</item>
         <item> </item>
@@ -9763,7 +9919,7 @@
     <string-array name="q_big_sale">
         <item>Big sale(대량 할인)</item>
         <item>탐험</item>
-        <item>- AVOKADO, KOSTIN, tRend, DINE CLOTHES, TOP BRAND를 확인하기\n교차로(Interchange)에서 탈출하기</item>
+        <item>- AVOKADO, KOSTIN, tRend, DINE CLOTHES, TOP BRAND를 확인하기\n나들목(Interchange)에서 탈출하기</item>
         <item> </item>
         <item>경험치 +8900\n래그맨 우호도 +0.07\n17000루블\nTri-Zip Backpack</item>
         <item> </item>
@@ -9776,7 +9932,7 @@
     <string-array name="q_sales_night">
         <item>Sales Night(영업일)</item>
         <item>완료</item>
-        <item>- 교차로(Interchange)에서 7번 탈출하기</item>
+        <item>- 나들목(Interchange)에서 7번 탈출하기</item>
         <item>30레벨</item>
         <item>경험치 +19800\n래그맨 우호도 +0.09\n35000루블\n\"Attack 2\" raid backpack 2개</item>
         <item> </item>
@@ -9906,7 +10062,7 @@
     <string-array name="q_the_blood_of_war_part_1">
         <item>The Blood of War - Part 1(전쟁의 피 1)</item>
         <item>완료</item>
-        <item>- 유조 탱크 3대에 신호기를 설치하기\n- 교차로(Interchange)를 탈출하기</item>
+        <item>- 유조 탱크 3대에 신호기를 설치하기\n- 나들목(Interchange)를 탈출하기</item>
         <item> </item>
         <item>경험치 +7500\n래그맨 우호도 +0.06\n6만 루블\nMetal fuel tank 2개</item>
         <item> </item>
@@ -9976,7 +10132,7 @@
         <item>경험치 +10200\n래그맨 +0.07\n21000루블\nGzhel-K armor</item>
         <item> </item>
         <item>Gratitude</item>
-        <item>해당 모자들은 스캐브나 교차로(Interchange)의 마네킹의 머리에 스폰됩니다.</item>
+        <item>해당 모자들은 스캐브나 나들목(Interchange)의 마네킹의 머리에 스폰됩니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>
@@ -10049,7 +10205,7 @@
     <string-array name="q_mini_bus">
         <item>Mini Bus(미니버스)</item>
         <item>완료</item>
-        <item>- 미니버스 3대에 신호기를 설치하기\n- 교차로(Interchange)를 탈출하기</item>
+        <item>- 미니버스 3대에 신호기를 설치하기\n- 나들목(Interchange)를 탈출하기</item>
         <item>24레벨</item>
         <item>경험치 +16500\n래그맨 우호도 +0.07\n5만 루블\nBeta 2 battle backpack</item>
         <item> </item>
@@ -10073,7 +10229,7 @@
     </string-array>
 
     <string-array name="q_the_stylish_one">
-        <item>The Stylish one(멋쟁이)</item>
+        <item>The Stylish one(간지나는 놈)</item>
         <item>제거</item>
         <item>- 킬라(Killa)를 100번 사살하기</item>
         <item> </item>
@@ -10420,7 +10576,7 @@
         <item>경험치 +17000\n예거 우호도 +0.04\n8만 루블\nTrijicon REAP-IR thermal riflescope</item>
         <item> </item>
         <item>x</item>
-        <item>레이더는 연구소(Labs)또는 군사기지(Reserve)에서 스폰합니다.</item>
+        <item>레이더는 연구소(Labs)또는 리저브(Reserve)에서 스폰합니다.</item>
         <item>예</item>
         <item> </item>
     </string-array>

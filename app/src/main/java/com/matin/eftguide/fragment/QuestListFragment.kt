@@ -175,7 +175,8 @@ class QuestListFragment : Fragment() {
             "TerraGroup Employee(테라 그룹의 고용자)",
             "Classified technologies(기밀 기술)",
             "Cleaner(청소기)",
-            "Speical Equipment(특별 장치)"
+            "Speical Equipment(특별 장치)",
+            "Our Own Land(우리땅)"
         )
         val mechanic = arrayListOf(
             "Introduction(소개)",
@@ -212,7 +213,6 @@ class QuestListFragment : Fragment() {
             "Signal - Part 4(신호 4)",
             "The Chemistry Closet(화학 밀실)",
             "Psycho Sniper(싸이코 저격수)",
-            "Surplus goods(여분의 물품)",
             "Back door(뒷문)",
             "Calibration(눈금)",
             "The Courier(택배 배달부)",
@@ -244,7 +244,7 @@ class QuestListFragment : Fragment() {
             "No Fuss needed(야단 법석 떨 필요없다)",
             "The Stylish one(간지나는 놈)",
             "Supervisor(상사)",
-            "Sew it good - Part 3(잘 퀘매다 3)",
+            "Sew it good - Part 3(잘 꿰메다 3)",
             "Living high is not a crime - Part 1(호화로운 삶은 죄가 아니다 1)",
             "Sew it good - Part 4(잘 꿰매다 4)",
             "Charisma brings success(카리스마가 성공을 부른다)",
@@ -261,7 +261,7 @@ class QuestListFragment : Fragment() {
             "The survivalist path - Wounded Beast(생존 주의자의 길 - 상처입은 짐승)",
             "The survivalist path - Tough guy(생존 주의자의 길 - 터프가이",
             "The survivalist path - Cold Blooded(생존 주의자의 길 - 냉혈한)",
-            "The survivalist path - Combat Medic",
+            "The survivalist path - Combat Medic(생존 주의자의 길 - 의무병)",
             "The survivalist path - Junkie(생존 주의자의 길 - 약쟁이)",
             "Courtesy Visit(의례적인 방문)",
             "Nostalgia(향수)",

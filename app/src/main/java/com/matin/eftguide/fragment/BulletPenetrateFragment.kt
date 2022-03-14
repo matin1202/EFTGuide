@@ -3,6 +3,7 @@ package com.matin.eftguide.fragment
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Context.MODE_PRIVATE
+import android.content.res.Resources
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -11,7 +12,6 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.SearchView
 import android.widget.SeekBar
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.github.mikephil.charting.components.Legend
@@ -53,6 +53,243 @@ class BulletPenetrateFragment : Fragment() {
     private var armorList = arrayListOf<PenetrateArmorList>()
     private lateinit var ammoAdapter: PenetrateAmmoAdapter
     private lateinit var armorAdapter: PenetrateArmorAdapter
+    val namesAmmo = mutableListOf(
+        "12/70 Flechette",
+        "12/70 AP-20 Slug",
+        "12/70 shell with .50 BMG bullet",
+        "12/70 \"Poleva-6a\" Slug",
+        "12/70 FTX Custom Llte Slug",
+        "12/70 \"Poleva-3\" Slug",
+        "12/70 Dual Sabot Slug",
+        "12/70 Led Slug",
+        "12/70 HP Slug Copper Sabot Premier",
+        "12/70 Grizzly 40 Slug",
+        "12/70 7`mm Buckshot",
+        "12/70 6.5`mm \"Express\" Buckshot",
+        "12/70 8.5`mm \"Magnum\" Buckshot",
+        "12/70 5.25`mm Buckshot",
+        "12/70 HP Slug \"SuperFormance\"",
+        "12/70 RIP",
+        "20/70 Slug \"Poleva-6u\"",
+        "20/70 Star Slug",
+        "20/70 Slug \"Poleva-3\"",
+        "20/70 7.3`mm Buckshot",
+        "20/70 7.5`mm Buckshot",
+        "20/70 6.2`mm Buckshot",
+        "20/70 5.6`mm Buckshot",
+        "20/70 Devastator Slug",
+        "23/75 Shrapnel-25",
+        "23/75 Shrapnel-10",
+        "23/75 \"Barrikada\"",
+        "9x18mm PM PBM",
+        "9x18mm PM PMM",
+        "9x18mm PM 9 BZT gzh",
+        "9x18mm PM RG028 gzh",
+        "9x18mm PM Pst gzh",
+        "9x18mm PM PPT gzh",
+        "9x18mm PM PPe gzh",
+        "9x18mm PM PRS gs",
+        "9x18mm PM PS gs PPO",
+        "9x18mm PM PSO gzh",
+        "9x18mm PM 9 P gzh",
+        "9x18mm PM PSV",
+        "9x18mm PM SP7 gzh",
+        "9x18mm PM SP8 gzh",
+        "9x19mm PBP",
+        "9x19mm AP 6.3",
+        "9x19mm Pst gzh",
+        "9x19mm Green Tracer",
+        "9x19mm Luger CCI",
+        "9x19mm PSO gzh",
+        "9x19mm QuakeMaker",
+        "9x19mm RIP",
+        "7.62x25mm TT LRNPC",
+        "7.62x25mm TT LRN",
+        "7.62x25mm TT FMJ43",
+        "7.62x25mm TT AKBS",
+        "7.62x25mm TT P gl",
+        "7.62x25mm TT PT gzh",
+        "7.62x25mm TT Pst gzh",
+        ".45 ACP AP",
+        ".45 ACP FMJ",
+        ".45 ACP Lasermatch FMJ",
+        ".45 ACP HydraShock",
+        ".45 ACP RIP",
+        "9x21mm BT",
+        "9x21mm PS",
+        "9x21mm P",
+        "9x21mm PE",
+        "5.7x28mm R37.F",
+        "5.7x28mm SS198LF",
+        "5.7x28mm R37.X",
+        "5.7x28mm SS197SR",
+        "5.7x28mm L191",
+        "5.7x28mm SB193",
+        "5.7x28mm SS190",
+        "4.6x30mm AP SX",
+        "4.6x30mm FMJ SX",
+        "4.6x30mm Subsonic SX",
+        "4.6x30mm Action SX",
+        "9x39mm 7N12 BP",
+        "9x39mm 7N9 SPP",
+        "9x39mm PAB-9",
+        "9x39mm SP-6",
+        "9x39mm SP-5",
+        ".366 AP-M",
+        ".366 EKO",
+        ".366 FMJ",
+        ".366 Geksa",
+        "5.45x39mm PPBS \"Igolnik\"",
+        "5.45x39mm BS",
+        "5.45x39mm BT",
+        "5.45x39mm BP",
+        "5.45x39mm PP",
+        "5.45x39mm PS",
+        "5.45x39mm T",
+        "5.45x39mm FMJ",
+        "5.45x39mm US",
+        "5.45x39mm PRS",
+        "5.45x39mm HP",
+        "5.45x39mm SP",
+        "5.56x45mm SSA AP",
+        "5.56x45mm M995",
+        "5.56x45mm M855A1",
+        "5.56x45mm M856A1",
+        "5.56x45mm M855",
+        "5.56x45mm 55 FMJ",
+        "5.56x45mm M856",
+        "5.56x45mm Mk 318 Mod 0",
+        "5.56x45mm Mk 255 Mod 0",
+        "5.56x45mm 55 HP",
+        "5.56x45mm Warmageddon",
+        "7.62x39mm MAI AP",
+        "7.62x39mm BP",
+        "7.62x39mm PS",
+        "7.62x39mm T-45M",
+        "7.62x39mm US",
+        "7.62x39mm HP",
+        ".300 Whisper",
+        ".300 V-Max",
+        ".300 BCP",
+        ".300 M62",
+        ".300 AP",
+        "7.62x51mm M993",
+        "7.62x51mm M61",
+        "7.62x51mm M62",
+        "7.62x51mm M80",
+        "7.62x51mm SP",
+        "7.62x51mm FMJ",
+        "7.62x51mm Ultra Nosler",
+        "7.62x54mm BS",
+        "7.62x54mm SNB",
+        "7.62x54mm BT",
+        "7.62x54mm PS",
+        "7.62x54mm LPS Gzh",
+        "7.62x54mm T-46M",
+        "12.7x55mm PS12B",
+        "12.7x55mm PS12",
+        "12.7x55mm PS12A",
+        ".338 AP",
+        ".338 FMJ",
+        ".338 UPZ",
+        ".338 Tac-X",
+        "12.7x108mm B-32",
+        "12.7x108mm BZT-44M"
+    )
+    val names = mutableListOf(
+        "Module-3M",
+        "PACA",
+        "6B2",
+        "MF-UNTAR",
+        "Zhuk-3",
+        "6B23-1",
+        "Kirasa-N",
+        "Trooper TFO",
+        "Thor Concealable",
+        "6B13",
+        "6B23-2",
+        "Korund-VM",
+        "FORT Redut-M",
+        "6B13 M",
+        "Gen4(High Mobility kit)",
+        "Gzhel-K",
+        "FORT Defender-2",
+        "Gen4(Assault kit)",
+        "Gen4(Full protection)",
+        "FORT Redut-T5",
+        "Hexgrid",
+        "Slick",
+        "Zhuk-6a",
+        "Thor Integrated",
+        "6B43",
+        "6B5-16",
+        "MMAC",
+        "6B3TM",
+        "6B5-15",
+        "M2",
+        "M1",
+        "AVS",
+        "A18",
+        "TV-110",
+        "Strandhogg",
+        "MK4A Assault",
+        "Tactec",
+        "AACPC",
+        "MK4A Protection",
+        "MBAV (Tagilla Edition)",
+        "Tac-Kek Fast MT",
+        "Tank crew",
+        "Kolpak-1s",
+        "SHPM Firefighter",
+        "PSH-97 \"Djeta\"",
+        "Jack-o\'-lantern",
+        "UNTAR",
+        "6B47",
+        "LZSh",
+        "SSh-68",
+        "Kiver-M",
+        "DEVTAC Ronin",
+        "SSSh-95",
+        "TC-2001",
+        "TC-2002",
+        "TC-800",
+        "ACHHC",
+        "Zsh-1-2M",
+        "ULACH",
+        "Bastion",
+        "Ops-core Fast MT",
+        "Airframe Tan",
+        "Team Wendy EXFIL",
+        "Galvion Caiman",
+        "LSHZ-2DTM",
+        "Maska",
+        "Altyn",
+        "Rys-T",
+        "Vulkan-5",
+        "Ops-core visor",
+        "Caiman Visor",
+        "K1S Visor",
+        "Multi-hit Ops-Core Visor",
+        "Kiver Visor",
+        "EXFIL Visor",
+        "Zsh-1-2M Visor",
+        "LSHZ-2DTM Visor",
+        "Vulkan-5 Visor",
+        "Altyn Visor",
+        "Rys-T Visor",
+        "Maska Visor",
+        "Ops-Core Mandible",
+        "Caiman Mandible",
+        "Tac-Kek Trooper Mask",
+        "Ops-Core Side Armor",
+        "Airframe Ears",
+        "EXFIL Ear Cover",
+        "Airframe Chops",
+        "Caiman Applique",
+        "slaap Plate",
+        "LSHZ-2DTM Aventail",
+        "Additional Armor Bastion"
+    )
 
     private var rootView: View? = null
 
@@ -75,7 +312,7 @@ class BulletPenetrateFragment : Fragment() {
         curArmor = resources.getStringArray(
             resources.getIdentifier(
                 "h_${
-                    currentArmor.replace("-", "_").replace(" ", "_").toLowerCase(Locale.ROOT)
+                    currentArmor.replace("-", "_").replace(" ", "_").lowercase(Locale.ROOT)
                 }", "array", context?.packageName
             )
         )
@@ -104,147 +341,7 @@ class BulletPenetrateFragment : Fragment() {
                     val recyclerView = inflater.findViewById<RecyclerView>(R.id.rl_dialog_selector)
                     val searchView = inflater.findViewById<SearchView>(R.id.sv_dialog_selector)
                     searchView.queryHint = "총알 검색하기"
-
-                    val names = mutableListOf(
-                        "12/70 Flechette",
-                        "12/70 AP-20 Slug",
-                        "12/70 shell with .50 BMG bullet",
-                        "12/70 \"Poleva-6a\" Slug",
-                        "12/70 FTX Custom Llte Slug",
-                        "12/70 \"Poleva-3\" Slug",
-                        "12/70 Dual Sabot Slug",
-                        "12/70 Led Slug",
-                        "12/70 HP Slug Copper Sabot Premier",
-                        "12/70 Grizzly 40 Slug",
-                        "12/70 7`mm Buckshot",
-                        "12/70 6.5`mm \"Express\" Buckshot",
-                        "12/70 8.5`mm \"Magnum\" Buckshot",
-                        "12/70 5.25`mm Buckshot",
-                        "12/70 HP Slug \"SuperFormance\"",
-                        "12/70 RIP",
-                        "20/70 Slug \"Poleva-6u\"",
-                        "20/70 Star Slug",
-                        "20/70 Slug \"Poleva-3\"",
-                        "20/70 7.3`mm Buckshot",
-                        "20/70 7.5`mm Buckshot",
-                        "20/70 6.2`mm Buckshot",
-                        "20/70 5.6`mm Buckshot",
-                        "20/70 Devastator Slug",
-                        "23/75 Shrapnel-25",
-                        "23/75 Shrapnel-10",
-                        "23/75 \"Barrikada\"",
-                        "9x18mm PM PBM",
-                        "9x18mm PM PMM",
-                        "9x18mm PM 9 BZT gzh",
-                        "9x18mm PM RG028 gzh",
-                        "9x18mm PM Pst gzh",
-                        "9x18mm PM PPT gzh",
-                        "9x18mm PM PPe gzh",
-                        "9x18mm PM PRS gs",
-                        "9x18mm PM PS gs PPO",
-                        "9x18mm PM PSO gzh",
-                        "9x18mm PM 9 P gzh",
-                        "9x18mm PM PSV",
-                        "9x18mm PM SP7 gzh",
-                        "9x18mm PM SP8 gzh",
-                        "9x19mm PBP",
-                        "9x19mm AP 6.3",
-                        "9x19mm Pst gzh",
-                        "9x19mm Green Tracer",
-                        "9x19mm Luger CCI",
-                        "9x19mm PSO gzh",
-                        "9x19mm QuakeMaker",
-                        "9x19mm RIP",
-                        "7.62x25mm TT LRNPC",
-                        "7.62x25mm TT LRN",
-                        "7.62x25mm TT FMJ43",
-                        "7.62x25mm TT AKBS",
-                        "7.62x25mm TT P gl",
-                        "7.62x25mm TT PT gzh",
-                        "7.62x25mm TT Pst gzh",
-                        ".45 ACP AP",
-                        ".45 ACP FMJ",
-                        ".45 ACP Lasermatch FMJ",
-                        ".45 ACP HydraShock",
-                        ".45 ACP RIP",
-                        "9x21mm BT",
-                        "9x21mm PS",
-                        "9x21mm P",
-                        "9x21mm PE",
-                        "5.7x28mm R37.F",
-                        "5.7x28mm SS198LF",
-                        "5.7x28mm R37.X",
-                        "5.7x28mm SS197SR",
-                        "5.7x28mm L191",
-                        "5.7x28mm SB193",
-                        "5.7x28mm SS190",
-                        "4.6x30mm AP SX",
-                        "4.6x30mm FMJ SX",
-                        "4.6x30mm Subsonic SX",
-                        "4.6x30mm Action SX",
-                        "9x39mm 7N12 BP",
-                        "9x39mm 7N9 SPP",
-                        "9x39mm SP-6",
-                        "9x39mm SP-5",
-                        ".366 AP-M",
-                        ".366 EKO",
-                        ".366 FMJ",
-                        ".366 Geksa",
-                        "5.45x39mm PPBS \"Igolnik\"",
-                        "5.45x39mm BS",
-                        "5.45x39mm BT",
-                        "5.45x39mm BP",
-                        "5.45x39mm PP",
-                        "5.45x39mm PS",
-                        "5.45x39mm T",
-                        "5.45x39mm FMJ",
-                        "5.45x39mm US",
-                        "5.45x39mm PRS",
-                        "5.45x39mm HP",
-                        "5.45x39mm SP",
-                        "5.56x45mm SSA AP",
-                        "5.56x45mm M995",
-                        "5.56x45mm M855A1",
-                        "5.56x45mm M856A1",
-                        "5.56x45mm M855",
-                        "5.56x45mm 55 FMJ",
-                        "5.56x45mm M856",
-                        "5.56x45mm Mk 318 Mod 0",
-                        "5.56x45mm Mk 255 Mod 0",
-                        "5.56x45mm 55 HP",
-                        "5.56x45mm Warmageddon",
-                        "7.62x39mm MAI AP",
-                        "7.62x39mm BP",
-                        "7.62x39mm PS",
-                        "7.62x39mm T-45M",
-                        "7.62x39mm US",
-                        "7.62x39mm HP",
-                        ".300 BCP",
-                        ".300 AP",
-                        "7.62x51mm M993",
-                        "7.62x51mm M61",
-                        "7.62x51mm M62",
-                        "7.62x51mm M80",
-                        "7.62x51mm SP",
-                        "7.62x51mm FMJ",
-                        "7.62x51mm Ultra Nosler",
-                        "7.62x54mm BS",
-                        "7.62x54mm SNB",
-                        "7.62x54mm BT",
-                        "7.62x54mm PS",
-                        "7.62x54mm LPS Gzh",
-                        "7.62x54mm T-46M",
-                        "12.7x55mm PS12B",
-                        "12.7x55mm PS12",
-                        "12.7x55mm PS12A",
-                        ".338 AP",
-                        ".338 FMJ",
-                        ".338 UPZ",
-                        ".338 Tac-X",
-                        "12.7x108mm B-32",
-                        "12.7x108mm BZT-44M"
-                    )
-                    var filteredList = names
+                    var filteredList = namesAmmo
                     searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                         override fun onQueryTextSubmit(p0: String?): Boolean {
                             return false
@@ -259,11 +356,11 @@ class BulletPenetrateFragment : Fragment() {
                             linearLayout.removeAllViews()
                             ammoList.clear()
                             filteredList = mutableListOf()
-                            for (i in names.indices) {
-                                if (names[i].toLowerCase(Locale.ROOT)
-                                        .contains(target.toLowerCase(Locale.ROOT))
+                            for (i in namesAmmo.indices) {
+                                if (namesAmmo[i].lowercase(Locale.ROOT)
+                                        .contains(target.lowercase(Locale.ROOT))
                                 ) {
-                                    filteredList.add(names[i])
+                                    filteredList.add(namesAmmo[i])
                                 }
                             }
                             Log.d("BPF", "Job is completed")
@@ -298,93 +395,6 @@ class BulletPenetrateFragment : Fragment() {
                     val recyclerView = inflater.findViewById<RecyclerView>(R.id.rl_dialog_selector)
                     val searchView = inflater.findViewById<SearchView>(R.id.sv_dialog_selector)
                     searchView.queryHint = "방탄복 검색하기"
-                    val names = mutableListOf(
-                        "Module-3M",
-                        "PACA",
-                        "6B2",
-                        "MF-UNTAR",
-                        "Zhuk-3",
-                        "6B23-1",
-                        "Kirasa-N",
-                        "Trooper TFO",
-                        "6B13",
-                        "6B23-2",
-                        "Korund-VM",
-                        "FORT Redut-M",
-                        "6B13 M",
-                        "Gen4(High Mobility kit)",
-                        "Gzhel-K",
-                        "FORT Defender-2",
-                        "Gen4(Assault kit)",
-                        "Gen4(Full protection)",
-                        "FORT Redut-T5",
-                        "Hexgrid",
-                        "Slick",
-                        "Zhuk-6a",
-                        "6B43",
-                        "6B5-16",
-                        "6B3TM",
-                        "6B5-15",
-                        "M2",
-                        "M1",
-                        "AVS",
-                        "A18",
-                        "TV-110",
-                        "Tactec",
-                        "AACPC",
-                        "Tac-Kek Fast MT",
-                        "Tank crew",
-                        "Kolpak-1s",
-                        "SHPM Firefighter",
-                        "PSH-97 \"Djeta\"",
-                        "Jack-o\'-lantern",
-                        "UNTAR",
-                        "6B47",
-                        "LZSh",
-                        "SSh-68",
-                        "Kiver-M",
-                        "DEVTAC Ronin",
-                        "SSSh-95",
-                        "TC-2001",
-                        "TC-2002",
-                        "TC-800",
-                        "ACHHC",
-                        "Zsh-1-2M",
-                        "ULACH",
-                        "Bastion",
-                        "Ops-core Fast MT",
-                        "Airframe Tan",
-                        "Team Wendy EXFIL",
-                        "Galvion Caiman",
-                        "LSHZ-2DTM",
-                        "Maska",
-                        "Altyn",
-                        "Rys-T",
-                        "Vulkan-5",
-                        "Ops-core visor",
-                        "Caiman Visor",
-                        "K1S Visor",
-                        "Multi-hit Ops-Core Visor",
-                        "Kiver Visor",
-                        "EXFIL Visor",
-                        "Zsh-1-2M Visor",
-                        "LSHZ-2DTM Visor",
-                        "Vulkan-5 Visor",
-                        "Altyn Visor",
-                        "Rys-T Visor",
-                        "Maska Visor",
-                        "Ops-Core Mandible",
-                        "Caiman Mandible",
-                        "Tac-Kek Trooper Mask",
-                        "Ops-Core Side Armor",
-                        "Airframe Ears",
-                        "EXFIL Ear Cover",
-                        "Airframe Chops",
-                        "Caiman Applique",
-                        "slaap Plate",
-                        "LSHZ-2DTM Aventail",
-                        "Additional Armor Bastion"
-                    )
                     searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                         override fun onQueryTextChange(p0: String?): Boolean {
                             val target = if (p0.isNullOrEmpty()) {
@@ -395,8 +405,8 @@ class BulletPenetrateFragment : Fragment() {
                             linearLayout.removeAllViews()
                             armorList.clear()
                             for (i in names.indices) {
-                                if (names[i].toLowerCase(Locale.ROOT)
-                                        .contains(target.toLowerCase(Locale.ROOT))
+                                if (names[i].lowercase(Locale.ROOT)
+                                        .contains(target.lowercase(Locale.ROOT))
                                 ) {
                                     armorList.add(PenetrateArmorList(names[i], dialog))
                                 }
@@ -538,6 +548,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.action_46,
             R.drawable.bp_939,
             R.drawable.spp_939,
+            R.drawable.pab9_939,
             R.drawable.sp6_939,
             R.drawable.sp5_939,
             R.drawable.ap_366,
@@ -573,7 +584,10 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.t45m_739,
             R.drawable.us_739,
             R.drawable.hp_739,
+            R.drawable.whisper_300,
+            R.drawable.vmax_300,
             R.drawable.bpz_300,
+            R.drawable.m62_300,
             R.drawable.ap_300,
             R.drawable.m933_751,
             R.drawable.m61_751,
@@ -598,145 +612,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.b_32_108,
             R.drawable.bzt_44m_108
         )
-        val namesAmmo = mutableListOf(
-            "12/70 Flechette",
-            "12/70 AP-20 Slug",
-            "12/70 shell with .50 BMG bullet",
-            "12/70 \"Poleva-6a\" Slug",
-            "12/70 FTX Custom Llte Slug",
-            "12/70 \"Poleva-3\" Slug",
-            "12/70 Dual Sabot Slug",
-            "12/70 Led Slug",
-            "12/70 HP Slug Copper Sabot Premier",
-            "12/70 Grizzly 40 Slug",
-            "12/70 7`mm Buckshot",
-            "12/70 6.5`mm \"Express\" Buckshot",
-            "12/70 8.5`mm \"Magnum\" Buckshot",
-            "12/70 5.25`mm Buckshot",
-            "12/70 HP Slug \"SuperFormance\"",
-            "12/70 RIP",
-            "20/70 Slug \"Poleva-6u\"",
-            "20/70 Star Slug",
-            "20/70 Slug \"Poleva-3\"",
-            "20/70 7.3`mm Buckshot",
-            "20/70 7.5`mm Buckshot",
-            "20/70 6.2`mm Buckshot",
-            "20/70 5.6`mm Buckshot",
-            "20/70 Devastator Slug",
-            "23/75 Shrapnel-25",
-            "23/75 Shrapnel-10",
-            "23/75 \"Barrikada\"",
-            "9x18mm PM PBM",
-            "9x18mm PM PMM",
-            "9x18mm PM 9 BZT gzh",
-            "9x18mm PM RG028 gzh",
-            "9x18mm PM Pst gzh",
-            "9x18mm PM PPT gzh",
-            "9x18mm PM PPe gzh",
-            "9x18mm PM PRS gs",
-            "9x18mm PM PS gs PPO",
-            "9x18mm PM PSO gzh",
-            "9x18mm PM 9 P gzh",
-            "9x18mm PM PSV",
-            "9x18mm PM SP7 gzh",
-            "9x18mm PM SP8 gzh",
-            "9x19mm 7N31",
-            "9x19mm AP 6.3",
-            "9x19mm Pst gzh",
-            "9x19mm Green Tracer",
-            "9x19mm Luger CCI",
-            "9x19mm PSO gzh",
-            "9x19mm QuakeMaker",
-            "9x19mm RIP",
-            "7.62x25mm TT LRNPC",
-            "7.62x25mm TT LRN",
-            "7.62x25mm TT FMJ43",
-            "7.62x25mm TT AKBS",
-            "7.62x25mm TT P gl",
-            "7.62x25mm TT PT gzh",
-            "7.62x25mm TT Pst gzh",
-            ".45 ACP AP",
-            ".45 ACP FMJ",
-            ".45 ACP Lasermatch FMJ",
-            ".45 ACP HydraShock",
-            ".45 ACP RIP",
-            "9x21mm BT",
-            "9x21mm PS",
-            "9x21mm P",
-            "9x21mm PE",
-            "5.7x28mm R37.F",
-            "5.7x28mm SS198LF",
-            "5.7x28mm R37.X",
-            "5.7x28mm SS197SR",
-            "5.7x28mm L191",
-            "5.7x28mm SB193",
-            "5.7x28mm SS190",
-            "4.6x30mm AP SX",
-            "4.6x30mm FMJ SX",
-            "4.6x30mm Subsonic SX",
-            "4.6x30mm Action SX",
-            "9x39mm 7N12 BP",
-            "9x39mm 7N9 SPP",
-            "9x39mm SP-6",
-            "9x39mm SP-5",
-            ".366 AP-M",
-            ".366 EKO",
-            ".366 FMJ",
-            ".366 Geksa",
-            "5.45x39mm PPBS \"Igolnik\"",
-            "5.45x39mm BS",
-            "5.45x39mm BT",
-            "5.45x39mm BP",
-            "5.45x39mm PP",
-            "5.45x39mm PS",
-            "5.45x39mm T",
-            "5.45x39mm FMJ",
-            "5.45x39mm US",
-            "5.45x39mm PRS",
-            "5.45x39mm HP",
-            "5.45x39mm SP",
-            "5.56x45mm SSA AP",
-            "5.56x45mm M995",
-            "5.56x45mm M855A1",
-            "5.56x45mm M856A1",
-            "5.56x45mm M855",
-            "5.56x45mm 55 FMJ",
-            "5.56x45mm M856",
-            "5.56x45mm Mk 318 Mod 0",
-            "5.56x45mm Mk 255 Mod 0",
-            "5.56x45mm 55 HP",
-            "5.56x45mm Warmageddon",
-            "7.62x39mm MAI AP",
-            "7.62x39mm BP",
-            "7.62x39mm PS",
-            "7.62x39mm T-45M",
-            "7.62x39mm US",
-            "7.62x39mm HP",
-            ".300 BCP",
-            ".300 AP",
-            "7.62x51mm M993",
-            "7.62x51mm M61",
-            "7.62x51mm M62",
-            "7.62x51mm M80",
-            "7.62x51mm SP",
-            "7.62x51mm FMJ",
-            "7.62x51mm Ultra Nosler",
-            "7.62x54mm BS",
-            "7.62x54mm SNB",
-            "7.62x54mm BT",
-            "7.62x54mm PS",
-            "7.62x54mm LPS Gzh",
-            "7.62x54mm T-46M",
-            "12.7x55mm PS12B",
-            "12.7x55mm PS12",
-            "12.7x55mm PS12A",
-            ".338 AP",
-            ".338 FMJ",
-            ".338 UPZ",
-            ".338 Tac-X",
-            "12.7x108mm B-32",
-            "12.7x108mm BZT-44M"
-        )
+
         val armors = mutableListOf(
             R.drawable.a_3m,
             R.drawable.paca,
@@ -746,6 +622,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.a_6b23_1icon,
             R.drawable.kirasa,
             R.drawable.trooper,
+            R.drawable.thor_concealable,
             R.raw.a_6b13,
             R.drawable.a_6b23_2,
             R.drawable.korund,
@@ -760,8 +637,10 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.hexgrid,
             R.raw.a_slick,
             R.drawable.zhuk_6a,
+            R.drawable.thor_integrated,
             R.drawable.zabralo,
             R.drawable.a_6b5_16,
+            R.drawable.a_mmac,
             R.drawable.a_6b3tm,
             R.drawable.a_6b5_15,
             R.drawable.m2,
@@ -769,8 +648,12 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.avs,
             R.drawable.a18,
             R.drawable.tv_110,
+            R.drawable.a_strandhogg,
+            R.drawable.mk4a_assault,
             R.drawable.tactec,
             R.drawable.aacpc,
+            R.drawable.mk4a_protection,
+            R.drawable.avs_mbav,
             R.drawable.tk_fast_mt,
             R.drawable.tank_crew,
             R.drawable.kolpak_1s,
@@ -824,84 +707,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.attachment_lshz_2dtm,
             R.drawable.attachment_bastion
         )
-        val names = mutableListOf(
-            "Module-3M",
-            "PACA",
-            "6B2",
-            "MF-UNTAR",
-            "Zhuk-3",
-            "6B23-1",
-            "Kirasa-N",
-            "Trooper TFO",
-            "6B13",
-            "6B23-2",
-            "Korund-VM",
-            "FORT Redut-M",
-            "6B13 M",
-            "Gen4(High Mobility kit)",
-            "Gzhel-K",
-            "FORT Defender-2",
-            "Gen4(Assault kit)",
-            "Gen4(Full protection)",
-            "FORT Redut-T5",
-            "Hexgrid",
-            "Slick",
-            "Zhuk-6a",
-            "6B43",
-            "6B5-16", "6B3TM", "6B5-15", "M2", "M1", "AVS", "A18", "TV-110", "Tactec", "AACPC",
-            "Tac-Kek Fast MT",
-            "Tank crew",
-            "Kolpak-1s",
-            "SHPM Firefighter",
-            "PSH-97 \"Djeta\"",
-            "Jack-o\'-lantern",
-            "UNTAR",
-            "6B47",
-            "LZSh",
-            "SSh-68",
-            "Kiver-M",
-            "DEVTAC Ronin",
-            "SSSh-95",
-            "TC-2001",
-            "TC-2002",
-            "TC-800",
-            "ACHHC",
-            "Zsh-1-2M",
-            "ULACH",
-            "Bastion",
-            "Ops-core Fast MT",
-            "Airframe Tan",
-            "Team Wendy EXFIL",
-            "Galvion Caiman",
-            "LSHZ-2DTM",
-            "Maska",
-            "Altyn",
-            "Rys-T",
-            "Vulkan-5",
-            "Ops-core visor",
-            "Caiman Visor",
-            "K1S Visor",
-            "Multi-hit Ops-Core Visor",
-            "Kiver Visor",
-            "EXFIL Visor",
-            "Zsh-1-2M Visor",
-            "LSHZ-2DTM Visor",
-            "Vulkan-5 Visor",
-            "Altyn Visor",
-            "Rys-T Visor",
-            "Maska Visor",
-            "Ops-Core Mandible",
-            "Caiman Mandible",
-            "Tac-Kek Trooper Mask",
-            "Ops-Core Side Armor",
-            "Airframe Ears",
-            "EXFIL Ear Cover",
-            "Airframe Chops",
-            "Caiman Applique",
-            "slaap Plate",
-            "LSHZ-2DTM Aventail",
-            "Additional Armor Bastion"
-        )
+
         rootView!!.tv_bp_ammo_name.text = curAmmo[0]
         rootView!!.tv_bp_armor_name.text = curArmor[0]
         rootView!!.tv_bp_seekbar_text.text = "${curArmor[3]}/${curArmor[3]}"
@@ -1147,12 +953,10 @@ class BulletPenetrateFragment : Fragment() {
                 curArmor = resources.getStringArray(
                     resources.getIdentifier(
                         "h_${
-                            item.name.replace(
-                                "-",
-                                "_"
-                            ).replace(" ", "_").replace("(", "")
+                            item.name.replace("-", "_")
+                                .replace(" ", "_").replace("(", "")
                                 .replace(")", "").replace("\"", "")
-                                .replace("\'", "").toLowerCase(Locale.ROOT)
+                                .replace("\'", "").lowercase(Locale.ROOT)
                         }", "array", context?.packageName
                     )
                 )
@@ -1170,22 +974,32 @@ class BulletPenetrateFragment : Fragment() {
                 rootView!!.tv_bp_durability_loss.text =
                     "-${floor(lossDur * 10) / 10}"
                 setChart(curArmor, lossDur, curAmmo[2].toInt())
+                rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
                 item.dialog.dismiss()
             }
             holder.apply {
-                val data = resources.getStringArray(
-                    resources.getIdentifier(
-                        "h_${
-                            item.name.replace(
-                                "-",
-                                "_"
-                            ).replace(" ", "_").replace("(", "")
-                                .replace(")", "").replace("\"", "")
-                                .replace("\'", "").toLowerCase(Locale.ROOT)
-                        }", "array", context?.packageName
+                try {
+                    val data = resources.getStringArray(
+                        resources.getIdentifier(
+                            "h_${
+                                item.name.replace(
+                                    "-",
+                                    "_"
+                                ).replace(" ", "_").replace("(", "")
+                                    .replace(")", "").replace("\"", "")
+                                    .replace("\'", "").lowercase(Locale.ROOT)
+                            }", "array", context?.packageName
+                        )
                     )
-                )
-                bind(listener, data)
+                    bind(listener, data)
+                }catch (e: Resources.NotFoundException){
+                    Log.e("BPF", item.name.replace(
+                        "-",
+                        "_"
+                    ).replace(" ", "_").replace("(", "")
+                        .replace(")", "").replace("\"", "")
+                        .replace("\'", "").lowercase(Locale.ROOT))
+                }
             }
         }
 
@@ -1244,7 +1058,9 @@ class BulletPenetrateFragment : Fragment() {
                 rootView!!.tv_bp_durability_loss.text =
                     "-${floor(lossDur * 10) / 10}"
                 setChart(curArmor, lossDur, curAmmo[2].toInt())
+                rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
                 item.dialog.dismiss()
+                rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
             }
             holder.apply {
                 Log.d("BPF", item.name)
