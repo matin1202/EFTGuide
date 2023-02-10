@@ -8,6 +8,7 @@ import android.util.Log
 import androidx.core.widget.TextViewCompat
 import com.matin.eftguide.base.BaseActivity
 import com.matin.eftguide.classes.AdLoaderClass
+import com.matin.eftguide.data.Datas
 import kotlinx.android.synthetic.main.activity_explain.*
 import org.jetbrains.anko.imageResource
 import org.jetbrains.anko.toast
@@ -24,12 +25,37 @@ class ExplainActivity : BaseActivity() {
             }
 
             iv_ammo_image.imageResource = intent.getIntExtra("image", 0)
-            val ammo = intent.getStringExtra("type")!!.split(" ").joinToString("_").split("\"")
-                .joinToString("").split(".").joinToString("").split("-").joinToString("_")
-                .split("/").joinToString("")
-            Log.d("EA", ammo)
-            val resId = resources.getIdentifier(ammo, "array", packageName)
-            val stringArray = resources.getStringArray(resId)
+            val bullet = Datas.findBullet(intent.getStringExtra("bullet")!!)
+
+            if (bullet.recoil.contains("+")){
+                bullet.recoil = "<font color='blue'>${bullet.recoil}</font>"
+            }
+            if (bullet.recoil.contains("-")){
+                bullet.recoil = "<font color='red'>${bullet.recoil}</font>"
+            }
+            if (bullet.acc.contains("+")){
+                bullet.acc = "<font color='blue'>${bullet.acc}</font>"
+            }
+            if (bullet.acc.contains("-")){
+                bullet.acc = "<font color='red'>${bullet.acc}</font>"
+            }
+
+            val stringArray = listOf(
+                bullet.name,
+                bullet.dmg,
+                bullet.pene,
+                bullet.a_dmg,
+                bullet.acc,
+                bullet.recoil,
+                bullet.frag_chn,
+                bullet.rico_chn,
+                bullet.heavy,
+                bullet.light,
+                bullet.speed,
+                bullet.special,
+                bullet.sold_by,
+                ""
+            )
             val buffer = arrayListOf(
                 tv_ammo_name,
                 tv_ammo_damage,
@@ -47,17 +73,15 @@ class ExplainActivity : BaseActivity() {
                 tv_ammo_table
             )
 
-            stringArray[5] = stringArray[5].replace("{R", "<font color='red'>").replace("{B", "<font color='blue'>").replace("}", "</font>")
-            stringArray[4] = stringArray[4].replace("{R", "<font color='red'>").replace("{B", "<font color='blue'>").replace("}", "</font>")
-
-
             for(i in buffer.indices){
                 val html = Html.fromHtml(stringArray[i], 0, ImageGetter(), null)
                 buffer[i].text = html
-                TextViewCompat.setAutoSizeTextTypeWithDefaults(buffer[i], TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
+                if(i != 12){
+                    TextViewCompat.setAutoSizeTextTypeWithDefaults(buffer[i], TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
+                }
             }
 
-            tv_ammo_caliber.text = stringArray[14]
+            tv_ammo_caliber.text = bullet.caliber
             TextViewCompat.setAutoSizeTextTypeWithDefaults(tv_ammo_caliber, TextViewCompat.AUTO_SIZE_TEXT_TYPE_UNIFORM)
 
             /*val buffer2 = arrayListOf(

@@ -46,7 +46,7 @@ class TestAndDebugActivity : BaseActivity(), PurchasesUpdatedListener {
     }
 
     fun integratePurchase(billingClient: BillingClient): Boolean {
-        val billingResult = billingClient.queryPurchases(BillingClient.SkuType.INAPP)
+        /*val billingResult = billingClient.queryPurchasesAsync(BillingClient.SkuType.INAPP)
         Log.d("TAD", "start! response Code is ${billingResult.responseCode} And List length is ${billingResult.purchasesList?.size}")
         if (billingResult.purchasesList != null && billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
             Log.d("TAD", "BillingResponse is OK!")
@@ -61,7 +61,7 @@ class TestAndDebugActivity : BaseActivity(), PurchasesUpdatedListener {
                     false
                 }
             }
-        }
+        }*/
         return false
     }
 

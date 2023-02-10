@@ -4,19 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_ammo_tier.xml" value="0.1640625" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_error.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_explain.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_hideout.xml" value="0.1" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_hideout_almost.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_map.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/activity_set.xml" value="0.125" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/ammo_list.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/ammo_list_s.xml" value="0.2598958333333333" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/dealer_list.xml" value="0.1" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/dialog_selection.xml" value="0.1984375" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/download_dialog.xml" value="0.1640625" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/fragment_ammo.xml" value="0.1640625" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/fragment_bullet_penetrate.xml" value="0.13677811550151975" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/fragment_hideout_almost.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/fragment_hideout_bitcoin_fram.xml" value="0.1" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/haa_spiner_item.xml" value="0.14375" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/hideout_list.xml" value="0.22" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/main_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/main_recycler.xml" value="0.2598958333333333" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/menu_ammo_selection.xml" value="0.1984375" />
         <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/menu_armor_selection.xml" value="0.1984375" />
+        <entry key="..\:/Users/matin/AndroidStudioProjects/EFTGuide/app/src/main/res/layout/menu_list.xml" value="0.2598958333333333" />
       </map>
     </option>
   </component>

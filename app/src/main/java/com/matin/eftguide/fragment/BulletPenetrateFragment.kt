@@ -23,6 +23,9 @@ import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.matin.eftguide.R
 import com.matin.eftguide.base.loadWithWebp
+import com.matin.eftguide.data.Bullet
+import com.matin.eftguide.data.Datas
+import com.matin.eftguide.databinding.MenuArmorSelectionBinding
 import kotlinx.android.synthetic.main.fragment_bullet_penetrate.view.*
 import kotlinx.android.synthetic.main.menu_armor_selection.view.*
 import kotlinx.coroutines.CoroutineScope
@@ -45,7 +48,7 @@ class BulletPenetrateFragment : Fragment() {
     lateinit var currentArmor: String
     lateinit var currentAmmo: String
     private var thread: Thread? = null
-    private lateinit var curAmmo: Array<String>
+    private lateinit var curAmmo: Bullet
     private lateinit var curArmor: Array<String>
     var maxDur: Int = 0
     var curDur: Int = 0
@@ -53,7 +56,8 @@ class BulletPenetrateFragment : Fragment() {
     private var armorList = arrayListOf<PenetrateArmorList>()
     private lateinit var ammoAdapter: PenetrateAmmoAdapter
     private lateinit var armorAdapter: PenetrateArmorAdapter
-    val namesAmmo = mutableListOf(
+    val namesAmmo = Datas.getAllBullet()
+    /*mutableListOf(
         "12/70 Flechette",
         "12/70 AP-20 Slug",
         "12/70 shell with .50 BMG bullet",
@@ -78,9 +82,9 @@ class BulletPenetrateFragment : Fragment() {
         "20/70 6.2`mm Buckshot",
         "20/70 5.6`mm Buckshot",
         "20/70 Devastator Slug",
-        "23/75 Shrapnel-25",
-        "23/75 Shrapnel-10",
-        "23/75 \"Barrikada\"",
+        "23x75mm Shrapnel-25",
+        "23x75mm Shrapnel-10",
+        "23x75mm \"Barrikada\"",
         "9x18mm PM PBM",
         "9x18mm PM PMM",
         "9x18mm PM 9 BZT gzh",
@@ -195,7 +199,7 @@ class BulletPenetrateFragment : Fragment() {
         ".338 Tac-X",
         "12.7x108mm B-32",
         "12.7x108mm BZT-44M"
-    )
+    )*/
     val names = mutableListOf(
         "Module-3M",
         "PACA",
@@ -299,16 +303,11 @@ class BulletPenetrateFragment : Fragment() {
     ): View? {
         rootView = inflater.inflate(R.layout.fragment_bullet_penetrate, container, false)
 
-        val preferences = context!!.getSharedPreferences("apps", MODE_PRIVATE)
+        Log.d("BPF", namesAmmo.toString())
+        val preferences = requireContext().getSharedPreferences("apps", MODE_PRIVATE)
         currentAmmo = preferences.getString("currentAmmo", "5.45x39mm BT")!!
         currentArmor = preferences.getString("currentArmor", "Zhuk-6a")!!
-        curAmmo = resources.getStringArray(
-            resources.getIdentifier(
-                "a${
-                    currentAmmo.replace(".", "").replace(" ", "_").replace("mm", "")
-                }", "array", context?.packageName
-            )
-        )
+        curAmmo = Datas.findBullet(currentAmmo)
         curArmor = resources.getStringArray(
             resources.getIdentifier(
                 "h_${
@@ -355,12 +354,12 @@ class BulletPenetrateFragment : Fragment() {
                             }
                             linearLayout.removeAllViews()
                             ammoList.clear()
-                            filteredList = mutableListOf()
+                            filteredList = mutableListOf<String>()
                             for (i in namesAmmo.indices) {
                                 if (namesAmmo[i].lowercase(Locale.ROOT)
                                         .contains(target.lowercase(Locale.ROOT))
                                 ) {
-                                    filteredList.add(namesAmmo[i])
+                                    (filteredList as MutableList<String>).add(namesAmmo[i])
                                 }
                             }
                             Log.d("BPF", "Job is completed")
@@ -456,69 +455,74 @@ class BulletPenetrateFragment : Fragment() {
 
             calculateChance(curArmor, curAmmo, curDur, maxDur)
             val lossDur = durabilityLoss(
-                curAmmo[2].toInt(),
-                curAmmo[3].replace("%", "").toInt(),
+                curAmmo.pene.toInt(),
+                curAmmo.a_dmg.toInt(),
                 curArmor[6],
                 curArmor[1].toInt()
             )
             rootView!!.tv_bp_durability_loss.text =
                 "맞을 시 한발 당 내구도 감소량 : -${round(lossDur * 10) / 10}"
-            setChart(curArmor, lossDur, curAmmo[2].toInt())
+            setChart(curArmor, lossDur, curAmmo.pene.toInt())
         }
         return rootView
     }
 
     private fun refreshImages() {
-        val ammos = mutableListOf(
+        val ammos = Datas.getAllBulletImage()/*mutableListOf(
+            R.drawable.buck_525_12,
+            R.drawable.buck_85_12,
+            R.drawable.buck_65_12,
+            R.drawable.buck_7_12,
             R.drawable.flechette_12,
-            R.drawable.ap_20_12,
-            R.drawable.bmg_12,
-            R.drawable.poleva6_12,
-            R.drawable.ftx_12,
+            R.drawable.rip_12,
+            R.drawable.sf_12,
+            R.drawable.grizzly_12,
+            R.drawable.csp_12,
+            R.drawable.led_12,
             R.drawable.poleva3_12,
             R.drawable.dual_sabot_12,
-            R.drawable.led_12,
-            R.drawable.csp_12,
-            R.drawable.grizzly_12,
-            R.drawable.buck_7_12,
-            R.drawable.buck_65_12,
-            R.drawable.buck_85_12,
-            R.drawable.buck_525_12,
-            R.drawable.sf_12,
-            R.drawable.rip_12,
-            R.drawable.poleva6u_20,
-            R.drawable.star_20,
-            R.drawable.poleva3_20,
-            R.drawable.buck_73_20,
-            R.drawable.buck_75_20,
-            R.drawable.buck_62_20,
+            R.drawable.ftx_12,
+            R.drawable.poleva6_12,
+            R.drawable.bmg_12,
+            R.drawable.ap_20_12,
             R.drawable.buck_56_20,
+            R.drawable.explosive_20,
+            R.drawable.buck_62_20,
+            R.drawable.buck_62_20,
+            R.drawable.buck_75_20,
+            R.drawable.buck_73_20,
             R.drawable.devastator_20,
+            R.drawable.poleva3_20,
+            R.drawable.star_20,
+            R.drawable.poleva6u_20,
+            R.drawable.flechetta_20,
+            R.drawable.elephant_20,
+            R.drawable.star_2375,
             R.drawable.shrapnel_25_2375,
             R.drawable.shrapnel_10_2375,
             R.drawable.barricade_23,
-            R.drawable.pmb_18,
-            R.drawable.pmm_18,
-            R.drawable.bzt_gzh_18,
-            R.drawable.rg028_gzh_18,
-            R.drawable.pst_gzh_18,
-            R.drawable.ppt_gzh_18,
-            R.drawable.ppe_gzh_18,
-            R.drawable.prs_gs_18,
-            R.drawable.ps_gs_ppo_18,
-            R.drawable.pso_gzh_18,
-            R.drawable.p_gzh_18,
-            R.drawable.psv_18,
-            R.drawable.sp7_gzh_18,
             R.drawable.sp8_gzh_18,
-            R.drawable.n7n31_19,
-            R.drawable.ap_19,
-            R.drawable.pst_19,
-            R.drawable.gt_19,
-            R.drawable.luger_19,
-            R.drawable.pso_19,
-            R.drawable.quakemaker_19,
+            R.drawable.sp7_gzh_18,
+            R.drawable.psv_18,
+            R.drawable.p_gzh_18,
+            R.drawable.pso_gzh_18,
+            R.drawable.ps_gs_ppo_18,
+            R.drawable.prs_gs_18,
+            R.drawable.ppe_gzh_18,
+            R.drawable.ppt_gzh_18,
+            R.drawable.pst_gzh_18,
+            R.drawable.rg028_gzh_18,
+            R.drawable.bzt_gzh_18,
+            R.drawable.pmm_18,
+            R.drawable.pmb_18,
             R.drawable.rip_19,
+            R.drawable.quakemaker_19,
+            R.drawable.pso_19,
+            R.drawable.luger_19,
+            R.drawable.gt_19,
+            R.drawable.pst_19,
+            R.drawable.ap_19,
+            R.drawable.n7n31_19,
             R.drawable.tt_lrnpc,
             R.drawable.tt_lrn,
             R.drawable.tt_fmj43,
@@ -526,15 +530,15 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.tt_pgl,
             R.drawable.tt_pt_gzh,
             R.drawable.tt_pst_gzh,
-            R.drawable.ap_45,
-            R.drawable.fmj_45,
-            R.drawable.lasermatch_45,
-            R.drawable.hydrashok_45,
             R.drawable.rip_45,
-            R.drawable.sp13_21,
-            R.drawable.sp10_21,
-            R.drawable.sp11_21,
+            R.drawable.hydrashok_45,
+            R.drawable.lasermatch_45,
+            R.drawable.fmj_45,
+            R.drawable.ap_45,
             R.drawable.sp12_21,
+            R.drawable.sp11_21,
+            R.drawable.sp10_21,
+            R.drawable.sp13_21,
             R.drawable.r37f_57,
             R.drawable.ss198lf_57,
             R.drawable.r37x_57,
@@ -542,15 +546,15 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.l191_57,
             R.drawable.sb193_57,
             R.drawable.ss190_57,
-            R.drawable.ap_46,
-            R.drawable.fmj_46,
-            R.drawable.subsonic_46,
             R.drawable.action_46,
-            R.drawable.bp_939,
-            R.drawable.spp_939,
-            R.drawable.pab9_939,
-            R.drawable.sp6_939,
+            R.drawable.subsonic_46,
+            R.drawable.fmj_46,
+            R.drawable.ap_46,
             R.drawable.sp5_939,
+            R.drawable.spp_939,
+            R.drawable.sp6_939,
+            R.drawable.pab9_939,
+            R.drawable.bp_939,
             R.drawable.ap_366,
             R.drawable.eko_366,
             R.drawable.fmj_366,
@@ -611,7 +615,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.tac_x_338,
             R.drawable.b_32_108,
             R.drawable.bzt_44m_108
-        )
+        )*/
 
         val armors = mutableListOf(
             R.drawable.a_3m,
@@ -708,7 +712,7 @@ class BulletPenetrateFragment : Fragment() {
             R.drawable.attachment_bastion
         )
 
-        rootView!!.tv_bp_ammo_name.text = curAmmo[0]
+        rootView!!.tv_bp_ammo_name.text = curAmmo.name
         rootView!!.tv_bp_armor_name.text = curArmor[0]
         rootView!!.tv_bp_seekbar_text.text = "${curArmor[3]}/${curArmor[3]}"
         val scope = CoroutineScope(IO)
@@ -716,14 +720,14 @@ class BulletPenetrateFragment : Fragment() {
             for (i in names.indices) {
                 if (names[i] == currentArmor) {
                     runOnUiThread {
-                        loadWithWebp(context!!, rootView!!.iv_bp_armor, armors[i])
+                        loadWithWebp(requireContext(), rootView!!.iv_bp_armor, armors[i])
                     }
                 }
             }
             for (i in namesAmmo.indices) {
                 if (namesAmmo[i] == currentAmmo) {
                     runOnUiThread {
-                        loadWithWebp(context!!, rootView!!.iv_bp_ammo, ammos[i])
+                        loadWithWebp(requireContext(), rootView!!.iv_bp_ammo, ammos[i])
                     }
                 }
             }
@@ -789,15 +793,15 @@ class BulletPenetrateFragment : Fragment() {
                         set = LineDataSet(null, "관통 확률 (%)")
                             .apply {
                                 axisDependency = YAxis.AxisDependency.LEFT
-                                color = context!!.getColor(R.color.text_color)
-                                setCircleColor(context!!.getColor(R.color.very_effective))
+                                color = requireContext().getColor(R.color.text_color)
+                                setCircleColor(requireContext().getColor(R.color.very_effective))
                                 valueTextSize = 12f
                                 lineWidth = 2f
                                 circleRadius = 3f
                                 fillAlpha = 0
-                                fillColor = context!!.getColor(R.color.ignore)
-                                highLightColor = context!!.getColor(R.color.text_color)
-                                valueTextColor = context!!.getColor(R.color.text_color)
+                                fillColor = requireContext().getColor(R.color.ignore)
+                                highLightColor = requireContext().getColor(R.color.text_color)
+                                valueTextColor = requireContext().getColor(R.color.text_color)
                                 setDrawValues(true)
                             }
                         data.addDataSet(set)
@@ -811,7 +815,7 @@ class BulletPenetrateFragment : Fragment() {
                         isDoubleTapToZoomEnabled = false
                         description.text = "맞은 횟수"
                         backgroundColor = R.color.background
-                        description.textColor = context!!.getColor(R.color.text_color)
+                        description.textColor = requireContext().getColor(R.color.text_color)
                         description.textSize = 15f
                     }
                 }
@@ -827,7 +831,7 @@ class BulletPenetrateFragment : Fragment() {
 
     private fun calculateChance(
         curArmor: Array<String>,
-        curAmmo: Array<String>,
+        curAmmo: Bullet,
         curDur: Int,
         maxDur: Int
     ) {
@@ -836,7 +840,7 @@ class BulletPenetrateFragment : Fragment() {
             curDur,
             maxDur,
             curArmor[1].toInt(),
-            curAmmo[2].replace("%", "").toInt()
+            curAmmo.pene.toInt()
         )
 
         Log.d("BPF", "$chance %")
@@ -848,29 +852,32 @@ class BulletPenetrateFragment : Fragment() {
     private fun convertColor(chance: Double) {
         when {
             chance > 90 -> {
-                rootView!!.tv_bp_penetrate_chance.textColor = context!!.getColor(R.color.ignore)
+                rootView!!.tv_bp_penetrate_chance.textColor =
+                    requireContext().getColor(R.color.ignore)
             }
             chance > 74 -> {
                 rootView!!.tv_bp_penetrate_chance.textColor =
-                    context!!.getColor(R.color.very_effective)
+                    requireContext().getColor(R.color.very_effective)
             }
             chance > 58 -> {
-                rootView!!.tv_bp_penetrate_chance.textColor = context!!.getColor(R.color.effective)
+                rootView!!.tv_bp_penetrate_chance.textColor =
+                    requireContext().getColor(R.color.effective)
             }
             chance > 42 -> {
                 rootView!!.tv_bp_penetrate_chance.textColor =
-                    context!!.getColor(R.color.slight_effective)
+                    requireContext().getColor(R.color.slight_effective)
             }
             chance > 26 -> {
                 rootView!!.tv_bp_penetrate_chance.textColor =
-                    context!!.getColor(R.color.magdump_only)
+                    requireContext().getColor(R.color.magdump_only)
             }
             chance > 10 -> {
                 rootView!!.tv_bp_penetrate_chance.textColor =
-                    context!!.getColor(R.color.possible_but)
+                    requireContext().getColor(R.color.possible_but)
             }
             else -> {
-                rootView!!.tv_bp_penetrate_chance.textColor = context!!.getColor(R.color.pointless)
+                rootView!!.tv_bp_penetrate_chance.textColor =
+                    requireContext().getColor(R.color.pointless)
             }
         }
     }
@@ -966,14 +973,14 @@ class BulletPenetrateFragment : Fragment() {
                 refreshImages()
                 calculateChance(curArmor, curAmmo, curDur, maxDur)
                 val lossDur = durabilityLoss(
-                    curAmmo[2].toInt(),
-                    curAmmo[3].replace("%", "").toInt(),
+                    curAmmo.pene.toInt(),
+                    curAmmo.a_dmg.toInt(),
                     curArmor[6],
                     curArmor[1].toInt()
                 )
                 rootView!!.tv_bp_durability_loss.text =
                     "-${floor(lossDur * 10) / 10}"
-                setChart(curArmor, lossDur, curAmmo[2].toInt())
+                setChart(curArmor, lossDur, curAmmo.pene.toInt())
                 rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
                 item.dialog.dismiss()
             }
@@ -992,13 +999,15 @@ class BulletPenetrateFragment : Fragment() {
                         )
                     )
                     bind(listener, data)
-                }catch (e: Resources.NotFoundException){
-                    Log.e("BPF", item.name.replace(
-                        "-",
-                        "_"
-                    ).replace(" ", "_").replace("(", "")
-                        .replace(")", "").replace("\"", "")
-                        .replace("\'", "").lowercase(Locale.ROOT))
+                } catch (e: Resources.NotFoundException) {
+                    Log.e(
+                        "BPF", item.name.replace(
+                            "-",
+                            "_"
+                        ).replace(" ", "_").replace("(", "")
+                            .replace(")", "").replace("\"", "")
+                            .replace("\'", "").lowercase(Locale.ROOT)
+                    )
                 }
             }
         }
@@ -1034,66 +1043,39 @@ class BulletPenetrateFragment : Fragment() {
             val item = items[position]
             val listener = View.OnClickListener {
                 currentAmmo = item.name
-                curAmmo = resources.getStringArray(
-                    resources.getIdentifier(
-                        "a${
-                            item.name.replace(
-                                ".",
-                                ""
-                            ).replace("-", "_").replace(" ", "_")
-                                .replace("\"", "").replace("/", "")
-                                .replace("`mm", "``")
-                                .replace("mm", "").replace("``", "mm")
-                        }", "array", context?.packageName
-                    )
-                )
+                curAmmo = Datas.findBullet(item.name)
                 refreshImages()
                 calculateChance(curArmor, curAmmo, curDur, maxDur)
                 val lossDur = durabilityLoss(
-                    curAmmo[2].toInt(),
-                    curAmmo[3].replace("%", "").toInt(),
+                    curAmmo.pene.toInt(),
+                    curAmmo.a_dmg.replace("%", "").toInt(),
                     curArmor[6],
                     curArmor[1].toInt()
                 )
                 rootView!!.tv_bp_durability_loss.text =
                     "-${floor(lossDur * 10) / 10}"
-                setChart(curArmor, lossDur, curAmmo[2].toInt())
+                setChart(curArmor, lossDur, curAmmo.pene.toInt())
                 rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
                 item.dialog.dismiss()
-                rootView!!.lc_bp_penetrate_chance.data.notifyDataChanged()
+                rootView!!.lc_bp_penetrate_chance.invalidate()
             }
             holder.apply {
                 Log.d("BPF", item.name)
-                val data = resources.getStringArray(
-                    resources.getIdentifier(
-                        "a${
-                            item.name.replace(
-                                ".",
-                                ""
-                            ).replace("-", "_").replace(" ", "_")
-                                .replace("\"", "").replace("/", "")
-                                .replace("`mm", "``")
-                                .replace("mm", "").replace("``", "mm")
-                        }", "array", context?.packageName
-                    )
-                )
-                bind(listener, data)
+                bind(listener, Datas.findBullet(item.name))
             }
         }
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-            val inflatedView = LayoutInflater.from(parent.context)
-                .inflate(R.layout.menu_armor_selection, parent, false)
-            return ViewHolder(inflatedView)
+            val bind = MenuArmorSelectionBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            return ViewHolder(bind)
         }
 
-        inner class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
-            private var view: View = v
-            fun bind(listener: View.OnClickListener, data: Array<String>) {
-                view.tv_menu_armor_name.text = data[0]
-                view.tv_menu_armor_durability.text = data[1]
-                view.tv_menu_armor_class.text = data[2]
-                view.setOnClickListener(listener)
+        inner class ViewHolder(private val binding: MenuArmorSelectionBinding) : RecyclerView.ViewHolder(binding.root) {
+            fun bind(listener: View.OnClickListener, data: Bullet) {
+                binding.tvMenuArmorName.text = data.name
+                binding.tvMenuArmorDurability.text = data.dmg
+                binding.tvMenuArmorClass.text = data.pene
+                binding.root.setOnClickListener(listener)
             }
         }
     }

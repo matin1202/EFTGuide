@@ -5,6 +5,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import kotlinx.android.synthetic.main.activity_error.*
 import kotlinx.coroutines.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
@@ -32,6 +33,7 @@ class ErrorActivity : AppCompatActivity() {
             restartActivity()
         }
         job?.start()
+        Log.e("EA", errorMessage!!)
         tv_error_error_text.text = errorMessage
         bt_error_return.onClick{
             restartActivity()
